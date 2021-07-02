@@ -1,0 +1,45 @@
+{% from "course_macros.html" import class_card with context %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/course.css">
+    <title>{{course_title}}</title>
+</head>
+<body>
+  <div class="u-wrapper">
+    <h1 class="Course-title">5to Año.</h1>    
+    <div class="StudentsHome">
+
+      <div class="InfinityScrollLayout" style="top: 0px;">
+        <div class="CentralFeed">            
+            {% for class in classes_list %}
+              {{ class_card(class.title, 
+                  class.subtitle,
+                  class.img_link
+                  ) 
+              }}
+            {% endfor %}
+            
+        </div>
+      </div>
+      
+      <div class="Video-promoted">
+        <video width="100%" controls autoplay="autoplay" loop muted>
+          <source src="/static/videos/video.mp4" type="video/mp4"></source>
+        </video>
+        <h1 class="Video-promoted-title">Ecuaciones de segundo grado.</h1>
+        <p class="Video-promoted-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque asperiores quos consequuntur? Praesentium molestiae quasi perferendis inventore accusamus rem consectetur at dolore deserunt debitis laborum architecto, officiis placeat dolores. Ea.
+        </p>
+        <a href="clase/1"><button class="video-button">Empezar Ya</button></a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
+

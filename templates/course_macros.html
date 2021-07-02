@@ -1,0 +1,17 @@
+{% macro class_card(title, subtitle, img_link)%}
+<article class="BaseCard">
+    <div class="BlogPost">
+      <a class="BlogPost-anchor" href="/blog/preposiciones-ingles-ejemplos/" target="_blank">
+        <div class="BlogPost-top">
+          <div class="BlogPost-figure" style="background-image: url({{img_link}});"></div>
+          <div class="BlogPost-detail">
+            <h4 class="BlogPost-detail-title">{{title}}</h4>
+            <p class="BlogPost-detail-text">
+                {{subtitle}}
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </article>
+{% endmacro %}
