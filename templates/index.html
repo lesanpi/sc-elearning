@@ -1,0 +1,16 @@
+{% from "macros.html" import card with context %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World.</h1>
+    {{card("Matemáticas", "Matemáticas, desde 1er Año a 5to Año.", "blue", 200, 100)}}
+</body>
+</html>
