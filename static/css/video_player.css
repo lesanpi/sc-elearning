@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+
+.u-wrapper, .u-wrapper_A, .u-wrapper_B {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto!important;
+    max-width: 1200px;
+    padding: 0 .5em;
+    position: relative;
+}
+.VideoPlayer_Main {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    grid-gap: 24px;
+    padding: 2rem 0;
+}
+
+.video{
+    height: 25em;
+    width: 100%;
+
+}
+.video iframe {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+.class_title{
+    margin: .5rem 0;
+    color: #223354;
+}
+.class_description{
+    font-size: large;
+    color: #5c6b85;
+    text-align: justify;
+    padding-top: .5rem;
+    padding-right: 1rem;
+}
+
+/*Classes List.*/
+.CentralFeed {
+    grid-gap: 12px;
+    display: grid;
+    padding: 1rem 0;
+    position: relative;
+}
+
+@media screen and (min-width: 871px){
+    .InfinityScrollLayout{
+        overflow-y: scroll;
+        height: calc(90vh - 0px);
+        padding-right: 20px;
+    }
+}
+@media only screen and (min-width: 64em)
+.BaseCard {
+    min-height: 175px;
+}
+.BaseCard {
+    background: #fff;
+    border-radius: .5rem;
+    -webkit-box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
+    box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    transition: all .15s ease;
+    width: 100%;
+}
+.BlogPost {
+    padding: 0rem;
+    height: 120px;
+}
+.BlogPost-anchor {
+    text-decoration: none;
+}
+@media only screen and (min-width: 48em)
+.BlogPost-top {
+    grid-gap: 1rem;
+    grid-template-columns: 200px 1fr;
+}
+
+.BlogPost-top {
+    grid-gap: 0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.BlogPost-detail{
+    padding: 0.5rem 0.8rem;
+}
+@media only screen and (min-width: 48em)
+.BlogPost-figure {
+    height: 160px;
+}
+.BlogPost-figure {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    border-radius: 5px;
+    height: 120px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.BlogPost-detail-title {
+    color: #223354;
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: medium;
+}
+.BlogPost-detail-text{
+    color: #5c6b85;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57;
+    margin: 0;
+    font-size: small;
+
+}
