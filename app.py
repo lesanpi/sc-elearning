@@ -164,6 +164,11 @@ def home():
     # Home
     return render_template('index.html')
 
+@app.route('/game')
+def quiz():
+    # Home
+    return render_template('game.html')
+
 @app.route('/course/<course>/')
 def course(course=None):
     classes_list = videos[course]['classes']
