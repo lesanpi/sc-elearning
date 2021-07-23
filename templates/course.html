@@ -46,7 +46,9 @@
             {% for class in classes_list %}
               {{ class_card(class.title, 
                   class.subtitle,
-                  class.img_link
+                  class.img_link,
+                  class.paper,
+                  class.paper_link
                   ) 
               }}
             {% endfor %}
