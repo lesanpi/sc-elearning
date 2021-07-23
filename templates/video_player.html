@@ -15,30 +15,37 @@
 
         <div class="VideoPlayer_Main">
 
-            <article class="video"> 
-                <iframe
-                    src="https://www.youtube.com/embed/6c79IBiss1o" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+            <div class="video-content">
+                <div class="video"> 
+                    <iframe
+                        src="https://www.youtube.com/embed/6c79IBiss1o" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
                 <h1 class="class_title">{{class_title}}</h1>
-                <p class="class_description">
+                <hr>
+                <p class="class_description" style="text-overflow: clip;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ad blanditiis facere ipsa neque, dolores ratione nam praesentium qui voluptatem? Odit animi cupiditate provident eveniet nesciunt assumenda a exercitationem repellendus!
                 </p>
-            </article>
-            <div class="InfinityScrollLayout" style="top: 0px;">
-                <div class="CentralFeed">            
-                    {% for class in classes_list %}
-                      {{ class_card(class.title, 
-                          class.subtitle,
-                          class.img_link
-                          ) 
-                      }}
-                    {% endfor %}
-                    
+            </div>
+            <div class="ClassList">
+                <h1 class="ClassList_Title">Lista de clases</h1>
+                <div class="InfinityScrollLayout" style="top: 0px;">
+                    <div class="CentralFeed">            
+                        {% for class in classes_list %}
+                          {{ class_card(class.title, 
+                              class.subtitle,
+                              class.img_link
+                              ) 
+                          }}
+                        {% endfor %}
+                        
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 
