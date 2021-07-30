@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 40px 30px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,19 +21,11 @@
     background-color: #3b93f7;
   }
   
-  header .logo{
-    position: relative;
-    color:black;
-    display: inline-block;
-    font-size: 2em;
-    text-decoration: none;
-    font-weight: 800;
-  }
-  
   header ul{
     position: relative;
     display: flex;
     margin: 0;
+    z-index: 500;
   }
   
   header ul li{
@@ -74,38 +66,51 @@
 
   @media (min-width: 768px) and (max-width: 991px) {
     header ul li a{
-      font-size: 1.05em;
+      font-size: 1.07em;
       padding: 6px 14px;
       margin-left: 5px;
     }
 
     header{
-      padding: 30px 15px;
+      padding: 30px 40px 30px 40px;
     }
   }
 
   @media (max-width: 768px) {
     header ul{
-      display: block;
+      display: none;
       position: fixed;
       width: 100%;
       background: #2f3640;
-      top: 107px;
+      top: -100%;
       left: 0;
       padding-left: 0px;
       text-align: center;
-      
+      transition: all linear .7s;
+    }
+
+    header ul.show{
+      top: 115px;
+      display: block;
     }
 
     header ul li{
       display: block;
-      margin: 20px 0;
+      padding: 10px 0;
       line-height: 30px;
+      border-bottom: solid;
+      border-color: white;
+      border-width: 1px;
+    }
+
+    header ul li.li5to{
+      border-width: 0px;
     }
 
     header ul li a{
       font-size: 20px;
       margin-left: 0px;
+      
     }
 
     header ul li a.active, header ul li a:hover{
@@ -119,10 +124,19 @@
     }
 
     header{
-      padding: 30px 15px;
+      padding: 30px 15px 30px 15px;
     }
 
     #menudesplegable{
-      display: block;
+      float: right;
+      display: inline;
+      margin-right: 30px;
+    }
+
+    header img {
+      position: relative;
+      left: 28px;
+      display: block; 
+      margin: auto;
     }
   }
