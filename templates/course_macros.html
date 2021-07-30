@@ -1,17 +1,35 @@
-{% macro class_card(title, subtitle, img_link)%}
-<article class="BaseCard">
-    <div class="BlogPost">
-      <a class="BlogPost-anchor" href="/blog/preposiciones-ingles-ejemplos/" target="_blank">
-        <div class="BlogPost-top">
-          <div class="BlogPost-figure" style="background-image: url({{img_link}});"></div>
-          <div class="BlogPost-detail">
-            <h4 class="BlogPost-detail-title">{{title}}</h4>
-            <p class="BlogPost-detail-text">
-                {{subtitle}}
-            </p>
+{% macro class_card(title, subtitle, img_link, paper, paper_link) %}
+
+{% if paper %}
+<div class="Paper">
+  <article class="BaseCard">
+    <div class="PaperPost">
+      <a class="BlogPost-anchor" href={{paper_link}} target="_blank" download>
+        <div class="PaperPost-top">
+          <div class="PaperPost-figure"></div>
+          <div class="PaperPost-detail">
+            <h4 class="PaperPost-detail-title">{{paper}}</h4>
           </div>
         </div>
       </a>
     </div>
   </article>
+</div>
+{% else %}
+<article class="BaseCard">
+  <div class="BlogPost">
+    <a class="BlogPost-anchor" href="#" target="_blank">
+      <div class="BlogPost-top">
+        <div class="BlogPost-figure" style="background-image: url({{img_link}});"></div>
+        <div class="BlogPost-detail">
+          <h4 class="BlogPost-detail-title">{{title}}</h4>
+          <p class="BlogPost-detail-text">
+              {{subtitle}}
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</article>
+{% endif %}
 {% endmacro %}
