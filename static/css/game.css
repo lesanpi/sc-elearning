@@ -1,0 +1,130 @@
+:root{
+    --blue: #6876FF;
+    --light: #dffbff;
+    --pinkred: #fa057c;
+    --black: #212429;
+    --white: white;
+
+    --circle: #fd459e;/*var(--pinkred);*/
+    --hcolor: var(--white);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,system-ui,sans-serif
+}
+body{
+    background-color: var(--light);
+}
+.Hero{
+    background-color: var(--light);
+    display: block;
+    height: 100vh;
+
+}
+.Hero-Container{
+    height: 100%;
+    position: relative;
+    padding: 0rem 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Hero-Content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 870px){
+    
+    .Hero-text{
+        font-size: 24px;
+        line-height: 40px;
+        font-family: Montserrat,system-ui,sans-serif;
+        max-width: 500px;
+        margin: 2rem 0;
+        color: #212429;
+        font-weight: 300;
+    }
+}
+.Hero-title{
+    color: #1f1f3a;
+    font-size: 3.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}
+.Hero-text{
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 600px;
+    font-family: Montserrat,system-ui,sans-serif;    
+    margin: 0;
+    color: var(--black);
+    font-weight: 300;
+}
+
+.Hero-dec{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10vh;
+
+}
+.Hero-dec-semcircle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--circle);
+    width: 65vh;
+    height: 65vh;
+
+}
+.Hero-dec-course{
+    position: absolute;
+    left: 70%;
+    font-size: 15rem;
+    font-family: Montserrat,system-ui,sans-serif; 
+    color: var(--hcolor);
+    font-weight: 700;
+    line-height: 65vh;
+}
+.Hero-img{
+    width: 150px;
+    height: 150px;
+    fill: var(--pinkred);
+    margin-bottom: 20px;
+
+}
+.Hero-button {
+    background-color: var(--pinkred);
+    border: none;
+    color: white;
+    font-family: Montserrat,system-ui,sans-serif; 
+    font-weight: bold;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2rem .5rem;
+    border-radius: 6px;
+
+    cursor: pointer;
+    
+  }
+
+@media screen and (max-width: 871px){
+    .Hero-button{
+        margin: 1rem;
+    }
+}

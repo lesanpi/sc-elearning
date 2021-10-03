@@ -180,14 +180,19 @@ def home():
     # Home
     return render_template('index.html')
 
-@app.route('/course/<course>/')
+@app.route('/juego')
+def quiz():
+    # Home
+    return render_template('game.html')
+
+@app.route('/año/<course>/')
 def course(course=None):
     classes_list = videos[course]['classes']
     course_title = videos[course]['title']
     return render_template('course.html', course=course, classes_list=classes_list, course_title=course_title)
 
 
-@app.route('/course/<course>/<class_num>')
+@app.route('/año/<course>/<class_num>')
 def video_class(course=None, class_num=None):
     print(course, class_num)
     class_title = videos[course]['classes'][int(class_num)]['title']
