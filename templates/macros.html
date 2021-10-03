@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+{% macro card(title, subtitle, bg_color, width, height)%}
+<div class="card" >
+    <h1>{{title}}</h1>
+    <h3>{{subtitle}}</h3>
+</div>
+{% endmacro %}

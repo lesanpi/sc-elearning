@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+body{
+}
+video::-webkit-media-controls {
+  display: none;
+}
+
+/* Could Use thise as well for Individual Controls */
+video::-webkit-media-controls-play-button {}
+
+video::-webkit-media-controls-volume-slider {}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {}
+
+video:focus{
+    outline: none;
+}
+.u-wrapper, .u-wrapper_A, .u-wrapper_B {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto!important;
+    max-width: 1200px;
+    padding: 0 .5em;
+    position: relative;
+}
+
+.StudentsHome {
+    grid-template-columns: 5fr 4fr;
+    padding-bottom: 1rem;
+}
+.StudentsHome {
+    grid-gap: 24px;
+    display: grid;
+}
+
+@media screen and (max-width: 870px){
+    
+    .StudentsHome {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.7fr 3fr;
+        padding: 1em 2em;
+        padding-bottom: 1rem;
+        grid-gap: 10px;
+        display: grid;
+    }
+    .InfinityScrollLayout{
+        grid-row: 2;
+        overflow-y: visible;
+    }
+    body{
+        overflow-y: auto;
+    }
+    
+}
+.Course-title{
+    padding: 1rem 2rem;
+    margin-top: 10px;
+    font-size: 3em;
+}
+@media screen and (max-width: 870px){
+
+    .Course-title{
+        padding: 1rem 2rem;
+        padding-bottom: 0;
+        margin-top: 0px;
+        font-size: 3em;
+    }
+}
+.CentralFeed {
+    grid-gap: 12px;
+    display: grid;
+    padding: 1rem 0;
+    position: relative;
+}
+
+@media screen and (min-width: 871px){
+    .InfinityScrollLayout{
+        overflow-y: scroll;
+        height: calc(100vh - 0px);
+        padding-right: 20px;
+    }
+}
+
+.BaseCard {
+    background: #fff;
+    border-radius: .5rem;
+    -webkit-box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
+    box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    transition: all .15s ease;
+    width: 100%;
+}
+.Paper{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    margin: 1.5rem 0 0.5rem 0;
+}
+.BlogPost {
+    padding: 1rem;
+}
+
+.BlogPost-anchor {
+    text-decoration: none;
+}
+
+
+.BlogPost-top {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+.PaperPost-top {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+
+@media only screen and (min-width: 48em)
+.BlogPost-figure {
+    height: 160px;
+}
+
+.BlogPost-figure {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    border-radius: 5px;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+}
+
+.PaperPost-figure{
+    background-size: cover;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    overflow: hidden;
+    background-color: #3b93f7;
+}
+.PaperPost-detail{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.BlogPost-detail-title, .PaperPost-detail-title{
+    color: #223354;
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: larger;
+}
+.BlogPost-detail-text{
+    color: #5c6b85;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57;
+    margin: .5rem .5rem;
+}
+
+@media screen and (max-width: 870px){
+    .Video-promoted{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 870px){
+    .Video-promoted{
+        padding: 1em 5%;
+        margin: 0;
+    }
+}
+
+.Video-promoted-title{
+    color: #223354;
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: xx-large;   
+    padding: 0.2em 0.2em;
+
+}
+.Video-promoted-text{
+    color: #5c6b85;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 1.57;
+    margin: .5rem .5rem;
+}
+.video-button {
+    background-color: #3b93f7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .5rem .5rem;
+    border-radius: 6px;
+    
+  }
