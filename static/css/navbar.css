@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 40px 30px 40px;
+    padding: 20px 40px 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +21,10 @@
     background-color: #3b93f7;
   }
   
+  header img{
+    margin-left: 5px;
+  }
+
   header ul{
     position: relative;
     display: flex;
@@ -64,6 +68,121 @@
     display: none;
   }
 
+
+
+  .main-part{
+    width:85%;
+    margin:0 auto;
+    text-align: center;
+    padding: 0px 5px;
+    
+    }
+
+    .cpanel{
+    width:32%;
+    display: inline-block;
+    background-color: #34495E;
+    color:#fff;
+    border:2px solid white;
+    margin-top: 80px;
+    margin-left: 6px;
+    margin-right: 6px;
+    }
+    
+    .icon-part img{
+      font-size: 30px;
+      padding:10px;
+      border:2px solid white;
+      border-radius:50%;
+      margin-top:-25px;
+      margin-bottom: 0px;
+      background-color:#34495E;
+      }
+
+    .icon-part span{
+        padding-bottom: 0px;
+        font-size: 1.5em;
+    }
+
+    .icon-part p{
+    margin:0px;
+    font-size: 0.9em;
+    padding-bottom: 0px;
+    }
+
+    .icon-part .lastcontent{
+      margin-bottom: 9px;
+  }
+
+    .card-content-part{
+    background-color: #2F4254;
+    padding: 5px 0px;
+    }
+    .cpanel .card-content-part:hover{
+    background-color: #5a5a5a;
+    cursor: pointer;
+    }
+    .card-content-part a{
+    color:#fff;
+    text-decoration: none;
+    }
+
+    .cpanel-green .icon-part,.cpanel-green .icon-part img{
+    background-color: #16A085;
+    }
+    .cpanel-green .card-content-part{
+    background-color: #149077;
+    }
+    .cpanel-green{
+      background-color: #16A085;
+    }
+
+    .cpanel-orange .icon-part,.cpanel-orange .icon-part img{
+    background-color: #F39C12;
+    }
+    .cpanel-orange .card-content-part{
+    background-color: #DA8C10;
+    }
+    .cpanel-orange{
+    background-color: #F39C12;
+    }
+
+    .cpanel-blue .icon-part,.cpanel-blue .icon-part img{
+    background-color: #2980B9;
+    }
+    .cpanel-blue .card-content-part{
+    background-color:#2573A6;
+    }
+    .cpanel-blue{
+      background-color: #2980B9;
+    }
+    
+    .cpanel-red .icon-part,.cpanel-red .icon-part img{
+    background-color:#E74C3C;
+    }
+    .cpanel-red .card-content-part{
+    background-color:#CF4436;
+    }
+    .cpanel-red{
+      background-color:#E74C3C;
+      margin-top: 60px;
+    }
+
+    .cpanel-skyblue .icon-part,.cpanel-skyblue .icon-part img{
+    background-color:#8E44AD;
+    }
+    .cpanel-skyblue .card-content-part{
+    background-color:#803D9B;
+    }
+    .cpanel-skyblue{
+      background-color:#8E44AD;
+      margin-top: 60px;
+    }
+    
+
+    
+
+
   @media (min-width: 768px) and (max-width: 991px) {
     header ul li a{
       font-size: 1.07em;
@@ -72,7 +191,7 @@
     }
 
     header{
-      padding: 30px 40px 30px 40px;
+      padding: 20px 40px 20px 40px;
     }
   }
 
@@ -96,21 +215,29 @@
 
     header ul li{
       display: block;
-      padding: 10px 0;
+      padding: 10px 0 0 0;
       line-height: 30px;
-      border-bottom: solid;
-      border-color: white;
-      border-width: 1px;
+      
     }
 
     header ul li.li5to{
       border-width: 0px;
+      padding: 10px 0;
     }
 
     header ul li a{
       font-size: 20px;
       margin-left: 0px;
-      
+    }
+
+    header ul li div{
+      position: relative;
+      padding: 0 0 10px 0;
+      width: 50%;
+      border-bottom: solid;
+      border-color: rgb(160, 160, 160);
+      border-width: 1px;
+      margin: auto;
     }
 
     header ul li a.active, header ul li a:hover{
