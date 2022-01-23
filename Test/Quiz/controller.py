@@ -47,9 +47,9 @@ def submit():
         if selected_option == correct_option:
             correctCount = correctCount + 1
 
-        correctCount = str(correctCount)
+        correct_count = str(correctCount)
 
-        msg = "Correct Options is"+correctCount
+        msg = "Correct Options is "+correct_count
     return msg
 
 if __name__ == "__main__":
