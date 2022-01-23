@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicacion de Quiz</title>
+    </head>
+    <body>
+        <h1>Aplicacion de Quiz!</h1>
+        <form action="/submitquiz", method="post">
+                {% for question in questions_list %}
+                <h4>
+                    {{question.question}} <br>
+                    <input type="radio" name="{{question.q_id}}" value="{{question.option1}}"> {{question.option1}}
+                    <input type="radio" name="{{question.q_id}}" value="{{question.option2}}"> {{question.option2}}
+                    <input type="radio" name="{{question.q_id}}" value="{{question.option3}}"> {{question.option3}}
+                </h4>
+                {% endfor %}
+
+            <br></br>
+            <input type="submit" name="submitform" value="Submit">
+        </form>
+    </body>
+</html>
