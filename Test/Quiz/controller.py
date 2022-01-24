@@ -29,7 +29,8 @@ class Question:
 q1 = Question(1, "¿Cuál es el nombre de tu universidad?","UCAB","UET","UCV",1)
 q2 = Question(2, "¿Donde esta la universidad ubicada?","Bolivia","Mexico","Caracas",3)
 q3 = Question(3, "¿Cuál es el nombre de tu carrera?","Comunicación","Ingeniería","Psicología",2)
-questions_list = [q1,q2,q3]
+q4 = Question(3, "¿Cuál es el nombre de tu carrera?","Comunicación","Ingeniería","Psicología",2)
+questions_list = [q1,q2,q3,q4]
 
 
 
@@ -49,7 +50,10 @@ def submit():
 
         correct_count = str(correctCount)
 
-        msg = "Correct Options is "+correct_count
+        if correctCount == 0:
+            msg = "No obtuviste ninguna respuesta correcta"
+
+        msg = "Respuestas Correctas: "+correct_count
     return msg
 
 if __name__ == "__main__":

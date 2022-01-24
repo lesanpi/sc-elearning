@@ -9,10 +9,8 @@
     </head>
     <body>
         <div class="container">
-            <div class="titleContainer">
-                <h1>Aplicacion de Quiz!</h1>
-            </div>
             <div class="card">
+                <h2>Aplicacion de Quiz!</h2>
                 <form action="/submitquiz", method="post">
                         {% for question in questions_list %}
                         <h4>
@@ -24,9 +22,12 @@
                         {% endfor %}
 
                     <br></br>
-                    <input type="submit" name="submitform" value="Submit">
+                    <input type="submit" name="submitform" value="Enviar Prueba" class="btn">
                 </form>
+
             </div>
+
+            
         </div>
     </body>
 </html>
