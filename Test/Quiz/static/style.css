@@ -6,12 +6,17 @@
 
 
 body{
+    height: 100%;
     min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-    background-color: rgba(0,1,25,0.87);
+    /*background-color: rgba(252, 252, 252, 0.87);*/
+    background: linear-gradient(357deg, rgb(108, 208, 255), rgba(0,0,255,.8) 70.71%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .card {
@@ -20,19 +25,19 @@ body{
     align-items: center;
     margin: 10px 15px;
     flex-direction: column;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(59, 160, 255, 0.918);
     padding: 10px 20px;
     align-self: normal;
     border-radius: 16px;
     overflow: hidden;
-    background-color: rgba(234,234,234,0.87);
-    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.952);
+    text-align: left; 
 }
 
 .card .btn{
     display: inline-block;
     margin-top: auto;
-    background-color: rgba(17,107,245,1);
+    background-color: rgb(0, 166, 243);
     color: #fff;
     text-align: center;
     color: #fff;
