@@ -10,19 +10,23 @@
     <body>
         <div class="container">
             <div class="card">
-                <h2>Aplicacion de Quiz!</h2>
+                <div class="containerTitle">
+                    <h2>Selección Simple</h2>
+                </div>
                 <form action="/submitquiz", method="post">
                         {% for question in questions_list %}
-                        <h4>
+                        <h5>
                             {{question.question}} <br>
                             <input type="radio" name="{{question.q_id}}" value="{{question.option1}}"> {{question.option1}}
                             <input type="radio" name="{{question.q_id}}" value="{{question.option2}}"> {{question.option2}}
                             <input type="radio" name="{{question.q_id}}" value="{{question.option3}}"> {{question.option3}}
-                        </h4>
+                        </h5>
                         {% endfor %}
 
                     <br></br>
-                    <input type="submit" name="submitform" value="Enviar Prueba" class="btn">
+                    <div class="buttonCtn">
+                        <input type="submit" name="submitform" value="Enviar Prueba" class="btn">
+                    </div>
                 </form>
 
             </div>

@@ -12,22 +12,23 @@ body{
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-    background: linear-gradient(357deg, rgb(108, 208, 255), rgba(0,0,255,.8) 70.71%);
+    background: linear-gradient(357deg, rgba(0, 0, 0, 0.952), rgba(51, 51, 51, 255) 30.71%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-body .card{
+.card{
         /*flex: 5 5 5px; */
         display: flex;
         align-items: center;
         margin: 5px 5px; 
-        /*flex-direction: column;*/
-        box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        flex-direction: column;
+        box-shadow: 10px 8px 1000px rgb(0, 0, 0);
         padding: 2px;
         align-self: normal;
-        border-radius: 16px;
+        /*border-radius: 16px;*/
         overflow: hidden;
         background-color: rgba(255, 255, 255, 0.952);
-        text-align: center; 
+        text-align: center;
+        font-family: consolas;
     }
