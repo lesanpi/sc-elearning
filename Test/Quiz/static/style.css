@@ -66,6 +66,7 @@ body{
     -o-border-radius: 5px;
     box-shadow: inset 0 0 0 0 #830404;
     transition: ease-out 0.3s;
+    cursor: pointer;
 }
 
 .card .btn:hover {
