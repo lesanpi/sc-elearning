@@ -32,7 +32,9 @@ q3 = Question(3, "¿Cuál es el nombre de tu carrera?","Comunicación","Ingenier
 q4 = Question(4, "¿Quien fue el profesor de Simon Bolivar?","Andrés Bello","George Washington","Lincoln",1)
 questions_list = [q1,q2,q3,q4]
 
-
+@app.route("/main")
+def main():
+        return render_template("index.html")
 
 @app.route("/quiz")
 def quiz():
