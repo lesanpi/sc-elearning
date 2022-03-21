@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #fff;
+    --navbar-color: #03184d;
+    --secondary-color: #3b93f7;
+    --dark-pink: #e91e63;
+    --blue-king: #536DFE;
+    --dark-grey-color: #333;
+    --cards-background-color: var(--blue-king);
+    --footer-color: #03184d;
+    --button-color: var(--dark-pink);
+
+    /* Cards colors*/
+    --year-selected-color: #536DFE;
+    --first-year-color: #536DFE;
+    --second-year-color: #FF5353;
+    --third-year-color: #8BC24A;
+    --fourth-year-color: #FEB92D;
+    --fifth-year-color: #438AFE;
+}
