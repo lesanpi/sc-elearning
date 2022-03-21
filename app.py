@@ -3,6 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
+a = Flask(__name__)
 videos = {
     "5": {
         "title": "5to Año",
@@ -189,6 +190,7 @@ def quiz():
 def course(course=None):
     classes_list = videos[course]['classes']
     course_title = videos[course]['title']
+    
     return render_template('course.html', course=course, classes_list=classes_list, course_title=course_title)
 
 
