@@ -1,5 +1,7 @@
-{% from "macros.html" import card with context %}
-{% from "cards_curso_macro.html" import card_curso_macro with context %}
+{% from "navbar_macro.html" import card_curso_macro with context %}
+{% from "navbar_macro.html" import footer_col3 with context %}
+{% from "navbar_macro.html" import footer_col4 with context %}
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,6 +15,9 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
 
+    <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
+
+
     <title></title>
 </head>
 <body>
@@ -25,19 +30,19 @@
           <div></div>
           </li>
           <li>
-          <a href="#">1er Año</a>
+          <a href="course/1">1er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="#">2do Año</a>
+          <a href="course/2">2do Año</a>
           <div></div>
           </li>
           <li>
-          <a href="#">3er Año</a>
+          <a href="course/3">3er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="#">4to Año</a>
+          <a href="course/4">4to Año</a>
           <div></div>
           </li>
           <li class="li5to">
@@ -60,130 +65,55 @@
       <span>Aprende con nosotros</span>
       <span>Aprende con</span>
       <span class="tituloasociarte">Asociarte</span>
+
+      <a href="#anchorcards" class="botoncursos">¡Explora nuestros cursos!</a>
+
+      <a href="#anchorcards" class="flechadown">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+     </div>
     </div>
 
-    </div>
+
+    <div class="anchorcards" id="anchorcards"></div>
 
 
-    <div class="cartas">
+    <div class="cartas" id="cartas">
       <div class="contenedorcartas">
 
-        <div class="cardelement">
-          <div class="cara cara1 ano1">
-            <div class="contenido">
-              <p>&#128051</p>
-              <h3>1er Año</h3>
-            </div>
-          </div>
-          <div class="cara cara2">
-            <div class="contenido">
-              <p>Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale jeje mas palabras</p>
-              <a href="#">Ver Contenido</a>
-            </div>
-          </div>
-        </div>
+        {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano1","#128051")}}
 
-        <div class="cardelement">
-          <div class="cara cara1 ano2">
-            <div class="contenido">
-              <p>&#129436</p>
-              <h3>2do Año</h3>
-            </div>
-          </div>
-          <div class="cara cara2">
-            <div class="contenido">
-              <p>Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale</p>
-              <a href="#">Ver Contenido</a>
-            </div>
-          </div>
-        </div>
+        {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano2","#129436")}}
 
-        <div class="cardelement">
-          <div class="cara cara1 ano3">
-            <div class="contenido">
-              <p>&#128010</p>
-              <h3>3er Año</h3>
-            </div>
-          </div>
-          <div class="cara cara2">
-            <div class="contenido">
-              <p>Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale</p>
-              <a href="#">Ver Contenido</a>
-            </div>
-          </div>
-        </div>
+        {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano3","#128010")}}
+
       </div>
     </div>
 
     <div class="cartas2">
       <div class="contenedorcartas2">
 
-        <div class="cardelement">
-          <div class="cara cara1 ano4">
-            <div class="contenido">
-              <p>&#129426</p>
-              <h3>4to Año</h3>
-            </div>
-          </div>
-          <div class="cara cara2">
-            <div class="contenido">
-              <p>Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale</p>
-              <a href="#">Ver Contenido</a>
-            </div>
-          </div>
-        </div>
+        {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano4","#129426")}}
 
-        <div class="cardelement">
-          <div class="cara cara1 ano5">
-            <div class="contenido">
-              <p>&#129409</p>
-              <h3>5to Año</h3>
-            </div>
-          </div>
-          <div class="cara cara2">
-            <div class="contenido">
-              <p>Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale</p>
-              <a href="#">Ver Contenido</a>
-            </div>
-          </div>
-        </div>
+        {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano5","#129409")}}
 
       </div>
     </div>
 
   
-
-
-
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="contenedorfooter">
         <div class="rowfooter">
-          <div class="footer-col">
-            <h4>Compañía</h4>
-            <ul>
-              <li><a href="#">Acerca de nosotros</a></li>
-              <li><a href="#">Nuestros servicios</a></li>
-              <li><a href="#">Políticas</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Ayuda</h4>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Qué</a></li>
-              <li><a href="#">Otros</a></li>
-              <li><a href="#">Aspectos</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Tienda Online</h4>
-            <ul>
-              <li><a href="#">Esta</a></li>
-              <li><a href="#">Empresa</a></li>
-              <li><a href="#">Crece</a></li>
-              <li><a href="#">Rápido</a></li>
-            </ul>
-          </div>
+
+          {{ footer_col3("Compañía", "Acerca De Nosotros", "Nuestros Servicios", "Políticas") }}
+          
+          {{ footer_col4("Ayuda", "FAQ", "Qué", "Otros", "Aspectos") }}
+          
+          {{ footer_col4("Tienda Online", "Esta", "Empresa", "Crece", "Rápido") }}
+
           <div class="footer-col">
             <h4>Contáctanos</h4>
             <div class="redessociales">
@@ -192,13 +122,12 @@
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
+
           </div>
         </div>
       </div>
    </footer>
 
-
-   
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -207,6 +136,16 @@ $(document).ready(function(){
   $('#menudesplegable').click(function(){
     $('ul').toggleClass('show');
   });
+});
+</script>
+<script>
+  $(".divintro a").on("click", function (e) {
+  // 1
+  e.preventDefault();
+  // 2
+  const href = $(this).attr("href");
+  // 3
+  $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
 });
 </script>
 </body>

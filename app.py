@@ -1,7 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
+import json
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
+
 
 videos = {
     "5": {
@@ -174,6 +176,9 @@ videos = {
     }
 }
 
+
+
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -198,6 +203,15 @@ def video_class(course=None, class_num=None):
         class_num=class_num, class_link=course_class_link)
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
+@app.errorhandler(500)
+def page_not_found(e):
+    return render_template('404.html'), 500
+    
 if __name__ == '__main__':
     app.run(debug=True)
+
+    
