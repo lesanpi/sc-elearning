@@ -1,3 +1,5 @@
+@import 'globals.css';
+
 *{
   box-sizing: border-box;
  
@@ -24,7 +26,10 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background-color: #3b93f7;
+    background-color: var(--navbar-color);
+
+    -webkit-box-shadow: 1px 15px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 1px 15px 10px 0 rgba(0,0,0,0.1);
   }
   
   header img{
@@ -44,18 +49,22 @@
   
   header ul li a{
     display: inline-block;
-    color: #0169b2;
+    /* color: #0169b2; */
+    color: var(--button-color);
     font-weight: 600;
     font-size: 1.1em;
     margin-left: 10px;
     padding: 8px 18px;
     text-decoration: none;
     user-select: none;
+    border-radius: 6px;
+
   }
   
   header ul li a:link, header ul li a:visited{
     color: #fff;
-    background-color: #3b93f7;
+    /* background-color: #3b93f7; */
+    background-color: var(--button-color);
   }
   
   header ul li a.active, header ul li a:hover{
@@ -88,6 +97,11 @@
     
   }
 
+  .fixed-header{
+    width: 100%;
+    background-color: var(--dark-pink);
+    height: 20px;
+  }
   .divintro{
     display: flex;
     flex-direction: column;
@@ -235,16 +249,18 @@
 
 /* 1-2-3 años */
 
-.cartas{
+/* .cartas{
   margin: 0;
   padding: 0;
-  height: calc(100vh - 99px); /*hey*/
-  background: #333;
+  height: calc(100vh - 99px); 
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: consolas, arial;
-  
+  font-family: consolas;
+  transition: 0.5s;
+
 }
 
 .contenedorcartas{
@@ -272,16 +288,22 @@
   align-items: center;
   z-index: 1;
   transform: translateY(117px);
+  
 }
 
 .contenedorcartas .cardelement:hover .cara.cara1.ano1{
-  background: #536DFE;
+  background: var(--first-year-color);
   transform: translateY(0);
+
 }
 
 .contenedorcartas .cardelement:hover .cara.cara1.ano2{
-  background: #FF5353;
+  background: var(--second-year-color);
   transform: translateY(0);
+}
+
+.ano2:hover ~ .cartas{
+  background: #ff0 !important;
 }
 
 .contenedorcartas .cardelement:hover .cara.cara1.ano3{
@@ -455,7 +477,7 @@
 .contenedorcartas2 .cardelement .cara.cara2 .contenido a:hover{
   background: #333;
   color: #fff;
-}
+} */
 
 
 
