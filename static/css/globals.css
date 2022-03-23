@@ -5,10 +5,10 @@
     --dark-pink: #e91e63;
     --blue-king: #536DFE;
     --dark-grey-color: #333;
-    --cards-background-color: var(--blue-king);
+    --cards-background-color: var(--primary-color);
     --footer-color: #03184d;
     --button-color: var(--dark-pink);
-
+    --home-intro-background: #03184d;
     /* Cards colors*/
     --year-selected-color: #536DFE;
     --first-year-color: #536DFE;

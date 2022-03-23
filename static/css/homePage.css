@@ -1,0 +1,39 @@
+.home-intro-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: var(--home-intro-background);
+    overflow: hidden;
+
+}
+
+.home-intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff
+}
+
+.home-intro-text h1 {
+  font-size: 64px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.home-intro-text h2 {
+    font-size: 58px;
+    font-weight: 600;
+    text-align: right;
+  }
+
+.home-intro-image{
+    display: flex;
+    align-items:center;
+    position: relative;
+    bottom: 0;
+}
+.home-intro-image img{
+    position: relative;
+    bottom: 0;
+}

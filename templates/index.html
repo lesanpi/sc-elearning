@@ -1,4 +1,4 @@
-{% from "navbar_macro.html" import card_curso_macro with context %}
+{% from "card_course_macro.html" import card_curso_macro with context %}
 {% from "navbar_macro.html" import footer_col3 with context %}
 {% from "navbar_macro.html" import footer_col4 with context %}
 
@@ -9,8 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="/static/css/globals.css"> -->
+    <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/homePage.css">
+    <link rel="stylesheet" href="/static/css/intro.css">
     <link rel="stylesheet" href="/static/css/cards.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
@@ -59,55 +61,57 @@
     </header>
   </section>
    
-    <div class="intro">
 
-    <div class="imgintro">
-    <img src="static\imgs\introfoto.png" alt="Logo de estudiantes">
+
+
+    <div class="home-intro-section">
+      
+      <div class="home-intro-text">
+        <h1>Aprende con nosotros</h1>
+        <h2>Aprende con</h2>
+        <h2 class="tituloasociarte">Asociarte</h2>
+      </div>
+      <div class="home-intro-image">
+        <img src="static\imgs\LogoAsociarteBlanco.png" alt="asociarte" width="500" height="500">      
+      </div>
     </div>
 
-    <div class="divintro">
-      <span>Aprende con nosotros</span>
-      <span>Aprende con</span>
-      <span class="tituloasociarte">Asociarte</span>
+    </div>
 
+    <div class="about-us-section">
+
+    </div>
+
+    <!-- <div class="idk-section">
+      <div class="imgintro">
+        <img src="static\imgs\introfoto.png" alt="Logo de estudiantes">
+      </div>
       <a href="#anchorcards" class="botoncursos">¡Explora nuestros cursos!</a>
-
       <a href="#anchorcards" class="flechadown">
         <span></span>
         <span></span>
         <span></span>
       </a>
+    </div>  -->
 
-     </div>
-    </div>
+    <div class="course-section" id="cartas">
+      <div class="h1">Nuestros Cursos</div>
 
+      <div class="course-cards-container">
 
-    <div class="anchorcards" id="anchorcards"></div>
+        {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","#128051")}}
 
+        {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","#129436")}}
 
-    <div class="cartas" id="cartas">
-      <div class="contenedorcartas">
+        {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","#128010")}}
 
-        {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano1","#128051")}}
+        {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","#129426")}}
 
-        {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano2","#129436")}}
+        {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
 
-        {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano3","#128010")}}
 
       </div>
     </div>
-
-    <div class="cartas2">
-      <div class="contenedorcartas2">
-
-        {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano4","#129426")}}
-
-        {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","ano5","#129409")}}
-
-      </div>
-    </div>
-
-
   
     <footer class="footer" id="footer">
       <div class="contenedorfooter">
