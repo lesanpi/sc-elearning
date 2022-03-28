@@ -1,14 +1,17 @@
 :root{
     --primary-color: #fff;
-    --navbar-color: #03184d;
-    --secondary-color: #3b93f7;
+    --navbar-color: rgb(29, 26, 26);
+    --secondary-color: #000000;
     --dark-pink: #e91e63;
     --blue-king: #536DFE;
     --dark-grey-color: #333;
-    --cards-background-color: var(--primary-color);
+    --cards-background-color: #fff;
     --footer-color: #03184d;
-    --button-color: var(--dark-pink);
+    --button-color: var(--navbar-color);
     --home-intro-background: #03184d;
+    --About-us-background: #dacd1b;
+    --mision-background: #3f4747;
+    --vision-background: #60acac;
     /* Cards colors*/
     --year-selected-color: #536DFE;
     --first-year-color: #536DFE;
@@ -16,4 +19,12 @@
     --third-year-color: #8BC24A;
     --fourth-year-color: #FEB92D;
     --fifth-year-color: #438AFE;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

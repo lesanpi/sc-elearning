@@ -11,9 +11,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
-    <link rel="stylesheet" href="/static/css/homePage.css">
-    <link rel="stylesheet" href="/static/css/intro.css">
-    <link rel="stylesheet" href="/static/css/cards.css">
+    <link rel="stylesheet" href="/static/css/homeIntro.css">
+    <link rel="stylesheet" href="/static/css/aboutUs.css">
+    <link rel="stylesheet" href="/static/css/mision.css">
+    <link rel="stylesheet" href="/static/css/vision.css">
+    <link rel="stylesheet" href="/static/css/course_cards_section.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,39 +65,72 @@
    
 
 
-
     <div class="home-intro-section">
       
       <div class="home-intro-text">
         <h1>Aprende con nosotros</h1>
         <h2>Aprende con</h2>
-        <h2 class="tituloasociarte">Asociarte</h2>
+        <div class="tituloasociarte">
+          <h2>Asociarte</h2>
+        </div>
       </div>
+
       <div class="home-intro-image">
         <img src="static\imgs\LogoAsociarteBlanco.png" alt="asociarte" width="500" height="500">      
       </div>
-    </div>
 
     </div>
+
 
     <div class="about-us-section">
 
+      <div class="about-us-text">
+        <h1>¿Quiénes somos?</h1>
+        <h2>Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. fdsfs Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato.</h2>
+      </div>
+
+      <div class="about-us-figures">
+        <a href="#mision-id" class="about-us-figure1">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Misión</span>
+        </a>
+
+        <a href="#vision-id" class="about-us-figure2">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Visión</span>
+        </a>
+
+        <a href="#cartas" class="about-us-figure3">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Cursos</span>
+        </a>
+      </div>
+
     </div>
 
-    <!-- <div class="idk-section">
-      <div class="imgintro">
-        <img src="static\imgs\introfoto.png" alt="Logo de estudiantes">
+
+    <div class="mision-section" id="mision-id">
+
+      <div class="mision-text">
+        <h1>Misión</h1>
+        <h2>Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país, así como su futuro. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país.</h2>
       </div>
-      <a href="#anchorcards" class="botoncursos">¡Explora nuestros cursos!</a>
-      <a href="#anchorcards" class="flechadown">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </div>  -->
+
+    </div>
+
+
+    <div class="vision-section" id="vision-id">
+
+      <div class="vision-text">
+        <h1>Visión</h1>
+        <h2>Nuestra visión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país, así como su futuro. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país.</h2>
+      </div>
+
+    </div>
+
 
     <div class="course-section" id="cartas">
-      <div class="h1">Nuestros Cursos</div>
+      <h1>Nuestros Cursos</h1>
 
       <div class="course-cards-container">
 
@@ -109,9 +144,9 @@
 
         {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
 
-
       </div>
     </div>
+
   
     <footer class="footer" id="footer">
       <div class="contenedorfooter">
@@ -149,13 +184,13 @@ $(document).ready(function(){
 });
 </script>
 <script>
-  $(".divintro a").on("click", function (e) {
+  $(".about-us-figure1, .about-us-figure2, .about-us-figure3").on("click", function (e) {
   // 1
   e.preventDefault();
   // 2
   const href = $(this).attr("href");
   // 3
-  $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+  $("html, body").animate({ scrollTop: $(href).offset().top -100}, 1000);
 });
 </script>
 </body>

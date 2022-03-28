@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto;
 }
 body{
 }
@@ -129,9 +129,9 @@ video:focus{
 }
 
 @media only screen and (min-width: 48em)
-.BlogPost-figure {
-    height: 160px;
-}
+{
+    
+
 
 .BlogPost-figure {
     background-position: 50%;
@@ -213,3 +213,4 @@ video:focus{
     border-radius: 6px;
     
   }
+}

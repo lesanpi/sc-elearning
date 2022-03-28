@@ -1,26 +1,36 @@
 /* Cards */
 
 .course-section{
-    margin: 0;
-    padding: 0;
-    height: calc(100vh - 99px); /*hey*/
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /*height: calc(100vh); hey, 99px antes*/
     background-color: var(--cards-background-color);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: consolas;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 0.5s;
     pointer-events: none;
   }
+
+  .course-section h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+  }
   
   .course-cards-container{
-    width: 90%;
+    width: 100%;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-between; */
+    column-gap: 100px;
+    row-gap: -50px;
   }
   
   .course-cards-container .card-element{
@@ -36,13 +46,13 @@
   
   .course-cards-container .card-element .card.front-card{
     position: relative;
-    background: #333;
+    background: var(--home-intro-background);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transform: translateY(117px);
-    
+    border-radius: 20px;
   }
 
 /* .course-cards-container .card-element{
@@ -65,13 +75,21 @@
   background-color: var(--fifth-year-color);
 }
 
+.course-cards-container .card-element:hover .card.front-card{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transform: translateY(0);
+}
+
 .course-cards-container .card-element:first-child:hover .card.front-card{
   background-color: var(--first-year-color);
   transform: translateY(0);
-  
 }
 
 .course-cards-container .card-element:nth-child(2):hover .card.front-card{
+  
     background-color: var(--second-year-color);
     transform: translateY(0);
 
@@ -94,6 +112,17 @@
 
   
 
+.course-cards-container .card-element:nth-child(1){
+  margin-bottom: -50px;
+}
+
+.course-cards-container .card-element:nth-child(2){
+  margin-bottom: -50px;
+}
+
+.course-cards-container .card-element:nth-child(3){
+  margin-bottom: -50px;
+}
 /*   
   .course-cards-container .card-element:hover .card.front-card{
     background: #8BC24A;
@@ -101,7 +130,7 @@
   } */
   
   .course-cards-container .card-element .card.front-card .contenido{
-    opacity: 0.4;
+    opacity: 0.9; /*0.4*/
     transition: 0.5s;
   }
   
@@ -122,6 +151,8 @@
     font-size: 2rem;
   }
   
+
+
   .course-cards-container .card-element .card.back-card{
     position: relative;
     background: #fff;
@@ -131,140 +162,37 @@
     padding: 20px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.8);
     transform: translateY(-117px);
+    border-radius: 20px;
+    
   }
   
-  .course-cards-container .card-element:hover .cara.back-card{
+  .course-cards-container .card-element:hover .card.back-card{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     transform: translateY(0);
   }
   
-  .course-cards-container .card-element .cara.back-card .contenido p{
+  .course-cards-container .card-element .card.back-card .contenido p{
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
   }
   
-  .course-cards-container .card-element .cara.back-card .contenido a{
+  .course-cards-container .card-element .card.back-card .contenido a{
     margin: 25px 0 0;
     display: inline-block;
+    text-align: center;
     text-decoration: none;
     font-weight: 900;
     color: #333;
     padding: 5px;
     border: 1px solid #333;
-    font-size: 1.4rem;
-  }
-  
-  .course-cards-container .card-element .cara.back-card .contenido a:hover{
-    background: #333;
-    color: #fff;
-  }
-  
-  /* 4-5 años */
-  
-  /* .cartas2{
-    margin: 0;
-    padding: 0;
-    height: calc(100vh - 99px); 
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: consolas;
-  } */
-  
-  /* .contenedorcartas2{
-    width: 900px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-  } */
-  
-  /* .contenedorcartas2 .card-element{
-    position: relative;
-  }
-  
-  .contenedorcartas2 .card-element .cara{
-    width: 350px;
-    height: 234px;
-    transition: 0.5s;
-  }
-  
-  .contenedorcartas2 .card-element .cara.front-card{
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(117px);
-  }
-  
-  .contenedorcartas2 .card-element:hover .cara.front-card{
-    background: #FEB92D;
-    transform: translateY(0);
-  }
-  
-  .contenedorcartas2 .card-element:hover .cara.front-card{
-    background: #438AFE;
-    transform: translateY(0);
-  }
-  
-  .contenedorcartas2 .card-element .cara.front-card .contenido{
-    opacity: 0.4;
-    transition: 0.5s;
-  }
-  
-  .contenedorcartas2 .card-element:hover .cara.front-card .contenido{
-    opacity: 1;
-  }
-  
-  .contenedorcartas2 .card-element .cara.front-card .contenido p{
-    text-align: center;
-    font-size: 4.5rem;
-  }
-  
-  .contenedorcartas2 .card-element .cara.front-card .contenido h3{
-    margin: 10px 0 0;
-    padding: 0;
-    color:#fff;
-    text-align: center;
-    font-size: 2rem;
-  }
-  
-  .contenedorcartas2 .card-element .cara.back-card{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
-    transform: translateY(-117px);
-  }
-  
-  .contenedorcartas2 .card-element:hover .cara.back-card{
-    transform: translateY(0);
-  }
-  
-  .contenedorcartas2 .card-element .cara.back-card .contenido p{
-    margin: 0;
-    padding: 0;
     font-size: 1.2rem;
   }
   
-  .contenedorcartas2 .card-element .cara.back-card .contenido a{
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-    font-size: 1.4rem;
-  }
-  
-  .contenedorcartas2 .card-element .cara.back-card .contenido a:hover{
+  .course-cards-container .card-element .card.back-card .contenido a:hover{
     background: #333;
     color: #fff;
   }
-    */

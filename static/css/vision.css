@@ -1,0 +1,31 @@
+.vision-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-color: var(--vision-background);
+    overflow: hidden;
+}
+
+.vision-text{
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-color)
+}
+
+.vision-text h1 {
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+  
+.vision-text h2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
