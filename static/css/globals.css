@@ -1,17 +1,26 @@
 :root{
+
+    /* COLORS */
     --primary-color: #fff;
-    --navbar-color: rgb(29, 26, 26);
+    --navbar-color: rgba(29, 26, 26);
     --secondary-color: #000000;
     --dark-pink: #e91e63;
     --blue-king: #536DFE;
     --dark-grey-color: #333;
+    --yellow: #dacd1b;
+    --darkBlue: #03184d;
+
+
     --cards-background-color: #fff;
     --footer-color: #03184d;
     --button-color: var(--navbar-color);
+
+    /*Sections colors*/
     --home-intro-background: #03184d;
-    --About-us-background: #dacd1b;
+    --About-us-background: #fefefe;
     --mision-background: #3f4747;
-    --vision-background: #60acac;
+    --vision-background: #fefefe;
+
     /* Cards colors*/
     --year-selected-color: #536DFE;
     --first-year-color: #536DFE;

@@ -326,190 +326,91 @@
 .contenedorcartas2 .cardelement .cara.cara2 .contenido a:hover{
   background: #333;
   color: #fff;
-} */
+} 
 
-
-
-/*footer*/
-
-    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
-
-.contenedorfooter{
-  margin:0;
-	padding:0;
-	max-width: 1170px;
-	margin:auto;
-  line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-
-.rowfooter{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-ul{
-	list-style: none;
-  padding:0;
-}
-
-.footer{
-	background-color: #03184d;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-}
-
-.footer-col{
-   width: 25%;
-   padding: 0 30px;
-}
-
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #3b93f7;
-	height: 2px;
-	width: 50px;
-}
-
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-  transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-
-.footer-col .redessociales a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-
-.footer-col .redessociales a:hover{
-	color: #24262b;
-	background-color: #ffffff;
-}
-
-/*responsive*/
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    header ul li a{
-      font-size: 1.07em;
-      padding: 6px 14px;
-      margin-left: 5px;
-    }
-
-    header{
-      padding: 20px 40px 20px 40px;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  header ul li a{
+    font-size: 1.07em;
+    padding: 6px 14px;
+    margin-left: 5px;
   }
 
-  @media (max-width: 768px) {
-    header ul{
-      display: none;
-      position: fixed;
-      width: 100%;
-      background: #2f3640;
-      top: -100%;
-      left: 0;
-      padding-left: 0px;
-      text-align: center;
-      transition: all linear .7s;
-    }
-
-    header ul.show{
-      top: 115px;
-      display: block;
-    }
-
-    header ul li{
-      display: block;
-      padding: 10px 0 0 0;
-      line-height: 30px;
-      
-    }
-
-    header ul li.li5to{
-      border-width: 0px;
-      padding: 10px 0;
-    }
-
-    header ul li a{
-      font-size: 20px;
-      margin-left: 0px;
-    }
-
-    header ul li div{
-      position: relative;
-      padding: 0 0 10px 0;
-      width: 50%;
-      border-bottom: solid;
-      border-color: rgb(160, 160, 160);
-      border-width: 1px;
-      margin: auto;
-    }
-
-    header ul li a.active, header ul li a:hover{
-      color: #3b93f7;
-      border: none;
-      background: none;
-    }
-
-    header ul li a:link, header ul li a:visited{
-      background-color: #2f3640;
-    }
-
-    header{
-      padding: 30px 15px 30px 15px;
-    }
-
-    #menudesplegable{
-      float: right;
-      display: inline;
-      margin-right: 30px;
-    }
-
-    header img {
-      position: relative;
-      left: 28px;
-      display: block; 
-      margin: auto;
-    }
-
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-    }
+  header{
+    padding: 20px 40px 20px 40px;
   }
+}
+
+@media (max-width: 768px) {
+  header ul{
+    display: none;
+    position: fixed;
+    width: 100%;
+    background: var(--navbar-color);
+    top: -100%;
+    left: 0;
+    padding-left: 0px;
+    text-align: center;
+    transition: all linear .7s;
+  }
+
+  header ul.show{
+    top: 115px;
+    display: block;
+  }
+
+  header ul li{
+    display: block;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    
+  }
+
+  header ul li.li5to{
+    border-width: 0px;
+    padding: 10px 0;
+  }
+
+  header ul li a{
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  header ul li div{
+    position: relative;
+    padding: 0 0 10px 0;
+    width: 90%;
+    border-bottom: solid;
+    border-color: rgb(160, 160, 160);
+    border-width: 1px;
+    margin: auto;
+  }
+
+  header ul li a.active, header ul li a:hover{
+    color: white;
+    border: none;
+    background: none;
+  }
+
+  header ul li a:link, header ul li a:visited{
+  }
+
+  header{
+    padding: 30px 15px 30px 15px;
+  }
+
+  #menudesplegable{
+    float: right;
+    display: inline;
+    margin-right: 30px;
+  }
+
+  header img {
+    position: relative;
+    left: 28px;
+    display: block; 
+    margin: auto;
+  }
+
+  
+}
 

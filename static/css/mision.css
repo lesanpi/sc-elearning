@@ -1,11 +1,16 @@
 .mision-section{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 60px;
+    justify-content: center;
+    padding: 60px 10px;
     width: 100%;
     min-height: calc(100vh - 100px);
-    background-color: var(--mision-background);
+    background-image: url('../imgs/mision.jpg');
+    /* background-color: rgba(0,0,0,0.8); */
+    background-color: var(--darkBlue);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -30,3 +35,14 @@
     text-align: center;
 }
 
+
+
+@media (max-width: 768px){
+    .mision-text h2{
+        margin-left: 60px;
+        margin-right: 60px;
+        
+    
+    }
+  
+}

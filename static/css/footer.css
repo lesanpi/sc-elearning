@@ -1,0 +1,164 @@
+/*footer*/
+
+.footer-container{
+    margin:0;
+    padding:0;
+    max-width: 1170px;
+    margin:auto;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  .footer-row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  ul{
+      list-style: none;
+    padding:0;
+  }
+  
+  .footer{
+    /* background-image: url('../imgs/mision.jpg');   */
+    background-image: url("/static/imgs/formulaspng.png");
+    background-color: #03184d;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+      padding-top: 40px;
+      padding-bottom: 90px;
+      margin-top: 0px;
+      
+  }
+  .footer-col{
+    padding: 0 30px;
+  }
+  /* SOCIAL */
+  .footer-social{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+  }
+  .footer-social h4{
+      color: white;
+      font-weight: 300;
+      font-size: 40px;
+  }
+  .footer-social .redessociales a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-social .redessociales a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+.footer-phones p a, .footer-email p a{
+    text-decoration: none;
+    color: rgba(255,255,255, 0.9);
+    font-weight: 500;
+    font-size: 20px;
+}
+  /* FORM */
+  .footer-form{
+    width: 50%;
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+ }
+
+ .footer-form form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     padding: 2vw 4vw;
+     width: 90%;
+     max-width: 600px;
+ }
+
+ .footer-form form h3{
+     color: white;
+     font-weight: 300;
+     font-size: 50px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ .footer-form form input::placeholder, .footer-form form textarea::placeholder{
+    color: white;
+    font-weight: 500;
+ }
+ .footer-form form input, .footer-form form textarea, .footer-form form button{
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    background-color: var(--footer-color);
+    
+ }
+ .footer-form form button{
+   font-weight: 500;
+ }
+ .footer-form form input{
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+ }
+ .footer-form form textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    
+
+ }
+ .footer-form form button{
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+  
+  /* MEDIA QUERY*/
+
+@media (max-width: 768px){
+    .footer-row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .footer-form{
+    width: 70%;    
+ }
+ .footer{
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 0px;
+    
+}
+  
+}
+  
+  
+  
+    
