@@ -10,9 +10,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #efefef;
+    background: #000000;
     line-height: 1.5;
-    background-color: rgb(255,255,255)
+    background-color: rgb(0, 0, 0)
 }
 
 a{
@@ -100,6 +100,10 @@ a{
 
 .card .btn:hover {
     box-shadow: inset 150px 0 0 0 #3190FC;
+}
+
+.img-eye{
+    width: 300px;
 }
 
 /*.card .titleContainer {
