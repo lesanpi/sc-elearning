@@ -1,6 +1,13 @@
 from flask import Flask, render_template, request
+import os
 
 app = Flask(__name__)
+
+picFolder = os.path.join('static','pics')
+
+app.config['UPLOAD_FOLDER'] = picFolder
+
+
 
 class Question:
     q_id = -1
@@ -34,7 +41,21 @@ questions_list = [q1,q2,q3,q4]
 
 @app.route("/main")
 def main():
-        return render_template("index.html")
+        pic1 = os.path.join(app.config['UPLOAD_FOLDER'],'castellano.svg')
+        pic2 = os.path.join(app.config['UPLOAD_FOLDER'],'matematica.svg')
+        pic3 = os.path.join(app.config['UPLOAD_FOLDER'],'fisica.svg')
+        pic4 = os.path.join(app.config['UPLOAD_FOLDER'],'quimica.svg')
+        pic5 = os.path.join(app.config['UPLOAD_FOLDER'],'biologia.svg')
+        pic6 = os.path.join(app.config['UPLOAD_FOLDER'],'historia.svg')
+        pic7 = os.path.join(app.config['UPLOAD_FOLDER'],'banner2.jpg')
+        return render_template("index.html", 
+                                user_image1 = pic1, 
+                                user_image2 = pic2,
+                                user_image3 = pic3,
+                                user_image4 = pic4,
+                                user_image5 = pic5,
+                                user_image6 = pic6,
+                                user_image7 = pic7)
 
 @app.route("/quiz")
 def quiz():

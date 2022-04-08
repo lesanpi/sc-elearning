@@ -45,7 +45,7 @@ a{
     height: 250px;
     /*border-radius: 16px;*/
     overflow: hidden;
-    background-image: url(banner2.jpg);
+    background-image: url('/static/pics/banner2.jpg');
     background-repeat: no-repeat;
     background-color: rgb(255,255,255);
     text-align: center;
@@ -100,10 +100,6 @@ a{
 
 .card .btn:hover {
     box-shadow: inset 150px 0 0 0 #3190FC;
-}
-
-.img-eye{
-    width: 300px;
 }
 
 /*.card .titleContainer {
