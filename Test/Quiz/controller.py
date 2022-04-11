@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, redirect, render_template, request, url_for
 import os
 
 app = Flask(__name__)
@@ -39,7 +39,7 @@ q3 = Question(3, "¿Cuál es el nombre de tu carrera?","Comunicación","Ingenier
 q4 = Question(4, "¿Quien fue el profesor de Simon Bolivar?","Andrés Bello","George Washington","Lincoln",1)
 questions_list = [q1,q2,q3,q4]
 
-@app.route("/main")
+@app.route("/main", methods=["POST","GET"])
 def main():
         pic1 = os.path.join(app.config['UPLOAD_FOLDER'],'castellano.svg')
         pic2 = os.path.join(app.config['UPLOAD_FOLDER'],'matematica.svg')
@@ -48,7 +48,10 @@ def main():
         pic5 = os.path.join(app.config['UPLOAD_FOLDER'],'biologia.svg')
         pic6 = os.path.join(app.config['UPLOAD_FOLDER'],'historia.svg')
         pic7 = os.path.join(app.config['UPLOAD_FOLDER'],'banner2.jpg')
-        return render_template("index.html", 
+        if request.method == "POST":
+            return redirect(url_for('quiz'))
+        else:
+            return render_template("index.html", 
                                 user_image1 = pic1, 
                                 user_image2 = pic2,
                                 user_image3 = pic3,
@@ -56,6 +59,7 @@ def main():
                                 user_image5 = pic5,
                                 user_image6 = pic6,
                                 user_image7 = pic7)
+        
 
 @app.route("/quiz")
 def quiz():
