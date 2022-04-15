@@ -1,29 +1,29 @@
-{% macro class_card(title, subtitle, img_link, paper, paper_link) %}
+{% macro course_content(title, subtitle, id, img_link, paper, paper_link) %}
 
 {% if paper %}
-<div class="Paper">
-  <article class="BaseCard">
-    <div class="PaperPost">
+<article class="base-card">
+    <div class="guide-item">
       <a class="BlogPost-anchor" href={{paper_link}} target="_blank" download>
-        <div class="PaperPost-top">
-          <div class="PaperPost-figure"></div>
-          <div class="PaperPost-detail">
-            <h4 class="PaperPost-detail-title">{{paper}}</h4>
+        
+        <div class="guide-item-grid">
+          <div class="guide-item-figure" style="background-image: url({{img_link}});"></div>
+          <div class="guide-item-detail">
+            <h4 class="guide-item-detail-title">{{title}}</h4>
           </div>
+        
         </div>
       </a>
-    </div>
+  </div>
   </article>
-</div>
 {% else %}
-<article class="BaseCard">
-  <div class="BlogPost">
-    <a class="BlogPost-anchor" href="#" target="_blank">
-      <div class="BlogPost-top">
-        <div class="BlogPost-figure" style="background-image: url({{img_link}});"></div>
-        <div class="BlogPost-detail">
-          <h4 class="BlogPost-detail-title">{{title}}</h4>
-          <p class="BlogPost-detail-text">
+<article class="base-card">
+  <div class="class-item">
+    <a class="class-item-anchor" href="../../clase/{{id}}" target="_blank">
+      <div class="class-item-grid">
+        <div class="class-item-figure" style="background-image: url({{img_link}});"></div>
+        <div class="class-item-detail">
+          <h3 class="class-item-detail-title">{{title}}</h3>
+          <p class="class-item-detail-text">
               {{subtitle}}
           </p>
         </div>

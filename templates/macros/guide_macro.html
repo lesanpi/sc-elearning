@@ -1,0 +1,11 @@
+{% macro guide_card(title, subtitle, img_link) %}
+<div class="guide-card">
+    <div class="guide-img">
+      <img src={{img_link}} alt="">
+    </div>
+    <div class="guide-info">
+      <h3>{{title}}</h3>
+      <p>{{subtitle}}</p>
+    </div>
+  </div>
+{% endmacro %}

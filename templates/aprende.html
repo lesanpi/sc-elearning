@@ -1,6 +1,8 @@
 {% from "navbar_macro.html" import footer_col3 with context %}
 {% from "navbar_macro.html" import footer_col4 with context %}
 {% from "card_course_macro.html" import card_curso_macro with context %}
+{% from "/macros/class_macro.html" import class_card with context %}
+{% from "/macros/guide_macro.html" import guide_card with context %}
 
 <!DOCTYPE html>
 <html lang="es">
@@ -64,109 +66,11 @@
     <div class="main-section">
       <div class="classes-recommendation-section">
         <h1>Aprende con alguna de nuestras clases</h1>
+        
         <div class="classes-list">
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="class-item">
-            <div class="class-content">
-              <div class="class-img">
-                <img src="https://i.ytimg.com/vi/9QFWPyU2I_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHH0-mfZGL9kUMuBX_ZjGMs_PDVA" alt="">
-              </div>
-              <div class="class-info">
-                <div class="class-title">
-                  <!-- Vectores, escalares y matrices, parte #1 -->
-                  <h3>Vectores, escalares y matrices, parte #1</h3>
-                </div>
-                <div class="class-description">
-                  <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
+          {%for i in range(0, 8)%}
+            {{ class_card( lessonsRecommended[i]["title"], lessonsRecommended[i]["description"], lessonsRecommended[i]["img_url"]) }}
+          {%endfor%}
         </div>
       </div>
   
@@ -174,42 +78,9 @@
       <div class="guides-recommendation-section">
         <h1>Lee nuestras guías</h1>
         <div class="guides-grid">
-          <div class="guide-card">
-            <div class="guide-img">
-              <img src="https://static.platzi.com/media/blog/reto-crea-primera-pagina-web_cover-35c2fd6e-3815-4801-b734-1ea5923df8fe.png" alt="">
-            </div>
-            <div class="guide-info">
-              <h3>Vectores, escalares y matrices, parte #1</h3>
-              <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-            </div>
-          </div>
-          <div class="guide-card">
-            <div class="guide-img">
-              <img src="https://static.platzi.com/media/blog/reto-crea-primera-pagina-web_cover-35c2fd6e-3815-4801-b734-1ea5923df8fe.png" alt="">
-            </div>
-            <div class="guide-info">
-              <h3>Vectores, escalares y matrices, parte #1</h3>
-              <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-            </div>
-          </div>
-          <div class="guide-card">
-            <div class="guide-img">
-              <img src="https://static.platzi.com/media/blog/reto-crea-primera-pagina-web_cover-35c2fd6e-3815-4801-b734-1ea5923df8fe.png" alt="">
-            </div>
-            <div class="guide-info">
-              <h3>Vectores, escalares y matrices, parte #1</h3>
-              <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-            </div>
-          </div>
-          <div class="guide-card">
-            <div class="guide-img">
-              <img src="https://static.platzi.com/media/blog/reto-crea-primera-pagina-web_cover-35c2fd6e-3815-4801-b734-1ea5923df8fe.png" alt="">
-            </div>
-            <div class="guide-info">
-              <h3>Vectores, escalares y matrices, parte #1</h3>
-              <p>Aprenderas sobre vectores, escalares y matrices. Aprenderas sobre vectores, escalares y matrices</p>
-            </div>
-          </div>
+          {%for i in range(0, 4)%}
+            {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"]) }}
+          {%endfor%}
         </div>
       </div>
   

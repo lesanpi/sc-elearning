@@ -28,6 +28,9 @@
     --third-year-color: #8BC24A;
     --fourth-year-color: #FEB92D;
     --fifth-year-color: #438AFE;
+
+    /* Common */
+    --border-radius: 20px;
 }
 
 *{
