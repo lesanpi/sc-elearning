@@ -31,40 +31,41 @@
   
   <section>
     
-    <header>
-      <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en negro" width="60" height="60">
-      <ul class="navigation">
+    <header class="barradenavegacion">
+      <img src="/static/imgs/LogoAsociarteBlanco.png" alt="Logo de Asociarte" width="60" height="60">
+      <ul class="navigation"> 
           <li>
-          <a class="active" href="/">Inicio</a>
+          <a href="#about-us-id" class="nav_button_1">¿Quiénes somos?</a>
           <div></div>
           </li>
           <li>
-          <a href="course/1">1er Año</a>
+          <a href="#mision-id" class="nav_button_2">Misión</a>
           <div></div>
           </li>
           <li>
-          <a href="course/2">2do Año</a>
+          <a href="#vision-id" class="nav_button_3">Visión</a>
           <div></div>
           </li>
-          <li>
-          <a href="course/3">3er Año</a>
-          <div></div>
-          </li>
-          <li>
-          <a href="course/4">4to Año</a>
-          <div></div>
-          </li>
-          <li class="li5to">
-          <a href="course/5">5to Año</a>
+          <li class="last_navbar_button_query">
+          <a href="#footer" class="nav_button_4">Contáctanos</a>
+          <div class="last_navbar_div_query"></div>
           </li>
       </ul>
+
+      <ul class="navigationbutton">
+        <li>
+        <a href="course/1" class="nav_button_aprende">Aprende</a>
+        <div></div>
+        </li>
+    </ul>
+
       <label id="menudesplegable">
         <i class="fas fa-bars"></i>
       </label>
     </header>
+
   </section>
    
-
 
     <div class="home-intro-section">
       
@@ -83,11 +84,11 @@
     </div>
 
 
-    <div class="about-us-section">
+    <div class="about-us-section" id="about-us-id">
 
       <div class="about-us-text">
         <h1>¿Quiénes somos?</h1>
-        <h2>Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato. fdsfs Somos Asociarte, una asociación que brinda clases de matemática y física a jóvenes de bachillerato.</h2>
+        <h2>Somos una Asociación Civil sin fines de lucro enfocada hacia la promoción, difusión, al quehacer artístico y cultural. Domiciliada en Caracas y registrada ante el Registro Subalterno del Primer Circuito del Municipio Sucre del Estado Miranda bajo el No. 31, Tomo: 28 con fecha 08 de Noviembre de 1994.</h2>
       </div>
 
       <div class="about-us-figures">
@@ -114,7 +115,7 @@
 
       <div class="mision-text">
         <h1>Misión</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error minima tempora laborum ea dolores incidunt. Corrupti magni perferendis sapiente? Itaque, omnis doloremque. Earum tenetur odio quod magnam debitis at? Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país, así como su futuro. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país.</h2>
+        <h2> Nuestra misión es dirigir, organizar, desarrollar, fomentar procesos de inserción social, prevención, deportivos, culturales, educativos y recreativos, con atención a todo individuo sin distingo de edad, raza, condición social, político ni religiosa. Proporcionar programas sociales alternativos que permitirán mejorar la calidad de vida de los ciudadanos.</h2>
       </div>
 
     </div>
@@ -124,7 +125,7 @@
 
       <div class="vision-text">
         <h1>Visión</h1>
-        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, reprehenderit ratione molestias expedita nihil rerum ullam architecto error corporis minima corrupti veniam iure quisquam esse, nobis vero debitis quia aperiam! Nuestra visión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país, así como su futuro. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país. Nuestra misión es ofrecer servicios educativos de calidad y que contribuyan al desarrollo del país.</h2>
+        <h2>Somos una alianza líder, ágil, flexible y democrática con roles y funciones claras, capaz de crecer diariamente. Comprometidos con el desarrollo humano integral de los ciudadanos generadores de sus propios procesos; desarrollar en ellos valores de cooperación, solidaridad, responsabilidad, honestidad, justicia y sentido de pertenencia, para que se constituyan en promotores de cambio social y generen una cultura asociativa que impulse procesos colectivos solidarios, con habilidad para proponer soluciones novedosas a los problemas de su entorno.</h2>
       </div>
 
     </div>
@@ -156,7 +157,7 @@
           </div>
           <div class="footer-form">
               <form action="">
-                <h3>¡Contactanos!</h3>
+                <h3>¡Contáctanos!</h3>
                 <input type="text" id="name" placeholder="Nombre completo" required>
                 <input type="email" id="email" placeholder="Email" required>
                 <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
@@ -179,14 +180,26 @@ $(document).ready(function(){
 });
 </script>
 <script>
-  $(".about-us-figure1, .about-us-figure2, .about-us-figure3").on("click", function (e) {
+  if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {  }
+  else{
+  $(".about-us-figure1, .about-us-figure2, .about-us-figure3, .nav_button_1, .nav_button_2, .nav_button_3, .nav_button_4").on("click", function (e) {
   // 1
   e.preventDefault();
   // 2
   const href = $(this).attr("href");
   // 3
-  $("html, body").animate({ scrollTop: $(href).offset().top -100}, 1000);
-});
+  $("html, body").animate({ scrollTop: $(href).offset().top -80}, 1000);
+})};
+</script>
+<script>
+  $(window).scroll(function() {  
+    if ($(window).scrollTop() >= 50) {
+      $('.barradenavegacion').css({'background': 'var(--navbar-color)', 'transition': 'background 0.4s'});
+    } else {
+      $('.barradenavegacion').css({'background': 'transparent', 'transition': 'background 0.4s'});
+    }
+  });
+
 </script>
 </body>
 </html>

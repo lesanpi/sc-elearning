@@ -27,10 +27,12 @@ video:focus{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 auto!important;
+    margin: 54px auto 0px auto;
     max-width: 1200px;
-    padding: 0 .5em;
+    padding: 10px .5em 0px .5em;
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .StudentsHome {
@@ -63,7 +65,7 @@ video:focus{
 }
 .Course-title{
     padding: 1rem 2rem;
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 3em;
 }
 @media screen and (max-width: 870px){

@@ -28,8 +28,9 @@
     background-attachment: fixed;
     background-blend-mode: darken;
     background-size: cover;
-      padding-top: 40px;
-      padding-bottom: 90px;
+    min-height: calc(100vh - 80px);
+      padding-top: 60px;
+      padding-bottom: 30px;
       margin-top: 0px;
       
   }
@@ -143,19 +144,19 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      
-  }
-  .footer-form{
-    width: 70%;    
- }
- .footer{
-
-    padding-top: 90px;
-    padding-bottom: 90px;
-    margin-top: 0px;
-    
-}
+      align-items: center;   
+    }
+    .footer-form{
+      width: 70%;    
+    }
+    .footer{
+      padding-top: 90px;
+      padding-bottom: 90px;
+      margin-top: 0px;
+    }
+    .footer-social{
+      width: 70%;
+    }
   
 }
   

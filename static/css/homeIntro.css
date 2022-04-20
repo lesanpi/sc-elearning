@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     background-color: var(--home-intro-background);
     background-image: url("/static/imgs/formulaspng.png");
     background-size: contain;
@@ -29,8 +29,6 @@
     text-align: right;
 }
 
-
-
 .home-intro-image{
     margin-left: 50px;
     margin-top: 20px;
@@ -45,6 +43,8 @@
     width: 500px;
     height: 500px;
 }
+
+
 
 @media (max-width: 1024px){
     .home-intro-image{
@@ -62,15 +62,15 @@
         height: 250px;
     }
     .home-intro-text h1 {
-        font-size: 48px;
+        font-size: 42px;
         font-weight: 300;
-        text-align: right;
+        text-align: center;
       }
       
     .home-intro-text h2 {
-          font-size: 44px;
+          font-size: 38px;
           font-weight: 600;
-          text-align: right;
+          text-align: center;
     }
       
 }

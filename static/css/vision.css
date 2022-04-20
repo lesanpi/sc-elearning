@@ -4,7 +4,7 @@
     justify-content: center;
     padding: 60px 10px;
     width: 100%;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 80px);
     background-color: var(--vision-background);
     overflow: hidden;
 }
@@ -30,12 +30,21 @@
     text-align: center;
 }
 
+
 @media (max-width: 768px){
-    .vision-text h2{
-        margin-left: 60px;
-        margin-right: 60px;
-        
-    
+    .vision-section{
+        padding: 30px 10px 20px 10px;
     }
-  
+
+    .vision-text h1 {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 44px;
+    }
+
+    .vision-text h2 {
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 21px;
+    }
 }
