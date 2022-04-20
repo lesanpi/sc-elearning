@@ -1,4 +1,7 @@
 {% from "course_macros.html" import course_content with context %}
+{% from "course_macros.html" import class_card with context %}
+{% from "card_course_macro.html" import card_curso_macro with context %}
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,9 +13,9 @@
     <title>{{course["title"]}}</title>
 </head>
 <body>
-  <section>
+  
     <header>
-      <a href="#" class="logo">Logo</a>
+      <img src="{{ url_for('static', filename = 'imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte" width="40" height="40">
       <ul class="navigation">
           <li>
           <a href="/">Inicio</a>
@@ -34,7 +37,36 @@
           </li>
       </ul>
     </header>
-  </section>
+  
+    <div class="course-intro-section">
+
+      <div class="course-intro-text">
+        <h1>Insertar Título</h1>
+      </div>
+
+    </div>
+
+    
+    <div class="course-section" id="cartas">
+      <h1>Nuestros Cursos</h1>
+  
+      <div class="course-cards-container">
+  
+        {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","#128051")}}
+  
+        {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","#129436")}}
+  
+        {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","#128010")}}
+  
+        {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","#129426")}}
+  
+        {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
+  
+      </div>
+    </div> 
+
+
+
 
   <div class="u-wrapper">
     <h1 class="course-title">{{course["title"]}}</h1>    

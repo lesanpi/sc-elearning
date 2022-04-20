@@ -9,11 +9,12 @@
     --dark-grey-color: #333;
     --yellow: #dacd1b;
     --darkBlue: #03184d;
+    --almostDarkBlue:#03184de3;
 
 
     --cards-background-color: #fff;
     --footer-color: #03184d;
-    --button-color: var(--navbar-color);
+    --button-color: #0098ff;
 
     /*Sections colors*/
     --home-intro-background: #03184d;
