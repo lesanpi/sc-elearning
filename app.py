@@ -185,6 +185,11 @@ def home():
     # Home
     return render_template('index.html')
 
+@app.route('/aprende')
+def aprende():
+    # E-Learning
+    return render_template('aprende.html')
+
 @app.route('/course/<course>/')
 def course(course=None):
     classes_list = videos[course]['classes']
@@ -210,7 +215,9 @@ def page_not_found(e):
 @app.errorhandler(500)
 def page_not_found(e):
     return render_template('404.html'), 500
-    
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
