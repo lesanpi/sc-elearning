@@ -1,4 +1,4 @@
-{% from "course_macros.html" import class_card with context %}
+{% from "course_macros.html" import course_content with context %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/video_player.css">
-    <link rel="stylesheet/less" type="text/css" href="/static/css/video_player.less" />
+    <link rel="stylesheet" href="/static/css/curso/styles.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
 
-    <title>{{class_num}}. {{class_title}}</title>
+    <title>{{video_class.title}} - Asociarte</title>
 </head>
 <body>
     <div class="u-wrapper">
@@ -18,26 +19,29 @@
             <div class="video-content">
                 <div class="video"> 
                     <iframe
-                        src="https://www.youtube.com/embed/6c79IBiss1o" 
+                        src="https://www.youtube.com/embed/{{video_class.video_id}}" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
-                <h1 class="class_title">{{class_title}}</h1>
+                <h1 class="class_title">{{video_class.title}}</h1>
                 <hr>
                 <p class="class_description" style="text-overflow: clip;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ad blanditiis facere ipsa neque, dolores ratione nam praesentium qui voluptatem? Odit animi cupiditate provident eveniet nesciunt assumenda a exercitationem repellendus!
+                    {{video_class.description}}
                 </p>
             </div>
             <div class="ClassList">
                 <h1 class="ClassList_Title">Lista de clases</h1>
                 <div class="InfinityScrollLayout" style="top: 0px;">
                     <div class="CentralFeed">            
-                        {% for class in classes_list %}
-                          {{ class_card(class.title, 
-                              class.subtitle,
-                              class.img_link
+                        {% for content in course.content %}
+                          {{ course_content(content.title, 
+                                content.description,
+                                content.id,
+                                content.img_url,
+                                content.type == "guide",
+                                content.url
                               ) 
                           }}
                         {% endfor %}
@@ -50,7 +54,7 @@
     </div>
 
 
-<script src="/static/js/video_player.js"></script>
+<!-- <script src="/static/js/video_player.js"></script> -->
 
 </body>
 

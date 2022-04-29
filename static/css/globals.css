@@ -1,0 +1,48 @@
+:root{
+
+    /* COLORS */
+    --primary-color: #fff;
+    --navbar-color: rgba(29, 26, 26);
+    --secondary-color: #000000;
+    --dark-pink: #e91e63;
+    --blue-king: #536DFE;
+    --dark-grey-color: #333;
+    --yellow: #dacd1b;
+    --darkBlue: #03184d;
+    --almostDarkBlue:#03184de3;
+
+
+    --cards-background-color: #fff;
+    --footer-color: #03184d;
+    --button-color: #0098ff;
+    --common-text-color: #aaa;
+    /*Sections colors*/
+    --home-intro-background: #03184d;
+    --About-us-background: #fefefe;
+    --mision-background: #3f4747;
+    --vision-background: #fefefe;
+
+    /* Cards colors*/
+    --year-selected-color: #536DFE;
+    --first-year-color: #536DFE;
+    --second-year-color: #FF5353;
+    --third-year-color: #8BC24A;
+    --fourth-year-color: #FEB92D;
+    --fifth-year-color: #438AFE;
+
+    /* Common */
+    --border-radius: 20px;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
