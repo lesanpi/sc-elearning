@@ -61,15 +61,20 @@
       </label>
     </header>
   </section>
-   
+  
+
   <div class="container">
     <div class="main-section">
+      <div class="intro-section">
+        <h1 class="welcome-text">Bienvenido a Asociarte</h1>
+        <p class="welcome-slogan">Donde engranaras tus conocimientos</p>
+      </div>
       <div class="classes-recommendation-section">
         <h1>Aprende con alguna de nuestras clases</h1>
         
         <div class="classes-list">
           {%for i in range(0, 8)%}
-            {{ class_card( lessonsRecommended[i]["title"], lessonsRecommended[i]["description"], lessonsRecommended[i]["img_url"]) }}
+            {{ class_card( lessonsRecommended[i]["title"], lessonsRecommended[i]["description"], lessonsRecommended[i]["img_url"], lessonsRecommended[i]["id"]) }}
           {%endfor%}
         </div>
       </div>
@@ -79,7 +84,7 @@
         <h1>Lee nuestras guías</h1>
         <div class="guides-grid">
           {%for i in range(0, 4)%}
-            {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"]) }}
+            {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"], guidesRecommended[i].url) }}
           {%endfor%}
         </div>
       </div>

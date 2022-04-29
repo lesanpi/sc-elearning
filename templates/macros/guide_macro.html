@@ -1,5 +1,6 @@
-{% macro guide_card(title, subtitle, img_link) %}
-<div class="guide-card">
+{% macro guide_card(title, subtitle, img_link, url) %}
+<a href="{{url}}">
+  <div class="guide-card">
     <div class="guide-img">
       <img src={{img_link}} alt="">
     </div>
@@ -8,4 +9,5 @@
       <p>{{subtitle}}</p>
     </div>
   </div>
+</a>
 {% endmacro %}

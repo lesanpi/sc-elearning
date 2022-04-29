@@ -15,7 +15,7 @@
     --cards-background-color: #fff;
     --footer-color: #03184d;
     --button-color: #0098ff;
-
+    --common-text-color: #aaa;
     /*Sections colors*/
     --home-intro-background: #03184d;
     --About-us-background: #fefefe;
@@ -41,4 +41,8 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }

@@ -1,5 +1,6 @@
-{% macro class_card(title, subtitle, img_link) %}
-<div class="class-item">
+{% macro class_card(title, subtitle, img_link, id) %}
+<a href="aprende/clase/{{id}}">
+  <div class="class-item">
     <div class="class-content">
       <div class="class-img">
         <img src={{img_link}} alt="">
@@ -16,4 +17,5 @@
 
     </div>
   </div>
+</a>
 {% endmacro %}

@@ -3,180 +3,9 @@ import json
 import random
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
+
 with open('./data.json', 'r') as file:
     data = json.load(file)
-
-videos = {
-    "5": {
-        "title": "5to Año",
-        "classes": [
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-                "video_link": "https://www.youtube.com/watch?v=6c79IBiss1o",
-                "paper": "Guia de Ecuaciones y Polinomios.",
-                "paper_link": "www.google.com"
-            },
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-                "video_link": "https://www.youtube.com/watch?v=6c79IBiss1o"
-            },
-            {
-                "title": "Escalares, Vectores y Matrices",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-                "video_link": "https://www.youtube.com/watch?v=6c79IBiss1o"
-            },
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-                "video_link": "https://www.youtube.com/watch?v=6c79IBiss1o",
-                "paper": "Guia de Ecuaciones y Polinomios.",
-                "paper_link": "www.google.com"
-            },
-            {
-                "title": "Derivas e Integrales",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-            },
-            {
-                "title": "Area sobre una curva",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-            },
-            {
-                "title": "Producto escalar y producto vecotorial",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png",
-            },
-        ]
-    },
-    "4": {
-        "title": "5to Año",
-        "classes": [
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Escalares, Vectores y Matrices",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Derivas e Integrales",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Area sobre una curva",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Producto escalar y producto vecotorial",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-        ]
-    },
-    "3": {
-        "title": "5to Año",
-        "classes": [
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Escalares, Vectores y Matrices",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Derivas e Integrales",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Area sobre una curva",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Producto escalar y producto vecotorial",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-        ]
-    },
-    "2": {
-        "title": "5to Año",
-        "classes": [
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Escalares, Vectores y Matrices",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Derivas e Integrales",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Area sobre una curva",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Producto escalar y producto vecotorial",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-        ]
-    },
-    "1": {
-        "title": "5to Año",
-        "classes": [
-            {
-                "title": "Ecuacion de segundo grado",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Escalares, Vectores y Matrices",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Derivas e Integrales",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Area sobre una curva",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-            {
-                "title": "Producto escalar y producto vecotorial",
-                "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem consequatur veritatis ratione?",
-                "img_link": "https://static.platzi.com/media/blog/que-son-y-como-se-conjugan-las-preposiciones-en-ingles_2-fb910d15-8415-42ea-8049-7164191d179a.png"
-            },
-        ]
-    }
-}
-
 
 def getRandomContent(type="lesson", num=12):
     contentFiltered = []
@@ -206,7 +35,6 @@ def getClassById(id):
     return None
 
 
-
 @app.route('/')
 @app.route('/home')
 def home():
@@ -216,7 +44,6 @@ def home():
 @app.route('/aprende')
 def aprende():
     # E-Learning
-    print(type(data))
     lessonsRecommended = getRandomContent()
     guidesRecommended = getRandomContent(type="guide", num=4)
     return render_template('aprende.html', lessonsRecommended=lessonsRecommended, guidesRecommended=guidesRecommended)
@@ -226,11 +53,14 @@ def course(course=None):
     if (int(course) > 5 or int(course) < 1):
         return render_template('404.html'), 404
     
+    lessonRecommended = getRandomContent(num=1)[0]
+
     course = data["courses"][int(course) - 1]
-    return render_template('course.html', course=course)
+    return render_template('course.html', course=course, lessonRecommended=lessonRecommended)
 
 
-@app.route('/clase/<class_id>')
+
+@app.route('/aprende/clase/<class_id>')
 def video_class(class_id=None):
     if (class_id is None):
         return render_template('404.html'), 404
