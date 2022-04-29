@@ -1,0 +1,146 @@
+/* Home Intro Viejo*/
+
+/* .intro {
+      display: flex;
+      width: 100%;
+      margin-top: 70px;
+      margin-bottom: 0px;
+  }
+
+  .imgintro{
+    flex:5.2;
+    padding: 10px;
+    width: 60%;
+    
+  }
+
+.home-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:4.8;
+    padding: 10px;
+    width: 40%;
+    text-align:center;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 3em;
+    letter-spacing: 0em;
+    font-style: normal;
+    color: #3b93f7;
+  }
+
+
+
+
+  .botoncursos{
+    font-size: 2rem;
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    user-select: none;
+    
+  }
+
+  
+
+  .tituloasociarte{
+    font-style: italic;
+  }
+
+  .flechadown{
+    margin-top: 7px;
+    bottom: 0px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    transform:  rotate(45deg);
+    visibility: visible;
+    animation: prueba 1.55s ease-in;
+  }
+
+  @keyframes prueba {
+    from{
+      visibility: hidden;
+    }
+    to{
+      visibility: hidden;
+    }
+  }
+
+  .flechadown span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    animation: flechaabajo 0.9s ease-in-out infinite;
+    opacity: 0;
+  }
+
+  .flechadown span:nth-child(1){
+    transform: translate(-15px,-15px);
+    animation-delay: -0.3s;
+  }
+
+  .flechadown span:nth-child(2){
+    transform: translate(0,0);
+    animation-delay: -0.15s;
+  }
+
+  .flechadown span:nth-child(3){
+    transform: translate(15px,15px);
+    animation-delay: 0s;
+  }
+
+  @keyframes flechaabajo{
+    0%{
+      top: -5px;
+      left:-5px;
+      opacity:0;
+    }
+    25%{
+      top: 0px;
+      left: 0px;
+      opacity: 0.7;
+    }
+
+    100%{
+      top: 5px;
+      left: 5px;
+      opacity: 0;
+    }
+  }
+
+
+  div.imgintro img{
+    width: 100%;
+    height: auto;
+    animation-duration: 1.5s;
+    animation-name: desplazarimg;
+  }
+
+  @keyframes desplazarimg {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.anchorcards{
+  display:flex;
+  width: 100%;
+  height: 99px;
+}
+
+*/

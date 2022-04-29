@@ -1,25 +1,27 @@
+{% from "course_macros.html" import course_content with context %}
 {% from "course_macros.html" import class_card with context %}
+{% from "card_course_macro.html" import card_curso_macro with context %}
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/course.css">
+    <link rel="stylesheet" href="/static/css/curso/styles.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
-    <title>{{course_title}}</title>
+    <title>{{course["title"]}}</title>
 </head>
 <body>
-  <section>
+  
     <header>
-      <a href="#" class="logo">Logo</a>
+      <img src="{{ url_for('static', filename = 'imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte" width="40" height="40">
       <ul class="navigation">
           <li>
-          <a href="#">Inicio</a>
+          <a href="/">Inicio</a>
           </li>
           <li>
-          <a href="index.html">1er Año</a>
+          <a href="#">1er Año</a>
           </li>
           <li>
           <a href="#">2do Año</a>
@@ -35,20 +37,35 @@
           </li>
       </ul>
     </header>
-  </section>
+  
+    <div class="course-intro-section">
+
+      <div class="course-intro-text">
+        <h1>Insertar Título</h1>
+      </div>
+
+    </div>
+
+    
+
+
+
+
 
   <div class="u-wrapper">
-    <h1 class="Course-title">5to Año.</h1>    
+    <h1 class="course-title">{{course["title"]}}</h1>    
+    <p class="course-description">{{course.description}}</p>
     <div class="StudentsHome">
 
       <div class="InfinityScrollLayout" style="top: 0px;">
         <div class="CentralFeed">            
-            {% for class in classes_list %}
-              {{ class_card(class.title, 
-                  class.subtitle,
-                  class.img_link,
-                  class.paper,
-                  class.paper_link
+            {% for class in course["content"] %}
+              {{ course_content(class.title, 
+                  class.description,
+                  class.id,
+                  class.img_url,
+                  class.type == "guide",
+                  class.url
                   ) 
               }}
             {% endfor %}
@@ -57,13 +74,19 @@
       </div>
       
       <div class="Video-promoted">
-        <video width="100%" controls autoplay="autoplay" loop muted>
-          <source src="/static/videos/video.mp4" type="video/mp4"></source>
-        </video>
-        <h1 class="Video-promoted-title">Ecuaciones de segundo grado.</h1>
-        <p class="Video-promoted-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque asperiores quos consequuntur? Praesentium molestiae quasi perferendis inventore accusamus rem consectetur at dolore deserunt debitis laborum architecto, officiis placeat dolores. Ea.
-        </p>
-        <a href="clase/1"><button class="video-button">Empezar Ya</button></a>
+        <iframe
+            src="https://www.youtube.com/embed/{{lessonRecommended.video_id}}" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            height="300px"
+            width="100%"
+            autoplay
+        >
+        </iframe>
+        <h1 class="Video-promoted-title">{{lessonRecommended.title}}</h1>
+        <p class="Video-promoted-text">{{lessonRecommended.description}}</p>
+        <a href="/aprende/clase/{{lessonRecommended.id}}"><button class="video-button">VER VIDEO</button></a>
       </div>
 
     </div>

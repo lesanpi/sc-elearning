@@ -1,0 +1,76 @@
+.home-intro-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--home-intro-background);
+    background-image: url("/static/imgs/formulaspng.png");
+    background-size: contain;
+    overflow: hidden;
+}
+
+.home-intro-text{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff
+}
+
+.home-intro-text h1 {
+  font-size: 64px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.home-intro-text h2 {
+    font-size: 58px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.home-intro-image{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items:center;
+    position: relative;
+    bottom: 0;
+}
+.home-intro-image img{
+    position: relative;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+@media (max-width: 1024px){
+    .home-intro-image{
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        align-items:center;
+        position: relative;
+        bottom: 0;
+    }
+    .home-intro-image img{
+        position: relative;
+        bottom: 0;
+        width: 250px;
+        height: 250px;
+    }
+    .home-intro-text h1 {
+        font-size: 42px;
+        font-weight: 300;
+        text-align: center;
+      }
+      
+    .home-intro-text h2 {
+          font-size: 38px;
+          font-weight: 600;
+          text-align: center;
+    }
+      
+}

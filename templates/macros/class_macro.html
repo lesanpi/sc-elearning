@@ -1,0 +1,21 @@
+{% macro class_card(title, subtitle, img_link, id) %}
+<a href="aprende/clase/{{id}}">
+  <div class="class-item">
+    <div class="class-content">
+      <div class="class-img">
+        <img src={{img_link}} alt="">
+      </div>
+      <div class="class-info">
+        <div class="class-title">
+          <!-- Vectores, escalares y matrices, parte #1 -->
+          <h3>{{title}}</h3>
+        </div>
+        <div class="class-description">
+          <p>{{subtitle}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</a>
+{% endmacro %}

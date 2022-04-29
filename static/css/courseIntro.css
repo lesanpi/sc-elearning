@@ -1,0 +1,27 @@
+.course-intro-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 54px;
+    width: 100%;
+    min-height: calc(100vh - 54px);
+    background-image: url('../imgs/books3.jpg');
+    background-size: 100% calc(100vh - 54px);
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.342);
+    background-blend-mode: darken;
+    overflow: hidden;
+
+    
+}
+
+.course-intro-text{
+    padding: 140px
+}
+
+.course-intro-text h1{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+}

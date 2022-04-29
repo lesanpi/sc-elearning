@@ -1,0 +1,715 @@
+{
+	"title": "Asociarte",
+	"description": "Refuerza tus conocimientos en Matemáticas",
+	"courses": [
+		{
+			"title": "1er Año",
+			"emoji": "assets/1.png",
+			"mini_description": "Aprende las bases de las matemáticas",
+			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"content": [
+				{
+					"title": "Números Naturales",
+					"description": "En esta guía se explica el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_1_N%C3%BAmerosNaturales.pdf?alt=media&token=8311afdf-7b51-440d-9e8d-6aa3c6f20ed1",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-1"
+				},
+				{
+					"title": "Suma, resta y símbolos de agrupación",
+					"description": "En esta guía daremos un pequeño repaso por los conceptos de adición y sustracción, y recordaremos igualmente sus propiedades más importantes. Además, estudiaremos los símbolos de agrupación y cómo usarlos correctamente.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_2_SumaRestaS%C3%ADmbolosAgrupaci%C3%B3n.pdf?alt=media&token=69019e01-4900-4721-984b-52eed862643e",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-2"
+				},
+				{
+					"title": "Números Enteros",
+					"description": "En esta guía se explica el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_1_N%C3%BAmerosNaturales.pdf?alt=media&token=8311afdf-7b51-440d-9e8d-6aa3c6f20ed1",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-3"
+				},
+				{
+					"title": "Operaciones con Números Enteros",
+					"description": "En esta guía se realizan operaciones de suma, resta, multiplicación y división con números enteros. Para esto, se realizan diversos ejemplos y se desarrollan las propiedades de la multiplicación y de la división.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_4.OperacionesN%C3%BAmerosEnteros.pdf?alt=media&token=9135696d-c689-49c4-b74e-d91d323f241a",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-4"
+				},
+				{
+					"title": "Múltiplos y divisores",
+					"description": "En esta guía vamos a repasar los criterios de divisibilidad de los números del 1 al 10, cómo identificar los divisores de un número y las propiedades de los múltiplos y divisores.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.1_M%C3%BAltiplos%20y%20divisores.pdf?alt=media&token=055dbad3-43b3-4855-96ba-958acfcce7dc",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-5"
+				},
+				{
+					"title": "Números primos y compuestos",
+					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder identificar los números primos en los primeros 100 números.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.2_N%C3%BAmeros%20primos%20y%20compuestos.pdf?alt=media&token=45a32b05-744a-4c5e-ad41-04698a3de7f0",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-6"
+				},
+				{
+					"title": "Descomposición en factores primos",
+					"description": "Con esta guía vas a conocer la útil herramienta de descomponer un número en sus factores primos, y mediante ejemplos, aprenderás el método para lograrlo.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.3_Descomposici%C3%B3n%20en%20n%C3%BAmeros%20primos.pdf?alt=media&token=6fcc967c-963f-4c39-99b7-f2afff571ca8",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "1er-guide-7"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "1er-lesson-1"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/fc-garces.mp4?alt=media&token=010573fc-1175-4a8a-85cb-0d459395f6fa",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "1er-lesson-2"
+				},
+				{
+					"title": "Ecuaciones: Axioma Fundamental",
+					"description": "En esta guía estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.1_%20Ecuaciones_AxiomaFundamental.pdf?alt=media&token=a3145b8b-e87a-49d0-aa41-087c84c9149d",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-8"
+				},
+				{
+					"title": "Ecuaciones: Despejes y resolución de ecuaciones",
+					"description": "Ahora estudiaremos los métodos para resolver ecuaciones y en qué consiste despejar la incógnita en una ecuación.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.2_%20Ecuaciones_DespejesResoluci%C3%B3nDeEcuaciones.pdf?alt=media&token=8b9e1d37-586a-4d13-8d3f-d2245f56894d",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-9"
+				},
+				{
+					"title": "Ecuaciones: Ejercicio y problemas",
+					"description": "Es hora de practicar. En esta guía vas a encontrar suficientes ejercicios para que refuerces todo lo que aprendiste acerca de las ecuaciones y cómo resolverlas.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.3_%20Ecuaciones_EjerciciosYProblemas.pdf?alt=media&token=03123303-d44f-4741-861f-e68f093e42c8",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-10"
+				},
+				{
+					"title": "Números racionales",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-11"
+				},
+				{
+					"title": "Operaciones con números racionales",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-12"
+				},
+				{
+					"title": "Transformaciones de racionales",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-13"
+				},
+				{
+					"title": "Notación científica",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-14"
+				}
+			]
+		},
+		{
+			"title": "2do Año",
+			"emoji": "assets/2.png",
+			"mini_description": "Aprende a calcular área y volumen",
+			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"content": [
+				{
+					"title": "Fracciones Algebráicas",
+					"description": "En esta guía se explican las fracciones algebráicas, partiendo de la definición de división de dos cantidades. Así, se mencionan los tipos de fracciones y expresiones algebráicas que existen, como las enteras y las mixtas. Por otro lado, se detallan las propiedades que se utilizan al realizar operaciones como la suma, resta, multiplicación y división, haciendo ejercicios para explicar cada tópico.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.1_FraccionesAlgebr%C3%A1icas.pdf?alt=media&token=f275c829-d5ae-4e10-97e9-83dbcde91072",
+					"img_url": "",
+					"type": "guide",
+					"id": "2do-guide-1"
+				},
+				{
+					"title": "Números Enteros",
+					"description": "En esta guía se explican el grupo de números racionales, se inicia con su definición y su división en subconjuntos, se habla del valor absoluto y ecuaciones con valor absoluto. Por otro lado, se explican las operaciones en Z y sus respectivas propiedades y ejemplos. Se mencionan operaciones combinadas de números Z. También, abarca la potenciación en Z y las ecuaciones en Z.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.1_N%C3%BAmerosEnteros.pdf?alt=media&token=7eae8243-7d24-45c7-bd7c-7fe302410459",
+					"img_url": "",
+					"type": "guide",
+					"id": "2do-guide-2"
+				},
+				{
+					"title": "Números Racionales",
+					"description": "En esta guía se explican el grupo de números racionales, se inicia con su definición y su división en subconjuntos, se habla de su representación en la recta real y de los números decimales que lo conforman. Se explica la fracción generatriz y como hacer uso de ella. Por otro lado, se explican las operaciones en Q y sus respectivas propiedades y ejemplos. Se mencionan operaciones combinadas de números Q. También, abarca la potenciación en Z y las ecuaciones en Q.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.2_N%C3%BAmerosRacionales.pdf?alt=media&token=ec4bf149-433d-4216-8f06-04fed5057350",
+					"img_url": "",
+					"type": "guide",
+					"id": "2do-guide-3"
+				},
+				{
+					"title": "Funciones",
+					"description": "En esta guía se explican qué son las funciones, iniciando desde la explicación de conjuntos, sus relaciones, explicación de una función numérica y su clasificación.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.1_Funciones.pdf?alt=media&token=027051e9-012e-4f21-8004-2196e6450b76",
+					"img_url": "",
+					"type": "guide",
+					"id": "2do-guide-4"
+				},
+				{
+					"title": "Funciones 2",
+					"description": "En esta guía se explican qué son las funciones, iniciando desde la explicación de conjuntos, sus relaciones, explicación de una función numérica y su clasificación.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.2_Funciones.pdf?alt=media&token=b0739032-9030-43c3-bd71-52285aba6044",
+					"img_url": "",
+					"type": "guide",
+					"id": "2do-guide-5"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2FA3_1.1_N%C3%BAmerosRacionales.pdf?alt=media&token=a4c1e752-9bf6-482c-8cd4-b9a6c91302ad",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "2do-lesson-1"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "2do-lesson-1"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/fc-garces.mp4?alt=media&token=010573fc-1175-4a8a-85cb-0d459395f6fa",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "2do-lesson-2"
+				}
+			]
+		},
+		{
+			"title": "3er Año",
+			"emoji": "assets/3.png",
+			"mini_description": "Aprende acerca de ecuaciones de primero, segundo y tercer grado",
+			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"content": [
+				{
+					"title": "Números Racionales",
+					"description": "En esta guía se desarrolla el tema de números racionales. Para explicar la aplicación de este conjunto de números en operaciones matemáticas, se repasan algunos conceptos como mínimo común múltiplo, producto en cruz y doble c. Además, se realizan ejercicios para una mejor comprensión del tema.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.1_N%C3%BAmerosRacionales.pdf?alt=media&token=01feb170-707a-4b19-8a06-3a2982584972",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-1-1"
+				},
+				{
+					"title": "Números Racionales 1",
+					"description": "Vamos a estudiar sobre los numeros racionales, que son, para que sirven. Primera parte de 3",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "CwSqge5rPKA",
+					"id": "3er-lesson-1"
+				},
+				{
+					"title": "Números Racionales 1 - Ejercicios",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "fQmy-6QA3dU",
+					"id": "3er-lesson-2"
+				},
+				{
+					"title": "Números Racionales 2",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "S9k2cULwN3Y",
+					"id": "3er-lesson-3"
+				},
+				{
+					"title": "Números Racionales 2 - Ejercicios",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "B4WzRr0Ysb4",
+					"id": "3er-lesson-4"
+				},
+				{
+					"title": "Números Racionales 3",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "-Zx3YDq6ChA",
+					"id": "3er-lesson-5"
+				},
+				{
+					"title": "Números Racionales 3 - Ejercicios",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "k3TjGTw8djI",
+					"id": "3er-lesson-6"
+				},
+				{
+					"title": "Números Irracionales",
+					"description": "En esta guía se desarrolla el tema de números racionales, partiendo de una breve historia y definición de este conjunto. Luego, se mencionan algunos números irracionales significativos, como π y el número de euler. También, se realizan ejercicios con los diferentes tipos de aproximaciones que existen para estas cifras.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.2_N%C3%BAmerosIrracionales.pdf?alt=media&token=64e9a0b3-4f95-4e73-a163-5fc1a59ddc9f",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-1-2"
+				},
+				{
+					"title": "Números Irracionales 1",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "b55lpAZDWyw",
+					"id": "3er-lesson-7"
+				},
+				{
+					"title": "Números Irracionales 2",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "ebe4grQ7ZO4",
+					"id": "3er-lesson-8"
+				},
+				{
+					"title": "Números Irracionales 3",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "3NbfE-lWslg",
+					"id": "3er-lesson-9"
+				},
+				{
+					"title": "Raíz Cuadrada",
+					"description": "En esta guía se realiza un repaso de la radicación y se desarrolla el tema de raíz cuadrada. Así, se mencionan los tipos de índices que puede tener una raíz (pares e impares) y se realiza el cálculo de una raíz cuadrada, explicando cada caso y detallando el procedimiento a seguir para la realización de estos ejercicios.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.3_Ra%C3%ADzCuadrada.pdf?alt=media&token=035948d0-71ff-4de1-8006-8b1ef699d9ab",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-1-3"
+				},
+				{
+					"title": "Propiedades Raíces",
+					"description": "En esta guía se mencionan las propiedades de las raíces y la extracción e introducción de elementos en una raíz, para así realizar operaciones con radicales como suma, resta, multiplicación y división.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_PropiedadesRa%C3%ADces.pdf?alt=media&token=d5db24c8-9e08-48d0-9d46-d6909c59c4c3",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-1-4"
+				},
+				{
+					"title": "Números Reales",
+					"description": "En esta guía se desarrolla el tema de los números reales, partiendo de su evolución histórica y explicando el conjunto numérico que forman. Además, se realizan operaciones como suma, resta, multiplicación, división y radicación, y las propiedades que se utilizan para realizar cada operación. Además, se resuelven ejercicios en cada caso. ",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.1_N%C3%BAmerosReales.pdf?alt=media&token=5e71754d-f956-4ffb-a3b8-cfc24d54486a",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-1"
+				},
+				{
+					"title": "Números Reales: Radicales Semejantes y Racionalización",
+					"description": "En esta guía se desarrollan los conceptos de radicales semejantes y racionalización, para lo cual se realizan algunos ejemplos y se explica el procedimiento a seguir en caso de que se presenten situaciones particulares, como el caso de radicales no semejantes.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.2_N%C3%BAmerosReales_RadicalesSemejantes_Racionalizaci%C3%B3n.pdf?alt=media&token=e765fc2a-dfec-45c7-aba2-8673a06f4ab0",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-2"
+				},
+				{
+					"title": "Ecuaciones con Números Reales (Lineales y con Valor Absoluto)",
+					"description": "En esta guía se realizan ecuaciones con números reales, en particular aquellas que son lineales y/o contienen valor absoluto. Para explicar el procedimiento a seguir, se realizan ejercicios de diferentes estilos que ayudan a la comprensión del tema.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.3_EcuacionesNumerosReales.pdf?alt=media&token=0f8d0fb0-5e54-435b-b9f6-a3c3a1ac1146",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-3"
+				},
+				{
+					"title": "",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-4"
+				},
+				{
+					"title": "Relaciones de Orden en los Números Reales",
+					"description": "En esta guía se estudian las relaciones de orden en los números reales, introduciendo el concepto de la recta real y las cinco relaciones principales en el conjunto de números R: menor que, mayor que, igual que, menor o igual que y mayor o igual que. Además, se enumeran las propiedades fundamentales de las relaciones de orden y se desarrolla el tema de desigualdades, se describen sus propiedades y se realizan algunos ejemplos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.5_RelacionesDeOrdenN%C3%BAmerosReales.pdf?alt=media&token=6ab16516-fdf0-4edf-a17a-f6cc7775b692",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-5"
+				},
+				{
+					"title": "",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "3er-guide-2-6"
+				}
+			]
+		},
+		{
+			"title": "4to Año",
+			"emoji": "assets/4.png",
+			"mini_description": "Aprende acerca de ecuaciones de primero, segundo y tercer grado",
+			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"content": [
+				{
+					"title": "Potenciación",
+					"description": "En esta lección aprenderemos a utilizar la herramienta matemática de la potenciación y entenderemos con ejercicios la forma correcta de resolver potencias.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_1_Potenciaci%C3%B3n.pdf?alt=media&token=a38cf3e8-2608-47ee-b618-51a0d8b5dd8c",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-1"
+				},
+				{
+					"title": "Potenciación",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "PxulinsiOlU",
+					"id": "4to-lesson-1-1"
+				},
+				{
+					"title": "Logaritmos",
+					"description": "En esta lección se va a aprender los fundamentos de los logaritmos, sus propiedades y ejemplos para entender como resolver esta importante operación",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_2.1_Logaritmos.pdf?alt=media&token=7ddf6f83-5cb8-4f5d-8659-86510169f818",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-2"
+				},
+				{
+					"title": "Logaritmos",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "hW-q2MkzbZU",
+					"id": "4to-lesson-1-2"
+				},
+				{
+					"title": "Logaritmo decimal",
+					"description": "En esta lección se va a aprender el uso de un tipo importante de logaritmo: logaritmo decimal o en base 10.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_2.2_Logaritmo%20decimal.pdf?alt=media&token=fc662fb5-3fdb-461d-9000-83a9d3ae2713",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-22"
+				},
+				{
+					"title": "Logaritmo decimal",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "t8h8auUbHk8",
+					"id": "4to-lesson-1-22"
+				},
+				{
+					"title": "Función exponencial",
+					"description": "En esta lección se estudia la importante función exponencial, su comportamiento y ejemplos importantísimos para su análisis.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_3_Exponencial.pdf?alt=media&token=5ee8d56e-2e9b-4331-b801-4ea08ebad78c",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-3"
+				},
+				{
+					"title": "Función exponencial",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "4to-lesson-1-3"
+				},
+				{
+					"title": "Función Logarítmica",
+					"description": "En esta lección estudiamos las características básicas de la función logarítmica, algunos de sus usos en el mundo real y mediante ejercicios entenderemos su gráfica.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_4_Funci%C3%B3nLogar%C3%ADtmica.pdf?alt=media&token=c0e28e3d-713f-4efd-803c-5e2f15291aaa",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-4"
+				},
+				{
+					"title": "El número de Euler y sus aplicaciones",
+					"description": "En esta lección aprenderemos uno de los números más importantes en la historia de las matemáticas: el número de Euler e.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_5_ElN%C3%BAmeroDeEulerYSusAplicaciones.pdf?alt=media&token=681a0af2-44d3-4908-a4ee-a1c760b369a5",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-5"
+				},
+				{
+					"title": "Ecuaciones exponenciales",
+					"description": "En esta lección mediante ejemplos entenderemos los métodos que existen para resolver las ecuaciones exponenciales.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_6_EcuacionesExponenciales.pdf?alt=media&token=0b9e2261-300c-4e80-b0ae-55aa473f8916",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-6"
+				},
+				{
+					"title": "Ecuaciones Logarítmicas",
+					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones exponenciales.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_7_EcuacionesLogaritmicas.pdf?alt=media&token=aca6c862-fa2c-456e-8bbc-b0094842ed21",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-7"
+				},
+				{
+					"title": "Sistemas de ecuaciones Exponenciales y Logarítmicas",
+					"description": "En esta lección aplicamos los conocimientos aprendidos en las guías de ecuaciones exponenciales y logarítmicas resolviendo sistemas de ecuaciones de este tipo.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_8_SistemasDeEcuacionesExponencialesYLogaritmicas.pdf?alt=media&token=42961aa6-0328-4292-bca3-d86d62e6a161",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-8"
+				},
+				{
+					"title": "Círculo trigonométrico",
+					"description": "En esta guía comenzaremos a entender los principios de la trigonometría: el círculo trigonométrico y sus cuadrantes, la forma de medir ángulos y cómo pasar de grados a radianes y viceversa.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F2do%20Lapso%2FA4_1_C%C3%ADrculoTrigonometrico.pdf?alt=media&token=b06c03ae-ec35-4499-bad5-5fa2b62f57a0",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-2-1"
+				}
+			]
+		},
+		{
+			"title": "5to Año",
+			"emoji": "assets/5.png",
+			"mini_description": "Aprende sobre matrices, derivadas e integrales",
+			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"content": [
+				{
+					"title": "Operaciones con Polinomios",
+					"description": "En esta guía se realizan operaciones con polinomios: suma, resta, multiplicación y división, y con cada una se realizaron una serie de ejercicios, en los que se explicaron puntos importantes a tomar en cuenta al realizar estas operaciones.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F1er%20Lapso%2FA5_1_OperacionesPolinomios.pdf?alt=media&token=c875bbd1-de54-4760-9021-21581e43a4f8",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "5to-guide-1-1"
+				},
+				{
+					"title": "Teorema del residuo - Regla de ruffini parte 1",
+					"description": "En esta guía comenzaremos a estudiar un método muy útil para dividir polinomios: Regla de Ruffini. Primero vas a comprender cómo funciona el Teorema del Residuo y su relación con la Regla de Ruffini.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F1er%20Lapso%2FA5_2_TeoremaDelResiduo_ReglaRuffini.pdf?alt=media&token=1fa8b25b-7108-4877-9473-e53d96c31483",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"type": "guide",
+					"id": "5to-guide-1-2"
+				},
+				{
+					"title": "Vectores, escalares y matrices",
+					"description": "Aprenderas sobre vectores, escalares y matrices",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
+					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2FA4%20-%20Ecuaciones%20Exponenciales.png?alt=media&token=76626ea2-c66d-44a0-862e-a9950f39baa8",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "5to-lesson-1"
+				}
+			]
+		}
+	],
+	"quizes": [
+		{
+			"id": "1eranio",
+			"title": "1er Año",
+			"description": "Ecuaciones de segundo grado",
+			"quizes": [
+				{
+					"title": "Escalares, vectores y matrices",
+					"id": "1eranio-01",
+					"questions": [
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "2doanio",
+			"title": "2do Año",
+			"description": "Ecuaciones de segundo grado",
+			"quizes": [
+				{
+					"title": "Escalares, vectores y matrices",
+					"id": "2doanio-01",
+					"questions": [
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "3eranio",
+			"title": "3er Año",
+			"description": "Ecuaciones de segundo grado",
+			"quizes": [
+				{
+					"title": "Escalares, vectores y matrices",
+					"id": "3eranio-01",
+					"questions": [
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "4toanio",
+			"title": "4to Año",
+			"description": "Ecuaciones de segundo grado",
+			"quizes": [
+				{
+					"title": "Escalares, vectores y matrices",
+					"id": "4toanio-01",
+					"questions": [
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "4toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Derivadas",
+					"id": "4toanio-03",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "4toanio-04",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5toanio",
+			"title": "5to Año",
+			"description": "Vectores, matrices, derivadas e integrales. La matematica mas importante",
+			"quizes": [
+				{
+					"title": "Escalares, vectores y matrices",
+					"id": "5toanio-01",
+					"questions": [
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				}
+			]
+		}
+	]
+}

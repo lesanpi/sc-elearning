@@ -1,0 +1,171 @@
+{% from "navbar_macro.html" import footer_col3 with context %}
+{% from "navbar_macro.html" import footer_col4 with context %}
+{% from "card_course_macro.html" import card_curso_macro with context %}
+{% from "/macros/class_macro.html" import class_card with context %}
+{% from "/macros/guide_macro.html" import guide_card with context %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/globals.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/aprende/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
+
+
+    <title></title>
+</head>
+<body>
+  
+  <section>
+    
+    <header>
+      <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en negro" width="60" height="60">
+      <ul class="navigation">
+          <li>
+          <a class="active" href="/">Inicio</a>
+          <div></div>
+          </li>
+          <li>
+          <a href="course/1">1er Año</a>
+          <div></div>
+          </li>
+          <li>
+          <a href="course/2">2do Año</a>
+          <div></div>
+          </li>
+          <li>
+          <a href="course/3">3er Año</a>
+          <div></div>
+          </li>
+          <li>
+          <a href="course/4">4to Año</a>
+          <div></div>
+          </li>
+          <li class="li5to">
+          <a href="course/5">5to Año</a>
+          </li>
+      </ul>
+      <label id="menudesplegable">
+        <i class="fas fa-bars"></i>
+      </label>
+    </header>
+  </section>
+  
+
+  <div class="container">
+    <div class="main-section">
+      <div class="intro-section">
+        <h1 class="welcome-text">Bienvenido a Asociarte</h1>
+        <p class="welcome-slogan">Donde engranaras tus conocimientos</p>
+      </div>
+      <div class="classes-recommendation-section">
+        <h1>Aprende con alguna de nuestras clases</h1>
+        
+        <div class="classes-list">
+          {%for i in range(0, 8)%}
+            {{ class_card( lessonsRecommended[i]["title"], lessonsRecommended[i]["description"], lessonsRecommended[i]["img_url"], lessonsRecommended[i]["id"]) }}
+          {%endfor%}
+        </div>
+      </div>
+  
+  
+      <div class="guides-recommendation-section">
+        <h1>Lee nuestras guías</h1>
+        <div class="guides-grid">
+          {%for i in range(0, 4)%}
+            {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"], guidesRecommended[i].url) }}
+          {%endfor%}
+        </div>
+      </div>
+  
+      <div class="courses-section">
+        <h1>Nuestros Cursos</h1>
+        <div class="course-cards-container">
+
+          {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","#128051")}}
+    
+          {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","#129436")}}
+    
+          {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","#128010")}}
+    
+          {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","#129426")}}
+    
+          {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
+    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+
+  
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="footer-row">
+
+          <div class="footer-social">
+            <div class="footer-phones">
+              <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
+              <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
+              <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+            </div>
+            <div class="footer-email">
+              <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+            </div>
+            <div class="redessociales">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+          </div>
+          <div class="footer-form">
+              <form action="">
+                <h3>¡Contactanos!</h3>
+                <input type="text" id="name" placeholder="Nombre completo" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+          </div>
+        </div>
+      </div>
+   </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="../static/js/homepage.js"></script>
+<script>
+$(document).ready(function(){
+  $('#menudesplegable').click(function(){
+    $('ul').toggleClass('show');
+  });
+});
+</script>
+<script>
+  $(".about-us-figure1, .about-us-figure2, .about-us-figure3").on("click", function (e) {
+  // 1
+  e.preventDefault();
+  // 2
+  const href = $(this).attr("href");
+  // 3
+  $("html, body").animate({ scrollTop: $(href).offset().top -100}, 1000);
+});
+</script>
+</body>
+</html>
+

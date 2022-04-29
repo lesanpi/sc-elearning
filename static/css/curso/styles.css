@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body{
+}
+
+a{
+    text-decoration: none;
+}
+/*
+    VIDEO PROMOCIONAL
+*/
+video::-webkit-media-controls {
+  display: none;
+}
+/* Could Use thise as well for Individual Controls */
+video::-webkit-media-controls-play-button {}
+
+video::-webkit-media-controls-volume-slider {}
+
+video::-webkit-media-controls-mute-button {}
+
+video::-webkit-media-controls-timeline {}
+
+video::-webkit-media-controls-current-time-display {}
+
+video:focus{
+    outline: none;
+}
+/*
+    Estilos del la pagina
+*/
+.u-wrapper, .u-wrapper_A, .u-wrapper_B {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto!important;
+    max-width: 1200px;
+    padding: 0 .5em;
+    position: relative;
+}
+/*
+    Contenido del curso
+*/
+
+.course-title{
+    padding: 1rem 2rem;
+    margin-top: 10px;
+    font-size: 4em;
+    font-weight: 800;
+}
+.course-description{
+    padding: 1rem 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #5c6b85;
+}
+.StudentsHome {
+    grid-template-columns: 5fr 4fr;
+    padding-bottom: 70px;
+}
+.StudentsHome {
+    grid-gap: 24px;
+    display: grid;
+}
+
+.CentralFeed {
+    grid-gap: 25px;
+    display: grid;
+    padding: 1rem;
+    position: relative;
+    
+}
+
+@media screen and (max-width: 870px){
+    
+    .StudentsHome {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1.7fr 3fr; */
+        padding: 1em 2em;
+        padding-bottom: 1rem;
+        grid-gap: 10px;
+        display: grid;
+    }
+    .InfinityScrollLayout{
+        grid-row: 2;
+        overflow-y: visible;
+    }
+    body{
+        overflow-y: auto;
+    }
+    
+
+}
+
+@media screen and (min-width: 871px){
+    .InfinityScrollLayout{
+        overflow-y: scroll;
+        height: calc(100vh - 0px);
+        padding-right: 20px;
+    }
+}
+
+/*
+    TARJETA DE CLASE
+*/
+
+.base-card {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 3px 10px 4px  rgba(0,0,0, 0.1); 
+    box-shadow: 0px 3px 10px 4px  rgba(0,0,0, 0.1);
+    /* border: 1px solid rgba(0,0,0, 0.2); */
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    transition: all .15s ease;
+    width: 100%;
+}
+.base-card:hover{
+    background-color: rgb(250,250,250);
+    transform: scale(0.92);
+}
+.class-item {
+    padding: 0rem;
+}
+
+.class-item-anchor {
+    text-decoration: none;
+}
+
+
+.class-item-grid {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.class-item-figure {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+}
+
+.class-item-detail{
+    padding: 20px 15px;
+}
+.class-item-detail-title{
+    color: #223354;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.38;
+    font-size: larger;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.class-item-detail-text{
+    color: #5c6b85;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.57;
+    margin: .5rem .5rem;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+/*
+    TARJETA GUIA
+*/
+
+.guide-item-grid {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+}
+.guide-item-figure{
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    height: 80px;
+    width: inherit;
+    overflow: hidden;
+    background-color: #3b93f7;
+}
+.guide-item-detail{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.guide-item-detail-title{
+    color: #223354;
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: larger;
+    text-decoration: none;
+    padding-right: 15px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+/*
+    VIDEO PROMOCIONAL
+*/
+
+.video-button {
+    background-color: #3b93f7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .5rem .5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 2px 10px 4px  rgba(0,0,0, 0.1); 
+    box-shadow: 0px 2px 10px 4px  rgba(0,0,0, 0.1);
+  }
+.video-button:hover {
+    background-color: #223354;
+    transform: scale(0.92);
+}
+
+    
+.Video-promoted video{
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 870px){
+    .Video-promoted{
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width: 870px){
+    .Video-promoted{
+        padding: 1em 5%;
+        margin: 0;
+        border-radius: 20px;
+    }
+}
+
+.Video-promoted-title{
+    color: #223354;
+    font-weight: 700;
+    line-height: 1.38;
+    font-size: xx-large;   
+    padding: 0.2em 0.2em;
+
+}
+.Video-promoted-text{
+    color: #5c6b85;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 1.57;
+    font-size: 18px;
+    margin: .5rem .5rem;
+    margin-bottom: 30px;
+}
+
