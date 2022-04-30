@@ -1,12 +1,14 @@
 body{
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
 }
 .container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;   
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
     
 }
 .main-section{
@@ -18,7 +20,9 @@ body{
     max-width: 1200px;
     padding: 50px 20px;
     margin-bottom: 80px;
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+
 }
 
 .intro-section{
@@ -26,17 +30,19 @@ body{
     flex-direction: column;
     justify-content: left;
     width: 100%;
+    margin-top: 20px;
 }
 .welcome-text{
     text-align: left;
     font-size: 50px;
     margin: 0;
     margin-top: 50px;
+    color: var(--title-color);
 }
 .welcome-slogan{
     margin: 0;
     font-size: 25px;
-    color: #aaa;
+    color: var(--subtitle-color);
     font-weight: 400;
 }
 
@@ -46,6 +52,7 @@ body{
 
 .classes-recommendation-section h1, .guides-recommendation-section h1, .courses-section h1{
     font-weight: 500;
+    color: var(--title-color);
 }
 
 /* Classes section*/
@@ -70,7 +77,7 @@ body{
     display: inline-block;
     height: 100%;
     width: 280px;
-    background-color: #fff;
+    background-color: var(--cards-background-color);
     border-radius: 20px;
     margin-right: 20px;
     vertical-align: middle;
@@ -80,7 +87,7 @@ body{
     transition: all 0.5s;
 }
 .class-item:hover{
-    background-color: #eee;
+    background-color: var(--cards-background-color-hover);
     transform: scale(0.95);
 }
 .class-item .class-content{
@@ -128,6 +135,7 @@ body{
     line-height: 1.25rem;
     max-lines: 2;
     font-weight: 700;
+    color: var(--title-color);
 
 }
 .class-item .class-content .class-info .class-description {
@@ -144,7 +152,7 @@ body{
     white-space: normal;
     overflow: hidden;
     display: block;
-    color: var(--common-text-color);
+    color: var(--subtitle-color);
     font-weight: 400;
 
 
@@ -171,7 +179,7 @@ body{
     grid-gap: 20px;
 }
 .guides-grid .guide-card{
-    background-color: #fff;
+    background-color: var(--cards-background-color);
     border-radius: 12px;
     -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1); 
     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
@@ -181,7 +189,7 @@ body{
     display: flex;
 }
 .guides-grid .guide-card:hover{
-    background-color: #eee;
+    background-color: var(--cards-background-color-hover);
     transform: scale(0.98);
 }
 
@@ -226,6 +234,7 @@ body{
     white-space: normal;
     overflow: hidden;
     display: block;
+    color: var(--title-color);
 
 }
 .guides-grid .guide-card .guide-info p{
@@ -240,7 +249,7 @@ body{
     white-space: normal;
     overflow: hidden;
     display: block;
-    color: var(--common-text-color);
+    color: var(--subtitle-color);
     font-weight: 400;
 
 }

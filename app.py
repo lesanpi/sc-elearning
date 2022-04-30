@@ -1,6 +1,8 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, request
 import json
 import random
+from models.question import Question
+
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
@@ -17,12 +19,8 @@ def getRandomContent(type="lesson", num=12):
                 # print("added")
                 contentFiltered.append(content)
 
-    # print(contentFiltered)
     contentFiltered = list(contentFiltered)
-    # print(contentFiltered[0])
     random.shuffle(contentFiltered)
-    # print(contentFiltered[0])
-    # print(list(contentFiltered))
     
     return contentFiltered[:num]
 
@@ -34,6 +32,13 @@ def getClassById(id):
     
     return None
 
+def getQuizById(id):
+    for course in data["quizes"]:
+        for quiz in course["quizes"]:
+            if quiz["id"] == id:
+                return (quiz, course)
+
+    return None
 
 @app.route('/')
 @app.route('/home')
@@ -48,7 +53,7 @@ def aprende():
     guidesRecommended = getRandomContent(type="guide", num=4)
     return render_template('aprende.html', lessonsRecommended=lessonsRecommended, guidesRecommended=guidesRecommended)
 
-@app.route('/aprende/curso/<course>')
+@app.route('/curso/<course>')
 def course(course=None):
     if (int(course) > 5 or int(course) < 1):
         return render_template('404.html'), 404
@@ -60,7 +65,7 @@ def course(course=None):
 
 
 
-@app.route('/aprende/clase/<class_id>')
+@app.route('/clase/<class_id>')
 def video_class(class_id=None):
     if (class_id is None):
         return render_template('404.html'), 404
@@ -73,6 +78,64 @@ def video_class(class_id=None):
     return render_template('video_player.html', course=course, video_class=video_class)
 
 
+@app.route('/play')
+def play_page():
+    # Home
+    return render_template('play.html', all_quizes = data["quizes"])
+
+
+
+@app.route("/play/<quiz_id>")
+def quiz(quiz_id = None):
+    if quiz_id == None:
+        return render_template('404.html'), 404
+    
+    quiz_course = getQuizById(quiz_id)
+    if quiz_course == None:
+        return render_template('404.html'), 404
+
+    quiz, course = quiz_course
+
+    question_list = [
+            Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"]) 
+            for i, question in enumerate(quiz["questions"], 1)
+            ]
+    
+
+    return render_template("quiz.html", quiz = quiz, questions_list = question_list)
+
+@app.route("/play/<quiz_id>/submit", methods=['POST', 'GET'])
+def submit(quiz_id = None):
+
+    if request.method == 'GET':
+        return render_template('404.html'), 404
+        
+    if quiz_id == None:
+        return render_template('404.html'), 404
+    
+    quiz_course = getQuizById(quiz_id)
+    if quiz_course == None:
+        return render_template('404.html'), 404
+
+    quiz, course = quiz_course
+    question_list = [
+            Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"]) 
+            for i, question in enumerate(quiz["questions"], 1)
+            ]
+    correct_count = 0
+    for question in question_list:
+        question_id = str(question.q_id)
+        selected_option = request.form[question_id]
+        correct_option = question.get_correct_option()
+        if selected_option == correct_option:
+            correct_count = correct_count +1
+
+    correct_count = str(correct_count)
+    return correct_count
+    
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
@@ -80,8 +143,6 @@ def page_not_found(e):
 @app.errorhandler(500)
 def page_not_found(e):
     return render_template('404.html'), 500
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)

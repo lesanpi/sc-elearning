@@ -11,8 +11,16 @@
     --darkBlue: #03184d;
     --almostDarkBlue:#03184de3;
 
+    /* APP COLORS*/
+    /* --primary-app-color: #013268; */
+    --primary-app-color: #121f3d;
+    --second-app-color: #007bff;
+    --cards-background-color: rgba(255,255,255,0.1);
+    --cards-background-color-hover: rgba(255,255,255,0.2);
 
-    --cards-background-color: #fff;
+    --title-color: #fff;
+    --subtitle-color: #ddd;
+
     --footer-color: #03184d;
     --button-color: #0098ff;
     --common-text-color: #aaa;
@@ -45,4 +53,39 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.5);
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.6);
+}
+::-webkit-scrollbar-thumb:active {
+  background: #fff;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0);
+  border: 0px none #ffffff;
+  border-radius: 29px;
+}
+::-webkit-scrollbar-track:hover {
+    background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-track:active {
+    background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }

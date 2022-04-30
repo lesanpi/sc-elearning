@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
-    <link rel="stylesheet" href="/static/css/aprende/styles.css">
+    <link rel="stylesheet" href="/static/css/play/styles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
 
 
-    <title>¡Engrana tus conocimientos! - Asociarte</title>
+    <title>¡Ponte a Prueba! - Asociarte</title>
 </head>
 <body>
   
@@ -66,74 +66,47 @@
   <div class="container">
     <div class="main-section">
       <div class="intro-section">
-        <h1 class="welcome-text">Bienvenido a Asociarte</h1>
-        <p class="welcome-slogan">Donde engranaras tus conocimientos</p>
+        <h1 class="welcome-text">¡Ponte a prueba!</h1>
+        <p class="welcome-slogan">Engrana tus conocimientos haciendo nuestros quizes</p>
       </div>
-      <div class="classes-recommendation-section">
-        <h1>Aprende con alguna de nuestras clases</h1>
-        
-        <div class="classes-list">
-          {%for i in range(0, 8)%}
-            {{ class_card( lessonsRecommended[i]["title"], lessonsRecommended[i]["description"], lessonsRecommended[i]["img_url"], lessonsRecommended[i]["id"]) }}
-          {%endfor%}
-        </div>
-      </div>
-  
-  
-      <div class="guides-recommendation-section">
-        <h1>Lee nuestras guías</h1>
-        <div class="guides-grid">
-          {%for i in range(0, 4)%}
-            {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"], guidesRecommended[i].url) }}
-          {%endfor%}
-        </div>
-      </div>
-  
-      <div class="courses-section">
-        <h1>Nuestros Cursos</h1>
-        <div class="course-cards-container">
+      {% for course_quizes in all_quizes %}
+        <div class="quizes-section">
+          <h1>{{course_quizes["title"]}}</h1>
+          
+          <div class="quizes-grid">
+            {% for quiz in course_quizes["quizes"] %}
+              <a href="/play/{{quiz.id}}">
+                <div class="quiz-card">
+                  <div class="quiz-title">
+                    <div class="quiz-title-container">
+                      <p>Examen de </p>
+                      <h4>{{quiz["title"]}}</h4>
 
-          {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","#128051")}}
-    
-          {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","#129436")}}
-    
-          {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","#128010")}}
-    
-          {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","#129426")}}
-    
-          {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
-    
+                    </div>
+                  </div>
+                  <div class="quiz-info">
+                    <p>{{course_quizes["quizes"]| length}} pregunta/s</p>
+                  </div>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
         </div>
-      </div>
+      {% endfor %}
+
+
     </div>
   </div>
   
     
 
   
-    
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="../static/js/homepage.js"></script>
-<script>
-$(document).ready(function(){
-  $('#menudesplegable').click(function(){
-    $('ul').toggleClass('show');
-  });
-});
-</script>
-<script>
-  $(".about-us-figure1, .about-us-figure2, .about-us-figure3").on("click", function (e) {
-  // 1
-  e.preventDefault();
-  // 2
-  const href = $(this).attr("href");
-  // 3
-  $("html, body").animate({ scrollTop: $(href).offset().top -100}, 1000);
-});
-</script>
+
 </body>
 </html>
 

@@ -4,6 +4,7 @@
     font-family: Roboto;
 }
 body{
+    background-color: var(--primary-app-color);
 }
 
 a{
@@ -47,9 +48,11 @@ video:focus{
 
 .course-title{
     padding: 1rem 2rem;
-    margin-top: 10px;
+    margin-top: 50px;
     font-size: 4em;
     font-weight: 800;
+    color: var(--title-color);
+    margin-top: 80px;
 }
 .course-description{
     padding: 1rem 2rem;
@@ -57,7 +60,7 @@ video:focus{
     margin-bottom: 20px;
     font-size: 1.2em;
     text-align: justify;
-    color: #5c6b85;
+    color: var(--subtitle-color);
 }
 .StudentsHome {
     grid-template-columns: 5fr 4fr;
@@ -110,7 +113,7 @@ video:focus{
 */
 
 .base-card {
-    background: #fff;
+    background: var(--cards-background-color);
     border-radius: 20px;
     -webkit-box-shadow: 0px 3px 10px 4px  rgba(0,0,0, 0.1); 
     box-shadow: 0px 3px 10px 4px  rgba(0,0,0, 0.1);
@@ -123,7 +126,7 @@ video:focus{
     width: 100%;
 }
 .base-card:hover{
-    background-color: rgb(250,250,250);
+    background-color: var(--cards-background-color-hover);
     transform: scale(0.92);
 }
 .class-item {
@@ -156,7 +159,8 @@ video:focus{
     padding: 20px 15px;
 }
 .class-item-detail-title{
-    color: #223354;
+    /* color: #223354; */
+    color: var(--title-color);
     font-weight: 700;
     font-size: 28px;
     line-height: 1.38;
@@ -169,7 +173,9 @@ video:focus{
     -webkit-box-orient: vertical;
 }
 .class-item-detail-text{
-    color: #5c6b85;
+    /* color: #5c6b85; */
+    color: var(--subtitle-color);
+
     font-size: 15px;
     font-weight: 400;
     line-height: 1.57;
@@ -197,7 +203,7 @@ video:focus{
     height: 80px;
     width: inherit;
     overflow: hidden;
-    background-color: #3b93f7;
+    background-color: var(--primary-app-color);
 }
 .guide-item-detail{
     display: flex;
@@ -205,7 +211,9 @@ video:focus{
     align-items: center;
 }
 .guide-item-detail-title{
-    color: #223354;
+    /* color: #223354; */
+    color: var(--title-color);
+
     font-weight: 700;
     line-height: 1.38;
     font-size: larger;
@@ -225,7 +233,7 @@ video:focus{
 */
 
 .video-button {
-    background-color: #3b93f7; /* Green */
+    background-color: var(--second-app-color); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -235,7 +243,7 @@ video:focus{
     font-size: 16px;
     margin: .5rem .5rem;
     border-radius: 20px;
-    font-weight: bold;
+    font-weight: 400;
     text-transform: capitalize;
     cursor: pointer;
 
@@ -243,7 +251,7 @@ video:focus{
     box-shadow: 0px 2px 10px 4px  rgba(0,0,0, 0.1);
   }
 .video-button:hover {
-    background-color: #223354;
+    /* background-color: #223354; */
     transform: scale(0.92);
 }
 
@@ -270,7 +278,8 @@ video:focus{
 }
 
 .Video-promoted-title{
-    color: #223354;
+    /* color: #223354; */
+    color: var(--title-color);
     font-weight: 700;
     line-height: 1.38;
     font-size: xx-large;   
@@ -278,7 +287,9 @@ video:focus{
 
 }
 .Video-promoted-text{
-    color: #5c6b85;
+    /* color: #5c6b85; */
+    color: var(--subtitle-color);
+
     font-size: medium;
     font-weight: 400;
     line-height: 1.57;
@@ -286,4 +297,5 @@ video:focus{
     margin: .5rem .5rem;
     margin-bottom: 30px;
 }
+
 
