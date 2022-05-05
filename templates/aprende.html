@@ -12,9 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/static/css/globals.css">
-    <link rel="stylesheet" href="/static/css/navbar.css">
-    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/aprende/navbar_aprende.css">
+    <link rel="stylesheet" href="/static/css/aprende/footer_aprende.css">
     <link rel="stylesheet" href="/static/css/aprende/styles.css">
+    <link rel="stylesheet" href="/static/css/aprende/course_cards_section.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,29 +34,37 @@
       <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en negro" width="60" height="60">
       <ul class="navigation">
           <li>
-          <a class="active" href="/">Inicio</a>
+          <a href="/aprende">Inicio</a>
           <div></div>
           </li>
           <li>
-          <a href="course/1">1er Año</a>
+          <a href="/aprende/curso/1">1er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="course/2">2do Año</a>
+          <a href="/aprende/curso/2">2do Año</a>
           <div></div>
           </li>
           <li>
-          <a href="course/3">3er Año</a>
+          <a href="/aprende/curso/3">3er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="course/4">4to Año</a>
+          <a href="/aprende/curso/4">4to Año</a>
           <div></div>
           </li>
-          <li class="li5to">
-          <a href="course/5">5to Año</a>
+          <li>
+          <a href="/aprende/curso/5">5to Año</a>
+          <div></div>
+          </li>
+          <li class="last_navbar_button_query">
+          <a href="/">Asociarte</a>
+          <div class="last_navbar_div_query"></div>
           </li>
       </ul>
+
+      <div class="mediaquery_flex"></div>
+
       <label id="menudesplegable">
         <i class="fas fa-bars"></i>
       </label>
@@ -67,7 +76,7 @@
     <div class="main-section">
       <div class="intro-section">
         <h1 class="welcome-text">Bienvenido a Asociarte</h1>
-        <p class="welcome-slogan">Donde engranaras tus conocimientos</p>
+        <p class="welcome-slogan">Donde engranarás tus conocimientos</p>
       </div>
       <div class="classes-recommendation-section">
         <h1>Aprende con alguna de nuestras clases</h1>
@@ -90,18 +99,18 @@
       </div>
   
       <div class="courses-section">
-        <h1>Nuestros Cursos</h1>
+        <h1>Explora nuestros cursos</h1>
         <div class="course-cards-container">
 
-          {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","#128051")}}
+          {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","1TRANSPARENTE.png")}}
     
-          {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","#129436")}}
+          {{ card_curso_macro("2do año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","2","2TRANSPARENTE.png")}}
     
-          {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","#128010")}}
+          {{ card_curso_macro("3er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","3","3TRANSPARENTE.png")}}
     
-          {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","#129426")}}
+          {{ card_curso_macro("4to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","4","4TRANSPARENTE.png")}}
     
-          {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","#129409")}}
+          {{ card_curso_macro("5to año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","5","5TRANSPARENTE.png")}}
     
         </div>
       </div>

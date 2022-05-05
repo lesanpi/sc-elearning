@@ -21,12 +21,14 @@
   font-size: 64px;
   font-weight: 300;
   text-align: right;
+  margin: 0;
 }
 
 .home-intro-text h2 {
     font-size: 58px;
     font-weight: 600;
     text-align: right;
+    margin: 0;
 }
 
 .home-intro-image{

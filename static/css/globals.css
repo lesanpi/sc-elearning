@@ -24,11 +24,11 @@
 
     /* Cards colors*/
     --year-selected-color: #536DFE;
-    --first-year-color: #536DFE;
-    --second-year-color: #FF5353;
-    --third-year-color: #8BC24A;
-    --fourth-year-color: #FEB92D;
-    --fifth-year-color: #438AFE;
+    --first-year-color: #FFAC2F;
+    --second-year-color: #CB4949;
+    --third-year-color: #03989E;
+    --fourth-year-color: #5A8BA6;
+    --fifth-year-color: #8C74BD;
 
     /* Common */
     --border-radius: 20px;
