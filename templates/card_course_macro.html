@@ -1,9 +1,9 @@
-{% macro card_curso_macro(titulo, descripcion, ano, emoji) %}
+{% macro card_curso_macro(titulo, descripcion, ano, icono) %}
 
 <div class="card-element" id="course-{{ano}}">
     <div class="card front-card">
       <div class="contenido">
-        <p>&{{emoji}}</p>
+        <img src="static\imgs\{{icono}}" alt="imagen del curso {{ano}}" width="160" height="160"></img>
         <h3>{{titulo}}</h3>
       </div>
     </div>

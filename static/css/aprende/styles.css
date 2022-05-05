@@ -41,6 +41,7 @@ body{
 }
 .welcome-slogan{
     margin: 0;
+    margin-left: 2px;
     font-size: 25px;
     color: var(--subtitle-color);
     font-weight: 400;
@@ -253,11 +254,7 @@ body{
     font-weight: 400;
 
 }
-@media only screen and (max-width: 48rem){
-    .guides-grid {
-        grid-template-columns: repeat(1,1fr);
-    }
-}
+
 
 
 /* Course Section */
@@ -265,3 +262,17 @@ body{
 
 }
 
+
+/*Media Queries*/
+
+@media only screen and (max-width: 48rem){
+    .guides-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-section{
+        margin-top: 20px;
+    }
+}
