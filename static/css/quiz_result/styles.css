@@ -1,0 +1,102 @@
+body{
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.quizTitle{
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 50px;
+}
+.result{
+    display: flex;
+    gap: 5rem;
+}
+.result-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message-title{
+    color: var(--title-color);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.message-text{
+    color: var(--title-color);
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.result-grade{
+    background-color: rgba(255,255,255,0.1);
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.result-grade-number{
+    margin: 0;
+    color: var(--second-app-color);
+}
+.result-grade-text{
+    margin: 0;
+    color: var(--title-color);
+    font-weight: 300;
+
+}
+.answers-container{
+    width: 600px;
+}
+.question-result{
+    border-bottom: 1px solid #24385b;
+}
+.question{
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.answer{
+    background-color: var(--title-color);
+    width: 100%;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: var(--second-app-color); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .5rem .5rem;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.back-button:hover {
+    /* background-color: #223354; */
+    transform: scale(0.92);
+}

@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/static/css/quiz/styles.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
 </head>
 <body>
+    <div class="container">
+        <h1 class="quizTitle">🧪 {{quiz.title}}</h1>
+        <form action="/play/{{quiz.id}}/submit", method="post">
     
-    <h1>{{quiz.title}}</h1>
-
-        <form action="/quiz/{{quiz.id}}/submit", method="post">
-
             {% for question in questions_list %}
-                <h4>
-                    {{question.question}}<br>
-                    <input type="radio" name="{{question.q_id}}" value="{{question.option1}}" required> {{question.option1}}
-                    <input type="radio" name="{{question.q_id}}" value="{{question.option2}}" required> {{question.option2}}
-                    <input type="radio" name="{{question.q_id}}" value="{{question.option3}}" required> {{question.option3}}
-                    <input type="radio" name="{{question.q_id}}" value="{{question.option4}}"> {{question.option4}}
-                </h4>
+                <h4 class="question">{{question.q_id}}. {{question.question}}</h4>
+                <br>
+                <div class="questionOptions">
+                    <div class="option">
+                        <input type="radio" name="{{question.q_id}}" id="{{question.q_id}}-{{question.option1}}" value="{{question.option1}}" class="answer" required>
+                        <label for="{{question.q_id}}-{{question.option1}}"> {{question.option1}}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="{{question.q_id}}" id="{{question.q_id}}-{{question.option2}}" value="{{question.option2}}" class="answer" required>
+                        <label for="{{question.q_id}}-{{question.option2}}"> {{question.option2}}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="{{question.q_id}}" id="{{question.q_id}}-{{question.option3}}" value="{{question.option3}}" class="answer" required>
+                        <label for="{{question.q_id}}-{{question.option3}}"> {{question.option3}}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="{{question.q_id}}" id="{{question.q_id}}-{{question.option4}}" value="{{question.option4}}" class="answer" required>
+                        <label for="{{question.q_id}}-{{question.option4}}"> {{question.option4}}</label>
+                    </div>
+                </div>
+                
             {% endfor %}
             
             
         
             <br><br>
-            <input type="submit" name="submitform" value="Submit">
+            <input type="submit" name="submitform" value="🔥 ENVIAR 🔥" class="submitQuizButton">
         </form>
+
+    </div>
+
 
 
 </body>

@@ -219,7 +219,7 @@ video:focus{
     margin: .5rem .5rem;
 }
 .video-button {
-    background-color: #3b93f7; /* Green */
+    background-color: var(--second-app-color); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -229,6 +229,7 @@ video:focus{
     font-size: 16px;
     margin: .5rem .5rem;
     border-radius: 6px;
+    font-weight: 600;
     
   }
 }

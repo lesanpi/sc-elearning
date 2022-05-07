@@ -125,15 +125,18 @@ def submit(quiz_id = None):
             for i, question in enumerate(quiz["questions"], 1)
             ]
     correct_count = 0
+    answers_selected = []
     for question in question_list:
         question_id = str(question.q_id)
         selected_option = request.form[question_id]
+        answers_selected.append(selected_option)
         correct_option = question.get_correct_option()
         if selected_option == correct_option:
             correct_count = correct_count +1
 
     correct_count = str(correct_count)
-    return correct_count
+    return render_template("quiz_result.html", quiz = quiz, questions_list = question_list, course = course, answers_selected = answers_selected, correct_count=correct_count)
+
     
 
 @app.errorhandler(404)

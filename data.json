@@ -545,7 +545,7 @@
 		{
 			"id": "1eranio",
 			"title": "1er Año",
-			"description": "Ecuaciones de segundo grado",
+			"description": "Ecuaciones de segundo grado, mas vainas...",
 			"quizes": [
 				{
 					"title": "Escalares, vectores y matrices",
@@ -692,6 +692,70 @@
 							"option_3": "2",
 							"option_4": "Pez",
 							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
 						}
 					]
 				},
@@ -705,6 +769,140 @@
 							"option_2": "3",
 							"option_3": "2",
 							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-02",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Integrales",
+					"id": "5toanio-10",
+					"questions": [
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez",
+							"correct_option": 4
+						},
+						{
+							"question": "Cuanto es 2 + 2?",
+							"option_1": "4",
+							"option_2": "3",
+							"option_3": "2",
+							"option_4": "Pez askdjala aksjdml aksndlj nlasn dlaksdn laksnd quwndo kqmdo mqlasmdl akmsdlka sd",
 							"correct_option": 4
 						}
 					]

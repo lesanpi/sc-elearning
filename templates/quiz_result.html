@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/static/css/quiz_result/styles.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="quizTitle">🧪 {{quiz.title}}</h1>
+
+        <div class="result">
+            <div class="result-message">
+                {% if correct_count == questions_list|length|string%}
+                    <h1 class="message-title">🔥 Aprobaste el quiz</h1>
+                    <p class="message-text">🎊 ¡Felicitaciones, lo has logrado! 🎊</p>
+                {% else %}
+                    <h1 class="message-title">🚴 ¡Continua aprendiendo! 🚴</h1>
+                    <p class="message-text">Aun te falta un poco para poder lograrlo 👌</p>
+                {% endif %}
+            </div>
+            <div class="result-grade">
+                <h1 class="result-grade-number">{{correct_count}}/{{questions_list|length|string}}</h1>
+                <h4 class="result-grade-text">Calificacion</h4>
+            </div>
+        </div>
+        <div class="answers-container">
+            {% for i in range(questions_list|length) %}
+                <div class="question-result">
+                    <h4 class="question">{{questions_list[i].q_id}}. {{questions_list[i].question}}</h4>
+                    <br>
+                    <div class="answer" style="">
+                        {% if answers_selected[i] == questions_list[i].get_correct_option() %} ✅
+                        {% else %} ❌
+                        {% endif %}
+                        {{answers_selected[i]}}
+                    </div>
+                </div>
+    
+                    
+            {% endfor %}
+        </div>
+        <a href="/curso/{{course.id.0}}"><button class="back-button">VOLVER</button></a>
+
+    </div>
+
+
+
+</body>
+</html>
