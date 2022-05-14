@@ -46,7 +46,7 @@
   
   .course-cards-container .card-element .card.front-card{
     position: relative;
-    background: var(--home-intro-background);
+    background: var(--front-card-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +156,6 @@
 
   .course-cards-container .card-element .card.back-card{
     position: relative;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,6 +172,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transform: translateY(0);
+    background: #fff;
   }
   
   .course-cards-container .card-element .card.back-card .contenido p{
@@ -189,8 +189,9 @@
     font-weight: 900;
     color: #333;
     padding: 5px;
-    border: 1px solid #333;
+    border: 2px solid #333;
     font-size: 1.2rem;
+    border-radius: 7px;
   }
   
   .course-cards-container .card-element .card.back-card .contenido a:hover{

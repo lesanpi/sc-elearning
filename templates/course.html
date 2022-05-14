@@ -8,35 +8,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/curso/styles.css">
-    <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/curso/navbar_curso.css">
+    <link rel="stylesheet" href="/static/css/curso/footer_curso.css">
+
     <title>{{course["title"]}} - Asociarte</title>
 </head>
 <body>
   
+  <section>
+
     <header>
-      <img src="{{ url_for('static', filename = 'imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte" width="40" height="40">
+      <img src="{{ url_for('static', filename='imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte en blanco" width="60" height="60">
       <ul class="navigation">
           <li>
-          <a href="/">Inicio</a>
+          <a href="/aprende">Inicio</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">1er Año</a>
+          <a href="/curso/1">1er Año</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">2do Año</a>
+          <a href="/curso/2">2do Año</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">3er Año</a>
+          <a href="/curso/3">3er Año</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">4to Año</a>
+          <a href="/curso/4">4to Año</a>
+          <div></div>
           </li>
           <li>
-          <a class="active" href="#">5to Año</a>
+          <a href="/curso/5">5to Año</a>
+          <div></div>
+          </li>
+          <li class="last_navbar_button_query">
+          <a href="/">Asociarte</a>
+          <div class="last_navbar_div_query"></div>
           </li>
       </ul>
+
+      <div class="mediaquery_flex"></div>
+
+      <label id="menudesplegable">
+        <i class="fas fa-bars"></i>
+      </label>
     </header>
+  </section>
   
 
     
@@ -84,6 +107,41 @@
 
     </div>
   </div>
+
+
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+
+        <div class="footer-social">
+          <div class="footer-phones">
+            <p class="footer-title">Teléfonos</p>
+            <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
+            <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
+            <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+          </div>
+          <div class="footer-email">
+            <p class="footer-title">Correo electrónico</p>
+            <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+          </div>
+          <div class="redessociales">
+            <p class="footer-title">Nuestras redes sociales</p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <div class="googleplay">
+            <p class="footer-title">Nuestra aplicación</p>
+            <a href='https://play.google.com/store/apps/details?id=com.lesanpi.e_learning_sc&hl=es_VE&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
+            <img alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png' width="215.3" height="83.3" />
+            </a>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+ </footer>
 
 </body>
 

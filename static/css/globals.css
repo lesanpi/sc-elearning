@@ -21,7 +21,7 @@
     --title-color: #fff;
     --subtitle-color: #ddd;
 
-    --footer-color: #03184d;
+    --footer-color: #121b30;
     --button-color: #0098ff;
     --common-text-color: #aaa;
     /*Sections colors*/
@@ -31,6 +31,7 @@
     --vision-background: #fefefe;
 
     /* Cards colors*/
+    --front-card-color: #121b30;
     --year-selected-color: #536DFE;
     --first-year-color: #FFAC2F;
     --second-year-color: #CB4949;
@@ -49,6 +50,7 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    background: var(--primary-app-color);
 }
 a{
     text-decoration: none;
@@ -65,7 +67,7 @@ a{
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 0px none #ffffff;
   border-radius: 50px;
 }
@@ -81,11 +83,11 @@ a{
   border-radius: 29px;
 }
 ::-webkit-scrollbar-track:hover {
-    background: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
 }
 ::-webkit-scrollbar-track:active {
-    background: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
 }
 ::-webkit-scrollbar-corner {
-  background: transparent;
+background: transparent;
 }
