@@ -1,8 +1,8 @@
 {% macro guide_card(title, subtitle, img_link, url) %}
 <a href="{{url}}">
   <div class="guide-card">
-    <div class="guide-img">
-      <img src={{img_link}} alt="">
+    <div class="guide-img" style="background-image: url({{img_link}});">
+      <!-- <img src={{img_link}} alt=""> -->
     </div>
     <div class="guide-info">
       <h3>{{title}}</h3>
