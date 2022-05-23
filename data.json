@@ -11,10 +11,10 @@
 				{
 					"title": "Números Naturales",
 					"description": "En esta guía se explica el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_1_N%C3%BAmerosNaturales.pdf?alt=media&token=8311afdf-7b51-440d-9e8d-6aa3c6f20ed1",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"url": "",
+					"img_url": "",
 					"type": "guide",
-					"id": "1er-guide-1"
+					"id": "1er-guide-1-1"
 				},
 				{
 					"title": "Suma, resta y símbolos de agrupación",
@@ -22,15 +22,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_2_SumaRestaS%C3%ADmbolosAgrupaci%C3%B3n.pdf?alt=media&token=69019e01-4900-4721-984b-52eed862643e",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
-					"id": "1er-guide-2"
-				},
-				{
-					"title": "Números Enteros",
-					"description": "En esta guía se explica el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_1_N%C3%BAmerosNaturales.pdf?alt=media&token=8311afdf-7b51-440d-9e8d-6aa3c6f20ed1",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
-					"type": "guide",
-					"id": "1er-guide-3"
+					"id": "1er-guide-1-2"
 				},
 				{
 					"title": "Operaciones con Números Enteros",
@@ -38,7 +30,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_4.OperacionesN%C3%BAmerosEnteros.pdf?alt=media&token=9135696d-c689-49c4-b74e-d91d323f241a",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
-					"id": "1er-guide-4"
+					"id": "1er-guide-1-4"
 				},
 				{
 					"title": "Múltiplos y divisores",
@@ -46,7 +38,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.1_M%C3%BAltiplos%20y%20divisores.pdf?alt=media&token=055dbad3-43b3-4855-96ba-958acfcce7dc",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
-					"id": "1er-guide-5"
+					"id": "1er-guide-1-5-1"
 				},
 				{
 					"title": "Números primos y compuestos",
@@ -54,7 +46,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.2_N%C3%BAmeros%20primos%20y%20compuestos.pdf?alt=media&token=45a32b05-744a-4c5e-ad41-04698a3de7f0",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
-					"id": "1er-guide-6"
+					"id": "1er-guide-1-5-2"
 				},
 				{
 					"title": "Descomposición en factores primos",
@@ -62,25 +54,15 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.3_Descomposici%C3%B3n%20en%20n%C3%BAmeros%20primos.pdf?alt=media&token=6fcc967c-963f-4c39-99b7-f2afff571ca8",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
-					"id": "1er-guide-7"
+					"id": "1er-guide-1-5-3"
 				},
 				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
+					"title": "Potenciación de Números Enteros",
+					"description": "Con esta guía vas a conocer la útil herramienta de descomponer un número en sus factores primos, y mediante ejemplos, aprenderás el método para lograrlo.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1_5.3_Descomposici%C3%B3n%20en%20n%C3%BAmeros%20primos.pdf?alt=media&token=6fcc967c-963f-4c39-99b7-f2afff571ca8",
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
-					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
-					"id": "1er-lesson-1"
-				},
-				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/fc-garces.mp4?alt=media&token=010573fc-1175-4a8a-85cb-0d459395f6fa",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
-					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
-					"id": "1er-lesson-2"
+					"type": "guide",
+					"id": "1er-guide-1-7"
 				},
 				{
 					"title": "Ecuaciones: Axioma Fundamental",
@@ -88,7 +70,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.1_%20Ecuaciones_AxiomaFundamental.pdf?alt=media&token=a3145b8b-e87a-49d0-aa41-087c84c9149d",
 					"img_url": "",
 					"type": "guide",
-					"id": "1er-guide-8"
+					"id": "1er-guide-2-1-1"
 				},
 				{
 					"title": "Ecuaciones: Despejes y resolución de ecuaciones",
@@ -96,7 +78,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.2_%20Ecuaciones_DespejesResoluci%C3%B3nDeEcuaciones.pdf?alt=media&token=8b9e1d37-586a-4d13-8d3f-d2245f56894d",
 					"img_url": "",
 					"type": "guide",
-					"id": "1er-guide-9"
+					"id": "1er-guide-2-1-2"
 				},
 				{
 					"title": "Ecuaciones: Ejercicio y problemas",
@@ -104,15 +86,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_1.3_%20Ecuaciones_EjerciciosYProblemas.pdf?alt=media&token=03123303-d44f-4741-861f-e68f093e42c8",
 					"img_url": "",
 					"type": "guide",
-					"id": "1er-guide-10"
-				},
-				{
-					"title": "Números racionales",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "guide",
-					"id": "1er-guide-11"
+					"id": "1er-guide-2-1-3"
 				},
 				{
 					"title": "Operaciones con números racionales",
@@ -120,23 +94,131 @@
 					"url": "",
 					"img_url": "",
 					"type": "guide",
-					"id": "1er-guide-12"
+					"id": "1er-guide-2-3"
+				},
+				{
+					"title": "Transformaciones de racionales 1",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-2-4-1"
+				},
+				{
+					"title": "Transformaciones de racionales 2",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "guide",
+					"id": "1er-guide-2-4-2"
+				},
+				{
+					"title": "Números Naturales",
+					"description": "En este video estudiamos el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "ByT--U-1PRM",
+					"id": "1er-lesson-1-1"
+				},
+				{
+					"title": "Suma, resta y símbolos de agrupación",
+					"description": "En este video daremos un pequeño repaso por los conceptos de adición y sustracción, y recordaremos igualmente sus propiedades más importantes. Además, estudiaremos los símbolos de agrupación y cómo usarlos correctamente.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "fD6PJMbFH4Q",
+					"id": "1er-lesson-1-2"
+				},
+				{
+					"title": "Operaciones con Números Enteros 1: Suma y Resta",
+					"description": "En esta primera parte de la serie de operaciones con números enteros, se estudia la suma y resta. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "dgRnAe83pTM",
+					"id": "1er-lesson-1-4-1"
+				},
+				{
+					"title": "Operaciones con Números Enteros 2: Multiplicación",
+					"description": "En esta segunda parte de la serie de operaciones con números enteros, se estudia la multiplicación. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "kfFebf0DAqQ",
+					"id": "1er-lesson-1-4-2"
+				},
+				{
+					"title": "Operaciones con Números Enteros 3: División",
+					"description": "En última parte de la serie de operaciones con números enteros, se estudia la división. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "75a7E7Jz5Uc",
+					"id": "1er-lesson-1-4-3"
+				},
+				{
+					"title": "Potenciación de Números Enteros",
+					"description": "En este video se explican las propiedades aplicadas a la potenciación de números enteros, que se deben tomar en cuenta para poder realizar ejercicios con esta operación. Además, se realizan ejemplos para entender el procedimiento a seguir.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "yqKE6mm1H30",
+					"id": "1er-lesson-1-7"
+				},
+				{
+					"title": "Ecuaciones 1",
+					"description": "En esta lección estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "AncQDsGfeRA",
+					"id": "1er-lesson-2-1-1"
+				},
+				{
+					"title": "Ecuaciones 2",
+					"description": "Ahora estudiaremos los métodos para resolver ecuaciones y en qué consiste despejar la incógnita en una ecuación.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "GXMdB0JB0uc",
+					"id": "1er-lesson-2-1-2"
+				},
+				{
+					"title": "Ecuaciones 3",
+					"description": "Es hora de practicar. En esta lección vas a encontrar suficientes ejercicios para que refuerces todo lo que aprendiste acerca de las ecuaciones y cómo resolverlas.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "8YBzdDymScA",
+					"id": "1er-lesson-2-1-3"
+				},
+				{
+					"title": "Operaciones con Números Racionales",
+					"description": "En este video se desarrolla el tema de operaciones con números racionales. Para esto, se estableció el procedimiento a seguir para realizar sumas, restas, multiplicación, división y potenciación con fracciones. Además, se realiza un ejercicio que contiene todas las operaciones explicadas.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "xpmusowMFX4",
+					"id": "1er-lesson-2-3"
 				},
 				{
 					"title": "Transformaciones de racionales",
-					"description": "",
+					"description": "En esta lección estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos",
 					"url": "",
 					"img_url": "",
-					"type": "guide",
-					"id": "1er-guide-13"
+					"type": "lesson",
+					"video_id": "Dd2jWOpW-fU",
+					"id": "1er-lesson-2-4-1"
 				},
 				{
-					"title": "Notación científica",
-					"description": "",
+					"title": "Transformación de Racionales 2",
+					"description": "En esta lección estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos",
 					"url": "",
 					"img_url": "",
-					"type": "guide",
-					"id": "1er-guide-14"
+					"type": "lesson",
+					"video_id": "ee-ttvAxtv0",
+					"id": "1er-lesson-2-4-2"
 				}
 			]
 		},
@@ -187,30 +269,31 @@
 					"id": "2do-guide-5"
 				},
 				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2FA3_1.1_N%C3%BAmerosRacionales.pdf?alt=media&token=a4c1e752-9bf6-482c-8cd4-b9a6c91302ad",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
-					"type": "guide",
+					"title": "Números Enteros 1",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "AyM-KQ1PQSo",
 					"id": "2do-lesson-1"
 				},
 				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
+					"title": "Números Enteros 2",
+					"description": "",
+					"url": "",
+					"img_url": "",
 					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
-					"id": "2do-lesson-1"
-				},
-				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/fc-garces.mp4?alt=media&token=010573fc-1175-4a8a-85cb-0d459395f6fa",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
-					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
+					"video_id": "kmZW42w1Bl8",
 					"id": "2do-lesson-2"
+				},
+				{
+					"title": "Números Enteros 1 - Ejercicios",
+					"description": "",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "0WGguHiPdMU",
+					"id": "2do-lesson-3"
 				}
 			]
 		},
@@ -229,93 +312,12 @@
 					"id": "3er-guide-1-1"
 				},
 				{
-					"title": "Números Racionales 1",
-					"description": "Vamos a estudiar sobre los numeros racionales, que son, para que sirven. Primera parte de 3",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "CwSqge5rPKA",
-					"id": "3er-lesson-1"
-				},
-				{
-					"title": "Números Racionales 1 - Ejercicios",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "fQmy-6QA3dU",
-					"id": "3er-lesson-2"
-				},
-				{
-					"title": "Números Racionales 2",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "S9k2cULwN3Y",
-					"id": "3er-lesson-3"
-				},
-				{
-					"title": "Números Racionales 2 - Ejercicios",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "B4WzRr0Ysb4",
-					"id": "3er-lesson-4"
-				},
-				{
-					"title": "Números Racionales 3",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "-Zx3YDq6ChA",
-					"id": "3er-lesson-5"
-				},
-				{
-					"title": "Números Racionales 3 - Ejercicios",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "k3TjGTw8djI",
-					"id": "3er-lesson-6"
-				},
-				{
 					"title": "Números Irracionales",
 					"description": "En esta guía se desarrolla el tema de números racionales, partiendo de una breve historia y definición de este conjunto. Luego, se mencionan algunos números irracionales significativos, como π y el número de euler. También, se realizan ejercicios con los diferentes tipos de aproximaciones que existen para estas cifras.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.2_N%C3%BAmerosIrracionales.pdf?alt=media&token=64e9a0b3-4f95-4e73-a163-5fc1a59ddc9f",
 					"img_url": "",
 					"type": "guide",
 					"id": "3er-guide-1-2"
-				},
-				{
-					"title": "Números Irracionales 1",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "b55lpAZDWyw",
-					"id": "3er-lesson-7"
-				},
-				{
-					"title": "Números Irracionales 2",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "ebe4grQ7ZO4",
-					"id": "3er-lesson-8"
-				},
-				{
-					"title": "Números Irracionales 3",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "3NbfE-lWslg",
-					"id": "3er-lesson-9"
 				},
 				{
 					"title": "Raíz Cuadrada",
@@ -380,6 +382,87 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "3er-guide-2-6"
+				},
+				{
+					"title": "Números Racionales 1",
+					"description": "En este vídeo estudiamos la primera parte del tema de números racionales. Para explicar la aplicación de este conjunto de números en operaciones matemáticas, se repasan algunos conceptos como mínimo común múltiplo, producto en cruz y doble c.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "CwSqge5rPKA",
+					"id": "3er-lesson-1-1-1"
+				},
+				{
+					"title": "Números Racionales 1 - Ejercicios",
+					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan ejercicios propuestos de cálculo de razón o relaciones, fracciones y expresiones decimales, periodicidad y anteperíodo, los cuales fueron extraídos de la guía de tercer año.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "fQmy-6QA3dU",
+					"id": "3er-lesson-1-1-1-1"
+				},
+				{
+					"title": "Números Racionales 2",
+					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan operaciones matemáticas de suma y resta, y se repasan algunos conceptos como mínimo común múltiplo.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "S9k2cULwN3Y",
+					"id": "3er-lesson-1-1-2"
+				},
+				{
+					"title": "Números Racionales 2 - Ejercicios",
+					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan tres ejercicios propuestos de suma y resta con números racionales extraídos de la guía de tercer año.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "B4WzRr0Ysb4",
+					"id": "3er-lesson-1-1-2-1"
+				},
+				{
+					"title": "Números Racionales 3",
+					"description": "En este vídeo estudiamos la tercera parte del tema de números racionales, y los temas a tratar son multiplicación y división de números racionales y potenciación en Q, y para explicar estos tópicos se realizan ejercicios sencillos y otros ejemplos con operaciones combinadas.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "-Zx3YDq6ChA",
+					"id": "3er-lesson-1-1-3"
+				},
+				{
+					"title": "Números Racionales 3 - Ejercicios",
+					"description": "En este vídeo culminamos con el tema de números racionales. En esta ocasión, se realizan cuatro ejercicios propuestos de multiplicación, división y potenciación con números racionales, extraídos de la guía de tercer año.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "k3TjGTw8djI",
+					"id": "3er-lesson-1-1-3-1"
+				},
+				{
+					"title": "Números Irracionales 1",
+					"description": "En este vídeo se introduce el tema de números irracionales. En esta ocasión, se realizan se habla un poco de la historia de estos números y su definición.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "b55lpAZDWyw",
+					"id": "3er-lesson-1-2-1"
+				},
+				{
+					"title": "Números Irracionales 2",
+					"description": "En este video continuamos con el tema de números irracionales, realizando algunos ejercicios sobre los diferentes tipos de aproximación que se aplican a estos números: por defecto, por exceso y por redondeo.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "ebe4grQ7ZO4",
+					"id": "3er-lesson-1-2-2"
+				},
+				{
+					"title": "Números Irracionales 3",
+					"description": "En este video continuamos con el tema de números irracionales. En esta ocasión, se realizan ejercicios propuestos sobre la identificación de los números irracionales y su aproximación, los cuales fueron extraídos de la guía de tercer año.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "3NbfE-lWslg",
+					"id": "3er-lesson-1-2-3"
 				}
 			]
 		},
@@ -398,30 +481,12 @@
 					"id": "4to-guide-1-1"
 				},
 				{
-					"title": "Potenciación",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "PxulinsiOlU",
-					"id": "4to-lesson-1-1"
-				},
-				{
 					"title": "Logaritmos",
 					"description": "En esta lección se va a aprender los fundamentos de los logaritmos, sus propiedades y ejemplos para entender como resolver esta importante operación",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_2.1_Logaritmos.pdf?alt=media&token=7ddf6f83-5cb8-4f5d-8659-86510169f818",
 					"img_url": "",
 					"type": "guide",
 					"id": "4to-guide-1-2"
-				},
-				{
-					"title": "Logaritmos",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "hW-q2MkzbZU",
-					"id": "4to-lesson-1-2"
 				},
 				{
 					"title": "Logaritmo decimal",
@@ -432,46 +497,12 @@
 					"id": "4to-guide-1-22"
 				},
 				{
-					"title": "Logaritmo decimal",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "t8h8auUbHk8",
-					"id": "4to-lesson-1-22"
-				},
-				{
 					"title": "Función exponencial",
 					"description": "En esta lección se estudia la importante función exponencial, su comportamiento y ejemplos importantísimos para su análisis.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_3_Exponencial.pdf?alt=media&token=5ee8d56e-2e9b-4331-b801-4ea08ebad78c",
 					"img_url": "",
 					"type": "guide",
 					"id": "4to-guide-1-3"
-				},
-				{
-					"title": "Función exponencial",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
-					"id": "4to-lesson-1-3"
-				},
-				{
-					"title": "Función Logarítmica",
-					"description": "En esta lección estudiamos las características básicas de la función logarítmica, algunos de sus usos en el mundo real y mediante ejercicios entenderemos su gráfica.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_4_Funci%C3%B3nLogar%C3%ADtmica.pdf?alt=media&token=c0e28e3d-713f-4efd-803c-5e2f15291aaa",
-					"img_url": "",
-					"type": "guide",
-					"id": "4to-guide-1-4"
-				},
-				{
-					"title": "El número de Euler y sus aplicaciones",
-					"description": "En esta lección aprenderemos uno de los números más importantes en la historia de las matemáticas: el número de Euler e.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_5_ElN%C3%BAmeroDeEulerYSusAplicaciones.pdf?alt=media&token=681a0af2-44d3-4908-a4ee-a1c760b369a5",
-					"img_url": "",
-					"type": "guide",
-					"id": "4to-guide-1-5"
 				},
 				{
 					"title": "Ecuaciones exponenciales",
@@ -504,6 +535,112 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "4to-guide-2-1"
+				},
+				{
+					"title": "Función Logarítmica",
+					"description": "En esta lección estudiamos las características básicas de la función logarítmica, algunos de sus usos en el mundo real y mediante ejercicios entenderemos su gráfica.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_4_Funci%C3%B3nLogar%C3%ADtmica.pdf?alt=media&token=c0e28e3d-713f-4efd-803c-5e2f15291aaa",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-4"
+				},
+				{
+					"title": "El número de Euler y sus aplicaciones",
+					"description": "En esta lección aprenderemos uno de los números más importantes en la historia de las matemáticas: el número de Euler e.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_5_ElN%C3%BAmeroDeEulerYSusAplicaciones.pdf?alt=media&token=681a0af2-44d3-4908-a4ee-a1c760b369a5",
+					"img_url": "",
+					"type": "guide",
+					"id": "4to-guide-1-5"
+				},
+				{
+					"title": "Potenciación",
+					"description": "En esta lección aprenderemos a utilizar la herramienta matemática de la potenciación y entenderemos con ejercicios la forma correcta de resolver potencias.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "PxulinsiOlU",
+					"id": "4to-lesson-1-1"
+				},
+				{
+					"title": "Logaritmos",
+					"description": "En esta lección se va a aprender los fundamentos de los logaritmos, sus propiedades y ejemplos para entender como resolver esta importante operación.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "hW-q2MkzbZU",
+					"id": "4to-lesson-1-2-1"
+				},
+				{
+					"title": "Logaritmo decimal",
+					"description": "En esta lección se va a aprender el uso de un tipo importante de logaritmo: logaritmo decimal o en base 10.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "t8h8auUbHk8",
+					"id": "4to-lesson-1-2-2"
+				},
+				{
+					"title": "Función exponencial",
+					"description": "En esta lección se estudia la importante función exponencial, su comportamiento y ejemplos importantísimos para su análisis.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "fo9WJ_Uiu88",
+					"id": "4to-lesson-1-3"
+				},
+				{
+					"title": "Función Logarítmica",
+					"description": "En esta lección estudiamos las características básicas de la función logarítmica, su comportamiento y mediante ejercicios entenderemos su gráfica.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "UbY6fhdWc3c",
+					"id": "4to-lesson-1-4"
+				},
+				{
+					"title": "Número de Euler",
+					"description": "En esta lección aprenderemos uno de los números más importantes en la historia de las matemáticas: el número de Euler e.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "cbGEYlFGGwY",
+					"id": "4to-lesson-1-5"
+				},
+				{
+					"title": "Ecuaciones Exponenciales",
+					"description": "En esta lección mediante ejemplos entenderemos los métodos que existen para resolver las ecuaciones exponenciales.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "miaBTi3m0BY",
+					"id": "4to-lesson-1-6"
+				},
+				{
+					"title": "Ecuaciones Logarítmicas",
+					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones exponenciales.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "yC_RmNQoMwA",
+					"id": "4to-lesson-1-7"
+				},
+				{
+					"title": "Sistemas de Ecuaciones",
+					"description": "En esta lección aplicamos los conocimientos aprendidos en las guías de ecuaciones exponenciales y logarítmicas resolviendo sistemas de ecuaciones de este tipo.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "_Xvjoz61WCw",
+					"id": "4to-lesson-1-8"
+				},
+				{
+					"title": "Circulo Trigonométrico",
+					"description": "En esta lección comenzaremos a entender los principios de la trigonometría: el círculo trigonométrico y sus cuadrantes, la forma de medir ángulos y cómo pasar de grados a radianes y viceversa.",
+					"url": "",
+					"img_url": "",
+					"type": "lesson",
+					"video_id": "QD1J-f069UY",
+					"id": "4to-lesson-2-1"
 				}
 			]
 		},
@@ -528,15 +665,6 @@
 					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2Fimg1.png?alt=media&token=b1445c76-d8ff-4b8e-86ae-bce9d42666a3",
 					"type": "guide",
 					"id": "5to-guide-1-2"
-				},
-				{
-					"title": "Vectores, escalares y matrices",
-					"description": "Aprenderas sobre vectores, escalares y matrices",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/videos%2Fclase-1.mp4?alt=media&token=bb06bc54-8514-4126-aec5-329708e0f213",
-					"img_url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/imagenes%2FA4%20-%20Ecuaciones%20Exponenciales.png?alt=media&token=76626ea2-c66d-44a0-862e-a9950f39baa8",
-					"type": "lesson",
-					"video_id": "fo9WJ_Uiu88",
-					"id": "5to-lesson-1"
 				}
 			]
 		}
@@ -557,7 +685,8 @@
 							"option_2": "3",
 							"option_3": "2",
 							"option_4": "Pez",
-							"correct_option": 4
+							"correct_option": 4,
+							"img": "https://cumbrepuebloscop20.org/wp-content/uploads/2018/08/tiger-500118_640-1.jpg.webp"
 						}
 					]
 				}
@@ -578,7 +707,8 @@
 							"option_2": "3",
 							"option_3": "2",
 							"option_4": "Pez",
-							"correct_option": 4
+							"correct_option": 4,
+							"img": "https://cumbrepuebloscop20.org/wp-content/uploads/2018/08/tiger-500118_640-1.jpg.webp"
 						}
 					]
 				}

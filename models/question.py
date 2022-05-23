@@ -6,7 +6,7 @@ class Question:
     option3 = ""
     correctOption = -1
 
-    def __init__(self, q_id, question, option1, option2, option3, option4, correctOption):
+    def __init__(self, q_id, question, option1, option2, option3, option4, correctOption, img):
         self.q_id = q_id
         self.question = question
         self.option1 = option1
@@ -14,6 +14,7 @@ class Question:
         self.option3 = option3
         self.option4 = option4
         self.correctOption = correctOption
+        self.img = img
 
     def get_correct_option(self):
         if self.correctOption == 1:

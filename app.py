@@ -96,12 +96,16 @@ def quiz(quiz_id = None):
 
     quiz, course = quiz_course
 
-    question_list = [
-            Question(i, question["question"], question["option_1"], question["option_2"], 
-                question["option_3"], question["option_4"], question["correct_option"]) 
-            for i, question in enumerate(quiz["questions"], 1)
-            ]
-    
+    question_list = []
+    for i, question in enumerate(quiz["questions"], 1):
+        try:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"], question["img"]) 
+            # print(question["img"]);
+        except:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"], "") 
+        question_list.append(newQuestion)
 
     return render_template("quiz.html", quiz = quiz, questions_list = question_list)
 
