@@ -55,6 +55,10 @@
     border-radius: 20px;
   }
 
+  .course-cards-container .card-element .card.front-card a{
+    height: fit-content;
+    width: fit-content;
+  }
 /* .course-cards-container .card-element{
   pointer-events: auto;
 } */

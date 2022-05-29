@@ -63,7 +63,12 @@
           </li>
       </ul>
 
-      <div class="mediaquery_flex"></div>
+      <ul class="navigationbutton">
+        <li>
+        <a href="/play" class="nav_button_play">¡Ponte a prueba!</a>
+        <div></div>
+        </li>
+    </ul>
 
       <label id="menudesplegable">
         <i class="fas fa-bars"></i>
@@ -164,16 +169,7 @@ $(document).ready(function(){
   });
 });
 </script>
-<script>
-  $(".about-us-figure1, .about-us-figure2, .about-us-figure3").on("click", function (e) {
-  // 1
-  e.preventDefault();
-  // 2
-  const href = $(this).attr("href");
-  // 3
-  $("html, body").animate({ scrollTop: $(href).offset().top -100}, 1000);
-});
-</script>
+
 </body>
 </html>
 

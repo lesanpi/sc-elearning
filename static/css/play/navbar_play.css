@@ -78,7 +78,7 @@
     width: 100%;
   }
 
-  .nav_button_play{
+  .nav_button_aprende{
     padding: 12px 30px;
     border: solid 1px;
     border-radius: 5px;
@@ -87,7 +87,7 @@
     transition: all 0.5s;
   }
 
-  .nav_button_play:hover{
+  .nav_button_aprende:hover{
     background-color: transparent;
     color: var(--button-color);
     transition: all 0.4s;
@@ -119,14 +119,14 @@
 @media (min-width: 900px) and (max-width: 1160px) {
   header ul li a{
     font-size: 1em;
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
   header{
-    padding: 10px 1%;
+    padding: 10px 2%;
   }
 
-  .nav_button_play{
+  .nav_button_aprende{
     padding: 10px 15px;
   }
 }
@@ -153,7 +153,7 @@
 
   header ul li a{
     margin: 0;
-    font-size: 1em;
+    font-size: 1.05em;
   }
 
   header ul.navigationbutton{
@@ -161,7 +161,7 @@
     margin-right: 10px;
   }
 
-  .nav_button_play{
+  .nav_button_aprende{
     padding: 7px 10px;
   }
 
@@ -184,7 +184,7 @@
   }
 
   header ul.navigation li a{
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 0px;
   }
 
@@ -218,7 +218,7 @@
   header img {
     position: relative;
     display: block; 
-    margin-left: 100px;
+    margin-left: 45px;
     margin-right: 0px;
     order: 2;
   }

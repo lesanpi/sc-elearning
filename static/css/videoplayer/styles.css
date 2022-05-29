@@ -1,15 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
 
 }
 
-.u-wrapper, .u-wrapper_A, .u-wrapper_B {
+.u-wrapper_video, .u-wrapper_A, .u-wrapper_B {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 auto!important;
+    margin: 80px auto 0px auto !important;
     max-width: 1200px;
     padding: 0 2rem;
     position: relative;
@@ -26,6 +25,10 @@
 }
 @media screen and (max-width: 870px){
     
+    .u-wrapper_video, .u-wrapper_A, .u-wrapper_B {
+        margin: 110px auto 0px auto !important;
+    }
+
     .VideoPlayer_Main {
         display: grid;
         grid-template-columns: 100%;
