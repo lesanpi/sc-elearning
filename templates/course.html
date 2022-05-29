@@ -19,36 +19,36 @@
 <body>
   
   <section>
-
+    
     <header>
       <img src="{{ url_for('static', filename='imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte en blanco" width="60" height="60">
       <ul class="navigation">
           <li>
-          <a href="/aprende">Inicio</a>
+          <a href="/aprende">🏠 Inicio</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/1">1er Año</a>
+          <a href="/curso/1">🐟 1er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/2">2do Año</a>
+          <a href="/curso/2">🧩 2do Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/3">3er Año</a>
+          <a href="/curso/3">🎶 3er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/4">4to Año</a>
+          <a href="/curso/4">🤠 4to Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/5">5to Año</a>
+          <a href="/curso/5">🎓 5to Año</a>
           <div></div>
           </li>
           <li class="last_navbar_button_query">
-          <a href="/">Asociarte</a>
+          <a href="/">🏛️ Asociarte</a>
           <div class="last_navbar_div_query"></div>
           </li>
       </ul>
@@ -62,14 +62,19 @@
   </section>
   
 
-    
+  <!-- <img class="course-img" src="/static/imgs/{{course_num}}TRANSPARENTE.png" alt="{{course_num}}-año"> -->
+  
 
 
 
 
 
   <div class="u-wrapper">
-    <h1 class="course-title">{{course["title"]}}</h1>    
+    <br>
+    <div class="course-img">
+      <img src="/static/imgs/{{course_num}}TRANSPARENTE.png" alt="{{course_num}}-año">
+    </div>
+    <h1 class="course-title">🏛️ {{course["title"]}}</h1>    
     <p class="course-description">{{course.description}}</p>
     <div class="StudentsHome">
 
@@ -100,7 +105,7 @@
             autoplay
         >
         </iframe>
-        <h1 class="Video-promoted-title">{{lessonRecommended.title}}</h1>
+        <h1 class="Video-promoted-title">🔥 {{lessonRecommended.title}}</h1>
         <p class="Video-promoted-text">{{lessonRecommended.description}}</p>
         <a href="/clase/{{lessonRecommended.id}}"><button class="video-button">VER VIDEO</button></a>
       </div>

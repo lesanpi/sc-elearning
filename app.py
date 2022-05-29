@@ -53,15 +53,15 @@ def aprende():
     guidesRecommended = getRandomContent(type="guide", num=4)
     return render_template('aprende.html', lessonsRecommended=lessonsRecommended, guidesRecommended=guidesRecommended)
 
-@app.route('/curso/<course>')
-def course(course=None):
-    if (int(course) > 5 or int(course) < 1):
+@app.route('/curso/<course_num>')
+def course(course_num=None):
+    if (int(course_num) > 5 or int(course_num) < 1):
         return render_template('404.html'), 404
     
     lessonRecommended = getRandomContent(num=1)[0]
 
-    course = data["courses"][int(course) - 1]
-    return render_template('course.html', course=course, lessonRecommended=lessonRecommended)
+    course = data["courses"][int(course_num) - 1]
+    return render_template('course.html', course_num=course_num, course=course, lessonRecommended=lessonRecommended)
 
 
 
