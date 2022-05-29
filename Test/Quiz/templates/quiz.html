@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang= "es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devide-device", initial-scale=1.0>
+        <title>Aplicacion de Quiz</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="containerTitle">
+                    <h2>Selección Simple</h2>
+                </div>
+                <form action="/submitquiz", method="post">
+                        {% for question in questions_list %}
+                        <h5>
+                            {{question.question}} <br>
+                            <input type="radio" name="{{question.q_id}}" value="{{question.option1}}"> {{question.option1}}
+                            <input type="radio" name="{{question.q_id}}" value="{{question.option2}}"> {{question.option2}}
+                            <input type="radio" name="{{question.q_id}}" value="{{question.option3}}"> {{question.option3}}
+                            <input type="radio" name="{{question.q_id}}" value="{{question.option4}}"> {{question.option4}}
+                        </h5>
+                        {% endfor %}
+
+                    <br></br>
+                    <div class="buttonCtn">
+                        <input type="submit" name="submitform" value="Enviar Prueba" class="btn">
+                    </div>
+                </form>
+
+            </div>
+
+            
+        </div>
+    </body>
+</html>

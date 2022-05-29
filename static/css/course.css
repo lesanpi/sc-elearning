@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto;
 }
 body{
 }
@@ -17,10 +17,12 @@ video:focus{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 auto!important;
+    margin: 54px auto 0px auto;
     max-width: 1200px;
-    padding: 0 .5em;
+    padding: 10px .5em 0px .5em;
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .StudentsHome {
@@ -53,7 +55,7 @@ video:focus{
 }
 .Course-title{
     padding: 1rem 2rem;
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 3em;
 }
 @media screen and (max-width: 870px){
@@ -74,7 +76,7 @@ video:focus{
 .CentralFeed {
     grid-gap: 12px;
     display: grid;
-    padding: 1rem 0;
+    padding: 1rem;
     position: relative;
 }
 
@@ -89,8 +91,9 @@ video:focus{
 .BaseCard {
     background: #fff;
     border-radius: .5rem;
-    -webkit-box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
-    box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.2);
+
     -webkit-transition: all .15s ease;
     -moz-transition: all .15s ease;
     -o-transition: all .15s ease;
@@ -125,13 +128,17 @@ video:focus{
 .BlogPost-top {
     grid-gap: 24px;
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 4fr 4fr;
 }
 .PaperPost-top {
     grid-gap: 24px;
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 4fr 5fr;
 }
+
+@media only screen and (min-width: 48em)
+{
+    
 
 
 .BlogPost-figure {
@@ -141,8 +148,8 @@ video:focus{
     -moz-background-size: cover;
     background-size: cover;
     border-radius: 5px;
-    height: 120px;
-    width: 120px;
+    height: inherit;
+    width: inherit;
     overflow: hidden;
 }
 
@@ -212,7 +219,7 @@ video:focus{
     margin: .5rem .5rem;
 }
 .video-button {
-    background-color: #3b93f7; /* Green */
+    background-color: var(--second-app-color); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -222,5 +229,7 @@ video:focus{
     font-size: 16px;
     margin: .5rem .5rem;
     border-radius: 6px;
+    font-weight: 600;
     
   }
+}

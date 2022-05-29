@@ -1,150 +1,204 @@
-{% from "macros.html" import card with context %}
+{% from "card_course_macro.html" import card_curso_macro with context %}
+{% from "navbar_macro.html" import footer_col3 with context %}
+{% from "navbar_macro.html" import footer_col4 with context %}
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
-    <title></title>
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/homeIntro.css">
+    <link rel="stylesheet" href="/static/css/aboutUs.css">
+    <link rel="stylesheet" href="/static/css/mision.css">
+    <link rel="stylesheet" href="/static/css/vision.css">
+    <link rel="stylesheet" href="/static/css/course_cards_section.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
+
+
+    <title>Asociarte</title>
 </head>
 <body>
+  
   <section>
-    <header>
-      <a href="#" class="logo">Logo</a>
-      <ul class="navigation">
+    
+    <header class="barradenavegacion">
+      <img src="/static/imgs/LogoAsociarteBlanco.png" alt="Logo de Asociarte" width="60" height="60">
+      <ul class="navigation"> 
           <li>
-          <a class="active" href="#">Inicio</a>
+          <a href="#about-us-id" class="nav_button_1">¿Quiénes somos?</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">1er Año</a>
+          <a href="#mision-id" class="nav_button_2">Misión</a>
+          <div></div>
           </li>
           <li>
-          <a href="#">2do Año</a>
+          <a href="#vision-id" class="nav_button_3">Visión</a>
+          <div></div>
           </li>
-          <li>
-          <a href="#">3er Año</a>
-          </li>
-          <li>
-          <a href="#">4to Año</a>
-          </li>
-          <li>
-          <a href="course/5">5to Año</a>
+          <li class="last_navbar_button_query">
+          <a href="#footer" class="nav_button_4">Contáctanos</a>
+          <div class="last_navbar_div_query"></div>
           </li>
       </ul>
+
+      <ul class="navigationbutton">
+        <li>
+        <a href="aprende" class="nav_button_aprende">Aprende</a>
+        <div></div>
+        </li>
+    </ul>
+
+      <label id="menudesplegable">
+        <i class="fas fa-bars"></i>
+      </label>
     </header>
+
   </section>
    
-    <div class="container-fluid" style="">
-        <div class="row">
-            <div class="col-12 py-5 mt-5 px-5">
-                <div class="row gy-2" style="">
-                    
-                    <div class="col-12 px-5" style="height: 60%;">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="height: 100%;">
-                            <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner" style="height: 100%;">
-                            <div class="carousel-item active" style="height: 100%;">
-                                <div class="card text-white bg-primary mb-3" style="width: 100%; height: 100%;">
-                                    <div class="card-header">Header</div>
-                                    <div class="card-body">
-                                      <h5 class="card-title">Primary card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" style="height: 100%;">
-                                <div class="card text-white bg-primary mb-3" style="width: 100%; height: 100%;">
-                                    <div class="card-header">Header</div>
-                                    <div class="card-body">
-                                      <h5 class="card-title">Primary card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" style="height: 100%;">
-                                <div class="card text-white bg-primary mb-3" style="width: 100%; height: 100%;">
-                                    <div class="card-header">Header</div>
-                                    <div class="card-body">
-                                      <h5 class="card-title">Primary card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
 
-                    </div>
-                    
-                    
-                </div>
-
-                
-            </div>
+    <div class="home-intro-section">
+      
+      <div class="home-intro-text">
+        <h1>Aprende con nosotros</h1>
+        <h2>Aprende con</h2>
+        <div class="tituloasociarte">
+          <h2>Asociarte</h2>
         </div>
+      </div>
 
-        <div class="row mx-auto px-5t">
-            <div class="col-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Primary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Primary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Primary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Primary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h5 class="card-title">Primary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
+      <div class="home-intro-image">
+        <img src="static\imgs\LogoAsociarteBlanco.png" alt="asociarte">      
+      </div>
+
     </div>
+
+
+    <div class="about-us-section" id="about-us-id">
+
+      <div class="about-us-text">
+        <h1>¿Quiénes somos?</h1>
+        <h2>Somos una Asociación Civil sin fines de lucro enfocada hacia la promoción, difusión, al quehacer artístico y cultural. Domiciliada en Caracas y registrada ante el Registro Subalterno del Primer Circuito del Municipio Sucre del Estado Miranda bajo el No. 31, Tomo: 28 con fecha 08 de Noviembre de 1994.</h2>
+      </div>
+
+      <div class="about-us-figures">
+        <a href="#mision-id" class="about-us-figure1">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Misión</span>
+        </a>
+
+        <a href="#vision-id" class="about-us-figure2">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Visión</span>
+        </a>
+
+        <a href="#cartas" class="about-us-figure3">
+          <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
+          <span>Cursos</span>
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="mision-section" id="mision-id">
+
+      <div class="mision-text">
+        <h1>Misión</h1>
+        <h2> Nuestra misión es dirigir, organizar, desarrollar, fomentar procesos de inserción social, prevención, deportivos, culturales, educativos y recreativos, con atención a todo individuo sin distingo de edad, raza, condición social, político ni religiosa. Proporcionar programas sociales alternativos que permitirán mejorar la calidad de vida de los ciudadanos.</h2>
+      </div>
+
+    </div>
+
+
+    <div class="vision-section" id="vision-id">
+
+      <div class="vision-text">
+        <h1>Visión</h1>
+        <h2>Somos una alianza líder, ágil, flexible y democrática con roles y funciones claras, capaz de crecer diariamente. Comprometidos con el desarrollo humano integral de los ciudadanos generadores de sus propios procesos; desarrollar en ellos valores de cooperación, solidaridad, responsabilidad, honestidad, justicia y sentido de pertenencia, para que se constituyan en promotores de cambio social y generen una cultura asociativa que impulse procesos colectivos solidarios, con habilidad para proponer soluciones novedosas a los problemas de su entorno.</h2>
+      </div>
+
+    </div>
+
+
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="footer-row">
+
+          <div class="footer-social">
+            <div class="footer-phones">
+              <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
+              <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
+              <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+            </div>
+            <div class="footer-email">
+              <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+            </div>
+            <div class="redessociales">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+          </div>
+          <div class="footer-form">
+            <form action="">
+              <h3>¡Contáctanos!</h3>
+              <input type="text" id="name" placeholder="Nombre completo" required>
+              <input type="email" id="email" placeholder="Email" required>
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+        </div>
+        </div>
+      </div>
+   </footer>
+
+  
+    
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="../static/js/homepage.js"></script>
+<script>
+$(document).ready(function(){
+  $('#menudesplegable').click(function(){
+    $('ul').toggleClass('show');
+  });
+});
+</script>
+<script>
+  if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {  }
+  else{
+  $(".about-us-figure1, .about-us-figure2, .about-us-figure3, .nav_button_1, .nav_button_2, .nav_button_3, .nav_button_4").on("click", function (e) {
+  // 1
+  e.preventDefault();
+  // 2
+  const href = $(this).attr("href");
+  // 3
+  $("html, body").animate({ scrollTop: $(href).offset().top -80}, 1000);
+})};
+</script>
+<script>
+  $(window).scroll(function() {  
+    if ($(window).scrollTop() >= 50) {
+      $('.barradenavegacion').css({'background': 'var(--navbar-color)', 'transition': 'background 0.4s'});
+    } else {
+      $('.barradenavegacion').css({'background': 'transparent', 'transition': 'background 0.4s'});
+    }
+  });
+
+</script>
 </body>
 </html>
 

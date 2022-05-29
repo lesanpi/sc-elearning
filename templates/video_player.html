@@ -1,43 +1,106 @@
-{% from "course_macros.html" import class_card with context %}
+{% from "course_macros.html" import course_content with context %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/video_player.css">
-    <link rel="stylesheet/less" type="text/css" href="/static/css/video_player.less" />
 
-    <title>{{class_num}}. {{class_title}}</title>
+    <link rel="stylesheet" href="/static/css/globals.css">
+    <link rel="stylesheet" href="/static/css/videoplayer/styles.css">
+    <link rel="stylesheet" href="/static/css/curso/styles.css">
+    <link rel="stylesheet" href="/static/css/videoplayer/navbar_videoplayer.css">
+    <link rel="stylesheet" href="/static/css/videoplayer/footer_videoplayer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
+
+    <title>{{video_class.title}} - Asociarte</title>
 </head>
 <body>
-    <div class="u-wrapper">
+
+    <section>
+    
+        <header>
+          <img src="{{ url_for('static', filename='imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte en blanco" width="60" height="60">
+          <ul class="navigation">
+              <li>
+              <a href="/aprende">Inicio</a>
+              <div></div>
+              </li>
+              <li>
+              <a href="/curso/1">1er Año</a>
+              <div></div>
+              </li>
+              <li>
+              <a href="/curso/2">2do Año</a>
+              <div></div>
+              </li>
+              <li>
+              <a href="/curso/3">3er Año</a>
+              <div></div>
+              </li>
+              <li>
+              <a href="/curso/4">4to Año</a>
+              <div></div>
+              </li>
+              <li>
+              <a href="/curso/5">5to Año</a>
+              <div></div>
+              </li>
+              <li class="last_navbar_button_query">
+              <a href="/">Asociarte</a>
+              <div class="last_navbar_div_query"></div>
+              </li>
+          </ul>
+    
+          <ul class="navigationbutton">
+            <li>
+            <a href="/play" class="nav_button_play">¡Ponte a prueba!</a>
+            <div></div>
+            </li>
+        </ul>
+    
+          <label id="menudesplegable">
+            <i class="fas fa-bars"></i>
+          </label>
+        </header>
+    </section>
+
+
+    <div class="u-wrapper_video">
 
         <div class="VideoPlayer_Main">
 
             <div class="video-content">
                 <div class="video"> 
                     <iframe
-                        src="https://www.youtube.com/embed/6c79IBiss1o" 
+                        src="https://www.youtube.com/embed/{{video_class.video_id}}" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
-                <h1 class="class_title">{{class_title}}</h1>
+                <h1 class="class_title">{{video_class.title}}</h1>
                 <hr>
                 <p class="class_description" style="text-overflow: clip;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ad blanditiis facere ipsa neque, dolores ratione nam praesentium qui voluptatem? Odit animi cupiditate provident eveniet nesciunt assumenda a exercitationem repellendus!
+                    {{video_class.description}}
                 </p>
             </div>
             <div class="ClassList">
                 <h1 class="ClassList_Title">Lista de clases</h1>
                 <div class="InfinityScrollLayout" style="top: 0px;">
                     <div class="CentralFeed">            
-                        {% for class in classes_list %}
-                          {{ class_card(class.title, 
-                              class.subtitle,
-                              class.img_link
+                        {% for content in course.content %}
+                          {{ course_content(content.title, 
+                                content.description,
+                                content.id,
+                                content.img_url,
+                                content.type == "guide",
+                                content.url
                               ) 
                           }}
                         {% endfor %}
@@ -50,8 +113,51 @@
     </div>
 
 
-<script src="/static/js/video_player.js"></script>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+    
+            <div class="footer-social">
+              <div class="footer-phones">
+                <p class="footer-title">Teléfonos</p>
+                <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
+                <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
+                <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+              </div>
+              <div class="footer-email">
+                <p class="footer-title">Correo electrónico</p>
+                <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+              </div>
+              <div class="redessociales">
+                <p class="footer-title">Nuestras redes sociales</p>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="googleplay">
+                <p class="footer-title">Nuestra aplicación</p>
+                <a href='https://play.google.com/store/apps/details?id=com.lesanpi.e_learning_sc&hl=es_VE&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
+                <img alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png' width="215.3" height="83.3" />
+                </a>
+              </div>
+    
+            </div>
+            
+          </div>
+        </div>
+     </footer>
 
+<!-- <script src="/static/js/video_player.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script>
+ $(document).ready(function(){
+   $('#menudesplegable').click(function(){
+     $('ul').toggleClass('show');
+   });
+ });
+ </script>
+ 
 </body>
 
 </html>

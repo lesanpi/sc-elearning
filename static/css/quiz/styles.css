@@ -1,0 +1,119 @@
+body{
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.quizTitle{
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 50px;
+}
+.question{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    color: var(--title-color);
+    font-weight: 400;
+    /* width: 300px; */
+    margin-top: 10px;
+}
+.questionOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option{
+    color: var(--dark-grey-colo);
+    background: var(--title-color);
+    border-color: var(--title-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.option, .option label,.option input {
+    cursor: pointer;
+}
+.submitQuizButton{
+    background-color: var(--second-app-color);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: var(--primary-app-color);
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--second-app-color);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}

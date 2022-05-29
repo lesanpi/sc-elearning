@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.u-wrapper_video, .u-wrapper_A, .u-wrapper_B {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 80px auto 0px auto !important;
+    max-width: 1200px;
+    padding: 0 2rem;
+    position: relative;
+}
+.VideoPlayer_Main {
+    display: grid;
+    grid-template-columns: 5fr 4.5fr;
+    grid-gap: 24px;
+    padding: 2rem 0;
+}
+.video-content{
+    
+    height: auto;
+}
+@media screen and (max-width: 870px){
+    
+    .u-wrapper_video, .u-wrapper_A, .u-wrapper_B {
+        margin: 110px auto 0px auto !important;
+    }
+
+    .VideoPlayer_Main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: auto;
+        padding: 1em 0em;
+        padding-bottom: 1rem;
+        grid-gap: 1.25rem;
+        
+    }
+    .InfinityScrollLayout{
+        grid-row: 2;
+        overflow-y: visible;
+    }
+    body{
+        overflow-y: auto;
+    }
+    .ClassList_Title{
+        margin-bottom: 10px;
+        color: var(--title-color);
+
+    }
+}
+.video{
+    height: 25em;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video iframe {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+.video hr{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0px;
+}
+.class_title{
+    margin: .5rem 0;
+    color: var(--title-color);
+
+}
+.ClassList_Title{
+
+    color: var(--title-color);
+}
+@media screen and (max-width: 870px){
+    .ClassList_Title{
+        margin-bottom: 0px;
+        font-size: x-large;
+        color: var(--title-color);
+    }
+    .class_title{
+        margin: .8rem 0;
+        color: var(--title-color);
+    }
+    
+}
+
+.class_description{
+    font-size: 1.2rem;
+    color: var(--subtitle-color);
+    /* color: #5c6b85; */
+    text-align: justify;
+    padding-top: .7rem;
+    padding-right: 1rem;
+}
+
+/*Classes List.*/
+.ClassList{
+    
+}
+.ClassList_Title{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.CentralFeed {
+    grid-gap: 12px;
+    display: grid;
+    padding: 1rem 0;
+    position: relative;
+}

@@ -1,0 +1,96 @@
+:root{
+
+    /* COLORS */
+    --primary-color: #fff;
+    --navbar-color: rgba(29, 26, 26);
+    --secondary-color: #000000;
+    --dark-pink: #e91e63;
+    --blue-king: #536DFE;
+    --dark-grey-color: #333;
+    --yellow: #dacd1b;
+    --darkBlue: #03184d;
+    --almostDarkBlue:#03184de3;
+
+    /* APP COLORS*/
+    /* --primary-app-color: #013268; */
+    --primary-app-color: #121f3d;
+    --second-app-color: #007bff;
+    --cards-background-color: rgba(255,255,255,0.1);
+    --cards-background-color-hover: rgba(255,255,255,0.2);
+
+    --title-color: #fff;
+    --subtitle-color: #ddd;
+
+    --footer-color: #121b30;
+    --button-color: #0098ff;
+    
+    /*--button-color: #03cae4;*/
+
+    --common-text-color: #aaa;
+    /*Sections colors*/
+    --home-intro-background: #03184d;
+    --About-us-background: #fefefe;
+    --mision-background: #3f4747;
+    --vision-background: #fefefe;
+
+    /* Cards colors*/
+    --front-card-color: #121b30;
+    --year-selected-color: #536DFE;
+    --first-year-color: #FFAC2F;
+    --second-year-color: #CB4949;
+    --third-year-color: #03989E;
+    --fourth-year-color: #5A8BA6;
+    --fifth-year-color: #8C74BD;
+
+    /* Common */
+    --border-radius: 20px;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: var(--primary-app-color);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.6);
+}
+::-webkit-scrollbar-thumb:active {
+  background: #fff;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0);
+  border: 0px none #ffffff;
+  border-radius: 29px;
+}
+::-webkit-scrollbar-track:hover {
+  background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-track:active {
+  background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-corner {
+background: transparent;
+}

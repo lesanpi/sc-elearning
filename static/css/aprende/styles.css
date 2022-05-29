@@ -1,0 +1,277 @@
+body{
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+    
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 20px;
+    /* background-color: #eee; */
+    background-color: var(--primary-app-color);
+
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.welcome-text{
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+    color: var(--title-color);
+}
+.welcome-slogan{
+    margin: 0;
+    margin-left: 2px;
+    font-size: 25px;
+    color: var(--subtitle-color);
+    font-weight: 400;
+}
+
+.classes-recommendation-section, .guides-recommendation-section, .courses-section {
+    width: 100%;
+}
+
+.classes-recommendation-section h1, .guides-recommendation-section h1, .courses-section h1{
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+/* Classes section*/
+.classes-recommendation-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.classes-recommendation-section .classes-list{
+    height: 270px;
+    padding: 10px;
+    width: 100%;
+    /* background-color: gray; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+.class-item{
+    display: inline-block;
+    height: 100%;
+    width: 280px;
+    background-color: var(--cards-background-color);
+    border-radius: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.class-item:hover{
+    background-color: var(--cards-background-color-hover);
+    transform: scale(0.95);
+}
+.class-item .class-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.class-item .class-content .class-img{
+    background-color: rgba(0,0,0,0.2);
+    height: 55%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.class-item .class-content .class-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.class-item .class-content .class-info{
+    height: 45%;
+    width: 100%;
+    inline-size: 100%;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-overflow: ellipsis;
+    padding: 10px 15px;
+    overflow-wrap: break-word;
+
+}
+.class-item .class-content .class-info .class-title{
+    white-space: normal;      /* Webkit */    
+    word-wrap: break-word;      /* IE */ 
+    margin-bottom: 0.25rem;
+}
+.class-item .class-content .class-info .class-title h3{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.25rem;
+    max-lines: 2;
+    font-weight: 700;
+    color: var(--title-color);
+
+}
+.class-item .class-content .class-info .class-description {
+    margin: 0;
+    font-size: .93rem;
+    line-height: 1.1rem;
+    max-height: 2.2rem;
+
+    box-sizing: content-box;
+    max-lines: 2;
+    width: 260px;
+    height: calc(100% - 20px);
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    display: block;
+    color: var(--subtitle-color);
+    font-weight: 400;
+
+
+    
+}
+
+.class-item .class-content .class-info .class-description p{
+    margin: 0;
+    font-size: .93rem;
+    line-height: 1.1rem;
+    max-height: 2.2rem;
+
+}
+
+
+/* Guides section*/
+.guides-recommendation-section{
+    margin-bottom: 40px;
+}
+.guides-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.guides-grid .guide-card{
+    background-color: var(--cards-background-color);
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+    height: 168px;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+}
+.guides-grid .guide-card:hover{
+    background-color: var(--cards-background-color-hover);
+    transform: scale(0.98);
+}
+
+.guides-grid .guide-card .guide-img{
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+.guides-grid .guide-card .guide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+.guides-grid .guide-card .guide-info{
+    width: 55%;
+    height: 100%;
+    padding: 1.75rem 1rem;
+    margin: 0;
+    white-space: normal;      /* Webkit */    
+    word-wrap: break-word;
+}
+
+.guides-grid .guide-card .guide-info h3{
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+
+    box-sizing: content-box;
+    max-lines: 2;
+    width: 100%;
+    height: 100%;
+    max-height: 3rem;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    display: block;
+    color: var(--title-color);
+
+}
+.guides-grid .guide-card .guide-info p{
+    margin: 0;
+    font-size: .975rem;
+
+    box-sizing: content-box;
+    max-lines: 2;
+    width: 100%;
+    height: 3.9rem;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    display: block;
+    color: var(--subtitle-color);
+    font-weight: 400;
+
+}
+
+
+
+/* Course Section */
+.courses-section{
+
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 48rem){
+    .guides-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-section{
+        margin-top: 20px;
+    }
+}

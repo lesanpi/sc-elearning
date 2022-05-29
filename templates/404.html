@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Página no encontrada</title>
+
+      <link rel="stylesheet" href="/static/css/error404.css">
+
+      <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
+
+   </head>
+   <body>
+      <div id="error-page">
+         <div class="content">
+            <h2 class="header">
+               404
+            </h2>
+            <h4>
+               Página no encontrada
+            </h4>
+            <p>
+               Lo sentimos, la página que estás buscando no existe o se ha eliminado.
+            </p>
+            <div class="btns">
+               <a href="{{ url_for('home') }}">Regresar a la página principal</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

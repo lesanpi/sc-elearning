@@ -1,0 +1,12 @@
+@keyframes desplazarspan {
+    from {
+      margin-left: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
