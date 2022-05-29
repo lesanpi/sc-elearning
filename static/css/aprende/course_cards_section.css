@@ -1,5 +1,8 @@
 /* Cards */
-
+.card-tap {
+  text-decoration: none;
+  margin: 0;
+}
 .course-section{
     padding-top: 60px;
     padding-bottom: 60px;

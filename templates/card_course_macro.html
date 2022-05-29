@@ -1,13 +1,14 @@
 {% macro card_curso_macro(titulo, descripcion, ano, icono) %}
 
 <div class="card-element" id="course-{{ano}}">
-    <div class="card front-card">
-      <a class="cardlink" href="#"></a>
-      <div class="contenido">
-        <img src="static\imgs\{{icono}}" alt="imagen del curso {{ano}}" width="160" height="160"></img>
-        <h3>{{titulo}}</h3>
+    <a class="card-tap" href="/curso/{{ano}}">
+      <div class="card front-card">
+        <div class="contenido">
+          <img src="static\imgs\{{icono}}" alt="imagen del curso {{ano}}" width="160" height="160"></img>
+          <h3>{{titulo}}</h3>
+        </div>
       </div>
-    </div>
+    </a>
     <div class="card back-card">
       <div class="contenido">
         <p>{{descripcion}}</p>

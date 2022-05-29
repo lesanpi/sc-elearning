@@ -53,15 +53,15 @@ def aprende():
     guidesRecommended = getRandomContent(type="guide", num=4)
     return render_template('aprende.html', lessonsRecommended=lessonsRecommended, guidesRecommended=guidesRecommended)
 
-@app.route('/curso/<course>')
-def course(course=None):
-    if (int(course) > 5 or int(course) < 1):
+@app.route('/curso/<course_num>')
+def course(course_num=None):
+    if (int(course_num) > 5 or int(course_num) < 1):
         return render_template('404.html'), 404
     
     lessonRecommended = getRandomContent(num=1)[0]
 
-    course = data["courses"][int(course) - 1]
-    return render_template('course.html', course=course, lessonRecommended=lessonRecommended)
+    course = data["courses"][int(course_num) - 1]
+    return render_template('course.html', course_num=course_num, course=course, lessonRecommended=lessonRecommended)
 
 
 
@@ -96,12 +96,16 @@ def quiz(quiz_id = None):
 
     quiz, course = quiz_course
 
-    question_list = [
-            Question(i, question["question"], question["option_1"], question["option_2"], 
-                question["option_3"], question["option_4"], question["correct_option"]) 
-            for i, question in enumerate(quiz["questions"], 1)
-            ]
-    
+    question_list = []
+    for i, question in enumerate(quiz["questions"], 1):
+        try:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"], question["img"]) 
+            # print(question["img"]);
+        except:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"], "") 
+        question_list.append(newQuestion)
 
     return render_template("quiz.html", quiz = quiz, questions_list = question_list)
 

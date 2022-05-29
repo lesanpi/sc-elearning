@@ -31,34 +31,34 @@
   <section>
     
     <header>
-      <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en blanco" width="60" height="60">
+      <img src="{{ url_for('static', filename='imgs/LogoAsociarteBlanco.png') }}" alt="Logo de Asociarte en blanco" width="60" height="60">
       <ul class="navigation">
           <li>
-          <a href="/aprende">Inicio</a>
+          <a href="/aprende">🏠 Inicio</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/1">1er Año</a>
+          <a href="/curso/1">🐟 1er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/2">2do Año</a>
+          <a href="/curso/2">🧩 2do Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/3">3er Año</a>
+          <a href="/curso/3">🎶 3er Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/4">4to Año</a>
+          <a href="/curso/4">🤠 4to Año</a>
           <div></div>
           </li>
           <li>
-          <a href="/curso/5">5to Año</a>
+          <a href="/curso/5">🎓 5to Año</a>
           <div></div>
           </li>
           <li class="last_navbar_button_query">
-          <a href="/">Asociarte</a>
+          <a href="/">🏛️ Asociarte</a>
           <div class="last_navbar_div_query"></div>
           </li>
       </ul>
@@ -80,11 +80,11 @@
   <div class="container">
     <div class="main-section">
       <div class="intro-section">
-        <h1 class="welcome-text">Bienvenido a Asociarte</h1>
+        <h1 class="welcome-text">🏛️ Bienvenido a Asociarte</h1>
         <p class="welcome-slogan">Donde engranarás tus conocimientos</p>
       </div>
       <div class="classes-recommendation-section">
-        <h1>Aprende con alguna de nuestras clases</h1>
+        <h1>Aprende con alguna de nuestras clases 📺</h1>
         
         <div class="classes-list">
           {%for i in range(0, 8)%}
@@ -95,7 +95,7 @@
   
   
       <div class="guides-recommendation-section">
-        <h1>Lee nuestras guías</h1>
+        <h1>Lee nuestras guías 📖</h1>
         <div class="guides-grid">
           {%for i in range(0, 4)%}
             {{ guide_card( guidesRecommended[i]["title"], guidesRecommended[i]["description"], guidesRecommended[i]["img_url"], guidesRecommended[i].url) }}
@@ -104,7 +104,7 @@
       </div>
   
       <div class="courses-section">
-        <h1>Explora nuestros cursos</h1>
+        <h1>Explora nuestros cursos 🏫</h1>
         <div class="course-cards-container">
 
           {{ card_curso_macro("1er año","Este es un párrafo de prueba solo estoy llenando este espacio a ver qué sale","1","1TRANSPARENTE.png")}}

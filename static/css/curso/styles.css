@@ -52,7 +52,7 @@ video:focus{
     font-size: 4em;
     font-weight: 800;
     color: var(--title-color);
-    margin-top: 80px;
+    margin-top: 0px;
 }
 .course-description{
     padding: 1rem 2rem;
@@ -203,7 +203,7 @@ video:focus{
     height: 80px;
     width: inherit;
     overflow: hidden;
-    background-color: var(--primary-app-color);
+    /* background-color: var(--primary-app-color); */
 }
 .guide-item-detail{
     display: flex;
@@ -299,3 +299,12 @@ video:focus{
 }
 
 
+
+.course-img {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.course-img img{
+    height: 25vw;
+    min-height: 250px;
+}
