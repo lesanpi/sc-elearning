@@ -125,7 +125,7 @@ def submit(quiz_id = None):
     quiz, course = quiz_course
     question_list = [
             Question(i, question["question"], question["option_1"], question["option_2"], 
-                question["option_3"], question["option_4"], question["correct_option"]) 
+                question["option_3"], question["option_4"], question["correct_option"], "") 
             for i, question in enumerate(quiz["questions"], 1)
             ]
     correct_count = 0

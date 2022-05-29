@@ -3,12 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/quiz_result/styles.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
     <title>Quiz</title>
 </head>
 <body>
+
+    <section>
+    
+        <header>
+          <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en blanco" width="60" height="60">
+          <ul class="navigation">
+            <li>
+            <a href="/aprende">🏠 Inicio</a>
+            <div></div>
+            </li>
+            <li>
+            <a href="/curso/1">🐟 1er Año</a>
+            <div></div>
+            </li>
+            <li>
+            <a href="/curso/2">🧩 2do Año</a>
+            <div></div>
+            </li>
+            <li>
+            <a href="/curso/3">🎶 3er Año</a>
+            <div></div>
+            </li>
+            <li>
+            <a href="/curso/4">🤠 4to Año</a>
+            <div></div>
+            </li>
+            <li>
+            <a href="/curso/5">🎓 5to Año</a>
+            <div></div>
+            </li>
+            <li class="last_navbar_button_query">
+            <a href="/">🏛️ Asociarte</a>
+            <div class="last_navbar_div_query"></div>
+            </li>
+          </ul>
+    
+          <ul class="navigationbutton">
+            <li>
+            <a href="/aprende" class="nav_button_aprende">Aprende</a>
+            <div></div>
+            </li>
+        </ul>
+    
+          <label id="menudesplegable">
+            <i class="fas fa-bars"></i>
+          </label>
+        </header>
+      </section>
+
     <div class="container">
         <h1 class="quizTitle">🧪 {{quiz.title}}</h1>
 
