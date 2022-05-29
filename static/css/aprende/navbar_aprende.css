@@ -116,10 +116,10 @@
 
 /*Media Queries*/
 
-@media (min-width: 900px) and (max-width: 1160px) {
+@media (min-width: 1100px) and (max-width: 1400px) {
   header ul li a{
     font-size: 1em;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   header{
@@ -131,7 +131,7 @@
   }
 }
 
-@media (max-width: 899px) {
+@media (max-width: 1100px) {
 
   header{
     background-color: var(--navbar-color) !important;

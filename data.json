@@ -5,8 +5,8 @@
 		{
 			"title": "1er Año",
 			"emoji": "assets/1.png",
-			"mini_description": "Aprende las bases de las matemáticas",
-			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"mini_description": "Aprende y refuerza las bases de las matemáticas.",
+			"description": "Hay personas que dicen que los números son muy complicados de entender y siempre que ven una resta o una división se asustan o simplemente se aburren y abandonan sin siquiera empezar. Si queremos aprender a no tenerle miedo a las matemáticas primero hay que empezar por lo básico. En primer año aprenderás y reforzarás conocimientos de sumas, restas, multiplicación y división, aprenderás sobre los números negativos y fraccionarios, te instruirás en ecuaciones, múltiplos y potenciaciones, descubrirás nuevas maneras de representar números y finalmente descubrirás lo interesante que es el el mundo de la geometría.",
 			"content": [
 				{
 					"title": "Números Naturales",
@@ -125,7 +125,8 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "1er-guide-2-1-1"
-				},{
+				},
+				{
 					"title": "Ecuaciones 1",
 					"description": "En esta lección estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
 					"url": "",
