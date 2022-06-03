@@ -6,7 +6,7 @@
 			"title": "1er Año",
 			"emoji": "assets/1.png",
 			"mini_description": "Aprende y refuerza las bases de las matemáticas.",
-			"description": "Hay personas que dicen que los números son muy complicados de entender y siempre que ven una resta o una división se asustan o simplemente se aburren y abandonan sin siquiera empezar. Si queremos aprender a no tenerle miedo a las matemáticas primero hay que empezar por lo básico. En primer año aprenderás y reforzarás conocimientos de sumas, restas, multiplicación y división, aprenderás sobre los números negativos y fraccionarios, te instruirás en ecuaciones, múltiplos y potenciaciones, descubrirás nuevas maneras de representar números y finalmente descubrirás lo interesante que es el el mundo de la geometría.",
+			"description": "Hay personas que dicen que los números son muy complicados de entender y siempre que ven una resta o una división se asustan o simplemente se aburren y abandonan sin siquiera empezar. Si queremos aprender a no tenerle miedo a las matemáticas primero hay que empezar por lo básico. En primer año aprenderás y reforzarás conocimientos de sumas, restas, multiplicación y división, aprenderás sobre los números negativos y fraccionarios, te instruirás en ecuaciones, múltiplos y potenciaciones, descubrirás nuevas maneras de representar números y finalmente descubrirás lo interesante que es el mundo de la geometría.",
 			"content": [
 				{
 					"title": "Números Naturales",
@@ -125,8 +125,7 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "1er-guide-2-1-1"
-				},
-				{
+				},{
 					"title": "Ecuaciones 1",
 					"description": "En esta lección estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
 					"url": "",
@@ -242,24 +241,16 @@
 		{
 			"title": "2do Año",
 			"emoji": "assets/2.png",
-			"mini_description": "Aprende a calcular área y volumen",
-			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"mini_description": "Viaja, conoce y disfruta el mundo de las matemáticas.",
+			"description": "En la vida hay cosas que simplemente por sentido común se resuelven y se les encuentra su interpretación lógica. Pero lo que no sabemos, es que casi todo lo que hacemos inicialmente proviene de instintos y de algo que seguramente visualizamos o realizamos inconscientemente. Según Shakuntala Devi, “sin matemáticas, no hay nada que puedas hacer. Todo a tu alrededor es matemáticas. Todo a tu alrededor son números”; es por ello que, en segundo año estudiarás y comprenderás, a partir de aspectos relacionados a la historia del mundo y situaciones de la vida cotidiana, cómo resolver problemas con números enteros, números racionales, funciones, polinomios, productos notables, factorización, vectores y geometría.",
 			"content": [
-				{
-					"title": "Fracciones Algebráicas",
-					"description": "En esta guía se explican las fracciones algebráicas, partiendo de la definición de división de dos cantidades. Así, se mencionan los tipos de fracciones y expresiones algebráicas que existen, como las enteras y las mixtas. Por otro lado, se detallan las propiedades que se utilizan al realizar operaciones como la suma, resta, multiplicación y división, haciendo ejercicios para explicar cada tópico.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.1_FraccionesAlgebr%C3%A1icas.pdf?alt=media&token=f275c829-d5ae-4e10-97e9-83dbcde91072",
-					"img_url": "",
-					"type": "guide",
-					"id": "2do-guide-1-1-1"
-				},
 				{
 					"title": "Números Enteros",
 					"description": "En esta guía se explican el grupo de números racionales, se inicia con su definición y su división en subconjuntos, se habla del valor absoluto y ecuaciones con valor absoluto. Por otro lado, se explican las operaciones en Z y sus respectivas propiedades y ejemplos. Se mencionan operaciones combinadas de números Z. También, abarca la potenciación en Z y las ecuaciones en Z.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.1_N%C3%BAmerosEnteros.pdf?alt=media&token=7eae8243-7d24-45c7-bd7c-7fe302410459",
 					"img_url": "",
 					"type": "guide",
-					"id": "2do-guide-1-1-2"
+					"id": "2do-guide-1-1"
 				},
 				{
 					"title": "Números Enteros 1",
@@ -343,78 +334,6 @@
 					"img_url": "https://drive.google.com/uc?export=view&id=17-uFy29PK7dfgaMSRYvzoEw0GYNvqzO8",
 					"type": "guide",
 					"id": "3er-guide-1-1"
-				},
-				{
-					"title": "Números Irracionales",
-					"description": "En esta guía se desarrolla el tema de números racionales, partiendo de una breve historia y definición de este conjunto. Luego, se mencionan algunos números irracionales significativos, como π y el número de euler. También, se realizan ejercicios con los diferentes tipos de aproximaciones que existen para estas cifras.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.2_N%C3%BAmerosIrracionales.pdf?alt=media&token=64e9a0b3-4f95-4e73-a163-5fc1a59ddc9f",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-1-2"
-				},
-				{
-					"title": "Raíz Cuadrada",
-					"description": "En esta guía se realiza un repaso de la radicación y se desarrolla el tema de raíz cuadrada. Así, se mencionan los tipos de índices que puede tener una raíz (pares e impares) y se realiza el cálculo de una raíz cuadrada, explicando cada caso y detallando el procedimiento a seguir para la realización de estos ejercicios.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.3_Ra%C3%ADzCuadrada.pdf?alt=media&token=035948d0-71ff-4de1-8006-8b1ef699d9ab",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-1-3"
-				},
-				{
-					"title": "Propiedades Raíces",
-					"description": "En esta guía se mencionan las propiedades de las raíces y la extracción e introducción de elementos en una raíz, para así realizar operaciones con radicales como suma, resta, multiplicación y división.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_PropiedadesRa%C3%ADces.pdf?alt=media&token=d5db24c8-9e08-48d0-9d46-d6909c59c4c3",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-1-4"
-				},
-				{
-					"title": "Números Reales",
-					"description": "En esta guía se desarrolla el tema de los números reales, partiendo de su evolución histórica y explicando el conjunto numérico que forman. Además, se realizan operaciones como suma, resta, multiplicación, división y radicación, y las propiedades que se utilizan para realizar cada operación. Además, se resuelven ejercicios en cada caso. ",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.1_N%C3%BAmerosReales.pdf?alt=media&token=5e71754d-f956-4ffb-a3b8-cfc24d54486a",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-1"
-				},
-				{
-					"title": "Números Reales: Radicales Semejantes y Racionalización",
-					"description": "En esta guía se desarrollan los conceptos de radicales semejantes y racionalización, para lo cual se realizan algunos ejemplos y se explica el procedimiento a seguir en caso de que se presenten situaciones particulares, como el caso de radicales no semejantes.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.2_N%C3%BAmerosReales_RadicalesSemejantes_Racionalizaci%C3%B3n.pdf?alt=media&token=e765fc2a-dfec-45c7-aba2-8673a06f4ab0",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-2"
-				},
-				{
-					"title": "Ecuaciones con Números Reales (Lineales y con Valor Absoluto)",
-					"description": "En esta guía se realizan ecuaciones con números reales, en particular aquellas que son lineales y/o contienen valor absoluto. Para explicar el procedimiento a seguir, se realizan ejercicios de diferentes estilos que ayudan a la comprensión del tema.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.3_EcuacionesNumerosReales.pdf?alt=media&token=0f8d0fb0-5e54-435b-b9f6-a3c3a1ac1146",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-3"
-				},
-				{
-					"title": "",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-4"
-				},
-				{
-					"title": "Relaciones de Orden en los Números Reales",
-					"description": "En esta guía se estudian las relaciones de orden en los números reales, introduciendo el concepto de la recta real y las cinco relaciones principales en el conjunto de números R: menor que, mayor que, igual que, menor o igual que y mayor o igual que. Además, se enumeran las propiedades fundamentales de las relaciones de orden y se desarrolla el tema de desigualdades, se describen sus propiedades y se realizan algunos ejemplos.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.5_RelacionesDeOrdenN%C3%BAmerosReales.pdf?alt=media&token=6ab16516-fdf0-4edf-a17a-f6cc7775b692",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-5"
-				},
-				{
-					"title": "",
-					"description": "",
-					"url": "",
-					"img_url": "",
-					"type": "guide",
-					"id": "3er-guide-2-6"
 				},
 				{
 					"title": "Números Racionales 1",
@@ -511,7 +430,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.3_Ra%C3%ADzCuadrada.pdf?alt=media&token=035948d0-71ff-4de1-8006-8b1ef699d9ab",
 					"img_url": "https://drive.google.com/uc?export=view&id=1uO0Enn8-Om8WAbr7HmM7sJ7XgzGRY9Tn",
 					"type": "guide",
-					"id": "4to-guide-1-2"
+					"id": "3er-guide-1-3"
 				},
 				{
 					"title": "Propiedades Raíces",
@@ -519,7 +438,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_PropiedadesRa%C3%ADces.pdf?alt=media&token=d5db24c8-9e08-48d0-9d46-d6909c59c4c3",
 					"img_url": "https://drive.google.com/uc?export=view&id=1BKd9DAhnasbLinewXT-ZtHtIdu1oNSIV",
 					"type": "guide",
-					"id": "4to-guide-1-22"
+					"id": "3er-guide-1-4"
 				},
 				{
 					"title": "Números Reales",
@@ -527,7 +446,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.1_N%C3%BAmerosReales.pdf?alt=media&token=2fbc0e1b-9e1e-4daa-ad6b-270b4e388b54",
 					"img_url": "https://drive.google.com/uc?export=view&id=1AKDvs3q6MZvPWZDoedVQcqnEXDl6frPL",
 					"type": "guide",
-					"id": "4to-guide-1-3"
+					"id": "3er-guide-2-1"
 				},
 				{
 					"title": "Números Reales: Radicales Semejantes y Racionalización",
@@ -535,7 +454,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.2_N%C3%BAmerosReales_RadicalesSemejantes_Racionalizaci%C3%B3n.pdf?alt=media&token=e765fc2a-dfec-45c7-aba2-8673a06f4ab0",
 					"img_url": "https://drive.google.com/uc?export=view&id=1XGnzOFm-PxfTpqLJ5eQ1Ra3z8j5kEEX1",
 					"type": "guide",
-					"id": "4to-guide-1-6"
+					"id": "3er-guide-2-2"
 				},
 				{
 					"title": "Ecuaciones con Números Reales (Lineales y con Valor Absoluto)",
@@ -543,7 +462,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.3_EcuacionesNumerosReales.pdf?alt=media&token=0f8d0fb0-5e54-435b-b9f6-a3c3a1ac1146",
 					"img_url": "https://drive.google.com/uc?export=view&id=1fu1p82jGj7pXiJm6Q2GLmfzfRDRrAV7z",
 					"type": "guide",
-					"id": "4to-guide-1-7"
+					"id": "3er-guide-2-3"
 				},
 				{
 					"title": "Sistemas de Ecuaciones Lineales",
@@ -551,7 +470,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.4_SistemasEcuacionesLineales.pdf?alt=media&token=2e6b4628-3458-442c-bfc8-45ca814aebd5",
 					"img_url": "https://drive.google.com/uc?export=view&id=1EcU1qpd03vCcYeKXx4uRuv78Pmg96jGI",
 					"type": "guide",
-					"id": "4to-guide-1-8"
+					"id": "3er-guide-2-4"
 				},
 				{
 					"title": "Relaciones de Orden en los Números Reales",
@@ -559,7 +478,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.5_RelacionesDeOrdenN%C3%BAmerosReales.pdf?alt=media&token=c862e6d3-4f1f-4f1c-bf95-905b9229f168",
 					"img_url": "https://drive.google.com/uc?export=view&id=1UvV0oHd7c3jROwpOph38sHVxZQ8D83ha",
 					"type": "guide",
-					"id": "4to-guide-2-1"
+					"id": "3er-guide-2-5"
 				},
 				{
 					"title": "Inecuaciones 1",
@@ -639,7 +558,7 @@
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_1.1_Potenciaci%C3%B3n.pdf?alt=media&token=19812d38-83f5-4405-9053-b5aea8247d27",
 					"img_url": "https://drive.google.com/uc?export=view&id=1KIlEG6xBEgGBLsTv1cNtxi4YP4lcImQ0",
 					"type": "guide",
-					"id": "4to-guide-1-5"
+					"id": "4to-guide-1-1"
 				},
 				{
 					"title": "Potenciación",
@@ -902,8 +821,7 @@
 							"option_2": "3",
 							"option_3": "2",
 							"option_4": "Pez",
-							"correct_option": 4,
-							"img": "https://cumbrepuebloscop20.org/wp-content/uploads/2018/08/tiger-500118_640-1.jpg.webp"
+							"correct_option": 4
 						}
 					]
 				}
@@ -924,8 +842,7 @@
 							"option_2": "3",
 							"option_3": "2",
 							"option_4": "Pez",
-							"correct_option": 4,
-							"img": "https://cumbrepuebloscop20.org/wp-content/uploads/2018/08/tiger-500118_640-1.jpg.webp"
+							"correct_option": 4
 						}
 					]
 				}
