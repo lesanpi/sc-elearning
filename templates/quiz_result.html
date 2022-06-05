@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/static/css/globals.css">
     <link rel="stylesheet" href="/static/css/quiz_result/styles.css">
-    <link rel="stylesheet" href="/static/css/navbar.css">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/quiz_result/navbar_quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz_result/footer_quiz.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600" rel="stylesheet" type="text/css">
+
     <link rel="shortcut icon" href="{{ url_for('static', filename='rsz_azul-modified.ico') }}">
-    <title>Quiz</title>
+    <title>Resultado - {{quiz.title}}</title>
 </head>
 <body>
 
     <section>
     
         <header>
-          <img src="static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en blanco" width="60" height="60">
+          <img src="\static\imgs\LogoAsociarteBlanco.png" alt="Logo de Asociarte en blanco" width="60" height="60">
           <ul class="navigation">
             <li>
             <a href="/aprende">🏠 Inicio</a>
@@ -101,6 +106,50 @@
     </div>
 
 
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+    
+            <div class="footer-social">
+              <div class="footer-phones">
+                <p class="footer-title">Teléfonos</p>
+                <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
+                <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
+                <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+              </div>
+              <div class="footer-email">
+                <p class="footer-title">Correo electrónico</p>
+                <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+              </div>
+              <div class="redessociales">
+                <p class="footer-title">Nuestras redes sociales</p>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="googleplay">
+                <p class="footer-title">Nuestra aplicación</p>
+                <a href='https://play.google.com/store/apps/details?id=com.lesanpi.e_learning_sc&hl=es_VE&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
+                <img alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png' width="215.3" height="83.3" />
+                </a>
+              </div>
+    
+            </div>
+            
+          </div>
+        </div>
+     </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#menudesplegable').click(function(){
+      $('ul').toggleClass('show');
+    });
+  });
+  </script>
 
 </body>
 </html>
