@@ -1,0 +1,231 @@
+@import 'globals.css';
+
+*{
+  box-sizing: border-box;
+}
+
+  section{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    min-height: 80px;
+    padding: 10px 7%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: var(--navbar-color);
+  }
+  
+  header img{
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+
+  header ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+  }
+  
+  header ul li{
+    list-style: none;
+  }
+  
+  header ul li a{
+    position: relative;
+    color: var(--button-color);
+    font-weight: 600;
+    font-size: 1.05em;
+    margin-left: 35px;
+    padding: 10px 5px;
+    text-decoration: none;
+    user-select: none;
+  }
+  
+  header ul li a:link, header ul li a:visited{
+    color: var(--primary-color);
+    /*background-color: var(--button-color);*/
+  }
+  
+
+  header ul.navigation li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    width: 0%;
+    height: 1px;
+    background: var(--button-color);
+    transition: 0.3s ease-out;
+  }
+
+  header ul li a:hover::after{
+    left:0;
+    width: 100%;
+  }
+
+  .nav_button_aprende{
+    padding: 12px 30px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: var(--button-color);
+    background-color: var(--button-color);
+    transition: all 0.5s;
+  }
+
+  .nav_button_aprende:hover{
+    background-color: transparent;
+    color: var(--button-color);
+    transition: all 0.4s;
+  }
+
+  #menudesplegable{
+    color: var(--primary-color);
+    font-size: 30px;
+    line-height: 20px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .fixed-header{
+    width: 100%;
+    background-color: var(--dark-pink);
+    height: 20px;
+  }
+  
+  div.mediaquery_flex{
+    display: none;
+  }
+
+
+/*Media Queries*/
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  header ul li a{
+    font-size: 1em;
+    margin-left: 25px;
+  }
+
+  header{
+    padding: 10px 2%;
+  }
+
+  .nav_button_aprende{
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  header{
+    background-color: var(--navbar-color) !important;
+    padding: 20px 0;
+    justify-content: space-between;
+  }
+
+  header ul.navigation{
+    display: none;
+    position: fixed;
+    width: 100%;
+    background: var(--navbar-color);
+    top: -100%;
+    left: 0;
+    padding-left: 0px;
+    text-align: center;
+    transition: all linear .7s;
+  }
+
+  header ul li a{
+    margin: 0;
+    font-size: 1.05em;
+  }
+
+  header ul.navigationbutton{
+    order: 3;
+    margin-right: 10px;
+  }
+
+  .nav_button_aprende{
+    padding: 7px 10px;
+  }
+
+  header ul.navigation.show{
+    top: 100px;
+    display: block;
+  }
+
+  header ul.navigation li{
+    display: block;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    
+  }
+
+  header ul.navigation li.last_navbar_button_query{
+    border-width: 0px;
+    padding: 10px 0 2px 0;
+    border-color: transparent;
+  }
+
+  header ul.navigation li a{
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  header ul.navigation li div{
+    position: relative;
+    padding: 0 0 10px 0;
+    width: 90%;
+    border-bottom: solid;
+    border-color: rgb(160, 160, 160);
+    border-width: 1px;
+    margin: auto;
+  }
+
+  header ul.navigation li a.active, header ul.navigation li a:hover{
+    color: var(--button-color);
+    border: none;
+    background: none;
+  }
+
+  header ul.navigation li a::after{
+    display: none;
+  }
+
+  #menudesplegable{
+    float: left;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+
+  header img {
+    position: relative;
+    display: block; 
+    margin-left: 45px;
+    margin-right: 0px;
+    order: 2;
+  }
+
+  header ul.navigation li div.last_navbar_div_query{
+    border-color: transparent;
+  }
+  
+}
+

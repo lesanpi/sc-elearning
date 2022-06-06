@@ -73,3 +73,21 @@ body{
   background: var(--darkBlue);
   color: #fff;
 }
+
+.content .btns a.cursos{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  background: var(--darkBlue);
+  border: 2px solid var(--darkBlue);
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.content .btns a.cursos:hover{
+  background: #fff;
+  color: var(--darkBlue);
+}
