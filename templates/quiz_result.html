@@ -90,6 +90,12 @@
                 <div class="question-result">
                     <h4 class="question">{{questions_list[i].q_id}}. {{questions_list[i].question}}</h4>
                     <br>
+
+                    {% if questions_list[i].img %}
+                        <img class="question-img" src={{questions_list[i].img}}>
+                    {% endif %}
+                    <br>
+                    <br>
                     <div class="answer" style="">
                         {% if answers_selected[i] == questions_list[i].get_correct_option() %} ✅
                         {% else %} ❌
