@@ -125,7 +125,8 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "1er-guide-2-1-1"
-				},{
+				},
+				{
 					"title": "Ecuaciones 1",
 					"description": "En esta lección estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
 					"url": "",
@@ -938,236 +939,548 @@
 			"description": "Vectores, matrices, derivadas e integrales. La matematica mas importante",
 			"quizes": [
 				{
-					"title": "Escalares, vectores y matrices",
-					"id": "5toanio-01",
+					"title": "Operaciones con Polinomios",
+					"id": "5toanio-1-01",
 					"questions": [
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Resuelve la siguiente operación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1JU3R6Sgkk3WgpprOrv2Of6gt4RF1MBw1",
+							"correct_option": 2
+						},
+						{
+							"question": "Resuelve la siguiente operación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=19t6ubmYZQRg4XTBb7RU2Hu_61lasf2ox",
+							"correct_option": 1
+						},
+						{
+							"question": "Resuelve la siguiente operación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1j-z2fDkkvUl1AJdD4YII9Q5pWTv2VDuz",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcular cociente y residuo (Donde 'C' es el cociente y 'R' es el residuo)",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=17MHpGlgVWfX7Gpb9yNiV2UQKMw16sbtO",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Teorema del Residuo / Regla de Ruffini",
+					"id": "5toanio-1-02",
+					"questions": [
+						{
+							"question": "Calcular por el residuo por el Teorema del Residuo:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1lzid2haJab4s8g_hTUnzU_1k2DLTklik",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcular por el residuo por el Teorema del Residuo:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1fFFpaQzzbV7ElzHt9CjtazEuxq1uB0Ac",
+							"correct_option": 1
+						},
+						{
+							"question": "Calcular el residuo (R) y cociente (C) por Regla de Ruffini",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=184NMcsSq0Ct5QsG0oteLP2MthdhoxIQZ",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcular el residuo (R) y cociente (C) por Regla de Ruffini",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1A4TqTloqgKb6YBQljvFLaJL-UK_g5f9T",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Regla de Ruffini / Factorización de Ruffini",
+					"id": "5toanio-1-03",
+					"questions": [
+						{
+							"question": "Calcular el residuo (R) y cociente (C) por Regla de Ruffini",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1fol1tDCDrEEa0TUCW64dv22G5FmmSW7k",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcular el residuo (R) y cociente (C) por Regla de Ruffini",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1TNsOKWcajqdgeCTE8q65jSHLs5SQl4vF",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcular la factorización por Regla de Ruffini y seleccionar cómo queda la dicha factorización",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1QQvMYTel0Q4LujKmmZAQZsacSzj6Pi5T",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcular la factorización por Regla de Ruffini y seleccionar cómo queda la dicha factorización",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1mLkqsSKHwYT-kmdv4BlNolIVrEqZ6YJD",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Limites",
+					"id": "5toanio-1-04",
+					"questions": [
+						{
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1UOl0rVdhrQMdrtXvwhGcodY2RCC-YTI5",
+							"correct_option": 3
+						},
+						{
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1q7inx9v_oqRoz54iFbfpfbCui5YGkmjh",
+							"correct_option": 2
+						},
+						{
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=15DIOPzmRnAfU1g8IGPRANauHEAugDbbN",
+							"correct_option": 2
+						},
+						{
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Vs7in6mDhnFbWQ9a8wYSguVGcsv-G8gh",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Teoría Combinatoria 1",
+					"id": "5toanio-2-01",
+					"questions": [
+						{
+							"question": "Calcule el valor de:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1f9W7vxARZxxrCzH1p58JWDv5UXiRDQKQ",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcule el valor numérico de:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1RaH6NDS2fomjxWHG06iH29IN7RqDvhQl",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcule:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Z6LphoDtiN8L6SzsVu836lcEJuXIqDqr",
+							"correct_option": 1
+						},
+						{
+							"question": "Simplifique la siguiente expresión (No debe dar el resultado numérico):",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1wd-0X8zd-JD3ZtRviriRESRbRvbAtKPB",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Teoría Combinatoria 2",
+					"id": "5toanio-2-02",
+					"questions": [
+						{
+							"question": "¿Cuántas palabras se pueden formar con la palabra 'aprendizaje'?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1VKpMe12ojsbgGYB7pzk-TEu7BciQg0nL",
+							"correct_option": 2
+						},
+						{
+							"question": "",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=14TjzHJPjTo0bu7-APd_klwcLCiacpfco",
+							"correct_option": 2
+						},
+						{
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1wseeZD5hrOXSmJ_25mUGgRKZHhsrxCqK",
 							"correct_option": 4
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1v3LCyNNP6OUQjftJYHrback9v8QeMWMe",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Teoría Combinatoria 3",
+					"id": "5toanio-2-03",
+					"questions": [
+						{
+							"question": "Calcule la siguiente ecuación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=155XCiFxpdXMEKodIRfXJRl3CKZdYVvLq",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcule la siguiente ecuación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1OAEtd23-L7S5-AL1onGJ1-6JtZ97-pKQ",
+							"correct_option": 3
+						},
+						{
+							"question": "Resuelva el siguiente sistema de ecuaciones:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1kb9xzbQgUuDWmmxkTNKB2x4tmW-mrJ1V",
+							"correct_option": 3
+						},
+						{
+							"question": "Resuelva el siguiente sistema de ecuaciones:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1uNUM9ciHcrsQAHnK6DLGFh0RRpKCNHaZ",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Binomio de Newton",
+					"id": "5toanio-2-04",
+					"questions": [
+						{
+							"question": "Calcule y simplifique el siguiente binomio",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=19A-oI9nh4hl1EczMGEysT5eqIcvg6Ojw",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcule y simplifique el siguiente binomio",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=18SXa8MpEcforux_YQ0PzjcXQ45tOgdhN",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcule y simplifique el siguiente binomio",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=10brDKB2AvZiqL3MrdJ1r21xTkfJAyi3f",
+							"correct_option": 1
+						},
+						{
+							"question": "Calcule y simplifique el siguiente binomio",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1uK-tDXiFfNOyS-gvGsxWMMi1bz6N0gTq",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Geometría Analítica. Recta en el plano. Ecuaciones",
+					"id": "5toanio-2-05",
+					"questions": [
+						{
+							"question": "Calcule",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=171hkHLNKuKsjD4MpuyvJLjDmDiFr7ywG",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcule",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Jp7UOqMziPXGF0DvYFOTqV5WKN7CoPLq",
 							"correct_option": 4
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Calcule",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1GYuTbEgQWC1QKFbS6ub3dsfgQktNH2Hx",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcule",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1f8frQLGzPiasKa9gpvFI825qFf-t5-KO",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Cónicas 1: Circunferencia y Elipse",
+					"id": "5toanio-3-01",
+					"questions": [
+						{
+							"question": "Identifique la siguiente expresión:",
+							"option_1": "Es una elipse",
+							"option_2": "Es una circunferencia",
+							"option_3": "Es una hipérbola",
+							"option_4": "No es una cónica",
+							"img": "https://drive.google.com/uc?export=view&id=1LFnvT9XWCERz56MGSangZ46MRNnV8wWW",
+							"correct_option": 2
+						},
+						{
+							"question": "Identifique la siguiente expresión:",
+							"option_1": "Es una circunferencia",
+							"option_2": "Es una elipse",
+							"option_3": "Es una parábola",
+							"option_4": "No es una cónica",
+							"img": "https://drive.google.com/uc?export=view&id=1FZ-1HE6uoLNrbDjFMJaFjglEiajN2PMx",
 							"correct_option": 4
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
+							"question": "Diga cuál es el radio de la siguiente circunferencia:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1rmGvO7Ii_FxzDk_9_IQVjJ_2p-KNFtKU",
+							"correct_option": 2
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
+							"question": "¿Cuáles son los puntos del eje mayor?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Rq6bt0x_DXY8vxorNNLEm4tTJg-EZhON",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Cónicas 2: Parábola y Hipérbola",
+					"id": "5toanio-3-02",
+					"questions": [
+						{
+							"question": "Identifique la siguiente expresión:",
+							"option_1": "Es una parábola",
+							"option_2": "Es una hipérbola",
+							"option_3": "Es una elipse",
+							"option_4": "No es una cónica",
+							"img": "https://drive.google.com/uc?export=view&id=1ZcmJ5l7m6ON4Yi-9xFA3JG47qxnJyioV",
+							"correct_option": 2
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
+							"question": "Identifique la siguiente expresión:",
+							"option_1": "Es una elipse",
+							"option_2": "No es una cónica",
+							"option_3": "Es una parábola",
+							"option_4": "Es una hipérbola",
+							"img": "https://drive.google.com/uc?export=view&id=1RoDvgEqSKSaOLzyXAvZcQISkaqzzSzvE",
+							"correct_option": 3
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
+							"question": "Resuelva:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1P_EGgzJe7BKYswVz1Hfs9wFEWSmtHP-3",
+							"correct_option": 3
 						},
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						},
-						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						},
-						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "¿Cuáles son los focos de la siguiente hipérbola?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1r1xYDdb_bw9flyPxDGuEhLzlDlB_rjxA",
 							"correct_option": 4
 						}
 					]
 				},
 				{
-					"title": "Integrales",
-					"id": "5toanio-02",
+					"title": "Inecuaciones",
+					"id": "5toanio-3-03",
 					"questions": [
 						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-02",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
-						}
-					]
-				},
-				{
-					"title": "Integrales",
-					"id": "5toanio-10",
-					"questions": [
-						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
-							"correct_option": 4
+							"question": "Calcule la siguiente inecuación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1NaGKYqTRSBcs6rSycpsrFMzBfCi1e3MZ",
+							"correct_option": 3
 						},
 						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez askdjala aksjdml aksndlj nlasn dlaksdn laksnd quwndo kqmdo mqlasmdl akmsdlka sd",
+							"question": "Calcule la siguiente inecuación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1DgwMeompxq-XZ847XmHunDkHa1srw7gx",
+							"correct_option": 1
+						},
+						{
+							"question": "Calcule la siguiente inecuación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1v8eB7IB4IUEyTNW22D2F1dSPlEBzZPh7",
+							"correct_option": 3
+						},
+						{
+							"question": "Resuelva el siguiente sistema de ecuaciones:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1I4kwjLDmnmAYRRmndH9loRNdj8_8w4qn",
 							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Matrices y Determinantes",
+					"id": "5toanio-3-04",
+					"questions": [
+						{
+							"question": "Calcule la siguiente operación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1JDF_mwbPbs6q9wO_bLsn7L_Gfsj8qoGp",
+							"correct_option": 1
+						},
+						{
+							"question": "Calcule la siguiente operación:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1usk8DXPFYOA0LZW5Ui6rv0v6HXiWai42",
+							"correct_option": 3
+						},
+						{
+							"question": "Calcule el determinante de:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Mv7keXXw-ZRPd5BgiRd4JAh8HFUeETV_",
+							"correct_option": 2
+						},
+						{
+							"question": "Calcule el determinante de:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1QKOj3VOMOyPv3HuLBCYFV6ZdEjCV2Ehy",
+							"correct_option": 3
 						}
 					]
 				}
