@@ -12,7 +12,7 @@
 					"title": "Números Naturales",
 					"description": "En esta guía se explica el conjunto de los números naturales, los cuales forman parte de los números reales. En ese sentido, se indica el orden de los mismos y se realizan algunos ejemplos que ayudan a explicar las relaciones “mayor que”, “menor que” e “igual que”.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.1_N%C3%BAmerosNaturales.pdf?alt=media&token=80899f05-b484-4299-bf4c-4bbbac89cfdb",
-					"img_url": "https://drive.google.com/uc?export=view&id=1c0G1u4SNrx4-gKeM7SgEyNX2y0na7_Mq",
+					"img_url": "https://drive.google.com/uc?export=view&id=1yk8w33VcAS6_bWiVGbh48fyCbrsnqhN2",
 					"type": "guide",
 					"id": "1er-guide-1-1"
 				},
@@ -29,7 +29,7 @@
 					"title": "Suma, resta y símbolos de agrupación",
 					"description": "En esta guía daremos un pequeño repaso por los conceptos de adición y sustracción, y recordaremos igualmente sus propiedades más importantes. Además, estudiaremos los símbolos de agrupación y cómo usarlos correctamente.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.2_SumaRestaS%C3%ADmbolosAgrupaci%C3%B3n.pdf?alt=media&token=4c93d5a9-c996-4554-8540-3d2d50b6fea9",
-					"img_url": "https://drive.google.com/uc?export=view&id=1d-JmB4Wxxxrj3KjWukfCRx-0xQB9k2wT",
+					"img_url": "https://drive.google.com/uc?export=view&id=1t69FogVlDaCTRbRNzH8aBGnGXGhVzOoa",
 					"type": "guide",
 					"id": "1er-guide-1-2"
 				},
@@ -43,15 +43,32 @@
 					"id": "1er-lesson-1-2"
 				},
 				{
+					"title": "Números Enteros",
+					"description": "En esta guía explicamos el concepto de los números enteros y las herramientas que traen al mundo de las matemáticas. Hablamos de los números negativos, cómo ubicarlos en una recta numérica y cómo calcular el valor absoluto; además, observamos cómo los números enteros contienen distintos subconjuntos, incluidos los números naturales.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.3_N%C3%BAmeros_Enteros.pdf?alt=media&token=593166ce-14eb-401c-8e36-ba1e776380a5",
+					"img_url": "https://drive.google.com/uc?export=view&id=1-YhQDbhPv6MlLRYPtIuOz7dUEI72AA14",
+					"type": "guide",
+					"id": "1er-guide-1-3"
+				},
+				{
+					"title": "Números Enteros",
+					"description": "En este video explicamos el concepto de los números enteros y las herramientas que traen al mundo de las matemáticas. Hablamos de los números negativos, cómo ubicarlos en una recta numérica y cómo calcular el valor absoluto; además, observamos cómo los números enteros contienen distintos subconjuntos, incluidos los números naturales.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1xCnwS7bkrx28HXxbnqX8aTC2F-H_nkl9",
+					"type": "lesson",
+					"video_id": "y9afcCk4Bpk",
+					"id": "1er-lesson-1-3"
+				},
+				{
 					"title": "Operaciones con Números Enteros",
 					"description": "En esta guía se realizan operaciones de suma, resta, multiplicación y división con números enteros. Para esto, se realizan diversos ejemplos y se desarrollan las propiedades de la multiplicación y de la división.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.4_OperacionesN%C3%BAmerosEnteros.pdf?alt=media&token=318fd067-935d-43b1-acaa-7b4ceb87091b",
-					"img_url": "https://drive.google.com/uc?export=view&id=1Au9Ub4rXfmacK876yx_nnN5s-TjUm4rc",
+					"img_url": "https://drive.google.com/uc?export=view&id=1einAPE_O1IUjaHVgUQxO_PoY57y-WOqL",
 					"type": "guide",
 					"id": "1er-guide-1-4"
 				},
 				{
-					"title": "Operaciones con Números Enteros 1: Suma y Resta",
+					"title": "Operaciones con Números Enteros Parte 1: Suma y Resta",
 					"description": "En esta primera parte de la serie de operaciones con números enteros, se estudia la suma y resta. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1dZOHaZuo2-7BUJw4BfR-o7GuhK9abHXY",
@@ -60,7 +77,7 @@
 					"id": "1er-lesson-1-4-1"
 				},
 				{
-					"title": "Operaciones con Números Enteros 2: Multiplicación",
+					"title": "Operaciones con Números Enteros Parte 2: Multiplicación",
 					"description": "En esta segunda parte de la serie de operaciones con números enteros, se estudia la multiplicación. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1Gipv5ppt5Q2uPHe4UaSjaomvJlto_J4S",
@@ -69,7 +86,7 @@
 					"id": "1er-lesson-1-4-2"
 				},
 				{
-					"title": "Operaciones con Números Enteros 3: División",
+					"title": "Operaciones con Números Enteros Parte 3: División",
 					"description": "En última parte de la serie de operaciones con números enteros, se estudia la división. Para esto, se realizan algunos ejemplos y se repasan conceptos importantes.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1sih6Yshr-mPgYlFK0irgymttlOR5GA4T",
@@ -81,31 +98,75 @@
 					"title": "Múltiplos y divisores",
 					"description": "En esta guía vamos a repasar los criterios de divisibilidad de los números del 1 al 10, cómo identificar los divisores de un número y las propiedades de los múltiplos y divisores.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.5.1_M%C3%BAltiplos%20y%20divisores.pdf?alt=media&token=05466295-553b-46a1-bda4-5fe95d4d7d95",
-					"img_url": "https://drive.google.com/uc?export=view&id=1hcW0rRRXG7yggKSFD5LAwpkEInhqqsRA",
+					"img_url": "https://drive.google.com/uc?export=view&id=1TGJMzCDZ8ZjlhTt5Nw-_C3afKqY0-bTY",
 					"type": "guide",
 					"id": "1er-guide-1-5-1"
+				},
+				{
+					"title": "Múltiplos y Divisores",
+					"description": "En este video vamos a repasar los criterios de divisibilidad de los números del 1 al 10, cómo identificar los divisores de un número y las propiedades de los múltiplos y divisores.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1jFQxeBmtCy6cUEQIaiN0K0CcKtNM_r09",
+					"type": "lesson",
+					"video_id": "33vEalooy4k",
+					"id": "1er-lesson-1-5-1"
 				},
 				{
 					"title": "Números primos y compuestos",
 					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder identificar los números primos en los primeros 100 números.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.5.2_N%C3%BAmeros%20primos%20y%20compuestos.pdf?alt=media&token=e65b7d58-4b92-4955-b583-c59252acac4b",
-					"img_url": "https://drive.google.com/uc?export=view&id=1UbJxqcmYXnX-WCCmR4CTmdt79V6ylOD5",
+					"img_url": "https://drive.google.com/uc?export=view&id=1HKXPmJ82TkarmBMnvN_-e1LyT4Zdh9rY",
 					"type": "guide",
 					"id": "1er-guide-1-5-2"
+				},
+				{
+					"title": "Números Primos y Compuestos",
+					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder identificar los números primos en los primeros 100 números.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1CxohCEmuf426aWgsT2D0ervS53zs7TH9",
+					"type": "lesson",
+					"video_id": "qtDSFQbGTms",
+					"id": "1er-lesson-1-5-2"
 				},
 				{
 					"title": "Descomposición en factores primos",
 					"description": "Con esta guía vas a conocer la útil herramienta de descomponer un número en sus factores primos, y mediante ejemplos, aprenderás el método para lograrlo.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.5.3_Descomposici%C3%B3n%20en%20n%C3%BAmeros%20primos.pdf?alt=media&token=71b84445-695a-46a6-842f-d2f5c238fa80",
-					"img_url": "https://drive.google.com/uc?export=view&id=110V0R7hWdteAGLcLok4rx1N519QLLXyW",
+					"img_url": "https://drive.google.com/uc?export=view&id=197xrbaMoczfDkSoBBfh5gbmfZhjszkKv",
 					"type": "guide",
 					"id": "1er-guide-1-5-3"
+				},
+				{
+					"title": "Descomposición en Factores Primos",
+					"description": "En este vídeo vas a conocer la útil herramienta de descomponer un número en sus factores primos, y mediante ejemplos, aprenderás el método para lograrlo.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1MT4uYUsfJgRTJKdH5vCAbPNTZxLQZyJl",
+					"type": "lesson",
+					"video_id": "brNYmxBUGS4",
+					"id": "1er-lesson-1-5-3"
+				},
+				{
+					"title": "Mínimo Común Múltiplo y Máximo Común Divisor",
+					"description": "En esta guía vamos a hacer un repaso de los temas del mínimo común múltiplo y el máximo común divisor. Estos dos conceptos son claves para resolver problemas matemáticos y en muchas ocasiones sirven también para la vida real. Primero entenderemos qué significan cada uno de estos, luego veremos cómo se calculan y por último resolveremos algunos problemas en los cuales los usaremos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.6_m%C3%ADnimocom%C3%BAnm%C3%BAltiplo_y_M%C3%A1ximoCom%C3%BAnDivisor.pdf?alt=media&token=29362271-dcdd-4461-a0aa-12e244211325",
+					"img_url": "https://drive.google.com/uc?export=view&id=1fb34uVyOjb2BM-eWIHORNGIB7cDKgAWm",
+					"type": "guide",
+					"id": "1er-guide-1-6"
+				},
+				{
+					"title": "Mínimo Común Múltiplo y Máximo Común Divisor",
+					"description": "En este video vamos a hacer un repaso de los temas del mínimo común múltiplo y el máximo común divisor. Estos dos conceptos son claves para resolver problemas matemáticos y en muchas ocasiones sirven también para la vida real. Primero entenderemos qué significan cada uno de estos, luego veremos cómo se calculan y por último resolveremos un problema en el cual usaremos el m.c.m.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1C1p_d3vDt8e_wxzTeSaP-Idr__KGEzi2",
+					"type": "lesson",
+					"video_id": "SX40PvsmJ88",
+					"id": "1er-lesson-1-6"
 				},
 				{
 					"title": "Potenciación de Números Enteros",
 					"description": "En esta guía se explican las propiedades aplicadas a la potenciación de números enteros, que se deben tomar en cuenta para poder realizar ejercicios con esta operación. Además, se realizan ejemplos para entender el procedimiento a seguir.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.7_Potenciaci%C3%B3nN%C3%BAmerosEnteros.pdf?alt=media&token=efd2aead-c9a8-4645-b7a8-cae076b83307",
-					"img_url": "https://drive.google.com/uc?export=view&id=1soyCq3PGfq_NqYkXii4zSxTEdgP3m8v-",
+					"img_url": "https://drive.google.com/uc?export=view&id=1dcQJOIrIW_3eMWQdZgRSvODAC3XgTQ7H",
 					"type": "guide",
 					"id": "1er-guide-1-7"
 				},
@@ -122,12 +183,12 @@
 					"title": "Ecuaciones: Axioma Fundamental",
 					"description": "En esta guía estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.1.1_%20Ecuaciones_AxiomaFundamental.pdf?alt=media&token=050a86f0-51fb-443d-be7c-997e815286af",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1EPT973nCqqqDENzHK6rzopVhQ3kpzEbw",
 					"type": "guide",
 					"id": "1er-guide-2-1-1"
 				},
 				{
-					"title": "Ecuaciones 1",
+					"title": "Ecuaciones Parte 1",
 					"description": "En esta lección estudiaremos qué son las ecuaciones y sus características más importantes. Todo lo que necesitas saber antes de ser capaz de resolverlas.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1iwl19K28TqlMp55cg14K5QERZPQ2xCsd",
@@ -139,12 +200,12 @@
 					"title": "Ecuaciones: Despejes y resolución de ecuaciones",
 					"description": "Ahora estudiaremos los métodos para resolver ecuaciones y en qué consiste despejar la incógnita en una ecuación.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.1.2_%20Ecuaciones_DespejesResoluci%C3%B3nDeEcuaciones.pdf?alt=media&token=f7df09a7-b424-430f-966e-50aad7141261",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1w2x_I5pCBcVZlWzg4gRfSeDRPGGFICMh",
 					"type": "guide",
 					"id": "1er-guide-2-1-2"
 				},
 				{
-					"title": "Ecuaciones 2",
+					"title": "Ecuaciones Parte 2",
 					"description": "Ahora estudiaremos los métodos para resolver ecuaciones y en qué consiste despejar la incógnita en una ecuación.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=11C2vpfNZtHC0_CpYOC6_k6nuKAO810fc",
@@ -156,12 +217,12 @@
 					"title": "Ecuaciones: Ejercicio y problemas",
 					"description": "Es hora de practicar. En esta guía vas a encontrar suficientes ejercicios para que refuerces todo lo que aprendiste acerca de las ecuaciones y cómo resolverlas.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.1.3_%20Ecuaciones_EjerciciosYProblemas.pdf?alt=media&token=7465959b-6c21-4dac-9f97-925f19b411dc",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1vV0cBtwShbkQk2az-rTz2gNtdNqlXYrk",
 					"type": "guide",
 					"id": "1er-guide-2-1-3"
 				},
 				{
-					"title": "Ecuaciones 3",
+					"title": "Ecuaciones Parte 3",
 					"description": "Es hora de practicar. En esta lección vas a encontrar suficientes ejercicios para que refuerces todo lo que aprendiste acerca de las ecuaciones y cómo resolverlas.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=17zxPqxZMCG3NylsJLP_sy74QQFe4pJ3m",
@@ -170,10 +231,36 @@
 					"id": "1er-lesson-2-1-3"
 				},
 				{
+					"title": "Números racionales",
+					"description": "En esta ocasión aprenderás qué son los números racionales, para qué nos sirven y por qué las fracciones son números racionales. También veremos los tipos de fracciones, sus propiedades y explicaremos cómo se simplifican las fracciones gracias al uso de las fracciones equivalentes. El conjunto Q contiene a otros números que hemos visto hasta ahora y además tiene una propiedad que lo hace mucho más grande que el conjunto de los números enteros.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.2_N%C3%BAmeros_Racionales.pdf?alt=media&token=3584b352-ab7a-42ff-adb0-97ae816481fb",
+					"img_url": "https://drive.google.com/uc?export=view&id=1whZhl_U3Vq2RCGEgH4F8xp1eTJvjAmBi",
+					"type": "guide",
+					"id": "1er-guide-2-2"
+				},
+				{
+					"title": "Números racionales Parte 1",
+					"description": "En esta ocasión aprenderás qué son los números racionales, para qué nos sirven y por qué las fracciones son números racionales. También veremos los tipos de fracciones, sus propiedades y explicaremos cómo se simplifican las fracciones gracias al uso de las fracciones equivalentes. En el ejemplo 3 hay un error en el enunciado del ejercicio, el verdadero enunciado es el siguiente: “Simplificar 336/504 hasta hallar la fracción equivalente con términos menores”.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1P5_k8jzKyLvhRw18Jn93MYoV6oU7izP3",
+					"type": "lesson",
+					"video_id": "-DPudnwXBC4",
+					"id": "1er-lesson-2-2-1"
+				},
+				{
+					"title": "Números racionales Parte 2",
+					"description": "En este video complementaremos la información de los números racionales, explicaremos qué subconjuntos tienen y qué tanto se extienden.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1rhXYtb6j9vFQMKjKqdmskI4v-xbxbVAn",
+					"type": "lesson",
+					"video_id": "8d172Pl2xYI",
+					"id": "1er-lesson-2-2-2"
+				},
+				{
 					"title": "Operaciones con números racionales",
 					"description": "En esta guía se desarrolla el tema de operaciones con números racionales. Para esto, se estableció el procedimiento a seguir para realizar sumas, restas, multiplicación, división y potenciación con fracciones. Además, se realizan numerosos ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.3_OperacionesN%C3%BAmerosRacionales.pdf?alt=media&token=5e10ff95-1f73-4bf3-9077-ac05831d1e09",
-					"img_url": "https://drive.google.com/uc?export=view&id=1X0pLhK4H88W7s_0zsfEyyAaWWLekFHos",
+					"img_url": "https://drive.google.com/uc?export=view&id=1KMi_hR35T2tYXQgGMTc08iMpf3zXWpNv",
 					"type": "guide",
 					"id": "1er-guide-2-3"
 				},
@@ -187,15 +274,15 @@
 					"id": "1er-lesson-2-3"
 				},
 				{
-					"title": "Transformaciones de racionales 1",
+					"title": "Transformaciones de racionales Parte 1",
 					"description": "En esta guía estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.4.1%20Transformaciones%20de%20racionales%20Parte%201.pdf?alt=media&token=4d7354e4-29d8-4311-b8fc-08fc815b7367",
-					"img_url": "https://drive.google.com/uc?export=view&id=1e-HL0rHfPdctLEFhqNz66o8CxshxAWU2",
+					"img_url": "https://drive.google.com/uc?export=view&id=1nsc8SaSee5UgPXC31xf2GZWLzx1m9gpY",
 					"type": "guide",
 					"id": "1er-guide-2-4-1"
 				},
 				{
-					"title": "Transformaciones de racionales 1",
+					"title": "Transformaciones de racionales Parte 1",
 					"description": "En esta lección estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1hV_mrLE8oRVoMye1oWz7XKGKNYipNjg9",
@@ -204,15 +291,15 @@
 					"id": "1er-lesson-2-4-1"
 				},
 				{
-					"title": "Transformaciones de racionales 2",
+					"title": "Transformaciones de racionales Parte 2",
 					"description": "En esta guía estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.4.2%20Transformaciones%20de%20racionales%20Parte%202.pdf?alt=media&token=bea9e09f-692d-444f-9e49-2d52532266fb",
-					"img_url": "https://drive.google.com/uc?export=view&id=194jjnJsMrYjXmu9Stc3QGOoeseGPpuN-",
+					"img_url": "https://drive.google.com/uc?export=view&id=1RvLmHdasIA7jIor__rdCVA6GRSJXtTbc",
 					"type": "guide",
 					"id": "1er-guide-2-4-2"
 				},
 				{
-					"title": "Transformación de Racionales 2",
+					"title": "Transformación de Racionales Parte 2",
 					"description": "En esta lección estudiaremos las distintas formas de representar los números racionales, como lo son las fracciones simples, los números mixtos y las cifras decimales, y todas las formas que puedes hacer para transformar un número decimal en alguna de estas formas de representarlos",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1A2n-yXSrVFW8is-fwj_F1uSS0OdXCnfY",
@@ -221,10 +308,27 @@
 					"id": "1er-lesson-2-4-2"
 				},
 				{
+					"title": "Potencias de 10 y Notación científica",
+					"description": "En esta lección repasaremos qué ocurre al multiplicar o dividir por potencias de 10, lo cual se traduce a trabajar con potencias de 10 de exponentes positivos o negativos. Estas herramientas nos permiten expresar números en notación científica, la cual es muy útil para trabajar con cantidades muy grandes o muy pequeñas. Finalmente, repasaremos cómo redondear cifras decimales y haremos distintos ejemplos de esto.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F2do%20Lapso%2FA1_2.5_Notaci%C3%B3n_Cient%C3%ADfica.pdf?alt=media&token=bd176945-0269-45a7-9dbe-9a842d9f4016",
+					"img_url": "https://drive.google.com/uc?export=view&id=1zkkn9pXP1ILlH5OH5IeY5Szw_w4C6mP9",
+					"type": "guide",
+					"id": "1er-guide-2-5"
+				},
+				{
+					"title": "Potencias de 10 y Notación científica",
+					"description": "En esta lección repasaremos qué ocurre al multiplicar o dividir por potencias de 10, lo cual se traduce a trabajar con potencias de 10 de exponentes positivos o negativos. Estas herramientas nos permiten expresar números en notación científica, la cual es muy útil para trabajar con cantidades muy grandes o muy pequeñas. Finalmente, repasaremos cómo redondear cifras decimales y haremos distintos ejemplos de esto.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1N-B5od_rT2CYWLnBFXJao-ETLnqFCNji",
+					"type": "lesson",
+					"video_id": "T3tgaLjp52w",
+					"id": "1er-lesson-2-5"
+				},
+				{
 					"title": "Introducción a la Geometría",
 					"description": "En esta guía aprenderás los conceptos básicos necesarios para entender la geometría y nos enfocaremos en la geometría plana. Hablaremos de los puntos, las rectas, las curvas, los ángulos y del plano.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F3er%20Lapso%2FA1_3.1_Introducci%C3%B3nALaGeometr%C3%ADa.pdf?alt=media&token=f80381da-10fd-492f-8088-8d2750080705",
-					"img_url": "https://drive.google.com/uc?export=view&id=1mHVFhzKohpbXIzrlcD_Fu2D8JB3vzM2A",
+					"img_url": "https://drive.google.com/uc?export=view&id=15jvNkZkSlwMMas6Qg-0PWEcZ_COWZ-FM",
 					"type": "guide",
 					"id": "1er-guide-3-1"
 				},
@@ -236,6 +340,41 @@
 					"type": "lesson",
 					"video_id": "hsHFEiETS9M",
 					"id": "1er-lesson-3-1"
+				},
+				{
+					"title": "Tipos de rectas",
+					"description": "En esta guía vas a aprender los tipos de rectas que existen y las relaciones que pueden tener con otras rectas. También encontrarás ejercicios para practicar los conocimientos que has aprendido de geometría.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F3er%20Lapso%2FA1_3.2_TiposDeRectasYEjerciciosGeom%C3%A9tricos.pdf?alt=media&token=9b1d33fc-1a0e-49b6-a0b6-2989c72a6de9",
+					"img_url": "https://drive.google.com/uc?export=view&id=1UqcX6_IL6PjdFcy2L2_pg6ZiCPQwPc8m",
+					"type": "guide",
+					"id": "1er-guide-3-2"
+				},
+				{
+					"title": "Tipos de rectas Parte 1",
+					"description": "En este vídeo vas a aprender los tipos de rectas que existen y las relaciones que pueden tener con otras rectas.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1qbA5jELJ6iyd3l4jfbFR3OA9f9i7Pl6l",
+					"type": "lesson",
+					"video_id": "jVtiD4qM50M",
+					"id": "1er-lesson-3-2-1"
+				},
+				{
+					"title": "Tipos de rectas Parte 2",
+					"description": "En esta segunda parte encontrarás ejercicios para practicar los conocimientos que has aprendido de geometría.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1zMJDke_dn1gRMPZKYTXJlFK1DwPKQqyj",
+					"type": "lesson",
+					"video_id": "dQv-bH_e2Is",
+					"id": "1er-lesson-3-2-2"
+				},
+				{
+					"title": "Polígonos",
+					"description": "En este último video de primer año explicaremos qué es un polígono, cómo se caracterizan y cómo se clasifican. Además, incluiremos maneras de diferenciar triángulos y cuadriláteros según la longitud de sus lados y la magnitud de sus ángulos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1GBNGO_GYQnFep1eo5SuMVAki_zBWt_mH",
+					"type": "lesson",
+					"video_id": "eGn_Q4PmDAk",
+					"id": "1er-lesson-3-3"
 				}
 			]
 		},
@@ -249,76 +388,100 @@
 					"title": "Números Enteros",
 					"description": "En esta guía se explican el grupo de números racionales, se inicia con su definición y su división en subconjuntos, se habla del valor absoluto y ecuaciones con valor absoluto. Por otro lado, se explican las operaciones en Z y sus respectivas propiedades y ejemplos. Se mencionan operaciones combinadas de números Z. También, abarca la potenciación en Z y las ecuaciones en Z.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.1_N%C3%BAmerosEnteros.pdf?alt=media&token=7eae8243-7d24-45c7-bd7c-7fe302410459",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1fnh93HkJY4yRF45P2dG7M0VpYGw8I4mI",
 					"type": "guide",
 					"id": "2do-guide-1-1"
 				},
 				{
-					"title": "Números Enteros 1",
-					"description": "",
+					"title": "Números Enteros Parte 1",
+					"description": "En este video hablamos de los números enteros, explicando su definición, sus subconjuntos, una explicación de la recta numérica, el valor absoluto y finalizamos con ecuaciones con valor absoluto.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1iFlDJlBcha-naD-m6Ojjf82wNgxbxQ2Z",
 					"type": "lesson",
 					"video_id": "AyM-KQ1PQSo",
-					"id": "2do-lesson-1"
+					"id": "2do-lesson-1-1-1"
 				},
 				{
-					"title": "Números Enteros 2",
-					"description": "",
+					"title": "Números Enteros Parte 2",
+					"description": "En este video, es una continuación de los números enteros, el cual hablaremos de las operaciones en Z, la potenciación en Z, sus propiedades y se finaliza con ecuaciones en Z.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=154vLB7-Oy_zaBHxI-x-ye2YFQq3ZVBn4",
 					"type": "lesson",
 					"video_id": "kmZW42w1Bl8",
-					"id": "2do-lesson-2"
+					"id": "2do-lesson-1-1-2"
 				},
 				{
-					"title": "Números Enteros 1 - Ejercicios",
-					"description": "",
+					"title": "Números Enteros Parte 1 - Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema números enteros.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1expfDveRDgJsz2Hms-SvJR9xDb7slooR",
 					"type": "lesson",
 					"video_id": "0WGguHiPdMU",
-					"id": "2do-lesson-3"
+					"id": "2do-lesson-1-1-3"
 				},
 				{
 					"title": "Números Racionales",
 					"description": "En esta guía se explican el grupo de números racionales, se inicia con su definición y su división en subconjuntos, se habla de su representación en la recta real y de los números decimales que lo conforman. Se explica la fracción generatriz y como hacer uso de ella. Por otro lado, se explican las operaciones en Q y sus respectivas propiedades y ejemplos. Se mencionan operaciones combinadas de números Q. También, abarca la potenciación en Z y las ecuaciones en Q.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.2_N%C3%BAmerosRacionales.pdf?alt=media&token=ec4bf149-433d-4216-8f06-04fed5057350",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=15ejHLX0RGR6rLtaIl50TD-rfVOcD4Fb2",
 					"type": "guide",
 					"id": "2do-guide-1-2"
 				},
 				{
-					"title": "Funciones 1",
+					"title": "Funciones Parte 1",
 					"description": "En esta guía se explican qué son las funciones, iniciando desde la explicación de conjuntos, sus relaciones, explicación de una función numérica y su clasificación.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.1_Funciones.pdf?alt=media&token=027051e9-012e-4f21-8004-2196e6450b76",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1k6y1E_r4Lc2Nh8tmQ3KOJ5ItxY_b5XDa",
 					"type": "guide",
 					"id": "2do-guide-1-3-1"
 				},
 				{
-					"title": "Funciones 2",
+					"title": "Funciones Parte 2",
 					"description": "En esta guía se explican sobre la representación de las funciones, iniciando desde la explicación del plano cartesiano, cómo representar puntos en él, sus características y la representación de funciones en él con ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.2_Funciones.pdf?alt=media&token=b0739032-9030-43c3-bd71-52285aba6044",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1oJvs0FDp5pc6lY5fPtOMwbj8ogAGNGX7",
 					"type": "guide",
 					"id": "2do-guide-1-3-2"
 				},
 				{
 					"title": "Polinomios",
-					"description": "",
+					"description": "En esta guía se explican los polinomios, iniciando por conceptos básicos importantes para poder entender este tema, luego se explica la función polinómica, el valor numérico de una función polinómica y los elementos de un polinomio. Se continua con la explicación de los términos semejantes de un polinomio y los polinomios iguales, luego se explica la clasificación de los polinomios y operaciones con ellos, y se finaliza la guía con varios ejemplos de ejercicios de polinomios.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.1_Polinomios.pdf?alt=media&token=c818e35f-8633-434c-a53d-8a1304b7097a",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1B4bGzY9s1bGD0OWgKZU0Ea9GKCP6zIJl",
 					"type": "guide",
 					"id": "2do-guide-2-1"
 				},
 				{
 					"title": "Productos Notables",
-					"description": "",
+					"description": "En esta guía se explica el tema producto notable, explica su definición y sus tipos, y tiene varios ejemplos explicando cada caso.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.2_Productos%20Notables.pdf?alt=media&token=14389d07-2437-4079-a865-03abb4da673c",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1W8Y94Bzze-43YMZ6_JaauX112-xwhPKM",
 					"type": "guide",
 					"id": "2do-guide-2-2"
+				},
+				{
+					"title": "Factorización",
+					"description": "En esta guía se explica el tema factorización, explica su definición y sus tipos, y tiene varios ejemplos explicando cada caso.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.3_Factorizaci%C3%B3n.pdf?alt=media&token=467fa3b2-e767-4934-afcf-0b0293bc6caa",
+					"img_url": "https://drive.google.com/uc?export=view&id=1yxO2PN9VNYJUbNpWkWi23ICCeT3N_MHi",
+					"type": "guide",
+					"id": "2do-guide-2-3"
+				},
+				{
+					"title": "Fracciones Algebraicas",
+					"description": "En esta guía se explican las fracciones algebráicas, partiendo de la definición de división de dos cantidades. Así, se mencionan los tipos de fracciones y expresiones algebráicas que existen, como las enteras y las mixtas. Por otro lado, se detallan las propiedades que se utilizan al realizar operaciones como la suma, resta, multiplicación y división, haciendo ejercicios para explicar cada tópico.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.1_FraccionesAlgebr%C3%A1icas.pdf?alt=media&token=7178da8f-5a5f-4f30-8c4a-41eb3100581a",
+					"img_url": "https://drive.google.com/uc?export=view&id=175e2lz-LfcpZ-jC9ZkanYeZc5n0HTeE1",
+					"type": "guide",
+					"id": "2do-guide-3-1"
+				},
+				{
+					"title": "Vectores",
+					"description": "En esta guía se explican los vectores, partiendo con las magnitudes escalares y vectoriales, definición de vectores, luego explica los vectores opuestos, los componentes de un vector y su representación gráfica en el plano cartesiano. Por otro lado, explica los vectores equipolentes y finaliza con operaciones con vectores.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.2_Vectores.pdf?alt=media&token=855ec149-db9a-417d-8ec6-a63b44250b65",
+					"img_url": "https://drive.google.com/uc?export=view&id=1qF39I9FELhrWAXKfI49CA7frP0tOMHwO",
+					"type": "guide",
+					"id": "2do-guide-3-2"
 				}
 			]
 		},
@@ -337,55 +500,55 @@
 					"id": "3er-guide-1-1"
 				},
 				{
-					"title": "Números Racionales 1",
+					"title": "Números Racionales Parte 1",
 					"description": "En este vídeo estudiamos la primera parte del tema de números racionales. Para explicar la aplicación de este conjunto de números en operaciones matemáticas, se repasan algunos conceptos como mínimo común múltiplo, producto en cruz y doble c.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1LbQzzT_pCx-Y6Es-3OgEE2AVLtByX2LT",
 					"type": "lesson",
 					"video_id": "CwSqge5rPKA",
 					"id": "3er-lesson-1-1-1"
 				},
 				{
-					"title": "Números Racionales 1 - Ejercicios",
+					"title": "Números Racionales Parte 1 - Ejercicios",
 					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan ejercicios propuestos de cálculo de razón o relaciones, fracciones y expresiones decimales, periodicidad y anteperíodo, los cuales fueron extraídos de la guía de tercer año.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1vUe7LeiVgGWy_v73b82Dn525xKGLHHZn",
 					"type": "lesson",
 					"video_id": "fQmy-6QA3dU",
 					"id": "3er-lesson-1-1-1-1"
 				},
 				{
-					"title": "Números Racionales 2",
+					"title": "Números Racionales Parte 2",
 					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan operaciones matemáticas de suma y resta, y se repasan algunos conceptos como mínimo común múltiplo.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1u0oYBCrf0wQ1KJMhP-jC6ZbO50saNeEN",
 					"type": "lesson",
 					"video_id": "S9k2cULwN3Y",
 					"id": "3er-lesson-1-1-2"
 				},
 				{
-					"title": "Números Racionales 2 - Ejercicios",
+					"title": "Números Racionales Parte 2 - Ejercicios",
 					"description": "En este vídeo seguimos con el tema de números racionales. En esta ocasión, se realizan tres ejercicios propuestos de suma y resta con números racionales extraídos de la guía de tercer año.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=19k8YbJ0nXIJc0UAGPxABPRji75Qm9Qpz",
 					"type": "lesson",
 					"video_id": "B4WzRr0Ysb4",
 					"id": "3er-lesson-1-1-2-1"
 				},
 				{
-					"title": "Números Racionales 3",
+					"title": "Números Racionales Parte 3",
 					"description": "En este vídeo estudiamos la tercera parte del tema de números racionales, y los temas a tratar son multiplicación y división de números racionales y potenciación en Q, y para explicar estos tópicos se realizan ejercicios sencillos y otros ejemplos con operaciones combinadas.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1M9VUDgE_Br94BbD2Gszy3N0KktPqjnHX",
 					"type": "lesson",
 					"video_id": "-Zx3YDq6ChA",
 					"id": "3er-lesson-1-1-3"
 				},
 				{
-					"title": "Números Racionales 3 - Ejercicios",
+					"title": "Números Racionales Parte 3 - Ejercicios",
 					"description": "En este vídeo culminamos con el tema de números racionales. En esta ocasión, se realizan cuatro ejercicios propuestos de multiplicación, división y potenciación con números racionales, extraídos de la guía de tercer año.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1k28NjB5pggtaxGR9-2C78KuU1MkRsjsu",
 					"type": "lesson",
 					"video_id": "k3TjGTw8djI",
 					"id": "3er-lesson-1-1-3-1"
@@ -399,28 +562,28 @@
 					"id": "3er-guide-1-2"
 				},
 				{
-					"title": "Números Irracionales 1",
+					"title": "Números Irracionales Parte 1",
 					"description": "En este vídeo se introduce el tema de números irracionales. En esta ocasión, se realizan se habla un poco de la historia de estos números y su definición.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1KEQnjO_FzNFjxsRA9Ax17KI0o3XKmIWv",
 					"type": "lesson",
 					"video_id": "b55lpAZDWyw",
 					"id": "3er-lesson-1-2-1"
 				},
 				{
-					"title": "Números Irracionales 2",
+					"title": "Números Irracionales Parte 2",
 					"description": "En este video continuamos con el tema de números irracionales, realizando algunos ejercicios sobre los diferentes tipos de aproximación que se aplican a estos números: por defecto, por exceso y por redondeo.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1SfhzCB8KxKn_8ZR7mj5tJTFdgdxe2wlr",
 					"type": "lesson",
 					"video_id": "ebe4grQ7ZO4",
 					"id": "3er-lesson-1-2-2"
 				},
 				{
-					"title": "Números Irracionales 3",
+					"title": "Números Irracionales Parte 3",
 					"description": "En este video continuamos con el tema de números irracionales. En esta ocasión, se realizan ejercicios propuestos sobre la identificación de los números irracionales y su aproximación, los cuales fueron extraídos de la guía de tercer año.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1PHm7iNZ0inixn5BsjYmc75FNHvdXZJ9w",
 					"type": "lesson",
 					"video_id": "3NbfE-lWslg",
 					"id": "3er-lesson-1-2-3"
@@ -434,12 +597,39 @@
 					"id": "3er-guide-1-3"
 				},
 				{
+					"title": "Raíz Cuadrada Parte 1",
+					"description": "En este video daremos la primera parte del tema de raíz cuadrada. En esta ocasión, hablaremos acerca de la radicación, sus partes, los signos de las raíces y los exponentes fraccionarios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1JCpm8xmp8PXnfpOdy_w_XnImu1wVPICH",
+					"type": "lesson",
+					"video_id": "7l5g6sOXPs0",
+					"id": "3er-lesson-1-3-1"
+				},
+				{
+					"title": "Raíz Cuadrada Parte 2",
+					"description": "En este video continuaremos con el tema de raíz cuadrada. Para esto, resolveremos un ejemplo para entender cada uno de los pasos involucrados.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1h3TmOucHZ3D_7lEpFQflNSXMXErTnfNX",
+					"type": "lesson",
+					"video_id": "hyl3wvciONQ",
+					"id": "3er-lesson-1-3-2"
+				},
+				{
 					"title": "Propiedades Raíces",
 					"description": "En esta guía se mencionan las propiedades de las raíces y la extracción e introducción de elementos en una raíz, para así realizar operaciones con radicales como suma, resta, multiplicación y división.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_PropiedadesRa%C3%ADces.pdf?alt=media&token=d5db24c8-9e08-48d0-9d46-d6909c59c4c3",
 					"img_url": "https://drive.google.com/uc?export=view&id=1BKd9DAhnasbLinewXT-ZtHtIdu1oNSIV",
 					"type": "guide",
 					"id": "3er-guide-1-4"
+				},
+				{
+					"title": "Operaciones con Radicales",
+					"description": "En este video se mencionan las propiedades de las raíces y la extracción e introducción de elementos en una raíz, para así realizar operaciones con radicales como suma, resta, multiplicación y división.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=14RdOVB_ehD9lbQm8dBP2yMxFq6XWwN-q",
+					"type": "lesson",
+					"video_id": "o73d3ScZEgU",
+					"id": "3er-lesson-1-4"
 				},
 				{
 					"title": "Números Reales",
@@ -450,12 +640,48 @@
 					"id": "3er-guide-2-1"
 				},
 				{
+					"title": "Números Reales Parte 1",
+					"description": "En este video se desarrolla el tema de los números reales, partiendo de su evolución histórica y explicando el conjunto numérico que forman. Además, se realizan operaciones de suma, resta, multiplicación y división. Además, se resuelven ejercicios en cada caso.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=16Vx4I7ZVOIwYygwCMlko3xsHrYTlx5zK",
+					"type": "lesson",
+					"video_id": "Pyb-A51uwUU",
+					"id": "3er-lesson-2-1-1"
+				},
+				{
+					"title": "Números Reales Parte 2",
+					"description": "En este video continuamos con el tema de números reales. Para esto, se explica la operación de potenciación y se realizan ejemplos que ayudan a entender el tema.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1hI8i9WGY6arzEKHmI8zZlgIG3unBd1Qe",
+					"type": "lesson",
+					"video_id": "5xsauDw0E0U",
+					"id": "3er-lesson-2-1-2"
+				},
+				{
+					"title": "Números Reales Parte 3",
+					"description": "En este video terminamos con el tema de números reales. Para esto, se explica la operación de radicación y se realizan ejemplos que ayudan a entender el tema.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1PVZaxXQiTjHNXRcUk88OW3KHoRleivce",
+					"type": "lesson",
+					"video_id": "9mdyL-uEYYU",
+					"id": "3er-lesson-2-1-3"
+				},
+				{
 					"title": "Números Reales: Radicales Semejantes y Racionalización",
 					"description": "En esta guía se desarrollan los conceptos de radicales semejantes y racionalización, para lo cual se realizan algunos ejemplos y se explica el procedimiento a seguir en caso de que se presenten situaciones particulares, como el caso de radicales no semejantes.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.2_N%C3%BAmerosReales_RadicalesSemejantes_Racionalizaci%C3%B3n.pdf?alt=media&token=e765fc2a-dfec-45c7-aba2-8673a06f4ab0",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.2_N%C3%BAmerosReales_RadicalesSemejantes_Racionalizaci%C3%B3n.pdf?alt=media&token=31fb5e75-bd8d-4917-83ec-219661bc14cb",
 					"img_url": "https://drive.google.com/uc?export=view&id=1XGnzOFm-PxfTpqLJ5eQ1Ra3z8j5kEEX1",
 					"type": "guide",
 					"id": "3er-guide-2-2"
+				},
+				{
+					"title": "Números Reales: Radicales Semejantes y Racionalización",
+					"description": "En este video se desarrollan los conceptos de radicales semejantes y racionalización, para lo cual se realizan algunos ejemplos y se explica el procedimiento a seguir en caso de que se presenten situaciones particulares, como el caso de radicales no semejantes.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=16lnC7Wlmt6wmooHSVua8GcM3e5pznIPm",
+					"type": "lesson",
+					"video_id": "-pBONFLXpos",
+					"id": "3er-lesson-2-2"
 				},
 				{
 					"title": "Ecuaciones con Números Reales (Lineales y con Valor Absoluto)",
@@ -466,12 +692,57 @@
 					"id": "3er-guide-2-3"
 				},
 				{
+					"title": "Ecuaciones con Números Reales Parte 1",
+					"description": "En este video se realizan ecuaciones con números reales, en particular aquellas que son lineales. Para explicar el procedimiento a seguir, se realizan ejercicios de diferentes estilos que ayudan a la comprensión del tema.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1jbYxUsQThHMVHnpDqQCeDLKiUa9b7XLj",
+					"type": "lesson",
+					"video_id": "IOxmdATlQBw",
+					"id": "3er-lesson-2-3-1"
+				},
+				{
+					"title": "Ecuaciones con Números Reales Parte 2",
+					"description": "En este video se continúa con el tema de ecuaciones con números reales, en particular aquellas que contienen valor absoluto. Para explicar el procedimiento a seguir, se realizan ejercicios de diferentes estilos que ayudan a la comprensión del tema.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1KWX5K36VpbcIifVpvShYx2C1OuQj3v83",
+					"type": "lesson",
+					"video_id": "PhZbFh4ASIs",
+					"id": "3er-lesson-2-3-2"
+				},
+				{
 					"title": "Sistemas de Ecuaciones Lineales",
 					"description": "En esta guía se desarrolla el tema de sistemas de ecuaciones. Primero, se parte de sistemas de dos incógnitas, y luego se explica el procedimiento para resolver aquellos de más de dos incógnitas. Para esto, se aplican los tres métodos más conocidos: sustitución, igualación y reducción. Además, se realizan múltiples ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.4_SistemasEcuacionesLineales.pdf?alt=media&token=2e6b4628-3458-442c-bfc8-45ca814aebd5",
 					"img_url": "https://drive.google.com/uc?export=view&id=1EcU1qpd03vCcYeKXx4uRuv78Pmg96jGI",
 					"type": "guide",
 					"id": "3er-guide-2-4"
+				},
+				{
+					"title": "Sistemas de Ecuaciones Lineales Parte 1",
+					"description": "En este video se desarrolla la primera parte del tema de sistemas de ecuaciones lineales. Para esto, se explican los sistemas de dos incógnitas. Además, se realizan múltiples ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1tW2vuyDlt5YYk6-92e7of8PebPDOYfCD",
+					"type": "lesson",
+					"video_id": "Fi-S6bJYZu4",
+					"id": "3er-lesson-2-4-1"
+				},
+				{
+					"title": "Sistemas de Ecuaciones Lineales Parte 2",
+					"description": "En este video se desarrolla la segunda parte del tema de sistemas de ecuaciones lineales. Para esto, se explican los sistemas de dos incógnitas, aplicando los tres métodos más conocidos para su resolución: sustitución, igualación y reducción. Además, se realizan múltiples ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ov0PYyBNbHqf_ImaQ5EajRcYORW_bBUi",
+					"type": "lesson",
+					"video_id": "_OpfnIjjwxU",
+					"id": "3er-lesson-2-4-2"
+				},
+				{
+					"title": "Sistemas de Ecuaciones Lineales Parte 3",
+					"description": "En este video se desarrolla la última parte del tema de sistemas de ecuaciones lineales. Para esto, se explican los sistemas de más de dos incógnitas, aplicando los tres métodos más conocidos para su resolución: sustitución, igualación y reducción. Además, se realizan múltiples ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=18fq-hU5qxeKzP5VslBSJFxTV-ds3oLjz",
+					"type": "lesson",
+					"video_id": "rTio1OgwO1w",
+					"id": "3er-lesson-2-4-3"
 				},
 				{
 					"title": "Relaciones de Orden en los Números Reales",
@@ -482,28 +753,82 @@
 					"id": "3er-guide-2-5"
 				},
 				{
-					"title": "Inecuaciones 1",
+					"title": "Relaciones de Orden en los Números Reales",
+					"description": "En este video se estudian las relaciones de orden en los números reales, introduciendo el concepto de la recta real y las cinco relaciones principales en el conjunto de números R: menor que, mayor que, igual que, menor o igual que y mayor o igual que. Además, se enumeran las propiedades fundamentales de las relaciones de orden y se desarrolla el tema de desigualdades, se describen sus propiedades y se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1gb6XoMrQXwtUhIVzj9Iw0Epm1pPWCwQU",
+					"type": "lesson",
+					"video_id": "nmqoW3Ofay8",
+					"id": "3er-lesson-2-5"
+				},
+				{
+					"title": "Inecuaciones Parte 1",
 					"description": "En esta guía se desarrolla el tema de inecuaciones. Para esto, se realiza un repaso de símbolos de desigualdad, partes de una inecuación, soluciones de una inecuación, formas de expresar las soluciones de una inecuación, inecuaciones lineales de una variable y sistemas de inecuaciones lineales con una variable. Además, se presentan varios ejemplos que ayudan a comprender el tema.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.6.1_InecuacionesParte1.pdf?alt=media&token=865f916d-7623-4301-ba3c-98a9e1e2540a",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.6.1_InecuacionesParte1.pdf?alt=media&token=3a250264-f699-4022-89f3-fb7c45fd9327",
 					"img_url": "https://drive.google.com/uc?export=view&id=1OrlI6mgBXk5pDu_8QYWGcdXhYv2nhT3Y",
 					"type": "guide",
 					"id": "3er-guide-2-6-1"
 				},
 				{
-					"title": "Inecuaciones 2",
+					"title": "Inecuaciones Parte 1",
+					"description": "En este video se desarrolla la primera parte del tema de inecuaciones. Para esto, se realiza un repaso de símbolos de desigualdad, partes de una inecuación, soluciones de una inecuación, formas de expresar las soluciones de una inecuación e inecuaciones lineales de una variable.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1pvnk9Y3roMmYWw9Kmk51pjnqQh6wrGcc",
+					"type": "lesson",
+					"video_id": "oGQMlq-Yw_g",
+					"id": "3er-lesson-2-6-1-1"
+				},
+				{
+					"title": "Inecuaciones Parte 2",
+					"description": "En este video se desarrolla la segunda parte del tema de inecuaciones. Para esto, se explican los sistemas de inecuaciones lineales de una variable, y se realizan ejercicios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1FwGDdq1RZlRtz5FdZ2m7O97PILIhOaZL",
+					"type": "lesson",
+					"video_id": "d1Mg8JsnzTM",
+					"id": "3er-lesson-2-6-1-2"
+				},
+				{
+					"title": "Inecuaciones Parte 2",
 					"description": "En esta guía continúa la explicación del tema de inecuaciones. Así, se hacen otros ejemplos de sistema de ecuaciones lineales con una variable, y se desarrollan los temas de inecuaciones con valor absoluto e inecuaciones de tres miembros. Además, se presentan varios ejemplos que ayudan a comprender el tema.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.6.2_InecuacionesParte2.pdf?alt=media&token=540d59be-9bbf-4bfd-9856-c7a89102e075",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F2do%20Lapso%2FA3_2.6.2_InecuacionesParte2.pdf?alt=media&token=99b786bb-b62a-423d-aced-64e04eefdfd0",
 					"img_url": "https://drive.google.com/uc?export=view&id=1nx7rrU57nSFxq8avX8DpKbxgmGTIcc1q",
 					"type": "guide",
 					"id": "3er-guide-2-6-2"
 				},
 				{
+					"title": "Inecuaciones Parte 3",
+					"description": "En este video se desarrolla la tercera parte del tema de inecuaciones. Para esto, se explican los sistemas de inecuaciones lineales con valor absoluto, y se realizan ejercicios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1u7GSILLRP8YQUVcXh0-bgtGIxNnz4AsU",
+					"type": "lesson",
+					"video_id": "ibys_Qav07M",
+					"id": "3er-lesson-2-6-2-1"
+				},
+				{
+					"title": "Inecuaciones Parte 4",
+					"description": "En este video se desarrolla la última parte del tema de inecuaciones. Para esto, se explican las inecuaciones de tres miembros, y se realizan ejercicios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1cUxrqqN7lKFhbf8_hVvCuC5wEs6yD7n9",
+					"type": "lesson",
+					"video_id": "0soSjPSgL70",
+					"id": "3er-lesson-2-6-2-2"
+				},
+				{
 					"title": "Funciones Reales",
 					"description": "En esta guía se desarrolla el tema de funciones reales, para lo cual se define lo que es una función, y a partir de esto se explica la representación matemática de las funciones, el dominio de una función y su rango. Además, se realizan algunos ejemplos.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.1_FuncionesReales.pdf?alt=media&token=9af1b629-3d6e-4660-8e46-284733d86dbb",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.1_FuncionesReales.pdf?alt=media&token=73ee53aa-c8af-4c61-b58d-ab391a44c915",
 					"img_url": "https://drive.google.com/uc?export=view&id=1f1Gi-cc0HjysNu-cKZIDfq8ZE6axzEp9",
 					"type": "guide",
 					"id": "3er-guide-3-1"
+				},
+				{
+					"title": "Funciones Reales",
+					"description": "En este video se desarrolla el tema de funciones reales, para lo cual se define lo que es una función, y a partir de esto se explica la representación matemática de las funciones, el dominio de una función y su rango. Además, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=16dkjeOyfcbmFapV1FLoFkX7iKTKaYmEJ",
+					"type": "lesson",
+					"video_id": "YbhE_gzrgVo",
+					"id": "3er-lesson-3-1"
 				},
 				{
 					"title": "Plano Cartesiano",
@@ -514,12 +839,30 @@
 					"id": "3er-guide-3-2"
 				},
 				{
+					"title": "Plano Cartesiano",
+					"description": "En este video se explica cómo utilizar el plano cartesiano, para lo cual se definen sus partes, se ubican puntos en el plano, se calcula la distancia entre dos puntos del plano y se explica cómo graficar una función. Además, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ga_whiVWTfYkMRIzjGXaJtv6dyHqsCg0",
+					"type": "lesson",
+					"video_id": "15yvh3UvEo0",
+					"id": "3er-lesson-3-2"
+				},
+				{
 					"title": "Función Afín",
 					"description": "En esta guía se explica lo que es una función afín o función lineal, sus componentes y las formas de expresarla. Para esto, se explicaron los conceptos pendiente y ordenada en el origen, además de representar el cálculo de estos valores con sus respectivas fórmulas. También, se realizaron ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.3_Funci%C3%B3nAf%C3%ADn.pdf?alt=media&token=c5c68b6c-4710-4fab-ad6b-cd51a0ee16b3",
 					"img_url": "https://drive.google.com/uc?export=view&id=15nMBH8iSWzd4E_HzWmsJzoF_500HYAYG",
 					"type": "guide",
 					"id": "3er-guide-3-3"
+				},
+				{
+					"title": "Función Afín",
+					"description": "En este video se explica lo que es una función afín o función lineal, sus componentes y las formas de expresarla. Para esto, se explicaron los conceptos pendiente y ordenada en el origen, además de representar el cálculo de estos valores con sus respectivas fórmulas. También, se realizaron ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=137KBBdYPRzoRQCFO3S5yPe58OuRR4C4Z",
+					"type": "lesson",
+					"video_id": "HesijKyfDc0",
+					"id": "3er-lesson-3-3"
 				},
 				{
 					"title": "Posición Relativa entre 2 Rectas",
@@ -530,6 +873,15 @@
 					"id": "3er-guide-3-4"
 				},
 				{
+					"title": "Posición Relativa entre 2 Rectas",
+					"description": "En este video se explican las cuatro posiciones comunes entre dos rectas: congruentes, paralelas, secantes y perpendiculares. También, se muestra un ejemplo para cada caso.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1BWBSa1CeOQQNwsu_CEh68xpY1wEXifvr",
+					"type": "lesson",
+					"video_id": "1oTj7rn9pvU",
+					"id": "3er-lesson-3-4"
+				},
+				{
 					"title": "Método Gráfico de Resolución de Sistemas de Ecuaciones Lineales",
 					"description": "En esta guía se explica el método gráfico de resolución de sistemas de ecuaciones lineales, para lo cual se desarrollan tres casos que dependen de la posición relativa entre las rectas: rectas secantes, rectas coincidentes y rectas paralelas. Para cada uno de los casos, se resuelve un ejemplo.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.5_M%C3%A9todoGr%C3%A1ficoDeResoluci%C3%B3nDeSistemaDeEcuacionesLineales.pdf?alt=media&token=0be4b840-3798-40e9-ab27-09dc500f5490",
@@ -538,12 +890,98 @@
 					"id": "3er-guide-3-5"
 				},
 				{
+					"title": "Método Gráfico de Sistemas de Ecuaciones Lineales",
+					"description": "En este video se explica el método gráfico de resolución de sistemas de ecuaciones lineales, para lo cual se desarrollan tres casos que dependen de la posición relativa entre las rectas: rectas secantes, rectas coincidentes y rectas paralelas. Para cada uno de los casos, se resuelve un ejemplo.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1zo7wSgrvvpUaR6um2NXGFn2nZtcpiH0X",
+					"type": "lesson",
+					"video_id": "DsWv9ZuuV9o",
+					"id": "3er-lesson-3-5"
+				},
+				{
 					"title": "Ecuaciones de Segundo Grado",
 					"description": "En esta guía se explica lo que son las ecuaciones de segundo grado, y se desarrollan los dos métodos utilizados para resolverlas: factorizando la ecuación o aplicando “la resolvente”. Además, se realizan algunos ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.6_EcuacionesDe2doGrado.pdf?alt=media&token=71fcddad-4f83-4df3-8a5d-3563ee1db191",
 					"img_url": "https://drive.google.com/uc?export=view&id=19mthdFT5glOd-V54QmauNXwzcdkoNKBM",
 					"type": "guide",
 					"id": "3er-guide-3-6"
+				},
+				{
+					"title": "Ecuaciones de Segundo Grado",
+					"description": "En este video se explica lo que son las ecuaciones de segundo grado, y se desarrollan los dos métodos utilizados para resolverlas: factorizando la ecuación o aplicando “la resolvente”. Además, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1GWPuSdjhcKMbyOpzMpDQ4qpC9QlUclO7",
+					"type": "lesson",
+					"video_id": "9LlNfy6AHRw",
+					"id": "3er-lesson-3-6"
+				},
+				{
+					"title": "Función Cuadrática",
+					"description": "En esta guía se explica la función cuadrática. Para esto, se desarrolla su representación gráfica, el vértice, el eje de simetría, los puntos de corte con los ejes coordenados y el dominio y rango de la función. Además, se realizan algunos ejemplos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.7_Funci%C3%B3nCuadr%C3%A1tica.pdf?alt=media&token=08627595-b9e4-4bfe-b250-7a91bf1c9ddc",
+					"img_url": "https://drive.google.com/uc?export=view&id=10pu2Sz5ouaOyAlVKnC7RtIrKdnVRKvqi",
+					"type": "guide",
+					"id": "3er-guide-3-7"
+				},
+				{
+					"title": "Función Cuadrática",
+					"description": "En este video se explica la función cuadrática. Para esto, se desarrolla su representación gráfica, el vértice, el eje de simetría, los puntos de corte con los ejes coordenados y el dominio y rango de la función. Además, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=18WNmMnMY1OwPMOoMYgYyZ5RBqXU7-Y-W",
+					"type": "lesson",
+					"video_id": "fLIJZ9_EYrg",
+					"id": "3er-lesson-3-7"
+				},
+				{
+					"title": "Teorema de Pitágoras",
+					"description": "En esta guía se explica el teorema de Pitágoras, por lo que se definen sus partes, las fórmulas relacionadas y cómo aplicarlas. También, se realizan ejemplos para ilustrar su aplicación en la vida real.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.8_TeoremaDePit%C3%A1goras.pdf?alt=media&token=5a946f43-c99f-4439-94c6-7639f5a65d41",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Vhy95OOeNX1m7h13ow0ht8QqiN8--TVQ",
+					"type": "guide",
+					"id": "3er-guide-3-8"
+				},
+				{
+					"title": "Teorema de Pitágoras",
+					"description": "En este video se explica el teorema de Pitágoras, por lo que se definen sus partes, las fórmulas relacionadas y cómo aplicarlas. También, se realizan ejemplos para ilustrar su aplicación en la vida real.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1xvz6jNq_UVShO7UAxzSigcGr6BE3zi9J",
+					"type": "lesson",
+					"video_id": "di8KL4EG1R4",
+					"id": "3er-lesson-3-8"
+				},
+				{
+					"title": "Teorema de Euclides",
+					"description": "En esta guía se explica el teorema de Euclides, y a partir de él se obtienen otros dos teoremas: el del cateto y el de la altura. Para cada caso, se definen sus fórmulas y se realizan algunos ejemplos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.9_TeoremaDeEuclides.pdf?alt=media&token=62babded-55c3-473f-ab60-962bc756def4",
+					"img_url": "https://drive.google.com/uc?export=view&id=1qAAxu3L3dfdhD3XbmZoAYmpX0Ys_mGYR",
+					"type": "guide",
+					"id": "3er-guide-3-9"
+				},
+				{
+					"title": "Teorema de Euclides",
+					"description": "En este video se explica el teorema de Euclides, y a partir de él se obtienen otros dos teoremas: el del cateto y el de la altura. Para cada caso, se definen sus fórmulas y se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ouymjNchZ4T_nauuNHJlItRboADQNeq9",
+					"type": "lesson",
+					"video_id": "qXkYVVjC22s",
+					"id": "3er-lesson-3-9"
+				},
+				{
+					"title": "Proporcionalidad entre Segmentos",
+					"description": "En esta guía se explica la proporcionalidad entre segmentos y el teorema de Thales. Para cada caso, se realizan algunos ejemplos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.10_ProporcionalidadEntreSegmentos.pdf?alt=media&token=038382ba-c4dc-4fb0-8e99-bda6cd699616",
+					"img_url": "https://drive.google.com/uc?export=view&id=10FfFr5wmiFG6iK6aobcEC3TeEKADVebj",
+					"type": "guide",
+					"id": "3er-guide-3-10"
+				},
+				{
+					"title": "Proporcionalidad entre Segmentos",
+					"description": "En este video se explica la proporcionalidad entre segmentos y el teorema de Thales. Para cada caso, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1PfQ0x8R9XriGsOLQKqW3CTZdO-M75jeb",
+					"type": "lesson",
+					"video_id": "EUGFTRwMVxo",
+					"id": "3er-lesson-3-10"
 				}
 			]
 		},
@@ -565,7 +1003,7 @@
 					"title": "Potenciación",
 					"description": "En esta lección aprenderemos a utilizar la herramienta matemática de la potenciación y entenderemos con ejercicios la forma correcta de resolver potencias.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1fLdnDYMUA8GbVsbOJ5xW-icyrlna0JKM",
 					"type": "lesson",
 					"video_id": "PxulinsiOlU",
 					"id": "4to-lesson-1-1"
@@ -582,7 +1020,7 @@
 					"title": "Logaritmos",
 					"description": "En esta lección se va a aprender los fundamentos de los logaritmos, sus propiedades y ejemplos para entender como resolver esta importante operación.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Ij4rWT3wogDxQUiYphK_qVe4XxiLA_ip",
 					"type": "lesson",
 					"video_id": "hW-q2MkzbZU",
 					"id": "4to-lesson-1-2-1"
@@ -599,7 +1037,7 @@
 					"title": "Logaritmo decimal",
 					"description": "En esta lección se va a aprender el uso de un tipo importante de logaritmo: logaritmo decimal o en base 10.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1XOMc7-nABZoO3vVGMC1alpppwoJQhTYP",
 					"type": "lesson",
 					"video_id": "t8h8auUbHk8",
 					"id": "4to-lesson-1-2-2"
@@ -607,7 +1045,7 @@
 				{
 					"title": "Función exponencial",
 					"description": "En esta lección se estudia la importante función exponencial, su comportamiento y ejemplos importantísimos para su análisis.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_1.3_Exponencial.pdf?alt=media&token=b6b1ee46-542b-4fe6-a3bd-1607faa98520",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_1.3_Funci%C3%B3nExponencial.pdf?alt=media&token=c4138ecc-05dc-412e-be6e-536554f7329e",
 					"img_url": "https://drive.google.com/uc?export=view&id=1FmaHlWQeX9RUI8UwRomC1n-C7b6GOMgP",
 					"type": "guide",
 					"id": "4to-guide-1-3"
@@ -616,7 +1054,7 @@
 					"title": "Función exponencial",
 					"description": "En esta lección se estudia la importante función exponencial, su comportamiento y ejemplos importantísimos para su análisis.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1_tYXe3ffdqyM9pjqbsQ_TVdD_6Ge74Y6",
 					"type": "lesson",
 					"video_id": "fo9WJ_Uiu88",
 					"id": "4to-lesson-1-3"
@@ -633,7 +1071,7 @@
 					"title": "Función Logarítmica",
 					"description": "En esta lección estudiamos las características básicas de la función logarítmica, su comportamiento y mediante ejercicios entenderemos su gráfica.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1jDr5GqP3P_8IV0naAl_bhpLKVuJknSVr",
 					"type": "lesson",
 					"video_id": "UbY6fhdWc3c",
 					"id": "4to-lesson-1-4"
@@ -650,7 +1088,7 @@
 					"title": "Número de Euler",
 					"description": "En esta lección aprenderemos uno de los números más importantes en la historia de las matemáticas: el número de Euler e.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=17zclhbabX-Ki1G1ukqW-C3B4Sj4b8lzN",
 					"type": "lesson",
 					"video_id": "cbGEYlFGGwY",
 					"id": "4to-lesson-1-5"
@@ -674,7 +1112,7 @@
 				},
 				{
 					"title": "Ecuaciones Logarítmicas",
-					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones exponenciales.",
+					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones logarítmicas.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F1er%20Lapso%2FA4_1.7_EcuacionesLogaritmicas.pdf?alt=media&token=f2497c10-a255-4905-9f5f-03096b4ab7b2",
 					"img_url": "https://drive.google.com/uc?export=view&id=1gUjx-28IcSLf5Zyv3GFdXIF7qJqvfy3c",
 					"type": "guide",
@@ -682,7 +1120,7 @@
 				},
 				{
 					"title": "Ecuaciones Logarítmicas",
-					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones exponenciales.",
+					"description": "En esta lección mediante ejemplos entenderemos algunas maneras para resolver las ecuaciones logarítmicas.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1na-F1V0RW_NwwiSneNH4eEH6VBUcmHcW",
 					"type": "lesson",
@@ -718,7 +1156,7 @@
 					"title": "Circulo Trigonométrico",
 					"description": "En esta lección comenzaremos a entender los principios de la trigonometría: el círculo trigonométrico y sus cuadrantes, la forma de medir ángulos y cómo pasar de grados a radianes y viceversa.",
 					"url": "",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1-S9e6dS_4q2UcCvo_VVJRzM8ZTgxhPk1",
 					"type": "lesson",
 					"video_id": "QD1J-f069UY",
 					"id": "4to-lesson-2-1"
@@ -732,12 +1170,30 @@
 					"id": "4to-guide-2-2"
 				},
 				{
+					"title": "Seno, Coseno y Tangente Nociones Básicas",
+					"description": "En esta lección vas a aprender las bases para entender las importantes funciones SENO, COSENO y TANGENTE, que nos permiten entender muchísimos fenómenos presentes en el mundo real.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ziyIDyb_TZpdbNTUcJkIplVRvAb2HLgz",
+					"type": "lesson",
+					"video_id": "505HuaXllb0",
+					"id": "4to-lesson-2-2"
+				},
+				{
 					"title": "Identidad Trigonométrica Fundamental",
 					"description": "En esta lección vas a aprender una herramienta super valiosa en el mundo de la trigonometría: la identidad fundamental. Ayudados por el Teorema de Pitágoras, vamos a demostrar esta relación y con algunos ejemplos conoceremos su utilidad.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F2do%20Lapso%2FA4_2.3_IdentidadTrigonom%C3%A9tricaFundamental.pdf?alt=media&token=bad07d4a-1944-4d38-b184-4cde082dae66",
 					"img_url": "https://drive.google.com/uc?export=view&id=1X5vXF4VWZtM9imC26s8K2uJfgnyTqYCc",
 					"type": "guide",
 					"id": "4to-guide-2-3"
+				},
+				{
+					"title": "Identidad Trigonométrica Fundamental",
+					"description": "En esta lección vas a aprender una herramienta super valiosa en el mundo de la trigonometría: la identidad fundamental. Ayudados por el Teorema de Pitágoras, vamos a demostrar esta relación y con algunos ejemplos conoceremos su utilidad.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1m1Q1PhRBJMg6Sz-x8Bs2PVxKtLGLcZuD",
+					"type": "lesson",
+					"video_id": "Wwt0Auk_j7I",
+					"id": "4to-lesson-2-3"
 				},
 				{
 					"title": "Otras identidades de interés",
@@ -748,12 +1204,30 @@
 					"id": "4to-guide-2-4"
 				},
 				{
+					"title": "Otras Identidades Trigonométricas de Interés",
+					"description": "En esta lección te presentamos las identidades más útiles que vas a necesitar al resolver ejercicios de trigonometría.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1_hPeasa4noQhjwrlEav1ET8VIVuNpE6q",
+					"type": "lesson",
+					"video_id": "hNiT0sx8nUo",
+					"id": "4to-lesson-2-4"
+				},
+				{
 					"title": "Repaso de trigonometría",
 					"description": "En esta lección vamos a hacer un resumen de todas las identidades trigonométricas que hemos estudiado y algunos ejercicios para comprender sus usos más importantes.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F2do%20Lapso%2FA4_2.5_RepasoDeTrigonometr%C3%ADa.pdf?alt=media&token=a181bf1f-ccd8-4b63-9f12-b2e33ba08afc",
 					"img_url": "https://drive.google.com/uc?export=view&id=1KRrVgOke3kQvNvKG3vRmMeHY51LRMJ-0",
 					"type": "guide",
 					"id": "4to-guide-2-5"
+				},
+				{
+					"title": "Repaso de trigonometría",
+					"description": "En esta lección vamos a hacer un resumen de todas las identidades trigonométricas que hemos estudiado y algunos ejercicios para comprender sus usos más importantes.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1t_d_pctZLPvMjMjKoX9HjmQfFVwNGZvs",
+					"type": "lesson",
+					"video_id": "c5o0kD3rx7A",
+					"id": "4to-lesson-2-5"
 				},
 				{
 					"title": "Funciones Trigonométricas",
@@ -764,12 +1238,73 @@
 					"id": "4to-guide-2-6"
 				},
 				{
+					"title": "Funciones Trigonométricas",
+					"description": "En esta lección volvemos a estudiar al seno, coseno y la tangente pero desde la perspectiva de las funciones, analizando el comportamiento de su gráfica y como es su dominio y rango para cada una de las funciones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=11WhW2PcRotd3tMRUJd2PYyiE72qpW92K",
+					"type": "lesson",
+					"video_id": "CXvHhSHj_gY",
+					"id": "4to-lesson-2-6"
+				},
+				{
 					"title": "Ecuaciones Trigonométricas",
 					"description": "En esta lección te enseñamos algunos tips para resolver un nuevo tipo de ecuación: las ecuaciones trigonométricas.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F2do%20Lapso%2FA4_2.7_FuncionesTrigonom%C3%A9tricas.pdf?alt=media&token=93d06c13-a9cf-4c67-b830-0dabd81a9909",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F2do%20Lapso%2FA4_2.7_EcuacionesTrigonom%C3%A9tricas.pdf?alt=media&token=19086575-ce32-4b48-80a7-fca5960dbf66",
 					"img_url": "https://drive.google.com/uc?export=view&id=1cpnlTt-S0VEKu1ZZ-Tzns1MAg4lAEeTD",
 					"type": "guide",
 					"id": "4to-guide-2-7"
+				},
+				{
+					"title": "Ecuaciones Trigonométricas",
+					"description": "En esta lección te enseñamos algunos tips para resolver un nuevo tipo de ecuación: las ecuaciones trigonométricas.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=18Udss6CQ5QO_lXbvXQ7tRfFty-JZcGC7",
+					"type": "lesson",
+					"video_id": "kcuP9jree9M",
+					"id": "4to-lesson-2-7"
+				},
+				{
+					"title": "Números Complejos",
+					"description": "En esta lección haremos un estudio sobre un nuevo tipo de número: los números complejos. Comenzando por la unidad imaginaria, vas a conocer todo lo que necesitas de esta nueva forma de expresar cantidades.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F3er%20Lapso%2FA4_3_1_N%C3%BAmerosComplejos.pdf?alt=media&token=6af973a2-b21c-43de-bde3-6f01932475f5",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ZhZ1-u76cBjJDtRDanP6xshL1tzOHNKs",
+					"type": "guide",
+					"id": "4to-guide-3-1"
+				},
+				{
+					"title": "Números Complejos Parte 1",
+					"description": "En esta lección haremos un estudio sobre un nuevo tipo de número: los números complejos. Comenzando por la unidad imaginaria, vas a conocer todo lo que necesitas de esta nueva forma de expresar cantidades.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1dxpqpAQuKRSZG6IStyn_WShqZmJOFH5i",
+					"type": "lesson",
+					"video_id": "53pNdp1Qe60",
+					"id": "4to-lesson-3-1-1"
+				},
+				{
+					"title": "Números Complejos Parte 2",
+					"description": "En esta lección haremos un estudio sobre un nuevo tipo de número: los números complejos. Comenzando por la unidad imaginaria, vas a conocer todo lo que necesitas de esta nueva forma de expresar cantidades.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1iLFtpjgupxMMPxv5_F5Chd2FcshL7TdN",
+					"type": "lesson",
+					"video_id": "GQfieInV-eY",
+					"id": "4to-lesson-3-1-2"
+				},
+				{
+					"title": "Progresiones Geométricas y Aritméticas",
+					"description": "En esta lección aprenderás lo que necesitas saber de un nuevo concepto matemático: las progresiones aritméticas y geométricas. No te preocupes: ¡Son sencillas! y con ejercicios y ejemplos propuestos podrás entenderlas mucho mejor.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2F3er%20Lapso%2FA4_3_2_ProgresionesAritm%C3%A9ticasYGeom%C3%A9tricas.pdf?alt=media&token=551a03e0-92a4-4237-8ab6-9a1851ca0a3c",
+					"img_url": "https://drive.google.com/uc?export=view&id=1tH0Ob9100_HTsitEvPvQPOYWOdiK4uvd",
+					"type": "guide",
+					"id": "4to-guide-3-2"
+				},
+				{
+					"title": "Progresiones Geométricas y Aritméticas",
+					"description": "En esta lección aprenderás lo que necesitas saber de un nuevo concepto matemático: las progresiones aritméticas y geométricas. No te preocupes: ¡Son sencillas! y con ejercicios y ejemplos propuestos podrás entenderlas mucho mejor.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Cnri2Un43AX9QiBb12F6AtpdEti2r1ct",
+					"type": "lesson",
+					"video_id": "1bFk3nbGCwc",
+					"id": "4to-lesson-3-2"
 				}
 			]
 		},
