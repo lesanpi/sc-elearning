@@ -94,6 +94,7 @@ body{
 .quiz-title-container{
     display: inline;
     text-align: center;
+    padding: 20px 10px;
 }
 .quizes-grid .quiz-card .quiz-title img{
     width: 100%;

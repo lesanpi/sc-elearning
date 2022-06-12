@@ -813,15 +813,571 @@
 			"description": "Ecuaciones de segundo grado, mas vainas...",
 			"quizes": [
 				{
-					"title": "Escalares, vectores y matrices",
-					"id": "1eranio-01",
+					"title": "Números naturales",
+					"id": "1eranio-1-01",
 					"questions": [
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
+							"question": "Indica cuál de las siguientes relaciones matemáticas se cumple",
+							"option_1": "3 < 1",
+							"option_2": "800.000 > 799.999",
+							"option_3": "653 > 749",
+							"option_4": "13 = 8",
+							"correct_option": 2
+						},
+						{
+							"question": "Selecciona el conjunto que contiene 6 elementos",
+							"option_1": "{354, 89, 46, 90, 6}",
+							"option_2": "{aguacate, cambur, manzana, pera, guanábana, parchita}",
+							"option_3": "{a, b, c, d}",
+							"option_4": "{pez, pulpo, tiburón, delfín, ballena, calamar, camarón, langosta}",
+							"correct_option": 2
+						},
+						{
+							"question": "Indica el conjunto que está correctamente ordenado de menor a mayor",
+							"option_1": "{459, 68, 794, 95, 300, 2346}",
+							"option_2": "{61, 23, 78, 90, 30, 100}",
+							"option_3": "{43, 135, 349, 501, 789, 1649}",
+							"option_4": "{3, 8, 90, 101, 300, 1}",
+							"correct_option": 3
+						},
+						{
+							"question": "¿Qué símbolo se tendría que poner para que la relación se cumpla?\n 24__56",
+							"option_1": "<",
+							"option_2": ">",
+							"option_3": "=",
+							"option_4": "Ninguna de las anteriores",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Suma y resta de números naturales y símbolos de agrupación",
+					"id": "1eranio-1-02",
+					"questions": [
+						{
+							"question": "Resuelve la siguiente operación e indica la respuesta correcta\n 458 + 351 - 246 - 54",
+							"option_1": "400",
+							"option_2": "508",
+							"option_3": "509",
+							"option_4": "519",
+							"correct_option": 3
+						},
+						{
+							"question": "Resuelve la siguiente operación e indica la respuesta correcta\n6 – 3 + 2 – 1 + 4",
+							"option_1": "7",
+							"option_2": "8",
+							"option_3": "9",
+							"option_4": "10",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuáles de los siguientes signos de agrupación son los corchetes?",
+							"option_1": "{   }",
+							"option_2": "|  |",
+							"option_3": "(   )",
+							"option_4": "[   ]",
+							"correct_option": 4
+						},
+						{
+							"question": "El elemento neutro de una suma o de una resta es",
+							"option_1": "1",
+							"option_2": "0",
+							"option_3": "La propiedad conmutativa",
+							"option_4": "No tienen elemento neutro",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Números enteros",
+					"id": "1eranio-1-03",
+					"questions": [
+						{
+							"question": "Los números menores que el cero se representan usando el signo",
+							"option_1": "+",
+							"option_2": "-",
+							"option_3": "x",
+							"option_4": "÷",
+							"correct_option": 2
+						},
+						{
+							"question": "Indica cuál de las siguientes operaciones es correcta",
+							"option_1": "|4 + 3| = |7| = 7",
+							"option_2": "|–5 + 8| = |–5| + |8| = 13",
+							"option_3": "|–9 + 1| = |10| = 10",
+							"option_4": "|–20| = –20 ",
+							"correct_option": 1
+						},
+						{
+							"question": "Indica cuál de las siguientes relaciones matemáticas NO se cumple",
+							"option_1": "–8 < 1",
+							"option_2": "2000 > –4",
+							"option_3": "–41 < – 40",
+							"option_4": "–20 > 6",
+							"correct_option": 4
+						},
+						{
+							"question": "Los números enteros…",
+							"option_1": "Comienzan en el cero",
+							"option_2": "No contienen al cero",
+							"option_3": "Contienen a los números naturales",
+							"option_4": "Son limitados",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Operaciones con números enteros",
+					"id": "1eranio-1-04",
+					"questions": [
+						{
+							"question": "Resuelva la siguiente operación e indica la respuesta correcta \n(2 – 5) · (–6) + 3 – 2 ",
+							"option_1": "15",
+							"option_2": "19",
+							"option_3": "-15",
+							"option_4": "-19",
+							"correct_option": 2
+						},
+						{
+							"question": "Al dividir un número por sí mismo obtendremos como resultado",
+							"option_1": "1",
+							"option_2": "0",
+							"option_3": "El mismo número",
+							"option_4": "-1",
+							"correct_option": 1
+						},
+						{
+							"question": "Al multiplicar dos números enteros que tienen el mismo signo se obtiene siempre",
+							"option_1": "Un número positivo",
+							"option_2": "Un número negativo",
+							"option_3": "Un número con el signo del número mayor",
+							"option_4": "Un número con el signo del número menor",
+							"correct_option": 1
+						},
+						{
+							"question": "Indica el nombre de la siguiente propiedad aplicada\n4 · (1 – 3) = 4 – 12",
+							"option_1": "Propiedad conmutativa",
+							"option_2": "Propiedad asociativa",
+							"option_3": "Propiedad distributiva",
+							"option_4": "Elemento neutro",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Múltiplos, divisores, números primos y compuestos",
+					"id": "1eranio-1-05",
+					"questions": [
+						{
+							"question": "Indica cuál de los siguientes números NO es primo",
+							"option_1": "389",
+							"option_2": "911",
+							"option_3": "463",
+							"option_4": "476",
+							"correct_option": 4
+						},
+						{
+							"question": "Indica cuál de los siguientes números se puede dividir entre 3",
+							"option_1": "169",
+							"option_2": "9457",
+							"option_3": "153",
+							"option_4": "3485",
+							"correct_option": 3
+						},
+						{
+							"question": "Al descomponer 125 en factores primos obtenemos",
+							"option_1": "5³",
+							"option_2": "3 · 5²",
+							"option_3": "5²",
+							"option_4": "3⁵",
+							"correct_option": 1
+						},
+						{
+							"question": "Al descomponer 84 en factores primos obtenemos",
+							"option_1": "2 · 3² · 7",
+							"option_2": "2 · 3² · 7²",
+							"option_3": "2² · 3 · 7",
+							"option_4": "2² · 3² · 7",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Mínimo común múltiplo y Máximo común divisor",
+					"id": "1eranio-1-06",
+					"questions": [
+						{
+							"question": "El mínimo común múltiplo entre 18 y 6 es",
+							"option_1": "18",
+							"option_2": "24",
+							"option_3": "3",
+							"option_4": "6",
+							"correct_option": 1
+						},
+						{
+							"question": "El mínimo común múltiplo entre 13, 3 y 9 es",
+							"option_1": "39",
+							"option_2": "117",
+							"option_3": "121",
+							"option_4": "13",
+							"correct_option": 2
+						},
+						{
+							"question": "El máximo común divisor entre 6, 9 y 27 es",
+							"option_1": "6",
+							"option_2": "9",
+							"option_3": "18",
+							"option_4": "3",
+							"correct_option": 4
+						},
+						{
+							"question": "El máximo común divisor entre 8, 25 y 3 es",
+							"option_1": "5",
+							"option_2": "49",
 							"option_3": "2",
-							"option_4": "Pez",
+							"option_4": "1",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Potenciación de números enteros.",
+					"id": "1eranio-1-07",
+					"questions": [
+						{
+							"question": "Cuando el exponente de un número es cero, siempre se obtiene",
+							"option_1": "0",
+							"option_2": "1",
+							"option_3": "El mismo número",
+							"option_4": "El recíproco del mismo número",
+							"correct_option": 2
+						},
+						{
+							"question": "Selecciona el resultado correcto de la siguiente operación\n((800)⁰ – 2)²",
+							"option_1": "4",
+							"option_2": "-4",
+							"option_3": "-2",
+							"option_4": "1",
+							"correct_option": 4
+						},
+						{
+							"question": "Cuando elevemos un número a la 3 decimos que lo estamos elevando…",
+							"option_1": "Al cuadrado",
+							"option_2": "A la tercera parte",
+							"option_3": "A un tercio",
+							"option_4": "Al cubo",
+							"correct_option": 4
+						},
+						{
+							"question": "Al multiplicar potencias que tengan la misma base podemos…",
+							"option_1": "Multiplicar los exponentes y las bases",
+							"option_2": "Dejar la misma base y sumar los exponentes",
+							"option_3": "Dejar los mismos exponentes y sumar las bases",
+							"option_4": "Multiplicar las bases y sumar los exponentes",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Ecuaciones.",
+					"id": "1eranio-2-08",
+					"questions": [
+						{
+							"question": "Para hacer el despeje de la siguiente ecuación\nx + 6 = 1\ny así obtener el valor de x, tenemos que:",
+							"option_1": "Restar 6 en ambos lados de la igualdad",
+							"option_2": "Restar 1 en ambos lados de la igualdad",
+							"option_3": "Sumar 6 en ambos lados de la igualdad",
+							"option_4": "Sumar 1 en ambos lados de la igualdad",
+							"correct_option": 1
+						},
+						{
+							"question": "La solución de una ecuación es",
+							"option_1": "El valor de las incógnitas",
+							"option_2": "El número que está a la derecha de la igualdad",
+							"option_3": "El valor del término independiente",
+							"option_4": "El coeficiente de x",
+							"correct_option": 1
+						},
+						{
+							"question": "Selecciona el valor correcto de x para satisfacer la siguiente ecuación:\n2x + 5 – 9x = 12",
+							"option_1": "2",
+							"option_2": "-5",
+							"option_3": "1",
+							"option_4": "-1",
+							"correct_option": 4
+						},
+						{
+							"question": "Selecciona el valor correcto de x para satisfacer la siguiente ecuación:\n6x – 2x = 20",
+							"option_1": "4",
+							"option_2": "2",
+							"option_3": "5",
+							"option_4": "10",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Números racionales.",
+					"id": "1eranio-2-09",
+					"questions": [
+						{
+							"question": "Al simplificar 84/20 obtenemos",
+							"option_1": "28/5",
+							"option_2": "21/5",
+							"option_3": "84/10",
+							"option_4": "42/20",
+							"correct_option": 2
+						},
+						{
+							"question": "Indica cuál de las siguientes relaciones matemáticas NO se cumple:",
+							"option_1": "2/3 > 1/3",
+							"option_2": "9/8 < 9/7",
+							"option_3": "3/2 > 1",
+							"option_4": "7/3 < 2/3",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Qué símbolo se tendría que poner para que la relación se cumpla?\n90/16 __ 45/8",
+							"option_1": ">",
+							"option_2": "<",
+							"option_3": "=",
+							"option_4": "Ninguna de las anteriores",
+							"correct_option": 3
+						},
+						{
+							"question": "La fracción “cincuenta y tres décimos” es una fracción…",
+							"option_1": "Que está dividida entre 3",
+							"option_2": "Decimal",
+							"option_3": "Que está dividida entre 53",
+							"option_4": "Propia",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Operaciones con números racionales.",
+					"id": "1eranio-2-10",
+					"questions": [
+						{
+							"question": "Cuando multiplicamos fracciones tenemos que",
+							"option_1": "Multiplicar numerador con denominador y denominador con numerador",
+							"option_2": "Sumar los numeradores y multiplicar los denominadores",
+							"option_3": "Multiplicar los numeradores y sumar los denominadores",
+							"option_4": "Multiplicar numerador con numerador y denominador con denominador",
+							"correct_option": 4
+						},
+						{
+							"question": "Cuando elevamos una fracción completa a la menos uno (–1)",
+							"option_1": "Obtenemos el mismo número",
+							"option_2": "Obtenemos el mismo número, pero negativo",
+							"option_3": "Obtenemos el recíproco de la fracción",
+							"option_4": "Obtenemos el recíproco negativo de la fracción",
+							"correct_option": 3
+						},
+						{
+							"question": "Para realizar la suma o la resta de fracciones es recomendable",
+							"option_1": "Multiplicar numerador con numerador y denominador con denominador",
+							"option_2": "Utilizar el m.c.m. entre los numeradores.",
+							"option_3": "Utilizar el m.c.m. entre los denominadores",
+							"option_4": "Utilizar el m.c.d. entre los denominadores",
+							"correct_option": 3
+						},
+						{
+							"question": "Selecciona el resultado correcto de la siguiente operación (⅒)⁻²",
+							"option_1": "⅕",
+							"option_2": "20",
+							"option_3": "1000",
+							"option_4": "100",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Transformaciones de racionales.",
+					"id": "1eranio-2-11",
+					"questions": [
+						{
+							"question": "Selecciona la fracción generatriz de 0,6666666666… (periódico)",
+							"option_1": "2/3",
+							"option_2": "1/3",
+							"option_3": "2/9",
+							"option_4": "6/12",
+							"correct_option": 1
+						},
+						{
+							"question": "Transforma el siguiente número mixto a una fracción simple y selecciona el resultado correcto\n 8 ⅗ ",
+							"option_1": "83/5",
+							"option_2": "11/5",
+							"option_3": "43/15",
+							"option_4": "43/5",
+							"correct_option": 4
+						},
+						{
+							"question": "Transforma el siguiente número mixto a una expresión decimal y selecciona el resultado correcto\n 20 ⅛",
+							"option_1": "20,25",
+							"option_2": "20,125",
+							"option_3": "20,5",
+							"option_4": "28,1",
+							"correct_option": 2
+						},
+						{
+							"question": "Transforma la siguiente expresión decimal a un número mixto y selecciona el resultado correcto 3,875",
+							"option_1": "3 ⅜",
+							"option_2": "3 ⅞",
+							"option_3": "3 ⅝",
+							"option_4": "3 ⅗",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Potencias de 10 y notación científica",
+					"id": "1eranio-2-12",
+					"questions": [
+						{
+							"question": "Si redondeamos 8,199 a 2 cifras decimales, se obtiene",
+							"option_1": "8.19",
+							"option_2": "8.10",
+							"option_3": "8.29",
+							"option_4": "8.20",
+							"correct_option": 4
+						},
+						{
+							"question": "Si redondeamos 30,15667 a 3 cifras decimales, se obtiene",
+							"option_1": "30,157",
+							"option_2": "30,167",
+							"option_3": "30,156",
+							"option_4": "30,166",
+							"correct_option": 1
+						},
+						{
+							"question": "Al expresar 9671,4 en notación científica, se obtiene",
+							"option_1": "9,6714×10⁻²",
+							"option_2": "9,6714×10²",
+							"option_3": "96,714×10⁻³",
+							"option_4": "9,6714×10³",
+							"correct_option": 4
+						},
+						{
+							"question": "El número 6,1×10⁻², expresado en notación científica, es igual a ",
+							"option_1": "0,0061",
+							"option_2": "0,61",
+							"option_3": "0,061",
+							"option_4": "610",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Introducción a la geometría.",
+					"id": "1eranio-3-13",
+					"questions": [
+						{
+							"question": "El vértice del ángulo ∠ABC es el punto",
+							"option_1": "A",
+							"option_2": "B",
+							"option_3": "C",
+							"option_4": "α",
+							"correct_option": 2
+						},
+						{
+							"question": "Los centímetros son cien veces más pequeños que los metros, esto significa que equivalen a",
+							"option_1": "100 metros",
+							"option_2": "0,01 metros",
+							"option_3": "0,001 metros",
+							"option_4": "0,1 metros",
+							"correct_option": 2
+						},
+						{
+							"question": "Las rectas…",
+							"option_1": "Se extienden infinitamente",
+							"option_2": "Tienen dos extremos definidos que las limitan",
+							"option_3": "Tienen un origen y un extremo",
+							"option_4": "Tienen un origen y dos extremos",
+							"correct_option": 1
+						},
+						{
+							"question": "A los ángulos que sumados resultan en 180° se les conoce como",
+							"option_1": "Ángulos opuestos por el vértice",
+							"option_2": "Ángulos complementarios",
+							"option_3": "Ángulos obtusos",
+							"option_4": "Ángulos suplementarios",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Tipos de rectas y ejercicios geométricos",
+					"id": "1eranio-3-14",
+					"questions": [
+						{
+							"question": "La secante es…",
+							"option_1": "Una recta paralela a otra",
+							"option_2": "Una recta que tiene un solo punto en común con otra recta",
+							"option_3": "Una recta que siempre es perpendicular a otra",
+							"option_4": "Una recta que tiene dos puntos en común con otra recta",
+							"correct_option": 2
+						},
+						{
+							"question": "Dos rectas son perpendiculares…",
+							"option_1": "Cuando al cortarse generan 4 ángulos rectos",
+							"option_2": "Cuando nunca se intersecan.",
+							"option_3": "Cuando al cortarse generan 4 ángulos de 45°",
+							"option_4": "Cuando se intersecan en 2 puntos diferentes",
+							"correct_option": 1
+						},
+						{
+							"question": "Si dos rectas L1 y L2 son perpendiculares a una recta L3…",
+							"option_1": "Las rectas L1 y L2 son perpendiculares entre sí",
+							"option_2": "Las rectas L1 y L2 se intersecan",
+							"option_3": "Las rectas L1 y L2 serán siempre iguales",
+							"option_4": "Las rectas L1 y L2 son paralelas entre sí",
+							"correct_option": 4
+						},
+						{
+							"question": "Cuando una secante corta a dos rectas que son paralelas entre sí…",
+							"option_1": "Se forman ángulos correspondientes iguales",
+							"option_2": "Se forman 8 ángulos totalmente diferentes",
+							"option_3": "Se forman solo 2 ángulos suplementarios",
+							"option_4": "Se forman solo 4 ángulos complementarios",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Polígonos",
+					"id": "1eranio-3-15",
+					"questions": [
+						{
+							"question": "Los polígonos están delimitados por una...",
+							"option_1": "Línea poligonal que tiene segmentos curvos",
+							"option_2": "Curva abierta",
+							"option_3": "Línea poligonal que solo puede ser cóncava",
+							"option_4": "Línea poligonal que solo tiene segmentos rectos",
+							"correct_option": 4
+						},
+						{
+							"question": "Los polígonos tienen una…",
+							"option_1": "Cantidad igual de ángulos internos, ángulos externos, lados, vértices y ángulos",
+							"option_2": "Cantidad igual de ángulos internos y ángulos externos, pero diferente cantidad de lados",
+							"option_3": "Cantidad igual de vértices y lados, pero diferente cantidad de ángulos",
+							"option_4": "Cantidad diferente de ángulos, lados, vértices y ángulos",
+							"correct_option": 1
+						},
+						{
+							"question": "Los triángulos isósceles…",
+							"option_1": "Tienen 3 ángulos iguales",
+							"option_2": "Tienen 2 lados iguales y uno diferente",
+							"option_3": "Tienen 3 lados diferentes",
+							"option_4": "Tienen 2 ángulos rectos",
+							"correct_option": 2
+						},
+						{
+							"question": "Los polígonos regulares…",
+							"option_1": "Tienen ángulos iguales, pero lados de diferente longitud",
+							"option_2": "Tienen lados de igual longitud, pero ángulos diferentes",
+							"option_3": "Solo pueden tener 8 lados como máximo",
+							"option_4": "Tienen lados de la misma longitud y ángulos equivalentes",
 							"correct_option": 4
 						}
 					]
@@ -855,16 +1411,913 @@
 			"description": "Ecuaciones de segundo grado",
 			"quizes": [
 				{
-					"title": "Escalares, vectores y matrices",
-					"id": "3eranio-01",
+					"title": "Números Racionales",
+					"id": "3eranio-1-01",
 					"questions": [
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1m6uW1riqtMvow84JHSxDeOZkfHGs8lqn",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=18C584fr8p3_mnnaEvIDFI0avi97ErKJe",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=12Ptof3VISCTiROZmViMOFAChGbhu1Tue",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1UH4Rhd37F8DgN4UbDTlRiW5c7e6rjj5K",
 							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1SQewYzWsbt9a6kc4cOO8PjZMas9wE7Mp",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Números Irracionales",
+					"id": "3eranio-1-02",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1vWZlRWyZlT7QWTUsle1VGNyBVpXolIto",
+							"correct_option": 2
+						},
+						{
+							"question": "Un número irracional es aquel que:",
+							"option_1": "Se obtiene de una fracción",
+							"option_2": "Tiene decimales finitos",
+							"option_3": "Tiene decimales infinitos",
+							"option_4": "Es periódico",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Verdadero",
+							"option_2": "Falso",
+							"option_3": "No sé",
+							"option_4": "-",
+							"img": "https://drive.google.com/uc?export=view&id=1EBZqXDDss5P-kuSfoIcdpk5x3kjNYm_9",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Verdadero",
+							"option_2": "Falso",
+							"option_3": "No sé",
+							"option_4": "-",
+							"img": "https://drive.google.com/uc?export=view&id=1V2-Y72g9qD8ssfQ6PUWctpeCp8fNN4h8",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Verdadero",
+							"option_2": "Falso",
+							"option_3": "No sé",
+							"option_4": "-",
+							"img": "https://drive.google.com/uc?export=view&id=1tx-L3Grwx-OExuVZkQTje6GEG_7HeyXq",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Radicación y Raíz Cuadrada",
+					"id": "3eranio-1-03",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "4",
+							"option_2": "-2",
+							"option_3": "2",
+							"option_4": "No existe",
+							"img": "https://drive.google.com/uc?export=view&id=16ncPi6jKePbAkZyS4swIbg2n-YMkFtX8",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "32",
+							"option_2": "129",
+							"option_3": "23",
+							"option_4": "38",
+							"img": "https://drive.google.com/uc?export=view&id=1NJNp8xJQRYIAqkgcgHAWdpiFJzZbMHl6",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "11",
+							"option_2": "12",
+							"option_3": "21",
+							"option_4": "13",
+							"img": "https://drive.google.com/uc?export=view&id=1X2BIzXRVTn_23G-_BvGwBrI4wW0tYMF7",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "48",
+							"option_2": "31",
+							"option_3": "88",
+							"option_4": "735",
+							"img": "https://drive.google.com/uc?export=view&id=1ZpP_B8wCqsXTfvHza1Y0-eE6HzK145jg",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Propiedades de las Raíces",
+					"id": "3eranio-1-04",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "6",
+							"option_2": "10",
+							"option_3": "30",
+							"option_4": "15",
+							"img": "https://drive.google.com/uc?export=view&id=1v82va6YDKQpNMSzena3hEKC5EvIujZIl",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1gZL5iyAZAeSuEmLzEVjI1miWwJffUa4i",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1dLukM_7-76FvJZrbdaDSev3yP4pDdVOR",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1ncnwpHXgUa1YnNUEHavRwjUMMZ_9qnZu",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Iz1aCMiVd_6MRY7P-rC8P73V6qTTULsh",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Los Números Reales",
+					"id": "3eranio-2-01",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Los números enteros (Z)",
+							"option_2": "Números Racionales (Q)",
+							"option_3": "Númro Irracionales (I)",
+							"option_4": "Todas las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1v0WVYTbSFz3M3HVG0-J1D60XfpkBkhB3",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1nO9sVblUGW52I_nDYLX0tvqeorO04o-N",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=15TWSCOwj5eNlQjJDmJbNCMjjzHI7eXEu",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Radicales Semejantes y Racionalización",
+					"id": "3eranio-2-02",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1ZTyTt4ea88gQ465waVkCG9JzhImljlPi",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=17cMq-IS-Bu9p2xAs6mHh5Xcb3dYPiQ4i",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Iij0K70J24AldQGYidM05Frv8R6OwN8_",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1uUqrRP41sXf-fS_ZCaDimGKbI47aPnYF",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Ecuaciones en los Números Reales",
+					"id": "3eranio-2-03",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=18FM89DOkkGjPO9BeWaoWtbkklu1gIjkl",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1WHdaKt0w65ypCWaDNMbBmMAZlTbyjx4u",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1T0h6FzF3-akceusbFvvdmT3UJZHdOAye",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1qiSyPavQxQrEXT_lchV6FfAsrZv-h76a",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1TwvvSll9KD-rYixbrbFp1WuGTpawKF1I",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Sistemas de Ecuaciones Lineales",
+					"id": "3eranio-2-04",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1dC5hJEK-rd3uyyrq7emwGhUmoDjWSOdg",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1TsoS3LXe1J3nbMJXh5enWlDqbnWCP4ue",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "(0,1)",
+							"option_2": "(1,0)",
+							"option_3": "(-1,0)",
+							"option_4": "(0,-1)",
+							"img": "https://drive.google.com/uc?export=view&id=1hDQcB6jegfRLxSVEtKZJOeaunbdIfn1K",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "(-1,-2,-1)",
+							"option_2": "(1,2,1)",
+							"option_3": "(-1,-2,1)",
+							"option_4": "(1,-2,-1)",
+							"img": "https://drive.google.com/uc?export=view&id=1AOGDm46l2-mXMds4uJVaBq5bj1kFgWrg",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Incompatible",
+							"option_2": "Compatible Determinado",
+							"option_3": "Compatible Indeterminado",
+							"option_4": "Infinito",
+							"img": "https://drive.google.com/uc?export=view&id=1-DKOqPLVuWnU5hZTakRdOo0LMq11G_c5",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Relaciones de Orden en los Reales",
+					"id": "3eranio-2-05",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "...cualquier valor mayor que 'a' (incluyendolo)",
+							"option_2": "...cualquier valor mayor que 'a' (sin incluirlo)",
+							"option_3": "...cualquier valor menor que 'a' (incluyendolo)",
+							"option_4": "...cualquier valor menor que 'a' (sin incluirlo)",
+							"img": "https://drive.google.com/uc?export=view&id=1OhAbd_uZW8WtbxilssGELnVuYTqqBNQ3",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Cambiar el sentido de la desigualdad (de < a >) ",
+							"option_2": "Añadir la igualdad al símbolo de desigualdad (de < a ≤)",
+							"option_3": "Todas las anteriores",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=17uBnDoZnzAL0TH1i5OpHe9to0i88J0uL",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "...cualquier valor mayor que 'a' (incluyendolo)",
+							"option_2": "...cualquier valor mayor que 'a' (sin incluirlo)",
+							"option_3": "...cualquier valor menor que 'a' (incluyendolo)",
+							"option_4": "...cualquier valor menor que 'a' (sin incluirlo)",
+							"img": "https://drive.google.com/uc?export=view&id=1sk6pqUQDITjcVZECkD8uWMgeZj4EwNL4",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "x = 0",
+							"option_2": "x > 0",
+							"option_3": "x < 0",
+							"option_4": "x ≥ 0",
+							"img": "https://drive.google.com/uc?export=view&id=1UAaLfCerrbhqQOuPxvV478oehFdJJmrR",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Inecuaciones",
+					"id": "3eranio-2-06",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Ju1hMTT9LBBle7uAMalvTKGnWaRGjlU8",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1rrJc9E9HzbxyeTxZYSfiPQKdytaHgmMH",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1vHVHcNLI3M62I2YdzXuzYsMeIDdJsOWH",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1ng9yfMTM1DSUpDcPV7pf9_nCTl2Y4_Md",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Funciones Reales ",
+					"id": "3eranio-3-01",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "… se ve modificado en función de otra variable",
+							"option_2": "… modifica el valor de otra variable",
+							"option_3": "… siempre se mantiene igual",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1OgS2ZDscysodFd-Lm4goS_sMO5M4v4jy",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=13_z2UfZ21HSSeJkLWRCnqjNiIi95V-Wl",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1zH6mVaPNvWzqao2KY151GjUYqYEjNHJN",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1wxg6XAFOPUT3PbDOhflh2HEQ8zzycRms",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Plano Cartesiano",
+					"id": "3eranio-3-02",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Cuadrante I",
+							"option_2": "Cuadrante II",
+							"option_3": "Cuadrante III",
+							"option_4": "Cuadrante IV",
+							"img": "https://drive.google.com/uc?export=view&id=16ZVpMlGQlmPhLcsva1kyTL-PGPhKYthp",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1OGqjP00BWoTMFEO32UXZZ02FunPvITj_",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Cuadrante I",
+							"option_2": "Cuadrante II",
+							"option_3": "Cuadrante III",
+							"option_4": "Cuadrante IV",
+							"img": "https://drive.google.com/uc?export=view&id=1Vx10qFZf6YIntGp-nfXbFjwXxi4C0W6B",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Escaleno",
+							"option_2": "Isósceles",
+							"option_3": "Equilátero",
+							"option_4": "Estos vértices no forman un triángulo",
+							"img": "https://drive.google.com/uc?export=view&id=1x3RrSqY7xsymheI_t2Z2FtuoOuXPHfgN",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Función afín",
+					"id": "3eranio-3-03",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "… la inclinación de la recta es mayor",
+							"option_2": "… la inclinación de la recta es menor",
+							"option_3": "… la recta es creciente",
+							"option_4": "… la recta es decreciente",
+							"img": "https://drive.google.com/uc?export=view&id=12m-IBZRqcXKfW_7U9of-TlNsVqmtffts",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1JBHRwfB3ex6IH1gnkYNQs8mYZUyZcosK",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1_K0-31FowKhpDVt4KKz2LmMKjB3iUl0B",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "… la inclinación de la recta es mayor",
+							"option_2": "… la inclinación de la recta es menor",
+							"option_3": "… la recta es creciente",
+							"option_4": "… la recta es decreciente",
+							"img": "https://drive.google.com/uc?export=view&id=1K_mx4ZbbcRCpvZnjJHm_cC-u6YOPiMHx",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1VpqN3ZtcC6Y58IqJ0lDTnRFx--EFIm--",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Posición Relativa entre 2 Rectas",
+					"id": "3eranio-3-04",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "… perpendiculares",
+							"option_2": "… paralelas",
+							"option_3": "… coincidentes",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1qGcThKC4rYc9vckMdXGBvA9fVJy_3MA9",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Perpendiculares",
+							"option_2": "Paralelas",
+							"option_3": "Coincidentes",
+							"option_4": "Secantes",
+							"img": "https://drive.google.com/uc?export=view&id=1aD65fHDkBKVl_kH70w61GI-ESpikwrnG",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "… perpendiculares",
+							"option_2": "… paralelas",
+							"option_3": "… coincidentes",
+							"option_4": "…secantes",
+							"img": "https://drive.google.com/uc?export=view&id=11ww_aEfNx4m1P0ObKhZ3IlkcUC2tQ8qV",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "… perpendiculares",
+							"option_2": "… paralelas",
+							"option_3": "… coincidentes",
+							"option_4": "…secantes",
+							"img": "https://drive.google.com/uc?export=view&id=1_utO4UgyBas8nQMXyhNkaSzJPZC9xY1O",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Perpendiculares",
+							"option_2": "Paralelas",
+							"option_3": "Coincidentes",
+							"option_4": "Secantes",
+							"img": "https://drive.google.com/uc?export=view&id=1BiI5iChKFbf0SxC_Afqik1OQ4an0dmhu",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Método Gráfico de Resolución de Sistemas de Ecuaciones Lineales",
+					"id": "3eranio-3-05",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Compatible determinado",
+							"option_2": "Compatible interminado",
+							"option_3": "Incompatible",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=189jNQXEzaUaM1kyL5J9OiTASUHHurwJo",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Compatible determinado",
+							"option_2": "Compatible interminado",
+							"option_3": "Incompatible",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1BadYLu09k-WychBfZmoM9YKuRh1ZquXh",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Compatible determinado",
+							"option_2": "Compatible interminado",
+							"option_3": "Incompatible",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1OQDu-myqh0GzXVQSkbHRaAYLLHMie2Qw",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "(0,1)",
+							"option_2": "(0,-1)",
+							"option_3": "El sistema es compatible indeterminado",
+							"option_4": "El sistema es incompatible",
+							"img": "https://drive.google.com/uc?export=view&id=1baupH1icZZR3si-EG4EfVQYONBoAvd53",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1HRBo-jm33a3PjU9snEaH3oopNv5r0RpE",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Ecuaciones de Segundo Grado",
+					"id": "3eranio-3-06",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "… el coeficiente que acompaña a la incógnita es 2",
+							"option_2": "… el máximo grado que tiene la incógnita es 2",
+							"option_3": "… el resultado es igual a 2",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1kErBkRrkUB7eJ0VOs0ewHUUWQMAGaKIM",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "… las raíces son iguales",
+							"option_2": "… las raíces son diferentes",
+							"option_3": "… no existen raíces reales",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1YeoziPzkJE-vE1s53Sa_QwIcUHUVrn6Y",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1FxSLG-nZXzm0vcmKuA90YEVb7ODrm9jR",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "…son diferentes",
+							"option_2": "… son iguales",
+							"option_3": "… no existen en los reales",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1ufsVV8xPqcEr7yxba4Xze0CPnL6zkf5s",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1k6Bj6XEG8WIwuEdUBl7A01UtUy5pLzIP",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Función Cuadrática",
+					"id": "3eranio-3-07",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "… cóncava hacia arriba",
+							"option_2": "… cóncava hacia abajo",
+							"option_3": "… se desplaza hacia arriba",
+							"option_4": "… se desplaza hacia abajo",
+							"img": "https://drive.google.com/uc?export=view&id=1shq20nNdANXZRrIORmrKg8ugTF76N-bY",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "y = 1",
+							"option_2": "y = 4",
+							"option_3": "y = 5",
+							"option_4": "No corta al eje y",
+							"img": "https://drive.google.com/uc?export=view&id=1XIyQ1uuedCHQ5ZqStbsWyMnuqfdEzrMB",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1XDVOtYBntv5KUGMcHQXGUrLi_pvuQYSI",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "(-2,-9)",
+							"option_2": "(-4,0)",
+							"option_3": "(0,-1)",
+							"option_4": "(0,0)",
+							"img": "https://drive.google.com/uc?export=view&id=13Km9v34RIt4ZX0bURdwbzVATP0u6RZsO",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "x = -1",
+							"option_2": "x = 1",
+							"option_3": "x = 3",
+							"option_4": "No corta al eje x",
+							"img": "https://drive.google.com/uc?export=view&id=1gXrZpsnGR_y9Mrz0PlyoJh4NyIaODGDt",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Teorema de Pitágoras",
+					"id": "3eranio-3-08",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Triángulos acutángulos",
+							"option_2": "Triángulos rectángulos",
+							"option_3": "Triángulos obtusángulos",
+							"option_4": "Rectángulos",
+							"img": "https://drive.google.com/uc?export=view&id=1JSMwIMEIrJeQFUhuuLjksrYLvrwu4x8_",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=19U4GnNdEBy-omwsmz4n8K8ZCEtnqWvlx",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1NFg0Pao3IZvFY_WYsw4MM9Lq21eX45cY",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "… opuesto a un ángulo agudo",
+							"option_2": "… opuesto a un ángulo obtuso",
+							"option_3": "… opuesto a un ángulo rectángulo",
+							"option_4": "… de menor magnitud",
+							"img": "https://drive.google.com/uc?export=view&id=1RdNxhaNHj6xVkG5EUxG6a87_ILgjBY6t",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Teorema de Euclides",
+					"id": "3eranio-3-09",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Triángulos acutángulos",
+							"option_2": "Triángulos rectángulos",
+							"option_3": "Triángulos obtusángulos",
+							"option_4": "Rectángulos",
+							"img": "https://drive.google.com/uc?export=view&id=1cyIoLpBhVySd_lTVNXHB8jBawcunDMXH",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1P0Xank7fHn6Q6VNbT2RWI-AEZ4mvoXQE",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1LJhG-LH3HBo6JErLvcdMTtsgYITj2Jr2",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Kxk6i2MZp27xUqKQYW7xeXmhlHOj9HDH",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Proporcionalidad entre Segmentos",
+					"id": "3eranio-3-10",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1IJffAfUchLG6XzYgX-yB2P3mvEcGUGqr",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1-9z5y5B1nG6_iUwjDQCTzv7ZGYibjmBJ",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1t0YpKuc-VlnpEP3exYCEAKQKhHvRRBwS",
+							"correct_option": 3
 						}
 					]
 				}
