@@ -2320,6 +2320,57 @@
 							"correct_option": 3
 						}
 					]
+				},
+				{
+					"title": "Teoremas y Semejanzas de Triángulos",
+					"id": "3eranio-3-11",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1sNTibujiM_Ob_sWErYOHPZvY8vhJc6j8",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1oq9L7klvA-ecC-ua6jf5AvNwcVf60Xn0",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1m3CYadzBQIg2p8MswJZDP0rYZswtRgEs",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Z15qkui20I05Jq8laODD-w2f61q_Zxwk",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1YW3vUlQDL_M2YiefUSuUeoOwZ6VZtPf2",
+							"correct_option": 3
+						}
+					]
 				}
 			]
 		},
