@@ -113,7 +113,7 @@
 				},
 				{
 					"title": "Números primos y compuestos",
-					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder identificar los números primos en los primeros 100 números.",
+					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder indentificar los números primos entre los primeros 100 números naturales.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1er%20Lapso%2FA1_1.5.2_N%C3%BAmeros%20primos%20y%20compuestos.pdf?alt=media&token=e65b7d58-4b92-4955-b583-c59252acac4b",
 					"img_url": "https://drive.google.com/uc?export=view&id=1HKXPmJ82TkarmBMnvN_-e1LyT4Zdh9rY",
 					"type": "guide",
@@ -121,7 +121,7 @@
 				},
 				{
 					"title": "Números Primos y Compuestos",
-					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder identificar los números primos en los primeros 100 números.",
+					"description": "En esta ocasión vamos a estudiar el importante concepto de los números primos, y todo lo que debes conocer acerca de ellos. E incluso vas a poder indentificar los números primos entre los primeros 100 números naturales.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1CxohCEmuf426aWgsT2D0ervS53zs7TH9",
 					"type": "lesson",
@@ -368,6 +368,14 @@
 				},
 				{
 					"title": "Polígonos",
+					"description": "En esta última guía de primer año explicaremos qué es un polígono, cómo se caracterizan y cómo se clasifican. Además, incluiremos maneras de diferenciar triángulos y cuadriláteros según la longitud de sus lados y la magnitud de sus ángulos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F3er%20Lapso%2FA1_3.3_Pol%C3%ADgonos.pdf?alt=media&token=979a6638-f3a6-4bbd-9a90-88d6e31a77d7",
+					"img_url": "https://drive.google.com/uc?export=view&id=1-qTU_5_BhNJjQOB3ropjiIpL_SnhmK8P",
+					"type": "guide",
+					"id": "1er-guide-3-3"
+				},
+				{
+					"title": "Polígonos",
 					"description": "En este último video de primer año explicaremos qué es un polígono, cómo se caracterizan y cómo se clasifican. Además, incluiremos maneras de diferenciar triángulos y cuadriláteros según la longitud de sus lados y la magnitud de sus ángulos.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1GBNGO_GYQnFep1eo5SuMVAki_zBWt_mH",
@@ -429,7 +437,7 @@
 				{
 					"title": "Funciones Parte 1",
 					"description": "En esta guía se explican qué son las funciones, iniciando desde la explicación de conjuntos, sus relaciones, explicación de una función numérica y su clasificación.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.1_Funciones.pdf?alt=media&token=027051e9-012e-4f21-8004-2196e6450b76",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.1_Funciones.pdf?alt=media&token=bd588a83-6d96-4eab-b239-804ebf6bcc10",
 					"img_url": "https://drive.google.com/uc?export=view&id=1k6y1E_r4Lc2Nh8tmQ3KOJ5ItxY_b5XDa",
 					"type": "guide",
 					"id": "2do-guide-1-3-1"
@@ -437,7 +445,7 @@
 				{
 					"title": "Funciones Parte 2",
 					"description": "En esta guía se explican sobre la representación de las funciones, iniciando desde la explicación del plano cartesiano, cómo representar puntos en él, sus características y la representación de funciones en él con ejemplos.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.2_Funciones.pdf?alt=media&token=b0739032-9030-43c3-bd71-52285aba6044",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.2_Funciones.pdf?alt=media&token=11353115-b174-4ece-b686-749093ecad1d",
 					"img_url": "https://drive.google.com/uc?export=view&id=1oJvs0FDp5pc6lY5fPtOMwbj8ogAGNGX7",
 					"type": "guide",
 					"id": "2do-guide-1-3-2"
@@ -445,10 +453,37 @@
 				{
 					"title": "Polinomios",
 					"description": "En esta guía se explican los polinomios, iniciando por conceptos básicos importantes para poder entender este tema, luego se explica la función polinómica, el valor numérico de una función polinómica y los elementos de un polinomio. Se continua con la explicación de los términos semejantes de un polinomio y los polinomios iguales, luego se explica la clasificación de los polinomios y operaciones con ellos, y se finaliza la guía con varios ejemplos de ejercicios de polinomios.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.1_Polinomios.pdf?alt=media&token=c818e35f-8633-434c-a53d-8a1304b7097a",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.1_Polinomios.pdf?alt=media&token=519c1af7-ae14-447d-a0f3-53caba24fc57",
 					"img_url": "https://drive.google.com/uc?export=view&id=1B4bGzY9s1bGD0OWgKZU0Ea9GKCP6zIJl",
 					"type": "guide",
 					"id": "2do-guide-2-1"
+				},
+				{
+					"title": "Polinomios Parte 1",
+					"description": "En este video se habla de los polinomios, iniciando por conceptos importantes que hay que dominar, luego se habla de la definición de polinomios, de la función polinómica y sus elementos, se continúa con el valor numérico de una función polinómica, la reducción de términos semejantes y se finaliza con polinomios iguales y grado absoluto y relativo.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=13sv0kZePKgZy1g-Dg2d3F5_S4fvCxfUY",
+					"type": "lesson",
+					"video_id": "6UkPg76GcPk",
+					"id": "2do-lesson-2-1-1"
+				},
+				{
+					"title": "Polinomios Parte 2",
+					"description": "En este video se continúa hablando de los polinomios, la clasificación de ellos y operaciones y sus propiedades, este video tiene varios ejemplos explicados.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Jy9zzMxpC5hgTDSuHZrlytoj3Z-xrTvl",
+					"type": "lesson",
+					"video_id": "gqoVs51tbBY",
+					"id": "2do-lesson-2-1-2"
+				},
+				{
+					"title": "Polinomios Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema polinomios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ODppIkbdGX-P3jNz64swtcbWDkk3CiP9",
+					"type": "lesson",
+					"video_id": "-wvjfrCHAzI",
+					"id": "2do-lesson-2-1-3"
 				},
 				{
 					"title": "Productos Notables",
@@ -461,7 +496,7 @@
 				{
 					"title": "Factorización",
 					"description": "En esta guía se explica el tema factorización, explica su definición y sus tipos, y tiene varios ejemplos explicando cada caso.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.3_Factorizaci%C3%B3n.pdf?alt=media&token=467fa3b2-e767-4934-afcf-0b0293bc6caa",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F2do%20Lapso%2FA2_2.3_Factorizaci%C3%B3n.pdf?alt=media&token=51080908-847c-4279-934f-bd0cb7d1735f",
 					"img_url": "https://drive.google.com/uc?export=view&id=1yxO2PN9VNYJUbNpWkWi23ICCeT3N_MHi",
 					"type": "guide",
 					"id": "2do-guide-2-3"
@@ -477,7 +512,7 @@
 				{
 					"title": "Vectores",
 					"description": "En esta guía se explican los vectores, partiendo con las magnitudes escalares y vectoriales, definición de vectores, luego explica los vectores opuestos, los componentes de un vector y su representación gráfica en el plano cartesiano. Por otro lado, explica los vectores equipolentes y finaliza con operaciones con vectores.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.2_Vectores.pdf?alt=media&token=855ec149-db9a-417d-8ec6-a63b44250b65",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.2_Vectores.pdf?alt=media&token=99577911-be66-45ce-bf21-dd78af28cb72",
 					"img_url": "https://drive.google.com/uc?export=view&id=1qF39I9FELhrWAXKfI49CA7frP0tOMHwO",
 					"type": "guide",
 					"id": "2do-guide-3-2"
@@ -614,10 +649,10 @@
 					"id": "3er-lesson-1-3-2"
 				},
 				{
-					"title": "Propiedades Raíces",
+					"title": "Operaciones con Radicales",
 					"description": "En esta guía se mencionan las propiedades de las raíces y la extracción e introducción de elementos en una raíz, para así realizar operaciones con radicales como suma, resta, multiplicación y división.",
-					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_PropiedadesRa%C3%ADces.pdf?alt=media&token=d5db24c8-9e08-48d0-9d46-d6909c59c4c3",
-					"img_url": "https://drive.google.com/uc?export=view&id=1BKd9DAhnasbLinewXT-ZtHtIdu1oNSIV",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F1er%20Lapso%2FA3_1.4_OperacionesConRadicales.pdf?alt=media&token=4488db12-3d1f-4e15-acc9-59595e64e45f",
+					"img_url": "https://drive.google.com/uc?export=view&id=1cvx8Dol3X6CsEXiS8SyMA5_GQC_X-nix",
 					"type": "guide",
 					"id": "3er-guide-1-4"
 				},
@@ -981,14 +1016,31 @@
 					"type": "lesson",
 					"video_id": "EUGFTRwMVxo",
 					"id": "3er-lesson-3-10"
+				},
+				{
+					"title": "Teoremas y Semejanzas de Triángulos",
+					"description": "En esta guía se explican los cuatro teoremas fundamentales para aplicar la semejanza de triángulos a problemas de geometría. Para explicar esta teoría, se realizan algunos ejemplos.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2F3er%20Lapso%2FA3_3.11_TeoremasYSemejanzasDeTri%C3%A1ngulos.pdf?alt=media&token=c682cb99-905a-422f-9820-4e8554b5ace8",
+					"img_url": "https://drive.google.com/uc?export=view&id=1maEWhjqD8S1RQ_bBdtYn54py_yBCif45",
+					"type": "guide",
+					"id": "3er-guide-3-11"
+				},
+				{
+					"title": "Teoremas y Semejanzas de Triángulos",
+					"description": "En este video se explican los cuatro teoremas fundamentales para aplicar la semejanza de triángulos a problemas de geometría. Para explicar esta teoría, se realizan algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Rsfs5_iCXHDewJM8AdMta44o9bUfICSd",
+					"type": "lesson",
+					"video_id": "7NU6eNt_rEg",
+					"id": "3er-lesson-3-11"
 				}
 			]
 		},
 		{
 			"title": "4to Año",
 			"emoji": "assets/4.png",
-			"mini_description": "Aprende acerca de ecuaciones de primero, segundo y tercer grado",
-			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"mini_description": "Observa la belleza del universo gracias a las matemáticas.",
+			"description": "¿Alguna vez habías pensado que la matemática es una forma muy especial de observar el universo que nos rodea? Los números se encuentran en cada rincón, son nuestra manera de expresarnos y también de comunicarnos. Cuarto año es muy importante para tu formación matemática. Abrirás tus perspectivas y conocerás otros horizontes, a través de nuevas funciones, de la trigonometría, de los números complejos y de algún que otro tema de interés. Te invitamos a que lo disfrutes, a que aprendas y a que te enamores de este maravilloso recorrido de aprendizaje.",
 			"content": [
 				{
 					"title": "Potenciación",
@@ -1152,7 +1204,7 @@
 					"id": "4to-guide-2-1"
 				},
 				{
-					"title": "Circulo Trigonométrico",
+					"title": "Círculo Trigonométrico",
 					"description": "En esta lección comenzaremos a entender los principios de la trigonometría: el círculo trigonométrico y sus cuadrantes, la forma de medir ángulos y cómo pasar de grados a radianes y viceversa.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1-S9e6dS_4q2UcCvo_VVJRzM8ZTgxhPk1",
@@ -1310,8 +1362,8 @@
 		{
 			"title": "5to Año",
 			"emoji": "assets/5.png",
-			"mini_description": "Aprende sobre matrices, derivadas e integrales",
-			"description": "Etiam sed velit eros. Cras euismod arcu ac purus bibendum hendrerit. In hac habitasse platea dictumst. Nunc rutrum ultrices venenatis. Cras mollis sollicitudin euismod. Sed et vestibulum ligula. Sed dui enim, tempor a magna in, lobortis dictum elit. Sed condimentum sem quis euismod efficitur. Aenean ac risus in diam ultrices pretium id nec ligula. Proin imperdiet dignissim odio, vel condimentum risus eleifend a. Aliquam a sapien mattis, fermentum lectus aliquet, convallis metus. Maecenas volutpat metus massa, non tincidunt metus congue a.",
+			"mini_description": "Las matemáticas están ahí, dedícale tiempo y entenderás este mundo que se te presenta.",
+			"description": "Se encuentran en la última fase del bachillerato en especial, en el área de las matemáticas, aunque los temas que se ven este año, tienen nombres muy raros o puede que no den ninguna idea de que pueden ser, no hay de qué preocuparse, han logrado superar y crear conocimientos a lo largo de los años anterior que este año no será la excepción. ¿A quién no le ha parecido difícil el tema de las factorizaciones? Con la ayuda del matemático Paolo Ruffini que nos proporciona su método lo que permite poder resolver estos problemas de una manera más sencilla. Otra gran persona que aparece este año es el señor Isaac Newton, aprenderán qué son las cónicas, como también que tan útiles son las matrices que ayudan a resolver sistemas de ecuaciones.",
 			"content": [
 				{
 					"title": "Operaciones con Polinomios",
