@@ -9,15 +9,20 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 with open('./data.json', 'r') as file:
     data = json.load(file)
 
-def getRandomContent(type="lesson", num=12):
+def getRandomContent(type="lesson", num=12, courseId=None):
     contentFiltered = []
-    for course in data["courses"]:
+    for idx, course in enumerate(data["courses"], start=1):
         # print(course["title"])
         for content in course["content"]:
             # print(content["title"])
             if content["type"] == type:
-                # print("added")
-                contentFiltered.append(content)
+                if courseId != None:
+                    if idx == int(courseId):
+                        contentFiltered.append(content)
+
+                else:
+                    contentFiltered.append(content)
+                    
 
     contentFiltered = list(contentFiltered)
     random.shuffle(contentFiltered)
@@ -58,8 +63,12 @@ def course(course_num=None):
     if (int(course_num) > 5 or int(course_num) < 1):
         return render_template('404.html'), 404
     
-    lessonRecommended = getRandomContent(num=1)[0]
-
+    lessonRecommended = getRandomContent(num=1, courseId=course_num)
+    if len(lessonRecommended) == 0:
+        lessonRecommended = getRandomContent(num=1)[0]
+    else: 
+        lessonRecommended = lessonRecommended[0]
+        
     course = data["courses"][int(course_num) - 1]
     return render_template('course.html', course_num=course_num, course=course, lessonRecommended=lessonRecommended)
 
@@ -123,11 +132,18 @@ def submit(quiz_id = None):
         return render_template('404.html'), 404
 
     quiz, course = quiz_course
-    question_list = [
-            Question(i, question["question"], question["option_1"], question["option_2"], 
+    question_list = []
+    print('hola')
+    for i, question in enumerate(quiz["questions"], 1):
+        try:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
+                question["option_3"], question["option_4"], question["correct_option"], question["img"]) 
+            # print(question["img"]);
+        except:
+            newQuestion = Question(i, question["question"], question["option_1"], question["option_2"], 
                 question["option_3"], question["option_4"], question["correct_option"], "") 
-            for i, question in enumerate(quiz["questions"], 1)
-            ]
+        question_list.append(newQuestion)
+
     correct_count = 0
     answers_selected = []
     for question in question_list:
@@ -152,6 +168,6 @@ def page_not_found(e):
     return render_template('404.html'), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
     
