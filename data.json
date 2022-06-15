@@ -1397,7 +1397,7 @@
 		{
 			"id": "1eranio",
 			"title": "1er Año",
-			"description": "Ecuaciones de segundo grado, mas vainas...",
+			"description": "Numeros naturales, suma y resta...",
 			"quizes": [
 				{
 					"title": "Números naturales",
@@ -1974,19 +1974,335 @@
 		{
 			"id": "2doanio",
 			"title": "2do Año",
-			"description": "Ecuaciones de segundo grado",
+			"description": "Números enteros, racionales, funciones...",
 			"quizes": [
 				{
-					"title": "Escalares, vectores y matrices",
+					"title": "Números Enteros",
 					"id": "2doanio-01",
 					"questions": [
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Efectúa la siguiente operación e indica cuál es el resultado correcto:",
+							"option_1": "56",
+							"option_2": "34",
+							"option_3": "61",
+							"option_4": "89",
+							"img": "https://drive.google.com/uc?export=view&id=1oNl9fljvRKhx2gp3ElH9O-YjC6xz4ueN",
+							"correct_option": 3
+						},
+						{
+							"question": "Indica que propiedad o propiedades utilizarías para resolver el siguiente ejercicio:",
+							"option_1": "|a| > |–b|, entonces (+a) + (–b) = + (a – b)",
+							"option_2": "(+a) • (–b) = – (a • b).",
+							"option_3": "(–a) ÷ (+b) = – (a ÷ b).",
+							"option_4": "Todas las anteriores.",
+							"img": "https://drive.google.com/uc?export=view&id=1iUsQlkAewd7VtEb2476L4-Pjmqxq6sq7",
 							"correct_option": 4
+						},
+						{
+							"question": "Indica cuánto vale “x” en la siguiente ecuación:",
+							"option_1": "6",
+							"option_2": "-2",
+							"option_3": "7",
+							"option_4": "-9",
+							"img": "https://drive.google.com/uc?export=view&id=1-Yqiuy7VAoc6ibyIYuqnIe9LwVYHDoAu",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Números Racionales",
+					"id": "2doanio-02",
+					"questions": [
+						{
+							"question": "Indica si el siguiente par de fracciones son equivalentes",
+							"option_1": "Son equivalentes",
+							"option_2": "No son equivalentes",
+							"option_3": "Todas las anteriores",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1weKv1ylvryvbjqOOZAJW_7vyHiBRp1Dv",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Qué tipo de decimales resultan de la fracción...?",
+							"option_1": "Decimal periódico puro.",
+							"option_2": "Decimal periódico mixto.",
+							"option_3": "Decimal exacto.",
+							"option_4": "Ninguna de las anteriores.",
+							"img": "https://drive.google.com/uc?export=view&id=1W_QpeVDzu2cT68R7g2gmarAybvEYpeCa",
+							"correct_option": 3
+						},
+						{
+							"question": "Indica el resultado de la siguiente operación con números racionales:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1l_yUOefoPrajTzh6cCwb7SLMMcmOPX3q",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Funciones Parte I",
+					"id": "2doanio-03",
+					"questions": [
+						{
+							"question": "Indica la relación que existe entre los elementos que se muestran en el siguiente diagrama sagital:",
+							"option_1": "“El cantante ... es el vocalista de la banda ...”",
+							"option_2": "“La banda ... tenía de vocalista a ...”",
+							"option_3": "“A ... no le gustaba las canciones de la banda ...”",
+							"option_4": "“... no conocía a la banda ...”",
+							"img": "https://drive.google.com/uc?export=view&id=1LXrb1GrLiuhcYRLShkLI1wDJxytzSqy0",
+							"correct_option": 1
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Inyectiva",
+							"option_2": "Sobreyectiva",
+							"option_3": "Biyectiva",
+							"option_4": "Ninguna de las anteriores.",
+							"img": "https://drive.google.com/uc?export=view&id=1gNtkfkgmRA4qyG-skJpNNZ8HOKDzdHM0",
+							"correct_option": 2
+						},
+						{
+							"question": "Halla la imagen del segundo múltiplo de 7 según la función f(x)...",
+							"option_1": "45",
+							"option_2": "2689",
+							"option_3": "988",
+							"option_4": "1050",
+							"img": "https://drive.google.com/uc?export=view&id=1VmzvxsTygBsZEeGJbDQH6xU23yKNElZ0",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Funciones Parte II",
+					"id": "2doanio-04",
+					"questions": [
+						{
+							"question": "¿En qué cuadrante se encuentra la representación gráfica del punto A (-3,4) en el plano cartesiano?",
+							"option_1": "I Cuadrante.",
+							"option_2": "II Cuadrante.",
+							"option_3": "III Cuadrante.",
+							"option_4": "IV Cuadrante.",
+							"img": "https://drive.google.com/uc?export=view&id=14hqu3KSibq_jxgemegkWg0xyj_Tmwfhc",
+							"correct_option": 2
+						},
+						{
+							"question": "La recta que pasa por dos puntos que tienen igual abscisa es ...",
+							"option_1": "Horizontal",
+							"option_2": "Vertical",
+							"option_3": "Diagonal hacia la derecha",
+							"option_4": "Diagonal hacia la izquierda",
+							"img": "https://drive.google.com/uc?export=view&id=1Z0OWLRXkZFzy1uOvez8pCcSCrh9TuQf7",
+							"correct_option": 2
+						},
+						{
+							"question": "La función...",
+							"option_1": "Verdadero",
+							"option_2": "Falso",
+							"option_3": "Ninguna de las anteriores",
+							"option_4": "No existe una respuesta",
+							"img": "https://drive.google.com/uc?export=view&id=1ZtAeyNaCZVQpEsXk0Ih8Fl8j2jAjKA9Y",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Polinomios",
+					"id": "2doanio-05",
+					"questions": [
+						{
+							"question": "¿Cuál de las siguientes expresiones es un polinomio?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Ninguna de las anteriores",
+							"option_4": "Todas las opciones con respuesta son correctas",
+							"img": "https://drive.google.com/uc?export=view&id=1jPjsYbIBYknoPFOlCt8HlVWY4WMsfDrz",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el valor numérico del polinomio...",
+							"option_1": "15",
+							"option_2": "-4",
+							"option_3": "200",
+							"option_4": "6",
+							"img": "https://drive.google.com/uc?export=view&id=1m2Ec5PSWDy0KilhBwFtiup4igcUjK235",
+							"correct_option": 2
+						},
+						{
+							"question": "¿El polinomio...",
+							"option_1": "Ascendente",
+							"option_2": "Descendente",
+							"option_3": "Ninguna de las anteriores.",
+							"option_4": "No existe una respuesta.",
+							"img": "https://drive.google.com/uc?export=view&id=1RD8MRwIWnAn9n1kH4ex4PgLYFDvqcIc8",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Producto Notable",
+					"id": "2doanio-06",
+					"questions": [
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar el producto notable cuadrado de una suma?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1_2bY_oLLyKckCH3OshUs8WVkhpg-5nfU",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar el producto notable producto de una suma por su diferencia?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1PEBpkP1syqgSCb-o4dCuUPfKVmZaIWuA",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar el producto notable cubo de una diferencia?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=189IlwpOXvLdqfNtmkRav6Cl496cF7OxZ",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Factorización",
+					"id": "2doanio-07",
+					"questions": [
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar la factorización de un trinomio cuadrado perfecto?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Todas las anteriores",
+							"option_4": "Ninguna de las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=12He0zc6QSOx4B4ASEVkDu_O1oe_acjsq",
+							"correct_option": 3
+						},
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar la factorización de la forma...",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1sYHl5yRT1jaBBnoZ3YKOHFwnc-xa0cs5",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el resultado generalizado al aplicar la factorización de una sustracción de cubos?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1x1MgjSKkKTHTDcZYXSXFNatarbO1iZBQ",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Fracciones Algebraicas",
+					"id": "2doanio-08",
+					"questions": [
+						{
+							"question": "Indica si la siguiente expresión es una entera o mixta:",
+							"option_1": "Es una fracción algebraica entera",
+							"option_2": "Es una fracción algebraica mixta",
+							"option_3": "Es una fracción algebraica bonita",
+							"option_4": "Todas las anteriores",
+							"img": "https://drive.google.com/uc?export=view&id=1xWh72Dw-TK6RpFevKUIHatvz_Th9T976",
+							"correct_option": 1
+						},
+						{
+							"question": "Indica cuál es la expresión simplificada de la siguiente fracción algebraica:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1xNgSKFkWB68j1qUxxgZrg2d7IvEEDrJl",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el resultado de la siguiente operación combinada de fracciones algebraicas?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1GsFHCD5sCaQB5XIPMKe_oUoGcODTvw7_",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Vectores",
+					"id": "2doanio-09",
+					"questions": [
+						{
+							"question": "¿Se puede decir que un vector es ...?",
+							"option_1": "Flecha",
+							"option_2": "Segmento dirigido",
+							"option_3": "Brújula",
+							"option_4": "Longitud dirigida",
+
+							"correct_option": 2
+						},
+						{
+							"question": "¿Dos vectores son opuestos cuándo?",
+							"option_1": "Tienen la misma longitud",
+							"option_2": "Tienen la misma flecha",
+							"option_3": "Tienen la misma longitud y dirección pero sentido opuesto",
+							"option_4": "Tienen dirección noreste",
+
+							"correct_option": 3
+						},
+						{
+							"question": "¿Cuál de las siguientes expresiones corresponden al cálculo de las componentes de un vector...",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Geometría",
+					"id": "2doanio-10",
+					"questions": [
+						{
+							"question": "¿Qué se necesita para trasladar un punto en el plano?",
+							"option_1": "Una regla",
+							"option_2": "El vector de traslación",
+							"option_3": "El centro de rotación",
+							"option_4": "El ángulo dirigido",
+
+							"correct_option": 2
+						},
+						{
+							"question": "En un movimiento rotatorio, ¿Si el giro se realiza en sentido contrario a las agujas del reloj el ángulo dirigido este será ...?",
+							"option_1": "Negativo",
+							"option_2": "Positivo",
+							"option_3": "Igual a 180°",
+							"option_4": "Igual a -30°",
+
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál es el criterio de congruencia del siguiente postulado: “si dos ángulos y el lado comprendido entre ellos de un triángulo poseen la misma medida al ser comparados con los ángulos y el lado correspondiente de otro triángulo, ambas figuras serán congruentes”?",
+							"option_1": "Simetría Axial",
+							"option_2": "LLL",
+							"option_3": "ALA",
+							"option_4": "LAL",
+
+							"correct_option": 3
 						}
 					]
 				}
@@ -1995,7 +2311,7 @@
 		{
 			"id": "3eranio",
 			"title": "3er Año",
-			"description": "Ecuaciones de segundo grado",
+			"description": "Números Racionales, irracionales, radicación, raíz cuadrada",
 			"quizes": [
 				{
 					"title": "Números Racionales",
@@ -2976,7 +3292,7 @@
 		{
 			"id": "5toanio",
 			"title": "5to Año",
-			"description": "Vectores, matrices, derivadas e integrales. La matematica mas importante",
+			"description": "Polinomios, Ruffini, Factorización, Límites, ...",
 			"quizes": [
 				{
 					"title": "Operaciones con Polinomios",
