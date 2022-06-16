@@ -1,10 +1,15 @@
+from socket import timeout
 from flask import Flask, render_template, request
+from flask_caching import Cache
 import json
 import random
 from models.question import Question
 
+cache = Cache()
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['CACHE_TYPE'] = 'simple' 
+cache.init_app(app)
 
 with open('./data.json', 'r') as file:
     data = json.load(file)
@@ -47,11 +52,13 @@ def getQuizById(id):
 
 @app.route('/')
 @app.route('/home')
+@cache.cached()
 def home():
     # Home
     return render_template('index.html')
 
 @app.route('/aprende')
+@cache.cached(timeout=10)
 def aprende():
     # E-Learning
     lessonsRecommended = getRandomContent()
@@ -59,6 +66,7 @@ def aprende():
     return render_template('aprende.html', lessonsRecommended=lessonsRecommended, guidesRecommended=guidesRecommended)
 
 @app.route('/curso/<course_num>')
+@cache.cached(timeout=30)
 def course(course_num=None):
     if (int(course_num) > 5 or int(course_num) < 1):
         return render_template('404.html'), 404
@@ -75,6 +83,7 @@ def course(course_num=None):
 
 
 @app.route('/clase/<class_id>')
+@cache.cached()
 def video_class(class_id=None):
     if (class_id is None):
         return render_template('404.html'), 404
@@ -88,6 +97,7 @@ def video_class(class_id=None):
 
 
 @app.route('/play')
+@cache.cached()
 def play_page():
     # Home
     return render_template('play.html', all_quizes = data["quizes"])
@@ -95,6 +105,7 @@ def play_page():
 
 
 @app.route("/play/<quiz_id>")
+@cache.cached()
 def quiz(quiz_id = None):
     if quiz_id == None:
         return render_template('404.html'), 404
