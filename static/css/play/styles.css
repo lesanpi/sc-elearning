@@ -82,7 +82,9 @@ body{
 .quizes-grid .quiz-card .quiz-title{
     height: 70%;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
+    background-image: url('/static/imgs/LogoAsociarteBlanco.png');
+    background-blend-mode: multiply;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     display: flex;
