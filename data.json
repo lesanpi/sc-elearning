@@ -3380,6 +3380,112 @@
 					]
 				},
 				{
+					"title": "Función Logarítmica",
+					"id": "4toanio-1-05",
+					"questions": [
+						{
+							"question": "¿Cuál es el dominio de la función logarítmica?",
+							"option_1": "Todos los números reales.",
+							"option_2": "El intervalo de números desde el cero (sin incluirlo) hasta el infinito.",
+							"option_3": "El intervalo de números desde el cero (incluyéndolo) hasta el infinito.",
+							"option_4": "No está definido.",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál es el rango de la función logarítmica?",
+							"option_1": "Desde cero (no incluido) hasta el infinito.",
+							"option_2": "Desde cero (incluido) hasta el infinito.",
+							"option_3": "Desde menos infinito hasta cero (no incluido).",
+							"option_4": "Desde menos infinito hasta cero (incluido).",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es un valor prohibido para la función logarítmica?",
+							"option_1": "4",
+							"option_2": "0",
+							"option_3": "2",
+							"option_4": "0.5",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál conjunto de números no están definidos para la función logarítmica?",
+							"option_1": "Todos los números reales.",
+							"option_2": "Los números reales positivos.",
+							"option_3": "Los números racionales positivos.",
+							"option_4": "Los números reales negativos.",
+							"correct_option": 4
+						}
+					]
+				},
+				{
+					"title": "Número de Euler",
+					"id": "4toanio-1-06",
+					"questions": [
+						{
+							"question": "La función exponencial con base e es una función:",
+							"option_1": "Creciente",
+							"option_2": "Decreciente",
+							"option_3": "Negativa",
+							"option_4": "Racional",
+							"correct_option": 1
+						},
+						{
+							"question": "La función exponencial con base e tiene una asíntota hacia:",
+							"option_1": "El eje y positivo",
+							"option_2": "El eje y negativo",
+							"option_3": "El eje x negativo",
+							"option_4": "El eje x positivo",
+							"correct_option": 3
+						},
+						{
+							"question": "La función logaritmo natural es una función:",
+							"option_1": "Creciente",
+							"option_2": "Decreciente",
+							"option_3": "Negativa",
+							"option_4": "Racional",
+							"correct_option": 1
+						},
+						{
+							"question": "La función logaritmo natural tiene un asíntota hacia:",
+							"option_1": "El eje y positivo",
+							"option_2": "El eje y negativo",
+							"option_3": "El eje x negativo",
+							"option_4": "El eje x positivo",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Ecuaciones Exponenciales",
+					"id": "4toanio-1-07",
+					"questions": [
+						{
+							"question": "Una ecuación exponencial se puede resolver mediante el uso de logaritmos",
+							"option_1": "Verdadero.",
+							"option_2": "Falso.",
+							"option_3": "No siempre.",
+							"option_4": "Depende.",
+							"correct_option": 1
+						},
+						{
+							"question": "Cuando los dos miembros de una ecuación exponencial se puede expresar como potencias de una base común, puedo:",
+							"option_1": "Resolver igualando los exponentes.",
+							"option_2": "Resolver igualando las bases.",
+							"option_3": "No puedo resolver la ecuación.",
+							"option_4": "Ninguna de las anteriores.",
+							"correct_option": 1
+						},
+						{
+							"question": "Si dos potencias son iguales con una misma base,",
+							"option_1": "Sus exponentes son menores que uno",
+							"option_2": "Sus exponentes son mayores que uno",
+							"option_3": "Sus exponentes siempre son equivalentes",
+							"option_4": "Sus exponentes pueden ser diferentes",
+							"correct_option": 3
+						}
+					]
+				},
+				{
 					"title": "Círculo trigonométrico",
 					"id": "4toanio-2-01",
 					"questions": [
