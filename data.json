@@ -436,6 +436,15 @@
 					"id": "2do-guide-1-2"
 				},
 				{
+					"title": "Números Racionales Parte 1",
+					"description": "En este video hablamos de los números racionales, explicando su definición, sus subconjuntos, una explicación de la simplificación y amplificación de fracciones, su representación en la recta numérica, también se habla de los números decimales y su clasificación, y se finaliza con la explicación generatriz.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ZRaSh629RU1MR0bJ_ZEX4hzd-a_ZJ-Ud",
+					"type": "lesson",
+					"video_id": "kXiIsSX3f6k",
+					"id": "2do-lesson-1-2-1"
+				},
+				{
 					"title": "Funciones Parte 1",
 					"description": "En esta guía se explican qué son las funciones, iniciando desde la explicación de conjuntos, sus relaciones, explicación de una función numérica y su clasificación.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.1_Funciones.pdf?alt=media&token=bd588a83-6d96-4eab-b239-804ebf6bcc10",
@@ -444,12 +453,39 @@
 					"id": "2do-guide-1-3-1"
 				},
 				{
+					"title": "Funciones Parte 1",
+					"description": "En este video hablamos de las funciones, iniciando por los conjuntos y las relaciones entre conjuntos, luego se habla de la definición y partes de una función y se finaliza con los tipos de funciones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1NIfEMwkTLcP5Ou-LGJ109Da4OYTfks2U",
+					"type": "lesson",
+					"video_id": "tI22ulBCNHo",
+					"id": "2do-lesson-1-3-1"
+				},
+				{
 					"title": "Funciones Parte 2",
 					"description": "En esta guía se explican sobre la representación de las funciones, iniciando desde la explicación del plano cartesiano, cómo representar puntos en él, sus características y la representación de funciones en él con ejemplos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F1er%20Lapso%2FA2_1.3.2_Funciones.pdf?alt=media&token=11353115-b174-4ece-b686-749093ecad1d",
 					"img_url": "https://drive.google.com/uc?export=view&id=1oJvs0FDp5pc6lY5fPtOMwbj8ogAGNGX7",
 					"type": "guide",
 					"id": "2do-guide-1-3-2"
+				},
+				{
+					"title": "Funciones Parte 2",
+					"description": "En este video se continúa hablando de las funciones, iniciando por la definición de plano cartesiano, una explicación de cómo representar puntos en él, sus características y la representación de funciones, luego se habla de una función muy importante la función afín y se culmina hablando de casos particulares.",
+					"url": "",
+					"img_url": "https://drive.google.com/file/d/1eNCYuuTWlj4YKwNfLhpTmAj68PvE_wCK/view?usp=sharing",
+					"type": "lesson",
+					"video_id": "UhYNTbJ9w_Q",
+					"id": "2do-lesson-1-3-2"
+				},
+				{
+					"title": "Funciones Parte 3: Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema funciones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Hdyd546Q1PThgHg8H5hmbs9SUen5JPGI",
+					"type": "lesson",
+					"video_id": "um7lnCUjPLY",
+					"id": "2do-lesson-1-3-3"
 				},
 				{
 					"title": "Polinomios",
@@ -493,6 +529,24 @@
 					"img_url": "https://drive.google.com/uc?export=view&id=1W8Y94Bzze-43YMZ6_JaauX112-xwhPKM",
 					"type": "guide",
 					"id": "2do-guide-2-2"
+				},
+				{
+					"title": "Producto Notable",
+					"description": "En este video se habla de los productos notables explicando su definición y los diferentes tipos y fórmulas, con varios ejemplos explicando cada caso.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1z1IC28aU7y0-2_OlUxPSYkzkkwgvrtXi",
+					"type": "lesson",
+					"video_id": "1vWGcoa1SQE",
+					"id": "2do-lesson-2-2"
+				},
+				{
+					"title": "Producto Notable Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema producto notable.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1AQKn_V_0n-sJXW6FNT77dUOunQpGfkM5",
+					"type": "lesson",
+					"video_id": "ejj3rvFi814",
+					"id": "2do-lesson-2-2-1"
 				},
 				{
 					"title": "Factorización",
@@ -1375,12 +1429,30 @@
 					"id": "5to-guide-1-1"
 				},
 				{
+					"title": "Operaciones con Polinomios",
+					"description": "En este video se realizan operaciones con polinomios: suma, resta, multiplicación y división, y con cada una se realizaron una serie de ejercicios, en los que se explicaron puntos importantes a tomar en cuenta al realizar estas operaciones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1-UYn_2wdhMIWMv5Nmk6a-avsgN8lng7P",
+					"type": "lesson",
+					"video_id": "FBCYL_BdXiQ",
+					"id": "5to-lesson-1-1"
+				},
+				{
 					"title": "Teorema del residuo - Regla de Ruffini Parte 1",
 					"description": "En esta guía comenzaremos a estudiar un método muy útil para dividir polinomios: Regla de Ruffini. Primero vas a comprender cómo funciona el Teorema del Residuo y su relación con la Regla de Ruffini.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F1er%20Lapso%2FA5_1.2_TeoremaDelResiduo_ReglaRuffini.pdf?alt=media&token=434765b0-0349-4d39-b7b1-97310cbdeefb",
 					"img_url": "https://drive.google.com/uc?export=view&id=19FSTrYaw31vZLaW4L3CBDDHiw1pqfrub",
 					"type": "guide",
 					"id": "5to-guide-1-2"
+				},
+				{
+					"title": "Teorema del residuo - Regla de Ruffini Parte 1",
+					"description": "En este video comenzaremos a estudiar un método muy útil para dividir polinomios: Regla de Ruffini. Primero vas a comprender cómo funciona el Teorema del Residuo y su relación con la Regla de Ruffini.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1c6Gl4pDatDtSiQeKyPadU-MWuUFvNtG3",
+					"type": "lesson",
+					"video_id": "fJN4gxG4n-w",
+					"id": "5to-lesson-1-2"
 				},
 				{
 					"title": "Regla de Ruffini Parte 2 - Factorización",
@@ -1445,6 +1517,24 @@
 					"img_url": "",
 					"type": "guide",
 					"id": "5to-guide-3-1"
+				},
+				{
+					"title": "Cónicas 1a - Introducción y Circunferencia",
+					"description": "En el siguiente video nos adentraremos en el concepto de cónicas; donde explicaremos a detalle de donde surgen y de donde proviene su nomenclatura; y estudiaremos ejemplos relacionados con el primero de sus casos más relevantes, hoy es el turno de la circunferencia.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Uqm-wU1itfsc9NY8nCHyuiChzrU5eW4r",
+					"type": "lesson",
+					"video_id": "A2ABRW_zSRU",
+					"id": "5to-lesson-3-1-1"
+				},
+				{
+					"title": "Cónicas 1b - Elipse",
+					"description": "En el siguiente video estudiaremos la segunda cónica de interés, la elipse, se abordará la explicación de la cónica, cómo actúa sus ecuaciones, tanto general como canónica y se resolverán algunos ejemplos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Urz3CSrMqesFgs48Qs5yogRfTEo94ApC",
+					"type": "lesson",
+					"video_id": "isfjeNK5uGw",
+					"id": "5to-lesson-3-1-2"
 				},
 				{
 					"title": "Cónicas (Parábola - Hipérbola)",
