@@ -101,7 +101,7 @@
           <span>Visión</span>
         </a>
 
-        <a href="#cartas" class="about-us-figure3">
+        <a href="aprende" class="about-us-figure3">
           <img src="static\imgs\LogoAsociarteNegro.png" alt="asociarte" width="120" height="120">
           <span>Cursos</span>
         </a>
@@ -132,34 +132,31 @@
 
     <footer class="footer" id="footer">
       <div class="footer-container">
-        <div class="footer-row">
-
+  
           <div class="footer-social">
             <div class="footer-phones">
-              <p><a href="tel:+584127017972" target="_blank" rel="noopener">+58 (412) 701.79.72</a></p>
-              <p><a href="tel:+573012668840" target="_blank" rel="noopener">+57 (301) 266.88.40</a></p>
-              <p><a href="tel:+34682759475" target="_blank" rel="noopener">+34 (682) 75.94.75</a></p>
+              <p class="footer-title">Teléfonos</p>
+              <p><a href="tel:+584142470223" target="_blank" rel="noopener">+58 414-2470223</a></p>
+              <p><a href="tel:+582128326548" target="_blank" rel="noopener">+58 212-8326548</a></p>
             </div>
             <div class="footer-email">
-              <p><a href="mailto:hola@asociarte.com" target="_blank" rel="noopener">hola@asociarte.com</a></p>
+              <p class="footer-title">Correo electrónico</p>
+              <p><a href="mailto:rosiristor@yahoo.com" target="_blank" rel="noopener">rosiristor@yahoo.com</a></p>
             </div>
             <div class="redessociales">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <p class="footer-title">Nuestras redes sociales</p>
+              <a href="https://twitter.com/asociarte1?t=6aZAqP17IWQDK6D-muxoNw&s=09" target="_blank" class="first_social"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/asociarte1?igshid=YmMyMTA2M2Y=" target="_blank" class="last_social"><i class="fab fa-instagram"></i></a>
             </div>
-
+            <div class="googleplay">
+              <p class="footer-title">Nuestra aplicación</p>
+              <a href='https://play.google.com/store/apps/details?id=com.lesanpi.e_learning_sc&hl=es_VE&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
+              <img alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/es-419_badge_web_generic.png' width="215.3" height="83.3" />
+              </a>
+            </div>
+  
           </div>
-          <div class="footer-form">
-            <form action="">
-              <h3>¡Contáctanos!</h3>
-              <input type="text" id="name" placeholder="Nombre completo" required>
-              <input type="email" id="email" placeholder="Email" required>
-              <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
-              <button type="submit">Enviar</button>
-            </form>
-        </div>
+          
         </div>
       </div>
    </footer>
@@ -180,7 +177,7 @@ $(document).ready(function(){
 <script>
   if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {  }
   else{
-  $(".about-us-figure1, .about-us-figure2, .about-us-figure3, .nav_button_1, .nav_button_2, .nav_button_3, .nav_button_4").on("click", function (e) {
+  $(".about-us-figure1, .about-us-figure2, .nav_button_1, .nav_button_2, .nav_button_3, .nav_button_4").on("click", function (e) {
   // 1
   e.preventDefault();
   // 2

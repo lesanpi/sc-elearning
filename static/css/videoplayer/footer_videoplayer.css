@@ -1,113 +1,120 @@
 /*footer*/
 
 .footer-container{
-    width: 90%;
-    margin:auto;
-    padding:0;
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+  width: 90%;
+  margin:auto;
+  padding:0;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
 }
-  
-  ul{
-      list-style: none;
-    padding:0;
-  }
-  
-  .footer{
-    /* background-image: url('../imgs/mision.jpg');   */
-    background-color: var(--footer-color);
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-      
-  }
-  .footer-col{
-    padding: 0 30px;
-  }
-  /* SOCIAL */
-  .footer-social{
-     width: 100%;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     column-gap: 100px;
-     row-gap: 10px;
-     flex-wrap: wrap;
-  }
 
-  .footer-social p{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }
+ul{
+    list-style: none;
+  padding:0;
+}
 
-  .footer-social .redessociales a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+.footer{
+  /* background-image: url('../imgs/mision.jpg');   */
+  background-color: var(--footer-color);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+    
+}
+.footer-col{
+  padding: 0 30px;
+}
+/* SOCIAL */
+.footer-social{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   column-gap: 100px;
+   row-gap: 10px;
+   flex-wrap: wrap;
+}
+
+.footer-social p{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.footer-social .redessociales a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-social .redessociales a.first_social{
+  margin-left: 53px;
+}
+
+.footer-social .redessociales a.last_social{
+  margin-left: 15px;
 }
 
 .footer-social .redessociales a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+  color: #24262b;
+  background-color: #ffffff;
 }
 
 
 .footer-phones p a, .footer-email p a{
-    text-decoration: none;
-    color: rgba(168, 158, 158, 0.9);
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.footer-phones p a:hover, .footer-email p a:hover{
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(168, 158, 158, 0.9);
   font-weight: 500;
   font-size: 15px;
 }
 
+.footer-phones p a:hover, .footer-email p a:hover{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.9);
+font-weight: 500;
+font-size: 15px;
+}
+
 .footer-phones p, .footer-email p{
-  text-align: center;
+text-align: center;
 }
 
 .footer-title{
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.9);
+font-weight: 500;
+font-size: 20px;
+text-align: center;
 }
 
 .googleplay p{
-  margin-bottom: 0px;
+margin-bottom: 0px;
 }
 
-  /* MEDIA QUERY*/
+/* MEDIA QUERY*/
 
-  @media (min-width: 781px) and (max-width: 1153px) {
-    .footer-social{
-      column-gap: 260px;
-    }
+@media (min-width: 781px) and (max-width: 1153px) {
+  .footer-social{
+    column-gap: 260px;
+  }
 
-    .footer-email{
-      padding-left: 25px;
-    }
-   }
+  .footer-email{
+    padding-left: 25px;
+  }
+ }
 
 @media (max-width: 780px) {
-  .footer-social{
-    column-gap: 1000px;
- }
+.footer-social{
+  column-gap: 1000px;
+}
 }
 
-  
-  
+
+
   
     
