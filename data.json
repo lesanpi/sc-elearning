@@ -3229,61 +3229,480 @@
 		{
 			"id": "4toanio",
 			"title": "4to Año",
-			"description": "Ecuaciones de segundo grado",
+			"description": "Potenciación, logaritmos, logaritmo decimal...",
 			"quizes": [
 				{
-					"title": "Escalares, vectores y matrices",
-					"id": "4toanio-01",
+					"title": "Potenciación",
+					"id": "4toanio-1-01",
 					"questions": [
 						{
-							"question": "¿Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
+							"question": "¿Qué sucede cuándo el cero es el exponente?",
+							"option_1": "Se obtiene el mismo número.",
+							"option_2": "Se obtiene uno.",
+							"option_3": "Se obtiene cero.",
+							"option_4": "No se obtiene nada.",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Qué sucede cuándo el uno es el exponente?",
+							"option_1": "Se obtiene el mismo número.",
+							"option_2": "Se obtiene uno.",
+							"option_3": "Se obtiene cero.",
+							"option_4": "No se obtiene nada.",
+							"correct_option": 1
+						},
+						{
+							"question": "Si se está ante un cociente, ¿cómo se operan los exponentes?",
+							"option_1": "Se multiplican.",
+							"option_2": "Se dividen.",
+							"option_3": "Se suman.",
+							"option_4": "Se restan.",
+							"correct_option": 4
+						},
+						{
+							"question": "Si se está ante un producto, ¿cómo se operan los exponentes?",
+							"option_1": "Se multiplican.",
+							"option_2": "Se dividen.",
+							"option_3": "Se suman.",
+							"option_4": "Se restan.",
+							"correct_option": 3
+						}
+					]
+				},
+				{
+					"title": "Logaritmos",
+					"id": "4toanio-1-02",
+					"questions": [
+						{
+							"question": "¿A qué es igual el logaritmo de un producto?",
+							"option_1": "A la suma de logaritmos de los factores.",
+							"option_2": "A la resta de logaritmos de los factores.",
+							"option_3": "A la multiplicación de logaritmos de los factores.",
+							"option_4": "A la división de logaritmos de los factores.",
+
+							"correct_option": 1
+						},
+						{
+							"question": "¿A qué es igual el logaritmo de un cociente?",
+							"option_1": "A la suma de logaritmos de los factores.",
+							"option_2": "A la resta de logaritmos de los factores.",
+							"option_3": "A la multiplicación de logaritmos de los factores.",
+							"option_4": "A la división de logaritmos de los factores.",
+
+							"correct_option": 2
+						},
+						{
+							"question": "Calcular:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1lVfge4BD_yM7bEV38614CnCXrurMpaTT",
+							"correct_option": 1
+						},
+						{
+							"question": "Calcular:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1chgeBqLJQ69yZqvQU-hhoXqCINUYz9K4",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Logaritmo Decimal",
+					"id": "4toanio-1-03",
+					"questions": [
+						{
+							"question": "¿Cuál es la base del logaritmo decimal?",
+							"option_1": "5",
+							"option_2": "6",
+							"option_3": "0",
+							"option_4": "10",
+							"correct_option": 4
+						},
+						{
+							"question": "Determinar: 7",
+							"option_1": "1,445",
+							"option_2": "1,771",
 							"option_3": "2",
-							"option_4": "Pez",
+							"option_4": "1,335",
+							"correct_option": 2
+						},
+						{
+							"question": "Determinar: 4",
+							"option_1": "0",
+							"option_2": "0,567",
+							"option_3": "1",
+							"option_4": "0,861",
+							"correct_option": 4
+						},
+						{
+							"question": "Determinar: 10",
+							"option_1": "1,568",
+							"option_2": "1,107",
+							"option_3": "1",
+							"option_4": "0,768",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Función Exponencial",
+					"id": "4toanio-1-04",
+					"questions": [
+						{
+							"question": "¿Es lo mismo la función exponencial que la función potencia?",
+							"option_1": "Sí",
+							"option_2": "No",
+							"option_3": "Tal vez.",
+							"option_4": "Ninguna de las anteriores.",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál es el dominio de la función exponencial?",
+							"option_1": "Todos los números reales.",
+							"option_2": "Todos los números complejos.",
+							"option_3": "Todos los números imaginarios.",
+							"option_4": "No está definido.",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el rango de la función exponencial?",
+							"option_1": "Todos los números reales positivos.",
+							"option_2": "Todos los números reales negativos.",
+							"option_3": "Todos los números reales.",
+							"option_4": "Ninguno de los anteriores.",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Círculo trigonométrico",
+					"id": "4toanio-2-01",
+					"questions": [
+						{
+							"question": "¿Cuáles son los límites del II cuadrante?",
+							"option_1": "De 0 a 90 grados.",
+							"option_2": "De 180 a 270 grados",
+							"option_3": "De 270 a 360 grados",
+							"option_4": "De 90 a 180 grados",
+							"correct_option": 4
+						},
+						{
+							"question": "¿En cuál cuadrante se encuentra el ángulo de 235 grados?",
+							"option_1": "Primer Cuadrante.",
+							"option_2": "Segundo Cuadrante.",
+							"option_3": "Tercer Cuadrante.",
+							"option_4": "Cuarto Cuadrante.",
+
+							"correct_option": 3
+						},
+						{
+							"question": "¿En cuál cuadrante se encuentra el ángulo de -75 grados?",
+							"option_1": "Primer Cuadrante.",
+							"option_2": "Segundo Cuadrante.",
+							"option_3": "Tercer Cuadrante.",
+							"option_4": "Cuarto Cuadrante.",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Qué implica un signo negativo para un ángulo en el círculo trigonométrico?",
+							"option_1": "Que el círculo trigonométrico se recorre en el sentido horario de las agujas del reloj.",
+							"option_2": "Que el círculo trigonométrico se recorre en el sentido anti-horario de las agujas del reloj.",
+							"option_3": "No implica nada en particular.",
+							"option_4": "Ninguna de las opciones anteriores.",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Seno, coseno y tangente, nociones básicas",
+					"id": "4toanio-2-02",
+					"questions": [
+						{
+							"question": "¿Cómo se define al seno de un ángulo?",
+							"option_1": "Cateto adyacente entre hipotenusa",
+							"option_2": "Cateto opuesto entre hipotenusa.",
+							"option_3": "Cateto opuesto entre cateto adyacente.",
+							"option_4": "Hipotenusa entre cateto opuesto.",
+
+							"correct_option": 2
+						},
+						{
+							"question": "¿En cuál cuadrante el coseno es negativo?",
+							"option_1": "En el primer y cuarto cuadrante.",
+							"option_2": "En el segundo y tercer cuadrante.",
+							"option_3": "En el primer y tercer cuadrante.",
+							"option_4": "En el segundo y cuarto cuadrante.",
+
+							"correct_option": 4
+						},
+						{
+							"question": "Si estás en el segundo cuadrante, ¿cómo se reduce al primero?",
+							"option_1": "Se resta 180 grados menos el ángulo.",
+							"option_2": "Se resta 270 grados menos el ángulo.",
+							"option_3": "Se resta 360 grados menos el ángulo.",
+							"option_4": "Ninguno de los anteriores.",
+
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es la tangente de 45 grados?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=14eceUw9e-FE19z-Mg2KP06UgMXoTI8YO",
+							"correct_option": 1
+						}
+					]
+				},
+				{
+					"title": "Identidad Trigonométrica Fundamental",
+					"id": "4toanio-2-03",
+					"questions": [
+						{
+							"question": "¿De cuál Teorema surge la identidad trigonométrica fundamental?",
+							"option_1": "Del Teorema de Euclides",
+							"option_2": "Del Teorema del binomio.",
+							"option_3": "Del Teorema de Pitágoras.",
+							"option_4": "Del Teorema de Thales.",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1CO2AtR2SkXFwyLel9XZDC4AH4Ym-uIxr",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1okHTpxASsNSK51EaSlIl0aQZ-BXveijA",
+							"correct_option": 3
+						},
+						{
+							"question": "¿Cuál es la identidad trigonométrica fundamental?",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1Ly88Z2MWnzaWahiyIon-eyZeRhLe2zLL",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Otras Identidades Trigonométricas de Interés",
+					"id": "4toanio-2-04",
+					"questions": [
+						{
+							"question": "¿Cómo se define a la secante de un ángulo?",
+							"option_1": "Cateto adyacente entre hipotenusa.",
+							"option_2": "Hipotenusa entre cateto opuesto.",
+							"option_3": "Hipotenusa entre cateto adyacente.",
+							"option_4": "Es el inverso de la tangente.",
+
+							"correct_option": 3
+						},
+						{
+							"question": "¿Cómo se define la cosecante de un ángulo?",
+							"option_1": "Cateto adyacente entre hipotenusa.",
+							"option_2": "Hipotenusa entre cateto opuesto.",
+							"option_3": "Hipotenusa entre cateto adyacente.",
+							"option_4": "Es el inverso de la tangente.",
+
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál es una identidad pitagórica?",
+							"option_1": "α + α = 1",
+							"option_2": "1+ = α",
+							"option_3": "1 + α = α",
+							"option_4": "Todas las anteriores.",
+
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cómo se define la cotangente de un ángulo?",
+							"option_1": "Cateto opuesto entre hipotenusa.",
+							"option_2": "Hipotenusa entre cateto adyacente.",
+							"option_3": "Seno del ángulo entre coseno del ángulo.",
+							"option_4": "Inversa de la tangente.",
+
 							"correct_option": 4
 						}
 					]
 				},
 				{
-					"title": "Integrales",
-					"id": "4toanio-02",
+					"title": "Funciones Trigonométricas",
+					"id": "4toanio-2-06",
 					"questions": [
 						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "¿Cuál es el dominio de la función seno?",
+							"option_1": "Todos los números reales.",
+							"option_2": "Todos los números naturales.",
+							"option_3": "Todos los números reales a excepción del intervalo desde -1 a 1.",
+							"option_4": "Todos los números imaginarios.",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el dominio de la función coseno?",
+							"option_1": "Todos los números complejos.",
+							"option_2": "Todos los números naturales a excepción del intervalo desde el -1 a 1.",
+							"option_3": "Todos los números naturales.",
+							"option_4": "Todos los números reales.",
+							"correct_option": 4
+						},
+						{
+							"question": "¿Cuál es el período de la función tangente?",
+							"option_1": "π",
+							"option_2": "2π",
+							"option_3": "4π",
+							"option_4": "π/2",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál función presenta asíntotas en múltiplos de π/2?",
+							"option_1": "El coseno.",
+							"option_2": "El seno.",
+							"option_3": "La secante.",
+							"option_4": "La tangente.",
 							"correct_option": 4
 						}
 					]
 				},
 				{
-					"title": "Derivadas",
-					"id": "4toanio-03",
+					"title": "Ecuaciones Trigonométricas",
+					"id": "4toanio-2-07",
 					"questions": [
 						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "¿Una ecuación es lo mismo que una identidad trigonométrica?",
+							"option_1": "Sí",
+							"option_2": "No",
+							"option_3": "Tal vez",
+							"option_4": "Ninguna de las anteriores.",
+							"correct_option": 2
+						},
+						{
+							"question": "¿Cuál es el resultado de...",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1CJWavllfT4wxFhuErpmg9ASPOCPWCCF5",
+							"correct_option": 1
+						},
+						{
+							"question": "¿Cuál es el resultado de...",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1PVNVkr2VlFbHYf842k6IBEf_zXcoYmd2",
 							"correct_option": 4
+						},
+						{
+							"question": "¿Cuál es el resultado de...",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1BfyzcFfO5x8qJOgc1gnhU_MCyCaad0F6",
+							"correct_option": 2
 						}
 					]
 				},
 				{
-					"title": "Integrales",
-					"id": "4toanio-04",
+					"title": "Números Complejos",
+					"id": "4toanio-3-01",
 					"questions": [
 						{
-							"question": "Cuanto es 2 + 2?",
-							"option_1": "4",
-							"option_2": "3",
-							"option_3": "2",
-							"option_4": "Pez",
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1otKSPPzYaJ_mwO0uB75C0j26Iz713gB0",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=16SmPzsLPHfkjFqylwBlgBKkEo8fH8O07",
 							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1hn24IE2d-QrEMoi5w1fKfE7B1W03ODId",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1680YM5xccMKRDgKnMyLMwduhJXrN2Tzy",
+							"correct_option": 2
+						}
+					]
+				},
+				{
+					"title": "Progresiones Aritméticas",
+					"id": "4toanio-3-02",
+					"questions": [
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1HxdNDLfuBbsfuqOPEOQHTZzV81iEBp-T",
+							"correct_option": 3
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1UyJjviMvG92RpEE2WH-1S3b1fZgS6wW8",
+							"correct_option": 4
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=11HWOFThDzGyVVs7JZsuLJeyVn0f46F_-",
+							"correct_option": 2
+						},
+						{
+							"question": "Responda:",
+							"option_1": "Opción A",
+							"option_2": "Opción B",
+							"option_3": "Opción C",
+							"option_4": "Opción D",
+							"img": "https://drive.google.com/uc?export=view&id=1rXGoXjk7X0G0W1-iDSIhM--qu62OTO4y",
+							"correct_option": 1
 						}
 					]
 				}
