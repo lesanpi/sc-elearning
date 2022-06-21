@@ -383,6 +383,14 @@
 					"type": "lesson",
 					"video_id": "eGn_Q4PmDAk",
 					"id": "1er-lesson-3-3"
+				},
+				{
+					"title": "Problemario",
+					"description": "",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F1er%20A%C3%B1o%2F1%20-%20Problemario.pdf?alt=media&token=9cce95d8-d51e-4f98-a094-e8e00de07c85",
+					"img_url": "https://drive.google.com/uc?export=view&id=1inY4IO4LHzJgayxiJJHoH6nqk3idac2a",
+					"type": "guide",
+					"id": "1er-guide-Problemario"
 				}
 			]
 		},
@@ -419,13 +427,22 @@
 					"id": "2do-lesson-1-1-2"
 				},
 				{
-					"title": "Números Enteros Parte 1 - Ejercicios",
+					"title": "Números Enteros: Ejercicios - Parte 1",
 					"description": "En este video se resuelven unos ejercicios del problemario del tema números enteros.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1expfDveRDgJsz2Hms-SvJR9xDb7slooR",
 					"type": "lesson",
 					"video_id": "0WGguHiPdMU",
 					"id": "2do-lesson-1-1-3"
+				},
+				{
+					"title": "Números Enteros: Ejercicios - Parte 2",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema números enteros.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=15_QEcCbutmTcQuYbuSrO_C1_boLY0SWN",
+					"type": "lesson",
+					"video_id": "uadJS-rm9EE",
+					"id": "2do-lesson-1-1-4"
 				},
 				{
 					"title": "Números Racionales",
@@ -443,6 +460,33 @@
 					"type": "lesson",
 					"video_id": "kXiIsSX3f6k",
 					"id": "2do-lesson-1-2-1"
+				},
+				{
+					"title": "Números Racionales Parte 2",
+					"description": "En este video, es una continuación de los números racionales, el cual hablaremos de las operaciones en Q y sus propiedades, de problemas con operaciones y se finaliza con ecuaciones en Q.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1PLgU-JEQw56liUI9I-nuNESGnwFijSsv",
+					"type": "lesson",
+					"video_id": "xeaW9znaPdQ",
+					"id": "2do-lesson-1-2-2"
+				},
+				{
+					"title": "Números Racionales: Ejercicios - Parte 1",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema números racionales.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1x3qZvLSP2HJgsozxI_-FtGQebJVnEXB0",
+					"type": "lesson",
+					"video_id": "t3Bb9d0O4RE",
+					"id": "2do-lesson-1-2-3"
+				},
+				{
+					"title": "Números Racionales: Ejercicios - Parte 2",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema números racionales.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1irLQ83iMRqFyzP68vOD6YPPuI6MD_OWh",
+					"type": "lesson",
+					"video_id": "zHE1j713t7g",
+					"id": "2do-lesson-1-2-4"
 				},
 				{
 					"title": "Funciones Parte 1",
@@ -473,7 +517,7 @@
 					"title": "Funciones Parte 2",
 					"description": "En este video se continúa hablando de las funciones, iniciando por la definición de plano cartesiano, una explicación de cómo representar puntos en él, sus características y la representación de funciones, luego se habla de una función muy importante la función afín y se culmina hablando de casos particulares.",
 					"url": "",
-					"img_url": "https://drive.google.com/file/d/1eNCYuuTWlj4YKwNfLhpTmAj68PvE_wCK/view?usp=sharing",
+					"img_url": "https://drive.google.com/uc?export=view&id=1eNCYuuTWlj4YKwNfLhpTmAj68PvE_wCK",
 					"type": "lesson",
 					"video_id": "UhYNTbJ9w_Q",
 					"id": "2do-lesson-1-3-2"
@@ -514,7 +558,7 @@
 					"id": "2do-lesson-2-1-2"
 				},
 				{
-					"title": "Polinomios Ejercicios",
+					"title": "Polinomios: Ejercicios",
 					"description": "En este video se resuelven unos ejercicios del problemario del tema polinomios.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1ODppIkbdGX-P3jNz64swtcbWDkk3CiP9",
@@ -540,7 +584,7 @@
 					"id": "2do-lesson-2-2"
 				},
 				{
-					"title": "Producto Notable Ejercicios",
+					"title": "Producto Notable: Ejercicios",
 					"description": "En este video se resuelven unos ejercicios del problemario del tema producto notable.",
 					"url": "",
 					"img_url": "https://drive.google.com/uc?export=view&id=1AQKn_V_0n-sJXW6FNT77dUOunQpGfkM5",
@@ -557,6 +601,24 @@
 					"id": "2do-guide-2-3"
 				},
 				{
+					"title": "Factorización",
+					"description": "En este video se habla de la factorización, explicando su definición y los diferentes tipos, el valor numérico de un polinomio y finalizando con las raíces de un polinomio.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1as-KxFmS99fCD82Q8kIfRUeNJfzMZYud",
+					"type": "lesson",
+					"video_id": "hxAJYHugNtg",
+					"id": "2do-lesson-2-3"
+				},
+				{
+					"title": "Factorización: Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema factorización.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=15ZkUbkb2amxgo_fzqm9iLe3_UuPs73at",
+					"type": "lesson",
+					"video_id": "PtLY0TXMu9U",
+					"id": "2do-lesson-2-3-1"
+				},
+				{
 					"title": "Fracciones Algebraicas",
 					"description": "En esta guía se explican las fracciones algebráicas, partiendo de la definición de división de dos cantidades. Así, se mencionan los tipos de fracciones y expresiones algebráicas que existen, como las enteras y las mixtas. Por otro lado, se detallan las propiedades que se utilizan al realizar operaciones como la suma, resta, multiplicación y división, haciendo ejercicios para explicar cada tópico.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.1_FraccionesAlgebr%C3%A1icas.pdf?alt=media&token=7178da8f-5a5f-4f30-8c4a-41eb3100581a",
@@ -565,12 +627,100 @@
 					"id": "2do-guide-3-1"
 				},
 				{
+					"title": "Fracciones Algebraicas Parte 1",
+					"description": "En este video se habla de las fracciones algebraicas, iniciando por su definición, tipos, luego se habla de las propiedades y se finaliza con operaciones con fracciones algebraicas, con varios ejemplos en cada caso.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1BnxpC99eVSoO8qhcB6TGkTFKKy1A5iP2",
+					"type": "lesson",
+					"video_id": "byCFYKIlN0o",
+					"id": "2do-lesson-3-1-1"
+				},
+				{
+					"title": "Fracciones Algebraicas Parte 2",
+					"description": "En este video se habla de las fracciones algebraicas, iniciando por su definición, tipos, luego se habla de las propiedades y se finaliza con operaciones con fracciones algebraicas, con varios ejemplos en cada caso.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1BnxpC99eVSoO8qhcB6TGkTFKKy1A5iP2",
+					"type": "lesson",
+					"video_id": "n3PmfcbAZKA",
+					"id": "2do-lesson-3-1-2"
+				},
+				{
+					"title": "Fracciones Algebraicas: Ejercicios Parte 1",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema fracciones algebraicas.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1T9QCpIwMxfHL6_6yatgTlTptrhxnx_Xw",
+					"type": "lesson",
+					"video_id": "4VYNP5WG2sk",
+					"id": "2do-lesson-3-1-3"
+				},
+				{
+					"title": "Fracciones Algebraicas: Ejercicios Parte 2",
+					"description": "En este video se resuelven unos ejercicios del problemario del tema fracciones algebraicas.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=10IlNfZnjiRJ7jWOwsS2m2cH-fnXNO6_1",
+					"type": "lesson",
+					"video_id": "dU-FlWd8Iec",
+					"id": "2do-lesson-3-1-4"
+				},
+				{
 					"title": "Vectores",
 					"description": "En esta guía se explican los vectores, partiendo con las magnitudes escalares y vectoriales, definición de vectores, luego explica los vectores opuestos, los componentes de un vector y su representación gráfica en el plano cartesiano. Por otro lado, explica los vectores equipolentes y finaliza con operaciones con vectores.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.2_Vectores.pdf?alt=media&token=99577911-be66-45ce-bf21-dd78af28cb72",
 					"img_url": "https://drive.google.com/uc?export=view&id=1qF39I9FELhrWAXKfI49CA7frP0tOMHwO",
 					"type": "guide",
 					"id": "2do-guide-3-2"
+				},
+				{
+					"title": "Vectores Parte 1",
+					"description": "En este video se habla del tema vectores, se inicia con conceptos básicos los cuales son las magnitudes escalares y vectoriales, la definición de vectores y de los vectores opuestos. Luego se continúa con los componentes de un vector y la representación de los vectores en el plano cartesiano, y se finaliza con vectores equipolentes y operaciones con vectores.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1OlnvPVd48zS8vT6nHthcpXSoI2AeBYHp",
+					"type": "lesson",
+					"video_id": "0HPtUWwlW0o",
+					"id": "2do-lesson-3-2-1"
+				},
+				{
+					"title": "Vectores Parte 2: Ejercicios",
+					"description": "En este video se resuelven unos ejercicios del problemario sobre el tema Vectores.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1b1z6KudfJzIKgTHfyJfFTM0as6Fw9PjX",
+					"type": "lesson",
+					"video_id": "mhMjQxbja9c",
+					"id": "2do-lesson-3-2-2"
+				},
+				{
+					"title": "Geometría",
+					"description": "En esta guía se estudian los conceptos más importantes de la geometría, tales como proyecciones ortogonales, transformaciones en el plano, traslaciones, rotación, simetría axial y congruencia. Además, se realizan algunos ejemplos para entender cada tópico.",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2F3er%20Lapso%2FA2_3.3_Geometr%C3%ADa.pdf?alt=media&token=d30c058c-63f7-406d-89b8-ebb482a1152d",
+					"img_url": "https://drive.google.com/uc?export=view&id=1n-ZnrEQKJa3JiwJboxhJT-bSuGCSZy7z",
+					"type": "guide",
+					"id": "2do-guide-3-3"
+				},
+				{
+					"title": "Geometría",
+					"description": "En este video se estudian los conceptos más importantes de la geometría, tales como proyecciones ortogonales, transformaciones en el plano, traslaciones, rotación, simetría axial y congruencia.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1o23l0yGdrbbZWmhUD21lZjaHiq_mGuG7",
+					"type": "lesson",
+					"video_id": "9fcheWKQNdc",
+					"id": "2do-lesson-3-3-1"
+				},
+				{
+					"title": "Geometría: Ejercicios",
+					"description": "En este video se resuelven algunos ejercicios del problemario del tema geometría.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1GIZYV1RNt0RxdkpDz6k6tEAVEkV9fVuM",
+					"type": "lesson",
+					"video_id": "9tqWDqRQSxI",
+					"id": "2do-lesson-3-3-2"
+				},
+				{
+					"title": "Problemario",
+					"description": "",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F2do%20A%C3%B1o%2FA2_Problemario.pdf?alt=media&token=7f7b8974-6897-4aab-a1ff-51bfde504e74",
+					"img_url": "https://drive.google.com/uc?export=view&id=1jkknT6IBGzRvOY-5ERvKEpYTvmETMRtk",
+					"type": "guide",
+					"id": "2do-guide-Problemario"
 				}
 			]
 		},
@@ -1088,6 +1238,14 @@
 					"type": "lesson",
 					"video_id": "7NU6eNt_rEg",
 					"id": "3er-lesson-3-11"
+				},
+				{
+					"title": "Problemario",
+					"description": "",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F3er%20A%C3%B1o%2FA3_Problemario.pdf?alt=media&token=7c888b6a-6f31-4db4-a4eb-a37ade450aad",
+					"img_url": "https://drive.google.com/uc?export=view&id=1_gTTc7TCjFtZ5WJDvY6QPSy1UhMJHExM",
+					"type": "guide",
+					"id": "3er-guide-Problemario"
 				}
 			]
 		},
@@ -1411,6 +1569,14 @@
 					"type": "lesson",
 					"video_id": "1bFk3nbGCwc",
 					"id": "4to-lesson-3-2"
+				},
+				{
+					"title": "Problemario",
+					"description": "",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F4to%20A%C3%B1o%2FProblemario%20de%20Matem%C3%A1ticas%204to%20A%C3%B1o.pdf?alt=media&token=10f5414d-d841-4768-8b97-151ff3123877",
+					"img_url": "https://drive.google.com/uc?export=view&id=1TM4Bx0ivHqyoFCwZI0ygP_sGPXs3lDzL",
+					"type": "guide",
+					"id": "4to-guide-Problemario"
 				}
 			]
 		},
@@ -1458,9 +1624,18 @@
 					"title": "Regla de Ruffini Parte 2 - Factorización",
 					"description": "En esta lección ampliaremos el concepto de la regla de Ruffini y estudiaremos más casos a detalle donde se observarán detenidamente varios ejemplos que involucran la factorización de estos y la división de cada polinomio.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F1er%20Lapso%2FGu%C3%ADa%203%20-%20Regla%20de%20Ruffini%20(Parte%202)%20y%20Factorizaci%C3%B3n%20Regla%20de%20Ruffini.pdf?alt=media&token=04e7861c-6970-4485-a454-8cdf8a300af7",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=121__QypYrFiIbQWr9TOtH_SLXFU8_N_J",
 					"type": "guide",
 					"id": "5to-guide-1-3"
+				},
+				{
+					"title": "Regla de Ruffini Parte 2 - Factorización",
+					"description": "En este video ampliaremos el concepto de la regla de Ruffini y estudiaremos más casos a detalle donde se observarán detenidamente varios ejemplos que involucran la factorización de estos y la división de cada polinomio.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1GHXvlaq5dN5eK_S7Q-NJtcpOZ_ESkd_0",
+					"type": "lesson",
+					"video_id": "NzCw660uv30",
+					"id": "5to-lesson-1-3"
 				},
 				{
 					"title": "Límites",
@@ -1471,50 +1646,104 @@
 					"id": "5to-guide-1-4"
 				},
 				{
+					"title": "Límites",
+					"description": "En este video se desarrolla el tema de límites, en el cual veremos los tres tipos de indeterminaciones más comunes: cero sobre cero, infinito sobre infinito e infinito menos infinitos. Para explicar el tema, se realizan múltiples ejercicios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1YRBQuPSLJvYdZf4CUaEC8GjANyL2XDRW",
+					"type": "lesson",
+					"video_id": "R2djtb29_A4",
+					"id": "5to-lesson-1-4"
+				},
+				{
 					"title": "Teoría Combinatoria (1) - Factoriales y Números Combinatorios",
 					"description": "En la siguiente clase empezaremos explicando la teoría combinatoria; sus utilidades, algunos ejemplos prácticos y algunas operaciones que involucran el factorial y los números combinatorios.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F2do%20Lapso%2FGu%C3%ADa%205.1%20-%20Teoria%20Combinatoria%20(1)%20-%20Factoriales%20y%20N%C3%BAmeros%20Combinatorios.pdf?alt=media&token=d133b2d8-1200-47f1-8cc3-4d7169c5901f",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Frudmsn1MAajBn1aGMOoxoSMdByRFllj",
 					"type": "guide",
 					"id": "5to-guide-2-1"
+				},
+				{
+					"title": "Teoría Combinatoria Parte 1",
+					"description": "En el siguiente video empezaremos explicando la teoría combinatoria; sus utilidades, algunos ejemplos prácticos y algunas operaciones que involucran el factorial y los números combinatorios.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=14cL8MtQ20_uLk6GPc6VwKDgJeluI5XO8",
+					"type": "lesson",
+					"video_id": "1sO8FL7rUv4",
+					"id": "5to-lesson-2-1"
 				},
 				{
 					"title": "Teoría Combinatoria (2) - Permutación, Variación y Combinación",
 					"description": "En esta lección se continuará ampliando el concepto acerca de teoría combinatoria; se aclarará las diferencias entre permutación, variación y combinación; y se realizarán algunos ejemplos prácticos.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F2do%20Lapso%2FGu%C3%ADa%205.2%20-%20Teoria%20Combinatoria%20(2)%20-%20Permutaci%C3%B3n%5EJ%20Variaci%C3%B3n%20y%20Combinaci%C3%B3n.pdf?alt=media&token=71a4a299-e9a9-4aec-a290-e10c11c60ee2",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1DmOThGF9QbpttnG0Mi8oo0im1P1ZLkGW",
 					"type": "guide",
 					"id": "5to-guide-2-2"
+				},
+				{
+					"title": "Teoría Combinatoria Parte 2",
+					"description": "En este video se continuará ampliando el concepto acerca de teoría combinatoria; se aclarará las diferencias entre permutación, variación y combinación; y se realizarán algunos ejemplos prácticos.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1-u1bQDmucd883tp3hJS_3Eupa7GaTG3m",
+					"type": "lesson",
+					"video_id": "kaVWp2Lsu1c",
+					"id": "5to-lesson-2-2"
 				},
 				{
 					"title": "Teoría Combinatoria (3) - Sistemas de Ecuaciones con Expresiones Combinatorias",
 					"description": "En esta lección combinaremos los aprendido 2 clases anteriores como bien puede ser los sistemas de ecuaciones (vistos en el apartado de Tercer Año) y lo recientemente visto con las operaciones que involucran Teoria Combinatoria (Factorial, Permutación y Variación); se resolverán varios ejemplos relacionados.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F2do%20Lapso%2FGu%C3%ADa%205.3%20-%20Teoria%20Combinatoria%20(3)%20-%20Sistemas%20de%20Ecuaciones%20con%20Expresiones%20Combinatorias.pdf?alt=media&token=840a3b42-a6fc-4827-9b3f-c35a57f9494f",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1nfrA8W9T5Ndtn2Xt0U9aZKqXbnpHQskB",
 					"type": "guide",
 					"id": "5to-guide-2-3"
+				},
+				{
+					"title": "Teoría Combinatoria Parte 3",
+					"description": "En esta lección combinaremos los aprendido 2 clases anteriores como bien puede ser los sistemas de ecuaciones (vistos en el apartado de Tercer Año) y lo recientemente visto con las operaciones que involucran Teoría Combinatoria (Factorial, Permutación y Variación); se resolverán varios ejemplos relacionados.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1zsE8anFf3nfagGt9ZQZnPZkYPTRlH09H",
+					"type": "lesson",
+					"video_id": "rhac-FBWmhU",
+					"id": "5to-lesson-2-3"
 				},
 				{
 					"title": "Binomio de Newton",
 					"description": "En la siguiente lección, tomaremos aprendido en todo el apartado de teoría combinatoria para desarrollar el conocido Binomio de Newton, su importancia para desarrollar Polinomios Binomiales y como puede ser una buena herramienta para estudiar productos notables.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F2do%20Lapso%2FGu%C3%ADa%206%20-%20Binomio%20de%20Newton.pdf?alt=media&token=ba20c40b-88ce-4370-bae6-94563bc685aa",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1ss3roPBX9KREgchjEkcT1OCTZ4gKxwnz",
 					"type": "guide",
 					"id": "5to-guide-2-4"
+				},
+				{
+					"title": "Binomio de Newton",
+					"description": "En el siguiente video, tomaremos lo aprendido en todo el apartado de teoría combinatoria para desarrollar el conocido Binomio de Newton, su importancia para desarrollar Polinomios Binomiales y como puede ser una buena herramienta para estudiar productos notables.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1GIO-ijtw8O6zHK7AdyI3KzzFWlqXfMw-",
+					"type": "lesson",
+					"video_id": "PSwyv4EyNvk",
+					"id": "5to-lesson-2-4"
 				},
 				{
 					"title": "Geometría Analítica",
 					"description": "En la siguiente guía ampliaremos el mundo de la geometría y la combinaremos con la matemática analítica; explicaremos a detalle los elementos de un plano cartesiano, cómo calcular la distancia entre 2 puntos, sus puntos medios, entre otras cosas.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F2do%20Lapso%2FGu%C3%ADa%207%20-%20Geometr%C3%ADa%20Anal%C3%ADtica.pdf?alt=media&token=5f07bb3b-3034-4467-94dd-48fb87f76c36",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1YyrpXyRi6xYRLrb8e5FN5j4TUFWvRKaj",
 					"type": "guide",
 					"id": "5to-guide-2-5"
+				},
+				{
+					"title": "Geometría Analítica",
+					"description": "En el siguiente video ampliaremos el mundo de la geometría y la combinaremos con la matemática analítica; explicaremos a detalle los elementos de un plano cartesiano, cómo calcular la distancia entre 2 puntos, sus puntos medios, entre otras cosas.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1feMy04h2jo-HW3IRrF6wInZxLRA4wpSo",
+					"type": "lesson",
+					"video_id": "H3KEOv0gW4Q",
+					"id": "5to-lesson-2-5"
 				},
 				{
 					"title": "Cónicas (Circunferencia - Elipse)",
 					"description": "En la siguiente clase nos adentraremos en el concepto de conicas; donde explicaremos a detalle de donde surgen y de donde proviene su nomenclatura; y estudiaremos ejemplos relacionados con 2 casos relevantes, como bien puede ser la circunferencia y la elipse.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F3er%20Lapso%2FGu%C3%ADa%208.1%20-%20C%C3%B3nicas%20(Circunferencia%20-%20Elipse).pdf?alt=media&token=ac298df2-c5eb-4312-92ce-f1d706dcb51b",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1t5I1T8n_10RaCE4bTk4kXd3ZX_tjOQsG",
 					"type": "guide",
 					"id": "5to-guide-3-1"
 				},
@@ -1540,27 +1769,70 @@
 					"title": "Cónicas (Parábola - Hipérbola)",
 					"description": "En esta clase continuaremos trabajando con las secciones cónicas, e involucramos otras 2 figuras notables; la Parábola y la Hipérbola; donde explicaremos sus elementos relevantes y las fórmulas pertinentes para obtener sus dimensiones.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F3er%20Lapso%2FGu%C3%ADa%208.2%20-%20C%C3%B3nicas%20(Par%C3%A1bola%20-%20Hip%C3%A9rbola).pdf?alt=media&token=04aafdc4-eece-4a3f-9fd9-237a9b3583bc",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1Uh3vf3wGPeGHRA0tfgUHBmopEkrWFk_z",
 					"type": "guide",
 					"id": "5to-guide-3-2"
+				},
+				{
+					"title": "Cónicas 2a: Parábola",
+					"description": "En este video continuaremos trabajando con las secciones cónicas, e involucramos otra figura notable; la Parábola, donde explicaremos sus elementos relevantes y las fórmulas pertinentes para obtener sus dimensiones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1sENbPFco9lAM0NV9HeOBa8A6BAbdjhWf",
+					"type": "lesson",
+					"video_id": "CTCvlS2SdAY",
+					"id": "5to-lesson-3-2-1"
+				},
+				{
+					"title": "Cónicas 2b: Hipérbola",
+					"description": "En este video continuaremos trabajando con las secciones cónicas, e involucramos otra figura notable; la Hipérbola, donde explicaremos sus elementos relevantes y las fórmulas pertinentes para obtener sus dimensiones.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1a6iz3G-75sBaBXklS4uTTUARJA_LUxWu",
+					"type": "lesson",
+					"video_id": "yDG3K7J6SZU",
+					"id": "5to-lesson-3-2-2"
 				},
 				{
 					"title": "Inecuaciones",
 					"description": "En esta clase estudiaremos a detalle las Inecuaciones, las cuales son como las ecuaciones que involucran un amplio rango de valores; resolveremos algunos ejemplos que involucran 1 y 2 variables.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F3er%20Lapso%2FGu%C3%ADa%209%20-%20Inecuaciones.pdf?alt=media&token=48423f72-e6a7-4bfd-ad80-cff1115e594f",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1gwiSYfczYUlf1SP2G3zPpkgOKSI8-1xl",
 					"type": "guide",
 					"id": "5to-guide-3-3"
+				},
+				{
+					"title": "Inecuaciones",
+					"description": "En este video estudiaremos a detalle las Inecuaciones, las cuales son como las ecuaciones que involucran un amplio rango de valores; resolveremos algunos ejemplos que involucran 1 y 2 variables.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1DZi1fkg-6o0exdA5YYo4PgWXpoB8wvKs",
+					"type": "lesson",
+					"video_id": "Ngy-wYqZDUc",
+					"id": "5to-lesson-3-3"
 				},
 				{
 					"title": "Matrices y Determinantes",
 					"description": "En esta lección hablaremos de las matrices, las cuales son distribuciones de números que resultan de suma importancia para muchos campos de la tecnología; estudiaremos como obtener sus determinantes y se resolverán algunos ejemplos de operaciones básicas con matrices.",
 					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2F3er%20Lapso%2FGu%C3%ADa%2010%20-%20Matrices%20y%20Determinante.pdf?alt=media&token=920ea4d9-97a7-48f5-8633-78f9bbb72876",
-					"img_url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1OLqpXKU5OXm7KWAkmeYyAilgzciYmLH9",
 					"type": "guide",
 					"id": "5to-guide-3-4"
+				},
+				{
+					"title": "Matrices y Determinantes",
+					"description": "En este video hablaremos de las matrices, las cuales son distribuciones de números que resultan de suma importancia para muchos campos de la tecnología; estudiaremos cómo obtener sus determinantes y se resolverán algunos ejemplos de operaciones básicas con matrices.",
+					"url": "",
+					"img_url": "https://drive.google.com/uc?export=view&id=1uepc4xmtKUl9YdeQdPF_EVjg6Njor6AM",
+					"type": "lesson",
+					"video_id": "o7iELLLY8QI",
+					"id": "5to-lesson-3-4"
+				},
+				{
+					"title": "Problemario",
+					"description": "",
+					"url": "https://firebasestorage.googleapis.com/v0/b/asociarte-e-learning-app.appspot.com/o/guias%2F5to%20A%C3%B1o%2FProblemario%205to%20a%C3%B1o.pdf?alt=media&token=7a417936-5acd-4b5c-8c5f-13630ffe540e",
+					"img_url": "https://drive.google.com/uc?export=view&id=1iYMAxtcRjzC5FH5ayQvw2JnBphPB1Hs8",
+					"type": "guide",
+					"id": "5to-guide-Problemario"
 				}
-				
 			]
 		}
 	],
